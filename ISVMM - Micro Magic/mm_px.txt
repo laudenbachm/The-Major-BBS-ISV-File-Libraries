@@ -1,0 +1,117 @@
+Phoenix is back.  It is currently available via our web site at
+http://www.magicbbs.com.  It is also on our ftp site, but be sure
+to grab the bug fix pieces.  We will place the files on DEMOSYS
+as soon as we can repackage them for delivery.
+
+Please call if you have quesitons.
+
+
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+
+
+
+
+
+                           Welcome to Phoenix
+                     -----------------------------
+                     Your users will love you now!
+
+
+
+Phoenix is a powerful User-ID changing system that can work with any
+online module, any offline utility, and any data file format.
+
+Phoenix has three methods of changing User-ID information.  These will
+be referred to as Code-Level, Offline-UIC and Combined.  The Code-Level
+method allows developers to implement a "rename__userid()" function in
+their modules.  When Phoenix runs at cleanup it will locate these
+functions and invoke them during cleanup.  The Offline-UIC method uses
+data definition files to specify where User-ID data is located in
+specific files.  Currently this method supports Btrieve files.  This
+method will allow anyone to implement Phoenix support, even if the
+product is not a module or if the product is no longer supported by the
+author.  If the data format is not supported by Offline-UIC and the
+program that generates the data file is no longer supported by the
+author, you can use the Combined method.  This using a Offline-UIC file
+to define a Cleanup-Program which will can be written by any one in any
+language.  This Cleanup-Program will be called by Phoenix during
+cleanup.
+
+Phoenix can only work on User-ID data that it knows about.  Micro Magic
+supplies the files to allow it to work with the base Major BBS or
+Worldgroup systems.  Any add-ons you have will need their own UIC files
+or built-in support. Without which that User-ID data will be lost during
+an ID change.
+
+Review the files DEV_KIT.TXT and UIC_SPEC.TXT for more information on
+adding Phoenix support to your system.
+
+Place UIC file in your bbs directory.  Phoenix will process ALL UIC
+files it finds there.  Be sure to use the correct version of UIC file
+for the software you have online.
+
+
+
+
+Make the following additions to your cleanup batch file:
+
+IF NOT EXIST UID.DAT GOTO NOPHOENIX
+CALL BBSBTR
+UIC > UIC.LOG
+CALL UICLEAN$ >> UIC.LOG
+DEL UICLEAN$.BAT
+DEL UID.DAT
+COPY MM_PX.VIR MM_PX.DAT
+CALL BBSRMB
+:NOPHOENIX
+
+You can use UIC.LOG to determine how much time is being used.
+
+
+If you develop a product that stores UID information in a self created
+databases or files, then you may create a UIC file to accompany that
+product.  Actually, you can create UIC files for all your products and
+simply state in the file that no UID information is used.  This will
+allow your customers to easily determine if your products are supported
+by Phoenix.  We expect this approach will limit phone calls to your
+customer support.
+
+
+If you have questions please contact us.
+
+Visit our ISVMM library on Galacticomms DEMOSYS, use WWW or ftp
+to access our Internet site, or visit our support bbs.
+
+Contact Micro Magic at:
+Voice:    (205) 971-9711   (call back only)
+FAX:      (205) 971-0064
+BBS:      (205) 971-0001
+MajorNet: KEFORD@GCM
+Internet: keford@magicbbs.com
+          http://www.magicbbs.com
+
+
+
+See MM_PX.RLN for a release history and special notes about
+this release.
+
+
+Many thanks go to the following.
+Please support them when you can.
+
+  Bill Sobel of Humanware Systems
+      (he freely shared his find-the-function technology)
+  Ron Streumph of Sirius Software 
+      (he provided useful insight into how Phoenix should work)
+  Cindy Korman
+      (just because, I owe Cindy a lot)
+  all the buds
+      (Carol Lee, Emmy Jo, Benj, Brafy Guy)
+  Rush, the band
+      (nuthin' better)
+
+
+
+

@@ -1,0 +1,425 @@
+---------------------------------------------------------------------------
+--------==========================================================---------
+--------|  AdventureComm Software - Price List for October 1998  |---------
+--------==========================================================---------
+---------------------------------------------------------------------------
+
+Prices are good as of October 1, 1998, These prices should be good til
+the end of October. <However prices are subject to change without notice>
+Availability of a particular platform might also change without notice.
+Some modules might also not be available in some countries.
+
+
+  Sales:      1-888-463-0156   Toll Free (Sales Only) in United States
+              1-504-467-9186   Voice
+
+  Fax:        1-504-469-2957   
+  
+  E-Mail:     sales@adventurecomm.com
+
+  DemoSystem: adventurecomm.com
+              204.251.13.162
+ 
+  Webpage:    www.adventurecomm.com
+
+Price List
+
+Additional info at the bottom of this document.
+
+----------------------------------------------------------------------------
+Value Packs:                     
+----------------------------------------------------------------------------
+|  "Lines1" Value Pack     $150.00   |  "Sysop" Value Pack      $150.00    |
+|  40    ADV Call Back               |  40   ADV Global Post               |
+|  40    ADV FreeLine                |  40   ADV Invisible                 |
+|  50   *ADV NoGhost    $70 Savings! |  50   ADV Password P. $80 Savings!  |
+|  50    ADV Telnet                  |  50   ADV Rules                     |
+|  40    ADV Credit Alert            |  50   ADV Rename                    |
+|--------------------------------------------------------------------------|      
+|  "Lines2" Value Pack     $150.00   |  "User" Value Pack       $150.00    |
+|  80    ADV Lines                   |  40   ADV AFK                       |
+|  50   *ADV NoGhost                 |  50   ADV Birthday                  |
+|  50    ADV Telnet     $70 Savings! |  40   ADV Colorize    $60 Savings!  |
+|  40    ADV Credit Alert            |  40   ADV Picture Gram              |
+|  * Not available for 3.0 systems.  |  40   ADV Vacation                  |
+|--------------------------------------------------------------------------|
+|  "The Combat Package"    $499.00   |  "The Whole Enchilada"   $999.00    |
+|  295   Cybertank                   |  295  Cybertank    50   Big Brother |
+|  99    Ringmasters                 |  99   Ringmasters  25   Major Jail  |
+|  149   Brawl          $44 Savings! |  99   Flower Shop  149  User Commis.|
+|------------------------------------|  149  Bingo->3.0 C/S Only           |
+|  "The Guns&Butter Pack"  $225.00   |  149  Brawl                         |
+|  149   FoodFight                   |  149  FoodFight    $364.00 Savings! |
+|  149   Brawl          $73 Savings! |  149  TeleChat Trivia               |
+|  Teleconference Games              |  50   The Doctor                    |
+----------------------------------------------------------------------------
+
+
+LEGEND to Price List
+C/S      Coming Soon
+N/A      Not Available
+ ?       Not Sure if it works for this version
+OFF      Offline Utility Only
+
+
+----------------------------------------------------------------------------
+AdventureComm Software Products
+----------------------------------------------------------------------------
+
+                           MBBS   WG10   WG20   WG3D   WG3N   WG3XN   C/S
+                           
+ADV Advertiser -           50.00  50.00  50.00  50.00  50.00    ?      N
+ADV AFK -                  40.00  40.00  40.00  40.00  40.00    ?      N
+ADV Birthday Announcer -   50.00  50.00  50.00  50.00  50.00    ?     Yes
+ADV Busy Notifier -        40.00  40.00  40.00   N/A    N/A    N/A     N
+ADV Call Back -            40.00  40.00  40.00  40.00  40.00    ?     Yes
+ADV Class Change -         40.00  40.00  40.00  40.00  40.00    ?      N
+ADV Colorize -             40.00  40.00  40.00  40.00  40.00  40.00    N
+ADV Credit Alert -         40.00  40.00  40.00  40.00  40.00    ?     Yes
+ADV Credits -              50.00  50.00  50.00  50.00  50.00    ?      N
+ADV Demo Clean -           40.00  40.00  40.00  40.00  40.00    ?      N
+ADV Feedback -             40.00  40.00  40.00   N/A    N/A    N/A     N
+ADV FreeLine -             40.00  40.00  40.00  40.00  40.00    ?     Yes
+ADV Global Post -          40.00  40.00  40.00  40.00  40.00    ?      N
+ADV Globals -              80.00  80.00  80.00  80.00  80.00    ?      N
+ADV Invisible -            40.00  40.00  40.00  40.00  40.00    ?     Yes
+ADV Lines -                80.00  80.00  80.00  80.00  80.00    ?      N
+ADV Log-on Lottery -       40.00  40.00  40.00   N/A    N/A    N/A     N
+ADV Logon Notifier -       40.00  40.00  40.00   N/A    N/A    N/A     N
+ADV NoGhost -              50.00  50.00  50.00   N/A    N/A    N/A    Yes
+ADV Password Protection -  50.00  50.00  50.00  50.00  50.00    ?     Yes
+ADV Picture Gram -         40.00  40.00  40.00  40.00  40.00    ?      N
+ADV Rename -               50.00  50.00  50.00  50.00  50.00    ?     Yes
+ADV Rules -                50.00  50.00  50.00  50.00  50.00    ?     Yes
+ADV Suspend -              40.00  40.00  40.00   N/A    N/A    N/A     N
+ADV Sysop Lister -         40.00  40.00  40.00  40.00  40.00    ?      N
+ADV Telnet -               50.00  50.00  50.00  50.00  50.00    ?     Yes
+ADV Text -                  N/A   50.00  50.00  50.00  50.00    ?      N
+ADV Time List -            50.00  50.00  50.00  50.00  50.00    ?     Yes
+ADV Trader -               40.00  40.00  40.00  40.00  40.00    ?      N
+ADV Vacation -             40.00  40.00  40.00  40.00  40.00    ?      N
+ADV Waiting Room -         40.00  40.00  40.00  40.00  40.00    ?      N
+Chinese Zodiac -           25.00  25.00  25.00  25.00  25.00    ?      N
+Email Spy -                80.00  80.00  80.00   C/S    C/S     ?      N
+Mancala -                   N/A   50.00  50.00  50.00  50.00    ?     C/S
+Time and Date Changer -    35.00  35.00  35.00  35.00   N/A    N/A     N
+Lost Realms -              See Advlist.txt
+
+
+----------------------------------------------------------------------------
+BBS Solutions Products
+----------------------------------------------------------------------------
+
+                           MBBS   WG10   WG20   WG3D   WG3N   WG3XN   C/S
+
+Certificates -             29.95  29.95  29.95   N/A    N/A    N/A     N
+Cracked -                   N/A   25.00  25.00   N/A    N/A    N/A     N
+Quick Help -                N/A   49.95  49.95   N/A    N/A    N/A     N
+Secure Keys -               N/A   35.00  35.00   N/A    N/A    N/A     N
+Suspend -                   N/A   35.00  35.00   N/A    N/A    N/A     N
+The Hideout! -              N/A   50.00  50.00   N/A    N/A    N/A     N
+User Invis -                N/A   50.00  50.00   N/A    N/A    N/A    Yes
+
+
+----------------------------------------------------------------------------
+Datasafe Products 
+----------------------------------------------------------------------------
+
+                           MBBS   WG10   WG20   WG3D   WG3N   WG3XN   C/S
+
+AutoRate -                   ?    99.00  99.00  99.00  99.00    ?      N
+AutoSubscription -           ?    100.00 100.00 100.00 100.00   ?     Yes
+CheckMan -                   ?    49.00  49.00  49.00  49.00    ?     Yes
+Global Power -               ?    99.00  99.00  99.00  129.00   ?     Yes
+HelpMan -                    ?    49.00  49.00   N/A    N/A    N/A     N
+Merchant Package -           ?    495.00 495.00 495.00 595.00   ?     Yes
+Marketplace -                ?    199.00 199.00 199.00 249.00   ?     Yes
+Multimedia Registry -        ?    199.00 199.00 199.00 249.00   ?     Yes
+Omni-Mall -                  ?    399.00 399.00 399.00 499.00   ?     Yes
+POS Dial -                   ?    249.00 249.00 249.00 295.00   ?      N
+Rewards -                    ?    20.00  20.00   N/A    N/A    N/A    Yes
+VisaMan (EZ Charge) -        ?    199.00 199.00 199.00 249.00   ?     Yes
+
+
+----------------------------------------------------------------------------
+Dialsoft Products
+----------------------------------------------------------------------------
+
+                           MBBS   WG10   WG20   WG3D   WG3N   WG3XN   C/S
+
+Bouncer -                  59.95  59.95  59.95  59.95  79.95    ?     Yes
+Chit Chatters -            79.95  79.95  79.95   N/A    N/A    N/A     N
+Control -                  149.95 149.95 149.95 149.95 199.95   ?      N
+Dial Notes -               29.95  29.95  29.95  29.95  29.95    ?      N
+Dialchat -                 99.95  99.95  99.95  99.95  179.95   ?      N
+DS-DOS Dos Shell -         99.95  99.95  99.95   N/A    N/A    N/A     N
+Frequently Used Globals -  Below  Below  Below   N/A    N/A    N/A     N
+  8 users $99.95/32 users $149.95/128 users $199.95/256 users $349.95
+Graffiti Wall w/HTML -     39.95  39.95  39.95  39.95  49.95    ?      N
+Global Info Center -       29.95  29.95  29.95  29.95  49.95    ?      N
+Hot Keys -                 59.95  59.95  59.95  59.95  79.95    ?      N
+Dialsoft Marquee -         59.95  59.95  59.95  59.95  79.95    ?      N
+Signature Editor -         29.95  29.95  29.95   N/A    N/A    N/A     N
+Web Blaster Pro C/S+A/A -  249.95 249.95 249.95 249.95 299.95   ?     Yes
+Zap 'Em -                  29.95  29.95  29.95  29.95  39.95    ?      N
+
+
+----------------------------------------------------------------------------
+Farwest Products
+----------------------------------------------------------------------------
+
+                           MBBS   WG10   WG20   WG3D   WG3N   WG3XN   C/S
+
+Tele-Trivia -               N/A   200.00 200.00  N/A    N/A    N/A     N
+Trivia -                    N/A   200.00 200.00  N/A    N/A    N/A     N
+Trivia Suite -              N/A   249.00 249.00  N/A    N/A    N/A    Yes
+Adult Questions -           N/A   39.00  39.00   N/A    N/A    N/A     N
+Questions by Topic #1 -     N/A   39.00  39.00   N/A    N/A    N/A     N
+Questions by Topic #2 -     N/A   39.00  39.00   N/A    N/A    N/A     N
+Questions by Topic #3 -     N/A   39.00  39.00   N/A    N/A    N/A     N
+Questions by Topic #4 -     N/A   39.00  39.00   N/A    N/A    N/A     N
+
+
+----------------------------------------------------------------------------
+High Velocity Software Products
+----------------------------------------------------------------------------
+
+                           MBBS   WG10   WG20   WG3D   WG3N   WG3XN   C/S
+
+Auto Validator -            N/A   80.00  80.00  80.00  80.00    ?      N
+Console Lock -              N/A   30.00  30.00   N/A    N/A    N/A     N
+Crossroads -                N/A   250.00 250.00  N/A    N/A    N/A     N
+Cyber Wumpus 2010 -         N/A   99.00  99.00   N/A    N/A    N/A     N
+Form Editor -               N/A   75.00  75.00   N/A    N/A    N/A     N
+Genesys -                   N/A   995.00 995.00 995.00 995.00   ?     Yes
+Global Destruction -        N/A   125.00 125.00  N/A    N/A    N/A     N
+High Velocity Utilities -   N/A   100.00 100.00  N/A    N/A    N/A     N
+Image Preview -             N/A   30.00  30.00   N/A    N/A    N/A     N
+Menu Magician C/S -         N/A   150.00 150.00  N/A    N/A    N/A    Yes
+Menu Magician - Terminal -  N/A    N/A    N/A   50.00  50.00    ?      N
+Mercury -                   N/A   29.00  29.00  29.00  29.00    ?     Yes
+MetaKeys -                  N/A   50.00  50.00  50.00  50.00    ?      N
+Newsroom C/S -              N/A   80.00  80.00  80.00  80.00    ?      N
+Scrybe -                    N/A   49.00  49.00   N/A    N/A     ?      N
+Spot -                      N/A   60.00  60.00  60.00  60.00    ?     Yes
+Trade Wars 2002 -           N/A   400.00 400.00 400.00 400.00   ?      N
+Trade Wars 2002 Pro Addon - N/A   159.00 159.00 159.00 159.00   ?      N
+Web Master II -             N/A   99.00  99.00  99.00  99.00    ?     Yes
+
+
+----------------------------------------------------------------------------
+InfiNetwork Products
+----------------------------------------------------------------------------
+
+                           MBBS   WG10   WG20   WG3D   WG3N   WG3XN   C/S
+
+Bingo - C/S only            N/A   149.00 149.00 149.00 149.00 149.00  Yes
+Big Brother -              50.00  50.00  50.00  50.00  50.00  50.00    N
+Cybertank -                295.00 295.00 295.00 295.00 295.00   ?      N
+Document Viewer -           N/A   149.00 149.00 149.00 149.00   ?     Yes
+Document View/Envoy -       N/A   210.00 210.00 210.00 210.00   ?     Yes
+Flower Shop -              99.00  99.00  99.00  99.00  99.00    ?      N
+Food Fight -               149.00 149.00 149.00 149.00 149.00   ?     Yes
+Form Manager -             495.00 495.00 495.00 495.00 495.00   ?      ?
+Gunfighter (BRAWL) -       149.00 149.00 149.00 149.00 149.00   ?      N
+InfiBase -                 695.00 695.00 695.00 695.00 695.00   ?     Yes
+I. "Solutions Pack" -      99.00  99.00  99.00  99.00  99.00    ?     Yes
+Major Jail -               25.00  25.00  25.00  25.00  25.00    ?      N
+Online Publisher Suite -    N/A   995.00 995.00 995.00 995.00   ?     Yes
+O. P. Multimedia Add-on -   N/A   300.00 300.00 300.00 300.00   ?     Yes
+O. P. B. +1 license -       N/A   100.00 100.00 100.00 100.00   ?     Yes
+O. P. Ext. Tech Support -   N/A   199.00 199.00 199.00 199.00   ?     Yes
+PowerBase -                 N/A    N/A    N/A    N/A   995.00   ?     Yes
+RingMasters -              99.00  99.00  99.00  99.00  99.00    ?      N
+Socrates -                 1499.0 1499.0 1499.0 1499.0 1499.0   ?     Yes
+TeleChat Trivia -          149.00 149.00 149.00 149.00 149.00   ?      N
+The Doctor -               50.00  50.00  50.00  50.00  50.00    ?      N
+User Commissions -         149.00 149.00 149.00 149.00 149.00   ?      N
+
+
+----------------------------------------------------------------------------
+Micro Magic Products
+----------------------------------------------------------------------------
+
+                           MBBS   WG10   WG20   WG3D   WG3N   WG3XN   C/S
+
+
+Account Creator -          25.00  25.00  25.00   N/A    N/A    N/A     N
+Approve All -              25.00  25.00  25.00   N/A    N/A    N/A    OFF
+Audit Trail Lister -       25.00  25.00  25.00  25.00  25.00    ?     OFF
+Credit Wrench -            25.00  25.00  25.00  25.00  25.00    ?     OFF
+Day Wrench -               25.00  25.00  25.00   N/A    N/A    N/A    OFF
+Download Chainsaw -        25.00  25.00  25.00   N/A    N/A    N/A    OFF
+Library Rename -           25.00  25.00  25.00   N/A    N/A    N/A    OFF
+Lock Pick -                25.00  25.00  25.00   N/A    N/A    N/A    OFF
+Magic Keys -               49.00  49.00  49.00  49.00  49.00    ?      N
+Master/Slave -              N/A   149.00 149.00 149.00 149.00   ?      N
+Master File Lister         25.00  25.00  25.00  25.00  25.00    ?     OFF
+Module Barricade -         39.00  39.00  39.00   N/A    N/A    N/A     N
+Path Changer -             25.00  25.00  25.00   N/A    N/A    N/A    OFF
+Phoenix -                  99.00  99.00  99.00   N/A    N/A    N/A     N
+Power Locks -              79.00  79.00  79.00   N/A    N/A    N/A     N
+User Lister -              25.00  25.00  25.00  25.00  25.00    ?     OFF
+Web Spinner -              49.00  49.00  49.00  64.00  64.00    ?      N
+WorldGrouper LITE -        49.00  49.00  49.00   N/A    N/A    N/A     N
+WorldGrouper PLUS -        99.00  99.00  99.00   N/A    N/A    N/A     N
+
+
+----------------------------------------------------------------------------
+Rifster Enterprises Products
+----------------------------------------------------------------------------
+
+                           MBBS   WG10   WG20   WG3D   WG3N   WG3XN   C/S
+
+Account Display/Edit -      N/A   49.00  49.00    ?      ?      ?      N
+Credit Poster -             N/A   49.00  49.00  49.00  49.00    ?     Yes
+Global Teleconference -     N/A   59.00  59.00  59.00  59.00    ?      N
+Line Announcer -           49.00  49.00  49.00  49.00  49.00    ?      N
+Line Lock -                 N/A   35.00  35.00  35.00  35.00    ?      N
+Low Warning -               N/A   49.00  49.00  69.00  69.00    ?      N
+Monitor -                  10.00  10.00  10.00  10.00  10.00    ?      N
+Quick Mail -               50.00  50.00  50.00  50.00  50.00    ?      N
+Time Control -             55.00  55.00  55.00  55.00  55.00    ?      N
+Whos-On -                  35.00  65.00  65.00  65.00  65.00    ?     Yes
+
+
+----------------------------------------------------------------------------
+Soft Arts Ltd. Products
+----------------------------------------------------------------------------
+
+Ad Master - 
+  2 users $29.00/8 users $79.00 /Unlimited $129.00  MBBS
+  2 users $29.00/8 users $79.00 /Unlimited $129.00  WG1/2
+  2 users $49.00/8 users $109.00/Unlimited $149.00  WG3/DOS
+  2 users $69.00/8 users $129.00/Unlimited $169.00  WG3/NT
+Blademaster - 
+  2 users $47.50/8 users $119.00/Unlimited $199.00  MBBS
+  2 users $47.50/8 users $119.00/Unlimited $199.00  WG1/2
+  2 users $67.50/8 users $149.00/Unlimited $239.00  WG3/DOS
+  2 users $87.50/8 users $169.00/Unlimited $259.00  WG3/NT
+Blox - 
+  2 users $39.00/8 users $99.00 /Unlimited $165.00  MBBS
+  2 users $39.00/8 users $99.00 /Unlimited $165.00  WG1/2
+  2 users $59.00/8 users $129.00/Unlimited $209.00  WG3/DOS
+  2 users N/A   /8 users N/A    /Unlimited N/A      WG3/NT
+Cashere
+  MBBS, WG 1.X, WG 2.X $159.00/WG 3.0DOS $199.00/WG 3.0NT $219.00
+Command Center -                                              Client/Server
+  2 users $49.00/8 users $109.00 /Unlimited $129.00  MBBS
+  2 users $69.00/8 users $119.00 /Unlimited $149.00  WG1/2
+  2 users $99.00/8 users $159.00 /Unlimited $199.00  WG3/DOS
+  2 users $119.00/8 users $179.00/Unlimited $219.00  WG3/NT
+Electronic Fairways - 
+  2 users $11.95/8 user $29.50/Unlimited $49.00   MBBS
+  2 users $11.95/8 user $29.50/Unlimited $49.00   WG1/2
+  2 users $31.95/8 user $59.50/Unlimited $89.00   WG3/DOS
+  2 users $51.95/8 user $79.50/Unlimited $109.00  WG3/NT
+Field Goal Challenge - Unlimited                                        C/S
+  MBBS N/A  WG1/2 $49.00  WG3/DOS $99.00  WG3/NT $119.00 Client/Server Only
+IP-Keys - Unlimited
+  MBBS/WG1/2 $79.00  WG3/DOS $99.00  WG3/NT  $129.00
+Progressive Klondike Solitaire -                              Client/Server
+  2 users $39.00 /8 users $79.00 /Unlimited $109.00  MBBS
+  2 users $59.00 /8 users $99.00 /Unlimited $129.00  WG1/2
+  2 users $99.00 /8 users $149.00/Unlimited $189.00  WG3/DOS
+  2 users $109.00/8 users $159.00/Unlimited $199.00  WG3/NT
+Progressive Slots -                                           Client/Server
+  2 users $19.00/8 users $59.00 /Unlimited $79.00   MBBS
+  2 users $39.00/8 users $79.00 /Unlimited $99.00   WG1/2
+  2 users $59.00/8 users $109.00/Unlimited $149.00  WG3/DOS
+  2 users $79.00/8 users $129.00/Unlimited $179.00  WG3/NT
+Progressive Video Poker -                                     Client/Server
+  2 users $19.00/8 users $59.00 /Unlimited $79.00   MBBS
+  2 users $39.00/8 users $79.00 /Unlimited $99.00   WG1/2
+  2 users $59.00/8 users $109.00/Unlimited $149.00  WG3/DOS
+  2 users $79.00/8 users $129.00/Unlimited $179.00  WG3/NT
+Sea Battle -                                                  Client/Server
+  2 users $39.00 /8 users $79.00 /Unlimited $109.00  MBBS
+  2 users $59.00 /8 users $99.00 /Unlimited $129.00  WG1/2
+  2 users $99.00 /8 users $149.00/Unlimited $199.00  WG3/DOS
+  2 users $119.00/8 users $169.00/Unlimited $219.00  WG3/NT
+The Casino -
+  2 users $45.00/8 users $111.00/Unlimited $185.00  MBBS
+  2 users $45.00/8 users $111.00/Unlimited $185.00  WG1/2
+  2 users $60.00/8 users $150.00/Unlimited $240.00  WG3/DOS
+  2 users $80.00/8 users $170.00/Unlimited $260.00  WG3/NT
+Yahtzee -                                                      Client/Server
+  2 users $19.00/8 users $59.00 /Unlimited $79.00   MBBS
+  2 users $39.00/8 users $79.00 /Unlimited $99.00   WG1/2
+  2 users $79.00/8 users $129.00/Unlimited $159.00  WG3/DOS
+  2 users $89.00/8 users $139.00/Unlimited $169.00  WG3/NT
+Zorgon -
+  2 users $30.00/8 users $77.00 /Unlimited $129.00  MBBS
+  2 users $30.00/8 users $77.00 /Unlimited $129.00  WG1/2
+  2 users $50.00/8 users $107.00/Unlimited $169.00  WG3/DOS
+  2 users $70.00/8 users $127.00/Unlimited $189.00  WG3/NT
+
+
+----------------------------------------------------------------------------
+WilderLand Software, Inc. Products
+----------------------------------------------------------------------------
+
+                           MBBS   WG10   WG20   WG3D   WG3N   WG3XN   C/S
+
+Archery -                  69.95  69.95  69.95   N/A    N/A    N/A    Yes*
+* 4 user $49.95   Client/Server $49.95
+AutoTerm -                 99.00  99.00  99.00   N/A    N/A    N/A     N
+Chain Reaction -           69.95  69.95  69.95   N/A    N/A    N/A     N
+Chat Lounge -              39.95  39.95  39.95  39.95  39.95    ?      N
+DOS Text File Editor -     39.95  39.95  39.95  39.95  39.95    ?      N
+Erotica! - (Adult Game)    199.00 199.00 199.00 199.00 199.00   ?      N
+File Viewer -              29.95  29.95  29.95   N/A    N/A    N/A     N
+Hi-Rollers -               39.95  39.95  39.95   N/A    N/A    N/A     N
+Horoscope -                59.00  59.00  59.00  59.00  59.00    ?     Yes
+Internet Navigator -       259.95 259.95 259.95  N/A    N/A    N/A     N
+Legends:Search of Dragons- 199.00 199.00 199.00  N/A    N/A    N/A     N
+Lingo -                    69.95  69.95  69.95   N/A    N/A    N/A     N
+Mega Slots -               79.95  79.95  79.95   N/A    N/A    N/A     N
+Prize Giveaway -           39.95  39.95  39.95   N/A    N/A    N/A     N
+Safe Cracker -             40.00  40.00  40.00   N/A    N/A    N/A     N
+Slotto America -           49.00  49.00  49.00  49.00  49.00   N/A     N
+Space Wumpus -             159.95 159.95 159.95  N/A    N/A    N/A     N*
+* 4 user $89.95
+SuperDisc CD-ROM Manager - 289.00 289.00 289.00 289.00 289.00   ?     Yes
+Tarot Card Reader -        49.00  49.00  49.00  49.00  49.00    ?      N
+Tarot Card Reader C/S -    79.00  79.00  79.00  79.00  79.00    ?     Yes
+Time Machine -             19.95  19.95  19.95   N/A    N/A    N/A     N
+WilderLands MUD            Below  Below  Below  Below  Below    ?      N*
+* Unlimited User: $495.00     16 User: $395.00     4 User: $295.00
+
+
+----------------------------------------------------------------------------
+Wildsoft Development Group Products
+----------------------------------------------------------------------------
+
+                           MBBS   WG10   WG20   WG3D   WG3N   WG3XN   C/S
+
+Bathroom Stall -           20.00  20.00  20.00  40.00  40.00    ?      N
+Neverending Stories -      50.00  50.00  50.00  50.00  50.00  50.00    N
+Secret Word -              40.00  40.00  40.00   N/A    N/A    N/A     N
+  
+----------------------------------------------------------------------------
+
+
+  All products on this list are sold by AdventureComm Software, 
+  If you would like to buy any of these modules for your system,
+  Call 1-888-463-0156 or 1-504-467-9186 today!
+
+  We currently accept only Visa, MasterCard, and Discover.
+
+  Send Check or Money order to:
+
+  AdventureComm Software
+  PO Box 641836
+  Kenner, LA 70064-1836
+  U.S.A.
+
+  If you mail a check please include Galacticomm registration number,
+  Full Name, Full Address, Products you are interested in, and your
+  telephone number.  Certified Checks or Money Orders recommended,
+  Personal or Business checks please allow 7-10 days to clear after
+  we receive them.
+
+  Thanks,
+  Brad Farrell
+  AdventureComm Software

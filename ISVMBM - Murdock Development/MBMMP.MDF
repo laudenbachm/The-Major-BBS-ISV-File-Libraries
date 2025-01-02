@@ -1,0 +1,37 @@
+; MBMMP.MDF
+
+Module Name: The Major Pager
+
+Developer: M. B. Murdock & Associates
+
+Requires:
+Replaces:
+
+Install:
+
+Online user manual:
+
+DLLs: MBMMP
+MSGs: MBMMPMSG
+
+Btrieve page size:
+Btrieve files:
+
+Cleanup:
+
+Event-1:
+Event-2:
+Event-3:
+Event-4:
+
+Add-On Utility:
+
+I need:
+
+Agent version: 1.01
+Client app version: 1.01
+Client app EXE: MBMMP101.EXE
+Client app support files:
+Default Icon: MBMMP.ICO
+
+

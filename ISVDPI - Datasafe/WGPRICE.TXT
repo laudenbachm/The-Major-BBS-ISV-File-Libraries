@@ -1,0 +1,107 @@
+DataSafe will always try to meet or beat any other dealer pricing. If
+you have a need for a product just give us a call and we can search for
+the correct product to meet your needs. We specialize in helping the
+Sysop make money by providing software to easily sell on-line products
+& services! DataSafe is also the only ambassador dealer to sell
+Intelligent Rocketport serial boards.  The price on the Rocketport
+serial boards will save you significant money over the Equinox
+Intelligent Hardware!
+
+              Price Information
+
++++++++++++++++ Worldgroup 3.x ++++++++++++++++++
+      Worldgroup 3.0 DOS Price List      LIST     OUR
+-------------------------------------- ------- -------
+Worldgroup 8-user                       $ 499   $ 398
+6-User Pack                               289     248
+12-User Pack                              499     428
+24-User Pack                              999     838
+Novell LAN Option                         289     248
+X.25 Option                               999     828
+Advanced Internet Option                  499     428
+Internet Connectivity Source              499     428
+Fax/Online                                259     218
+Fax/Online Developer's Kit                 99      88
+Dial-Out                                  199     168
+Dial-Out C Source Code                    289     248
+Entertainment Collection                  289     248
+Entertainment Collection Source           459     388
+Worldgroup Developer's Kit                499     418
+Ext'd C Source Developer's Kit            499     418
+Worldgroup Internet Server (20-User)     1599    1398
+Worldgroup Enterprise Server (128-user)  7999    6598
+
+      Worldgroup 3.0 95/NT Price List    LIST     OUR
+-------------------------------------- ------- -------
+Worldgroup 8-user                       $ 699   $ 558
+6-User Pack                               399     328
+12-User Pack                              699     578
+24-User Pack                             1399     1138
+Novell LAN Option                         399     338
+X.25 Option                              1399     1158
+Advanced Internet Option                  n/a
+Internet Connectivity Source              699     589
+Fax/Online                                359     298
+Fax/Online Developer's Kit                139     118
+Dial-Out                                  279     238
+Dial-Out C Source Code                    399     338
+Entertainment Collection                  399     338
+Entertainment Collection Source           649     538
+Worldgroup Developer's Kit                699     578
+Ext'd C Source Developer's Kit            699     578
+Worldgroup Internet Server (20-User)      n/a
+Worldgroup Enterprise Server (128-user)   n/a
+
+Automatic Software Upgrade Program (US)   495     495
+Automatic Software Upgrade Program (INT'L)595     595
+
+DataSafe Products (www.dsafe.com)         DOS   NT/95
+-------------------------------------- ------- -------
+Auto-Subscription (Req's EZ Charge)     $ 100   $ 100
+AutoRate                                   99      99
+CheckMan                                   49      49
+EZ Charge (VisaMan)                       199     249
+Global Power                               99     129
+Marketplace                               199     249
+Merchant Package                          495     595
+Multi-Media Registry                      199     249
+Omni-Mall                                 399     499
+POS Dial                                  250     295
+
+DataSafe Product Upgrades                 DOS   NT/95
+-------------------------------------- ------- -------
+Upgrade all your DataSafe Products      $ 100   $ 149
+Auto-Subscription (Req's EZ Charge)        11      21
+AutoRate                                    0       0
+CheckMan                                    0       0
+EZ Charge (VisaMan)                        29      39
+Global Power                               29      39
+Marketplace                                29      39
+Merchant Package                           59      89
+Multi-Media Registry                       29      39
+Omni-Mall                                  49      49
+POS Dial                                   29      39
+
+Hardware Prices
+---------------------------------------------- -------
+Boca 16-port Non-Intelligent                     348
+Rocketport 8-port Intelligent                    519
+Rocketport 8-port Intelligent OctaCable          399
+Rocketport 16-port Intelligent                   749
+Rocketport 16-port Intelligent Upgradeable       999
+Rocketport 32-port Intelligent                  1299 Best buy
+Rocketport 16-port Upgrade                       306
+Equinox 16-port Intelligent                     1699
+Equinox 32-port Intelligent                     2399
+Equinox 64-port Intelligent                     3699
+Equinox 96-port Intelligent                     5099
+Equinox 128-port Intelligent                    5999
+Equinox 16-port Upgrade                          899
+
+Websoft Products (www.webxyz.com)
+---------------------------------------------- -------
+TWin - Java Telent Applet                        129
+Web Emporium - Web Shopping System               495
+Web Emporium Gold - Web Shopping System         1995
+Web Classifieds                                  395
+Web Classifieds Gold                             995

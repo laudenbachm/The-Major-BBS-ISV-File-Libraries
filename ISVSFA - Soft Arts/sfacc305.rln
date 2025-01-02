@@ -1,0 +1,547 @@
+Command Center -- Release Notes
+
+  Actcodes are available by submitting your information to us by e-mail to
+  bladerunner@colis.com, by telephone at (809) 922-5201 or (809) 922-5173,
+  or by FAX to (809) 922-9036.  Ensure that you provide us with your e-mail
+  address so that we can transmit the activation code to you when generated.
+
+  For information on upgrading to WG 3 versions, download PRICES.TXT from
+  the ISVSFA file library on the Galacticomm Demo System(demosys.gcomm.com).
+
+  You can also contact us by dialing in directly to our BBS, creating an
+  account and leaving e-mail to Sysop or Support, but we do not recommend
+  this because of the long distance charges you will incur.
+
+
+
+Version 3.05-MBBS 6.25/WG 1/2 (14 May 1997)
+-------------------------------------------
+
+A.  BUG FIXES/REPORTS
+=====================
+
+o   Command Center was incorrectly handling MASTER key holders whenever a
+    key was entered in the FIVKEY CNF option which controls forced
+    invisibility at logon.  MASTER key holders who by default hold all
+    issued keys were being forced invisible at logon as soon as the FIVKEY
+    option was non-null despite not being explicitly issued with the key or
+    having the key residing as part of the user's class key ring.
+
+    This behaviour has been corrected.  All MASTER key users are now checked
+    for explicit holding of FIVKEY before being automatically forced
+    invisible at logon.  (Also see the new CNF option FIVPAG below).
+
+o   The Display Age check box in C/S mode settings for Command Center would
+    always display as CHECKED irrespective of the last setting.  This has
+    been corrected and the check box now correctly records and recalls the
+    previous setting and ensures that the requested display is honoured.
+
+o   The module Autobusy logic has been further upgraded to handle conflicts
+    between modules specified as Autobusy by Command Center and modules
+    which already perform this function, such as the File Transfer Service
+    and the Editor.
+
+o   The U2 Online User Display Listing was altered slightly to accommodate
+    proper alignment for the display of privileged class users such as
+    Internet/Slip/PP users.
+
+
+B.  NEW/REVISED COMMANDS
+========================
+
+Key: [] = required parameter
+     <> = optional parameter
+
+(Usage shown with default commands)
+
+  =COPY    : Background file copy
+
+             Usage:  =COPY [copyfrom] [copyto]
+
+                     =COPY STOP [jobno]
+
+                     =COPY LIST
+
+             Where:  copyfrom = the path/file specification for the source
+                                file.
+
+                     copyto   = the path/file specification for the
+                                destination file.
+
+                     jobno    = the job number of the copy you want to
+                                cancel.
+
+                     LIST     = show all currently executing copy jobs.
+
+             The file copy takes place in the background and is assigned a
+             sequential Job # starting from 1.  Up to 20 copy jobs can be
+             active at any one time.
+
+             If you start a copy and disconnect, the copy operation
+             continues.  If the source or destination filenames are in use
+             by another user, the copy will fail.
+
+             The specified destination file is overwritten without warning
+             if it already exists.  When a copy job is canceled the
+             destination file is automatically deleted.
+
+             COPY supports implicit copy operations in the same manner as
+             DOS. If you specify only a destination path, such as C:\, this
+             will cause the source file to be copied with the same name to
+             the path. If the current system directory is C:\WGSERV and you
+             specify:
+
+               =COPY C:\FILE1.DAT
+
+                   or
+
+               =COPY C:\FILE1.DAT .
+
+             this will cause C:\FILE1.DAT to be copied to the C:\WGSERV
+             directory.  File names can be specified with any combination of
+             subdirectory and path specifiers which would be acceptable to
+             DOS, and the specifiers "." and ".." are accepted in a path
+             string and will be properly expanded.
+
+             The maximum length of a source or destination file
+             specification is 63 characters including the file name. This
+             limitation applies both to the values entered on the user
+             command line as well as the resulting value when any implicit
+             path specifiers are expanded.  If either source or destination
+             file specifications exceed this limit, the command line will
+             generate an error.
+
+             COPY requires appropriate network rights for the source and
+             destination paths and files where either of these are located
+             on a network.
+
+             The LIST command generates a list of all currently executing
+             copy jobs, irrespective of which user started the job.
+
+             The result of all copy operations are logged to the Audit
+             Trail file.
+
+             At the present time, this command will recognize and process
+             only a single file.  Wild card expansions are not permitted.
+
+  =DEL     : Delete a file
+
+             Usage:  =DEL [delfile]
+
+             Where:  delfile  = the path/file specification for the file to
+                                be deleted.
+
+             This command deletes the specified file.  The file must not be
+             in use by any other process, or the delete will fail.  The BBS
+             user must also have sufficient rights to delete the file if it
+             is a network target.
+
+             At the present time, this command will recognize and process
+             only a single file.  Wild card expansions are not permitted.
+
+             Successful file delete operations are logged to the Audit Trail
+             file.  Failed operations are not recorded.
+
+  =DIR     : Directory listing
+
+             Usage:  =DIR <pathspec>
+
+             Where:  pathspec = An optional file and/or path specification.
+
+             This command provides a standard Directory Listing similar to
+             that obtained from the command line with the DIR command. The
+             command is cycled to ensure that extremely long directory
+             listings do not prevent the system from servicing other
+             users.
+
+             Using =DIR only will generate a listing of the current
+             directory, i.e. the directory the BBS was loaded from.
+
+             DIR recognizes implicit as well as explicit path specifiers as
+             well as wild cards and expands them properly before commencing
+             the listing.
+
+             DIR outputs a revised format of the DOS directory footer and
+             displays the count of directories separately from the count of
+             files.  The directory count does not include the "." and ".."
+             entries, even though these are displayed in the listing.
+
+             DIR output is limited by file and directory scan rights for
+             targets on a network.
+
+  =I       : User Information
+
+             Usage:  =I <User-Id>
+
+             Where:  User-Id  = Any valid User-ID name in the system whether
+                                currently logged on or not.
+
+             This command now optionally takes the User-Id parameter for
+             users holding the MASTER key (Sysop class users), and will
+             display user information for the named User-ID or nearest
+             partial match.  The named User-Id may be on or off-line.
+
+  =LTX     : List Text Variables
+
+             Usage:  =LTX
+
+             Lists all of the Text Variables provided by Command Center with
+             a brief description of each variable.  The listing is very
+             long, so you may want to ensure that you screen length is set
+             to something other than "Continuous".
+
+  =LS      : Sysop User List
+
+             Usage:  =LS
+
+             This command displays a very useful on-line user display
+             listing which contains information usually of interest only to
+             Sysop class users.
+
+  =MD      : Make a directory
+
+             Usage:  =MD [dirname]
+
+             Where:  dirname  = the path specification for the directory to
+                                be created.
+
+             This command creates a directory.  If on a network, the BBS
+             login must have the appropriate rights.  The destination sub-
+             directory will be created along with all directories along the
+             the path chain.  For instance, if you specify:
+
+               MD \DIR1\DIR2\DIR3
+
+             and none of the directories exist, \DIR1 and \DIR1\DIR2 are
+             created in that order to facilitate creation of
+             \DIR1\DIR2\DIR3.  If any of the dependent sub-directories along
+             the path cannot be created, MD stops at that point.
+
+             Note that a directory cannot be created if a file already
+             exists with the same name as the new directory in the immediate
+             parent directory of the new directory.
+
+             Successful directory create operations are logged to the Audit
+             Trail file.  Failed operations are not recorded.
+
+  =PCO     : Post On-Line Credits
+
+             Usage:  =PCO [User-Id] [credits]
+
+             Where:  User-Id  = Any valid User-ID name currently logged on
+                                to the system.
+
+                     credits  = The number of credits you want to add for
+                                the duration of the user's current session.
+
+             This command adds the specified number of credits to a user
+             whose class is credit based.  The credits added are valid ONLY
+             for the duration of the current call.  Credits will not be
+             added or subtracted for users in classes which are not credit
+             based, or for users who are not on-line at the time the command
+             is executed.
+
+             On-line credits are deducted first in accounting for credits
+             used, and the user's credit balance is adjusted by deducting
+             any unused on-line credits when the session terminates.
+
+             The following examples should make the usage clear -
+
+               Example 1:
+               ==========
+
+               Existing Credits at PCO command = 2000
+               PCO credits granted             = 5000
+               Credits used in current session = 4000
+               Credit balance at logoff        = 2000
+
+               Example 2:
+               ==========
+
+               Existing credits at PCO command = 2000
+               PCO credits granted             = 5000
+               Credits used in current session = 6000
+               Credit balance at logoff        = 1000
+
+             The credits added or subtracted are not recorded in the system
+             statistics and are deducted when the user's session is
+             terminated.  When the deduction is made, the user's current
+             class details are checked and if the class credit debt limit is
+             zero, any negative credit balance resulting from the removal of
+             the on-line credits is forced to zero.  This means you should
+             be careful in adjusting users' classes on line if you use this
+             command in order to avoid inconsistencies in their credit
+             balance.
+
+             PCO does not accept partial User-ID matches, so the ID
+             specified must be exact.
+
+             Note that this command only ADDS credits to a user's on-line
+             account details, to SUBTRACT credits, use the =PC command
+             instead.
+
+  =RD      : Delete a directory.
+
+             Usage:  =RD [dirname]
+
+             Where:  dirname  = the path specification for the directory to
+                                be deleted.
+
+             This command deletes a directory.  If on a network, the BBS
+             login must have the appropriate rights.
+
+             RD recognizes implicit path names containing "." and ".."
+             specifiers and correctly converts such paths to canonical form.
+             The maximum length of the normalized path specification is
+             63 characters under DOS.
+
+             Note that a directory cannot be deleted if it contains any file
+             or other sub-directory.  For this purpose, use the =XDEL
+             command instead.
+
+             Successful directory delete operations are logged to the Audit
+             Trail file.  Failed operations are not recorded.
+
+  =SYS     : List Sysop Commands
+
+             Usage:  =SYS
+
+             This command displays only those Command Center global commands
+             whose key is the same as the SYSOPKEY CNF option.
+
+             Normally, the value of SYSOPKEY should be the same key used for
+             all Sysop commands, but this is not mandatory.
+
+  =XDEL    : Delete Directory Tree
+
+             Usage:  =XDEL [dirname]
+
+             Where:  dirname  = the path specification for the directory to
+                                be deleted.
+
+             XDEL deletes a directory and all files and child directories
+             contained in the target directory.  It functions identically to
+             the DELTREE command in MSDOS.
+
+             XDEL however, unlike DELTREE will recognize the sub-directory
+             from which the BBS system was loaded, and will refuse to
+             process that sub-directory as a target.
+
+             XDEL recognizes implicit path names containing "." and ".."
+             specifiers and correctly converts such paths to canonical form.
+             The maximum length of the normalized path specification is 63
+             characters under DOS.
+
+             Because XDEL is a potentially dangerous command, it requires
+             confirmation for operation.  When you enter the command, a
+             warning message will be displayed requesting that you enter
+             "Y" or "N", or <CR> for the default response.  As distributed,
+             the default response is "N", which means that simply pressing
+             <CR> will cancel the XDEL operation.  If you want to change
+             the default to "Y", edit Level 6 CNF text block DIRWARN, and
+             change the "N" character before the final curly brace to a
+             "Y" (don't include the quotes), and also change the character
+             enclosed in double quotes to a "Y" (don't remove the quotes).
+             When you have made this change, pressing <CR> after entering an
+             XDEL command will cause the command to execute immediately.
+             Entering any character other than "Y" (or <CR> if the default
+             has been changed to "Y"), will cancel the XDEL command.
+
+             XDEL uses DOS to iteratively remove dependent files and
+             directories from the target directory, and finally deletes the
+             target directory.  Errors should never occur under normal
+             circumstances, and if the process is interrupted by for example
+             a power outage on the target machine, XDEL may not be able to
+             recognize this condition in every case, such as when the
+             target directory is a network directory on another computer. If
+             XDEL is interrupted, some or all of the dependent files or
+             directories may be deleted.
+
+             If the XDEL target resides on on a network, the BBS user must
+             have the appropriate rights for all directories and files in
+             the directory tree.  XDEL will stop at any point when an access
+             violation occurs because of insufficient network rights.
+
+             Successful directory delete operations are logged to the Audit
+             Trail file.  Failed operations are not recorded.
+
+
+C.  CNF OPTION CHANGES
+======================
+
+The following CNF options have been added or changed:
+
+Key: {} = option type 
+     [] = default
+     <> = numeric range
+     () = determined by option setting
+
+  LEVEL 4
+
+  COPYSIZ  : {ENUMERATED} [4KB] 1/4KB 1/2KB 1KB 2KB 4KB 8KB 16KB 32KB 64KB
+             Sets the chunk size for background file copies performed during
+             each cycle.  In order to efficiently process background file
+             copies without sacrificing system performance, Command Center
+             copies a small chunk of each file in the copy queue during each
+             system cycle.  This CNF option sets the value (in Kilobytes) of
+             each copy chunk.
+
+             The default value of 2K is adequate for medium loaded systems
+             on slower processors (e.g., 486 DX 66 MHZ), which may have 1 or
+             2 copies on-going along with heavy user activity at the same
+             time, and trades copy speed (very slow) for system response
+             (basically unaffected).
+
+             If your system is very heavily loaded and you wish to perform
+             several copies at the same time, reduce the chunk value.  By
+             contrast, a lightly loaded and/or extremely fast and/or
+             efficient system can afford to increase the chunk value
+             significantly.  On a Cyrix 166+ MHz using Brequest on a Novell
+             Network, with 20 users in normal operation, we experienced no
+             measurable effect on the system when performing 5 simultaneous
+             copy jobs of files over 10 MB each using a chunk size of 32KB,
+             which means that the system was copying 160KB per cycle in
+             addition to servicing users.  Increasing the number of users
+             significantly, particularly if the users are carrying out disk
+             intensive operations, may necessitate reducing the chunk size
+             for acceptable performance.  Bear in mind that some games are
+             extremely disk intensive and may not be cycle mediated,
+             therefore the combined effect with several large copy
+             operations at high chunk values can slow the system response
+             unacceptably.
+
+  FIVPAG   : {ENUMERATED} [NO] YES
+             Normally, users who are invisible may not send system pages to
+             other users, however, you may wish to allow users holding
+             FIVKEY which forces them invisible at logon to page MASTER key
+             holders only (usually SYSOP class users).
+
+             This option only works with users holding a FIVKEY which is
+             non-blank.  Setting this option to YES will NOT grant ordinary
+             users the ability to page while invisible.
+
+  SYSOPKEY : {STRING} [MASTER]
+             Sets the key used to group global commands for the List Sysop
+             Commands global command.  Only those commands having this key
+             for access will be listed.  This key should usually be the same
+             key used for all Sysop class commands.
+
+  LEVEL 99
+
+  SYSBSY   : {TEXT} [Editor File Transfer Service]
+             This is a list of System Autobusy modules which has been added
+             to further refine the module Autobusy logic.  The current
+             contents are those modules in which MBBS/Worldgroup
+             automatically sets the user's BUSY flag.
+
+             Normally you should not need to change this CNF option,
+             however if you discover that we have omitted a module from
+             the list, please let us know so that it can be included as part
+             of the default in future releases.
+
+
+D.  TEXT VARIABLES
+==================
+
+The following text variables have been added and/or changed:
+
+(Note: the full name of the text variable includes the prefix of "SFACC_").
+
+  OTHRNM   : Returns the full real name of a user.
+
+  OTHBHD   : Returns a user's birthday in the format DD-Mmm-YYYY.  The range
+             of birthdays supported is 1905 to 2004.  Any birthday outside
+             this range will be reported either + or - 100 years.
+
+  OTHCRD   : Returns the number of credits user has remaining.
+
+  OTHDYS   : Returns the number of days the user has remaining in their
+             class, or "UNLM" if the user's class doesn't expire by days.
+
+
+E.  ADDITIONAL NOTES
+====================
+
+  No additional notes for this release.
+
+
+
+Soft Arts Ltd.
+66 & 68 Barry Street
+1st Floor
+Kingston
+Jamaica, W.I.
+
+Tel.#s : (809) 922-5201/5173 Voice
+         (809) 922-9036      Fax
+         (809) 922-7990      BBS
+
+E-mail us with comments, suggestions, etc. at-
+    bladerunner@colis.com
+
+(end of release notes)
+
+NOTICE
+============================================================================
+
+COPYRIGHT
+Command Center and accompanying documentation is copyright (c) 1997 by
+Soft Arts Ltd., hereinafter referred to as Soft Arts. All rights to Command
+Center are reserved by Soft Arts.  You must keep the program in strict
+confidence and treat it like any other copyrighted material. You may not
+copy any written materials accompanying the software program.
+
+
+LICENSE
+You may use Command Center on a single bulletin board or on-line system on
+which you accept 3rd party logins for any commercial or non-commercial
+purpose.  You may also use the program on one additional bulletin board or
+on-line system which is devoted to testing and development, and to which
+access by 3rd party users is not permitted.  You may copy the program into
+any machine-readable form of backup in support of your use of the program on
+any of the systems referred to above.  You may transfer the license and
+program to any other party only after paying any licence transfer fee
+requested by Soft Arts.  Please contact Soft Arts to complete a license
+transfer.  Your use of the software deems your acceptance of this license
+and warranty and the terms herein.
+
+
+LIMITED WARRANTY
+Soft Arts warrants that the computer media on which Command Center is
+furnished and/or the physical files delivered shall be free from defects in
+materials and workmanship for a period of thirty (30) days from the date of
+purchase by the original purchaser or any transferee of the licence
+athorized by Soft Arts.  Soft Arts shall replace Command Center if the
+original package including all documentation and magnetic media is returned
+to Soft Arts or the authorized Soft Arts re-seller from whom you purchased
+this program within thirty (30) days of the discovery of such defect. The
+sole remedy for any breach of the foregoing warranty shall be a replacement
+of the defective portion of the program.
+
+YOU THE USER UNDERSTAND AND ACCEPT THAT COMPUTER PROGRAMS BY THEIR VERY
+NATURE CANNOT BE GUARANTEED TO BE 100 PER CENT ACCURATE, OR FREE FROM FLAWS
+IN DESIGN OR OPERATION, OR FROM INCOMPATIBILITIES WITH OTHER SOFTWARE,
+HARDWARE AND/OR OPERATING SYSTEM PLATFORMS.  SOFT ARTS DOES NOT WARRANT,
+REPRESENT, OR GUARANTEE THAT ALL PROBLEMS WILL BE CORRECTED OR THAT ANY
+UPDATES WILL BE COMPATIBLE WITH PREVIOUS VERSIONS OF Command Center. EXCEPT
+AS EXPRESSED ABOVE, SOFT ARTS DISCLAIMS ALL WARRANTIES, EXPRESSED AND
+IMPLIED, TO THE PRODUCT, NCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE, AND SOFT ARTS DISCLAIMS ALL
+OBLIGATIONS AND LIABILITY ON SOFT ART'S PART OR ON THE PART OF ANY OF ITS
+OWNERS, DIRECTORS, MANAGERS, SERVANTS, AGENTS AND/OR EMPLOYEES FOR DAMAGES,
+INCLUDING BUT NOT LIMITED TO SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES IN
+CONNECTION WITH USE OF THE PRODUCT, WHETHER OR NOT SOFT ARTS HAS BEEN
+ADVISED OF THE POSSIBILITY THEREOF.
+
+
+LIMITATION OF REMEDIES
+The entire and exclusive liability and remedy for breach of this Limited
+Warranty shall be limited to replacement of defective diskette(s) or
+documentation and shall not include or extend to any claim for or right to
+recover any other damages, including but not limited to, loss of profit,
+data, or use of the software, or special, incidental, or consequential
+damages or other similar claims, even if Soft Arts has been specifically
+advised of the possibility of such damages. In no event shall Soft Art's
+liability for any damages to you or any other person ever exceed the lower
+of suggested list price or actual price paid for the license to use the
+software, regardless of any form of the claim.

@@ -1,0 +1,171 @@
+
+The following list has been provided compliments of Sirius Software, the:
+creators of the Game Connection Protocol.                         Sirius Software                         1049 Cardiff                         Casper, WY 82609                         USA                         Orders: (888) SIRIUS2 (toll free)                                 (888) 7474872                         Voice:  (307) 237-0065                         FAX:    (307) 265-4452                         BBS:    (307) 237-2112                         I-Net:  siriussoft.com     This is a partial list of systems running Game Connection online     game servers as of 27-MAY-97.  The following is a list of games     that are supported by Game Connection systems:          Multi-player games supported:               Duke Nukem 3D           (up to 8 player)               Red Alert               (up to 8 player)               Warcraft 2              (up to 8 player)               NASCAR 2                (up to 8 player)               Sid Meier's CivNet (tm) (up to 7 player)               Descent                 (up to 8 player)               Descent 2               (up to 8 player)               DOOM                    (up to 4 player)               DOOM II                 (up to 4 player)               Heretic                 (up to 4 player)               Hexen                   (up to 8 player)               Strife                  (up to 8 player)               Warpath                 (up to 4 player)               NetSpades               (up to 4 player)               Empire Deluxe           (up to 6 player)               Global Conquest         (up to 4 player)               Spectre VR              (up to 8 player)     Additionally, Game Connection supports most games with     modem-to-modem capabilities in head-to-head mode, and many games     with IPX support via its IPX Emulation.     In all, Game Connection is in operation at more than 1000 U.S.     sites, in over 600 cities, spanning 49 states and D.C.     Game Connection servers are not confined to the U.S., or even     North America.  More than 150 International locations are also in     operation in 34 countries.  In Canada alone, 43 cities in 10     provinces are covered.  Other international sites include:     Argentina, Australia, Bahrain, Belgium, Brazil, Cayman Islands,     Chile, Czech Republic, Dominican Republic, England, Finland,     France, Germany, Greece, Hong Kong, India, Italy, Mexico, New     Zealand, Poland, Puerto Rico, Singapore, South Africa, Spain,     Sweden, Switzerland, Taiwan, The Netherlands, Trinidad-Tobago,     United Arab Emirates, Wales, and West Malaysia.     The systems on this list have added their systems to the list     on our BBS.  They are responsible for the correctness of their     own entries.  Those not listed had not registered for the list     at the time it was compiled.
+Systems in the U.S. and CanadaNJ,  Franklin Lakes,   The Data Exchange BBS, (201) 337-3127,                
+NJ,  Oakland,          The Digital Limelight, (201) 405-0427,                
+WA,  Federal Way,      Apocalypse Majorbbs, (206) 223-1545,                
+WA,  Tacoma,           Badlands Online!,  (206) 383-3122, Badlands.com   
+WA,  Seattle,          Digital Edge,      (206) 505-1650, digitaledge.com
+WA,  Seattle,          The Computer Room BBS, (206) 937-1364,                
+ME,  Augusta,          Explorer Online!,  (207) 547-4082, eol.mainelink.net
+CA,  Fresno,           VIRTUAL REALITY WEB, (209) 449-7770,                
+CA,  Modesto,          The InterPhase,    (209) 544-1394,                
+CA,  Tracy,            ACE InfoSystems,   (209) 833-0291, aceinfo.com    
+TX,  San Antonio,      Virtual Battlefield, (210) 681-4205,                
+PA,  Souderton,        Aurora Online,     (215) 723-3600,                
+OH,  Cleveland,        Worldnet Ohio,     (216) 283-0493, worldnetoh.com 
+IL,  Champaign,        DataQuest,         (217) 359-0436, dqbbs.com      
+CO,  Boulder,          Mystical Realms,   (303) 415-1895,                
+WV,  Charleston,       The Pavillion,     (304) 344-8217,                
+FL,  Miami,            Playing Fields,    (305) 822-2737,                
+IL,  Peoria,           TDS Online International, (309) 693-7191, 205.139.177.35 
+CA,  Los Angles,       ECN,               (310) 204-6007, ecn.ecn.com    
+NY,  Syracuse,         Gamer's World,     (315) 656-1400,                
+KS,  Pittsburg,        Family Entertainment Network, (316) 231-4190,                
+IN,  New Palestine,    Absolute Connection, (317) 861-9333, A-C.In.Net     
+IN,  Indianapolis,     Cosmic Concourse,  (317) 974-3013,                
+AL,  Montgomery,       Game World,        (334) 244-7742,                
+AL,  Millbrook,        The Entertainment Connection, (334) 285-6727,                
+WA,  Arlington,        Arlington Express BBS, (360) 652-5797, Arl.com        
+AB,  Calgary,          The Nexus BBS,     (403) 230-7394,                
+AB,  Calgary,          Mainline Information Service, (403) 247-8422,                
+AB,  Calgary,          Nucleus Information Service, (403) 541-9400, nis.nucleus.com
+FL,  Ocoee/Orlando,    Combat Central,    (407) 294-7997,                
+FL,  Longwood,         On-line Con-X-tions of Florid, (407) 331-4537, pmgdeg.iag.net 
+FL,  Boca Raton,       ThunderDOME,       (407) 367-8426,                
+FL,  Port St. Johns,   Pro Graphics,      (407) 638-4017,                
+CA,  San Jose,         The Holodeck BBS,  (408) 261-1313, WWCOMM.COM     
+CA,  Gilroy,           Atlas BBS,         (408) 847-5202, gilroy.com     
+MD,  Baltimore,        V.G.C.,            (410) 354-4343,                
+MD,  Baltimore,        I.C.E.,            (410) 379-1500,                
+WI,  Milwaukee,        CyberQuest,        (414) 571-1626,                
+WI,  Neenah,           Insync,            (414) 751-9070,                
+CA,  Palo Alto,        baybytes,          (415) 327-2095, baybytes.com   
+CA,  San Francisco,    The Game Server,   (415) 333-5333,                
+CA,  Redwood City,     Adventure Connection, (415) 365-2898, advconn.com    
+CA,  Burlingame,       The Game Players' Lair, (415) 548-0515,                
+ON,  Toronto,          T.A.N.G.O.,        (416) 482-6467, tango.com      
+ON,  Toronto,          TFL Online Systems, (416) 767-3102, TFLair.com     
+MO,  Joplin,           The Ragged Edge,   (417) 623-3625,                
+AZ,  Fort Smith,       Player's Paradise, (501) 452-DOOM,                
+OR,  Portland,         Disk Jockey Online, (503) 636-4947, djo.com        
+NM,  Albq,             Cranium Games BBS, (505) 292-2358,                
+ME,  Worcester,        Tatnuck Bookseller Online, (508) 831-0290, tatnuck.com    
+WA,  Spokane,          Derango City,      (509) 921-2144,                
+TX,  Austin,           After Hours BBS,   (512) 320-1650, 198.3.27.118   
+OH,  Cincinnati,       Cinti Multi-Player Connection, (513) 825-7900, Cinmpc.com     
+OH,  Cincinnati,       Everybody's BBS,   (513) 921-0058,                
+NY,  Massapequa,       Tele-Net Online!,  (516) 579-0050,                
+ON,  Orangeville,      Andromeda BBs,     (519) 941-6741,                
+AZ,  Casa Grande,      THE C.A.G.E.,      (520) 836-7718,                
+OR,  Eugene,           The KEEP Information SVCS, (541) 343-5015, thekeep.net    
+OR,  Eugene,           Shooter,           (541) 461-6175,                
+MS,  Starkville,       The Net BBS,       (601) 320-9605,                
+MS,  Southaven,        Camp Khitomer,     (601) 393-3720,                
+MS,  Gulfport,         The HURRICANE,     (601) 832-8589, diversicomm.com
+BC,  Victoria,         Absolute Anarchy! MPGS BBS, (604) 477-1422,                
+BC,  Vancouver,        Digital Rain,      (604) 543-3000, digital-rain.com
+BC,  Aldergrove,       ION-Interactive Online Networ, (604) 856-0045,                
+NJ,  Marmora,          The A.S.I. Network, (609) 390-3633,                
+NJ,  Wenonah,          The Connection,    (609) 468-9122,                
+PA,  Bethlehem,        The Town Square BBS, (610) 954-7653,                
+MN,  Farmington,       Tundra BBS,        (612) 463-4719,                
+MN,  St. Paul,         Cities 2000,       (612) 644-1141,                
+ON,  Kingston,         The Iron Ring BBS, (613) 384-7277,                
+OH,  Columbus,         CompuTrek,         (614) 338-8400, computrek.org  
+OH,  Worthington,      Heartland Multiline BBS, (614) 846-7669, hrtlnd.net     
+TN,  Clarksville,      Pixelation BBS,    (615) 503-9903,                
+TN,  Mt. Juliet,       The Peek Hole BBS, (615) 758-4288,                
+FM,  Portage,          EifenVille Online, (616) 344-4797,                
+FM,  Grand Rapids,     The Animal House,  (616) 454-4990,                
+FM,  Grand Rapids,     Cyberspace BBS,    (616) 454-7800, cyberspace.grnet.co
+CA,  San Diego,        Pro-Data,          (619) 668-1560, prodata-net.com
+IL,  Bartlett,         The WarRoom BBS,   (630) 372-1417,                
+NV,  Reno,             CenPac Online,     (702) 324-0301,                
+CA,  So. Lake Tahoe,   StarGate BBS,      (702) 588-1916,                
+VA,  Fairfax,          The Netherworld BBS, (703) 383-3280, nwbbs.com      
+NC,  Charlotte,        Odyssey OnLine,    (704) 372-9703, Odonline.com   
+NC,  Mooresville,      Game Room on the Lake BBS, (704) 664-6742, GROTL.COM      
+GA,  Athens,           The Guild BBS,     (706) 548-5519,                
+CA,  Santa Rosa,       The Party Line BBS, (707) 542-3193,                
+IL,  Skokie,           Absolute Pleasure bbs, (708) 677-3369,                
+IL,  Elmhurst,         SmartGate,         (708) 941-1070, SmartGate.Com  
+IA,  Council Bluffs,   The Fusion Generator, (712) 366-1744,                
+TX,  Pasadena,         Destiny BBS,       (713) 472-2299,                
+TX,  Houston,          Pinnacle Entertainment, (713) 530-7365,                
+TX,  Houston,          Paradise Online,   (713) 597-4000, pplnet.com     
+TX,  Houston,          Xciting Systems Online, (713) 943-4000, Xsolis.com     
+CA,  Costa Mesa,       Great Escape!,     (714) 631-5112,                
+CA,  Huntington Beach, REO BBS,           (714) 969-9624,                
+WI,  Marinette,        CyberZone Online,  (715) 735-3742, cybrzn.com     
+NY,  Rochester,        NeoNexus Systems,  (716) 624-8106, bbs.neonexus.com
+PA,  Tunkhannock,      Endless Mountain CyberSPACE, (717) 836-7267, emcyber.com    
+PA,  York,             DOGS BBS,          (717) 854-4242,                
+PA,  Frackville,       The LOOP! BBS,     (717) 874-1928,                
+VA,  Virginia Beach,   Forbidden Playground, (757) 420-7827, vabch.com      
+GA,  Atlanta,          Independence Online, (770) 435-9822, inde.com       
+VT,  So.Burlington,    The CommBat Network, (802) 660-2700,                
+VT,  St. Johnsbury,    The Kingdom Connection, (802) 748-1210, KingCon.com    
+SC,  North Charleston, Carolina Chat,     (803) 764-2428, 205.148.236.2  
+VA,  Richmond,         RichCom,           (804) 648-4252,                
+VA,  Hampton,          Players Alley,     (804) 827-0887,                
+VA,  Charlottesville,  C'ville Online,    (804) 963-4000,                
+VA,  Charlottesville,  The V.I.N.E. Host, (804) 978-7182,                
+CA,  Simi Valley,      The Data Shop,     (805) 526-0609,                
+CA,  Santa Barbara,    Stonehenge,        (805) 563-5700,                
+CA,  Ojai,             Avalanche BBS,     (805) 646-2194,                
+CA,  Ventura,          The Alliance,      (805) 677-1470, alliancebbs.com
+CA,  Lancaster,        Damage Inc.,       (805) 722-5536,                
+CA,  Santa Maria,      Our Little BBS,    (805) 922-7112,                
+CA,  Lancaster,        Dark Tower,        (805) 945-7508,                
+HI,  Honolulu,         Access UNLIMITED,  (808) 739-6150,                
+FM,  Flint,            Termination Station, (810) 341-7529,                
+FM,  Madison Heights,  The Assimilation Station, (810) 541-3700,                
+FL,  Clearwater,       Greaser's Palace,  (813) 462-5351,                
+MO,  Kansas City,      The Dread Caves,   (816) 452-1531,                
+TX,  Stephenville,     PyrOpsyche,        (817) 965-3549,                
+CA,  Los Angeles,      The Info-Tainment BBS, (818) 718-1600, chatrbox.com   
+CA,  Van Nuys,         Brain Toys,        (818) 988-3550,                
+ON,  Ottawa,           ChatCanada,        (819) 246-2093, 207.6.87.1     
+CT,  Hebron,           Diamond Mind,      (860) 228-4976,                
+CT,  Bristol,          Dragon's Star BBS, (860) 314-0717,                
+CT,  West Hartford,    Super Collider Online, (860) 570-2440, collider.com   
+TN,  Jackson,          Jackson Online,    (901) 668-6598, bbs.injackson.com
+TX,  Paris,            NorthEast Texas Online, (903) 784-1213, neto.com       
+FL,  Jacksonville,     Online Games To The MAX, (904) 220-9404,                
+FL,  Molino,           Morpheus III,      (904) 587-3323,                
+FL,  Fort Walton Beach, The Nucleus,       (904) 863-2290, nucleus.atom.com
+FL,  Jacksonville,     Modem Games BBS,   (904) 908-5550, tmgbbs.com     
+FM,  Sault Ste. Marie, InfoBase,          (906) 632-4478,                
+AK,  Ketchikan,        VRA,               (907) 225-4263,                
+AK,  Anchorage,        Lunatic's Asylum,  (907) 274-8645, lunatic.ak.net 
+AK,  Nikiski,          Neighbor to Neighbor BBS, (907) 776-8136,                
+NJ,  Toms River,       CyberComm Online,  (908) 506-7637, cybercomm.net  
+NC,  Castle Hayne,     The Proving Grounds, (910) 675-8400,                
+GA,  Macon,            Online Macon,      (912) 474-8010, 157.151.203.1  
+NY,  Highland,         The Crossroads,    (914) 883-9866,                
+NY,  Fishkill,         The GAME FRAME,    (914) 896-0049,                
+TX,  Midland,          Action Online!,    (915) 520-3150,                
+TX,  Abilene,          Sunset Ranch,      (915) 695-0081, ranchnet.com   
+CA,  Sacramento,       Odyssey Line,      (916) 428-9825, odyline.com    
+CA,  Carmichael,       Planet BOOM BBS,   (916) 971-9103,                
+OK,  Tulsa,            The Electronic Arena, (918) 664-4503,                
+FL,  Sarasota,         Third Wave Communications, (941) 355-7136,                
+FL,  Coral SprinGs,    Land of Dementia,  (954) 755-8869,                
+FL,  Pembroke Park,    The Gaming Center!, (954) 966-6996,                
+TX,  Dallas,           MetroLines,        (972) 437-3322, 206.66.46.2    
+
+International SystemsScotland,          Glasgow,           Mayhem BBS,        +01698-888080,                 
+Australia,         Glen Waverley,     Playnet Pty Ltd,   +03 9574 8088,                 
+Finland,           Helsinki,          GAMENET,           +358 0 831188,                 
+Italy,             Milano,            InfoSquare BBS,    +39-2-8375441,  194.133.1.2    
+Czech Republic,    Prague,            Power BBS,         +422 255-9306,                 
+England,           Manchester,        The Forest BBS 2,  +44 161 950 9600,                
+Costa Rica,        San Jose,          Habitat! BBS,      +506/240-8810,                 
+Brasil,            Teresina,          MNnet BBS,         +55-86-221-1124, mnnet.com.br   
+Malaysia,          Petaling Jaya,     Backroom BBS,      +603-754-1540,                 
+Australia,         Sydney,            Tiga Online,       +61 2 99295800, mpgs.tiga.com.au -
+Australia,         Mount Lawley,      MultiLine Games Machine, +61 9 3701333,  games.multiline.com
+Australia,         Adelaide,          Ace BBS,           +61-8-83578775, ace.net.au     
+Australia,         Perth,             Western Australia Online, +619-321-6616,                 
+Western Samoa,     Apia,              Samnet Online,     +685 24455,                    

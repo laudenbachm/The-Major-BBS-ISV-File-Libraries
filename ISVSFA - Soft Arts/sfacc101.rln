@@ -1,0 +1,868 @@
+Command Center -- Release Notes
+
+  Actcodes are available by submitting your information to us by e-mail to
+  bladerunner@colis.com, by telephone at (809) 922-5201 or (809) 922-5173,
+  or by FAX to (809) 922-9036.  Ensure that you provide us with your e-mail
+  address so that we can transmit the activation code to you when generated.
+
+  You can also contact us by dialing in directly to our BBS, creating an
+  account and leaving e-mail to Sysop or Support, but we do not recommend
+  this because of the long distance charges you will incur.
+
+
+Version 1.01-MBBS 6.25/WG 1/2/WG 3 DOS/WG 3 NT (30 Jul 1997)
+------------------------------------------------------------
+
+A.  BUG FIXES/REPORTS
+=====================
+
+o   The infamous "/p" teleconference bug.  Previously attempting to whisper
+    to a user in teleconference whose User-ID begins with the character "p"
+    would result in Command Center incorrectly interpreting the command as a
+    request to page a user name starting with the character AFTER the "p".
+
+    The correct behaviour in the Teleconference module is now as follows:
+
+    a.   commencing a line with "/px..." where "x" is any character other
+         than a space character and "..." is any additional optional
+         characters will result in Command Center passing on the request to
+         the Teleconference module which will normally interpret this as a
+         whisper command request.
+
+    b.   commencing a line with "/p ..." (i.e., there is a space immediately
+         following the "p" character), will be interpreted by Command
+         Center as a page request if (SYSPAGCC is set to YES), and will be
+         handled by Command Center as such; if SYSPAGCC is set to NO, the
+         Worldgroup Executive will still treat this as a page request and
+         will handle it automatically.
+
+o   The rebuff for paging while invisible was not being displayed correctly,
+    and instead an error message indicating that an invalid command was
+    entered would be displayed.  This behaviour has been corrected and the
+    correct rebuff now displays when a user tries to page while invisible.
+
+o   The =LS (Sysop Listing) was incorrectly displaying the "DAYS REMAINING"
+    field when the field contained a number and not the "N/A" string.  This
+    has been corrected.
+
+
+B.  NEW/REVISED COMMANDS
+========================
+
+Key: [] = required parameter
+     <> = optional parameter
+
+(Usage shown with default commands)
+
+  =AL      : Account Lookup
+
+             The C/S display for this command has been upgraded to display
+             the Tagged for Deletion and Suspended states of each user.
+             These can be viewed as individual checkboxes at the bottom of
+             the Account Display form.
+
+  =EDIT    : Edit a file (A/A only)
+
+             Usage   =EDIT [filename]
+
+             Use this command to edit a new or existing text file.  The
+             standard Galacticomm Full Screen or Line Editor is invoked,
+             depending on the setting of the user's Editor flag.
+
+             If the file name specified on the command line does not exist,
+             a new file is assumed and will be created.
+
+             File names can be specified in absolute or relative form, and
+             will be converted to canonical form before the file is saved.
+
+             Editing requires buffer memory which is allocated on the fly at
+             the start of the operation.  The absolute maximum size of any
+             file which can be edited with this command is 409 lines of
+             80 columns, corresponding to 32721 bytes of allocated memory.
+             For a NEW file, edit will allocate the memory equivalent of
+             the amount of lines specified in the Level 4 CNF EDTLINES
+             option.
+
+             Thereafter, each file opened for edit will allocate the maximum
+             of the existing file space plus twice more or the memory
+             required for the minimum lines specified above, (hence if you
+             run out of space while editing the file, simply save it and
+             re-edit), up to the absolute maximum of 32721 bytes.  This
+             means that files greater than 409 lines will be truncated when
+             they are read into the editor.  This condition is detected
+             automatically and the edit aborted when the Level 4 CNF option
+             EDTFAIL is set to YES (the default).  If you wish to allow the
+             edit to proceed with a truncated file, set EDTFAIL to NO.  Of
+             course a file may be longer than 409 lines if it contains many
+             lines which have less than 80 characters.
+
+             Edit will fail gracefully in the event that memory cannot be
+             allocated for the edit buffer.
+
+             When editing existing files, be aware that the Galacticomm
+             editors expect lines to be no longer than 80 columns, and will
+             wrap lines if this limitation is exceeded. In addition, a file
+             with multiple tabs may require more memory in the Galacticomm
+             editor and will probably be larger when saved since tabs are
+             expanded inline to 5 spaces each when the file is read in, and
+             remain as spaces when the file is saved.
+
+             Subject to the availability of memory, there is no restriction
+             on the amount of users who can use the EDIT command
+             simultaneously.
+
+  =FL      : List Forum Access
+
+             Usage   =FL [Forum name]
+
+             This exceedingly useful command generates a list of all users
+             who have access to a specified forum, showing the access each
+             user has in the forum.
+
+             It is available to every Forum Op or Co-Op for a specific forum
+             (provided of course that they also have the key for the Command
+             itself).  Sysop class users (MASTER key holders) who by
+             definition hold Sysop access to all Forums can also invoke the
+             command.
+
+             The command is cycled to prevent loading the BBS for lists
+             which are extremely long (an example would be the /HELLO forum)
+             on a large system.
+
+             In the MBBS version, Forum names must be entered with a leading
+             "/", whereas in subsequent versions, this is not the case.
+
+  =KU      : Kill User (A/A & C/S)
+
+             Usage   =KU [User-Id] <IMMEDIATE>
+
+             The optional IMMEDIATE modifier will now cause the user's ID
+             record and all associated records for the User-ID in every
+             database in the system to be deleted immediately.
+
+             When you use this option, you cannot use the UT command to
+             un-tag the User-ID before actual deletion at cleanup since the
+             user's record will have been immediately deleted.
+
+             This option is also available in C/S mode by selecting the
+             IMMEDIATE check box in the Delete User dialogue.
+
+             This option should be used with care, as in operation it may
+             load the system and possibly slow down response time for other
+             users.
+
+  =LOCK    : Lock a channel input
+
+             Usage   =LOCK [Channel] [ON|OFF]
+
+             This command locks or unlocks input on a channel.  When used to
+             lock input (ON), the channel remains locked for the duration of
+             the current user's session or until the unlock flavour (OFF) of
+             the command is issued.
+
+             A locked channel will automatically unlock when the user drops
+             carrier.
+
+             Attempting to lock or unlock a channel which is undefined or
+             which is not currently in use produces an error.  Also channels
+             in use by Sysop class users (MASTER key holders) cannot be
+             locked.
+
+  =LU      : List Users
+
+             Usage   =LU <start id>
+
+             This command lists User-Id's on the BBS similar to the SEARCH
+             function in the Remote Sysop menu.  The optional <start id>
+             parameter may be a complete or partial User-ID which will be
+             used to limit the start of the listing.
+
+             On all platforms except MajorBBS, the user listing displays the
+             User-ID and if present, the summary line from the user's
+             Registry entry.  On the MBBS 6.25 platform, only the User-ID is
+             displayed.
+
+             The command is cycled to prevent loading the BBS for long user
+             listings.
+
+  =P       : Page user
+
+             The page user command is now controlled by 2 additional CNF
+             options.
+
+             See the notes for the BUSYPAGE and BUSYNFY Level 4 CNF options
+             below.
+
+  =RL      : Registry Lookup - [DELETE modifier]
+
+             The format of the Registry Lookup command when used with the
+             DELETE modifier has changed.  It is no longer necessary to
+             enclose User-ID's which contain spaces with quotation marks.
+             Remember however, that since the command operates on partial
+             User-ID lookups, that care should be exercised when using the
+             DELETE modifier or you may delete the registry entry for the
+             wrong user-ID!  It is probably safer to always use the exact
+             User-ID when using this modifier.
+
+  =TYPE    : Type a Text File
+
+             A very small cosmetic modification has been added.  The TYPE
+             command now automatically does two <CR's> after completing the
+             listing.
+
+
+C.  CNF OPTION CHANGES
+======================
+
+The following CNF options have been added or changed:
+
+Key: {} = option type 
+     [] = default
+     <> = numeric range
+     () = determined by option setting
+
+  BOMBCHEK : {ENUMERATED} [COMPARE] (PAGEBMBS=YES) COMPARE TIME VOLUME
+                                                   RANDOM
+              This option controls the method by which Command Center
+              senses an act of page bombing or flooding:
+
+                  COMPARE : Compare the last 2 strings transmitted, if
+                            identical (and in the case of a page to the
+                            same user), the test succeeds.
+
+                  TIME    : Check for elapsed time only between sends.  The
+                            time period used is specified in the PAGEBMTM
+                            option.  If 2 pages are sent to the same user in
+                            this time period, or tw messages are transmitted
+                            to Teleconference or Global Chat, the test
+                            succeeds.
+
+                  VOLUME  : Check for volume of characters sent only.  The
+                            maximum value to check for is contained in
+                            option BOMBMAXC.  Is this amount is exceeded
+                            within the time period specified by PAGEBMTM,
+                            the test succeeds.
+
+                  RANDOM  : Cycle between the 3 previous options for each
+                            user.  The cycle time is based on the number of
+                            users logged on and as more users log on to the
+                            system, each user will be cycled less frequently
+                            but each user is guaranteed to have their
+                            sensing method randomly assigned at least every
+                            no. of users - 1 seconds.  Although all users
+                            sensing methods are cycled, the actual bomb and
+                            flood checks are only performed on users who
+                            hold the non-blank key entered in the WATCHEM
+                            Level 4 CNF option.
+
+             In all cases, the offending messages are stubbed and discarded,
+             but bear in mind that because of the high repeat rates possible
+             with modern modems and comm software, inevitably some of the
+             repeats will get through because they get transmitted during
+             the period that Command Center is resetting its internal
+             counters for the user.  This amount however, will be a small
+             fraction of the number of messages which would otherwise have
+             been sent, typically less than 5 per cent.
+
+  BOMBMAXC : {NUMERIC} [200] (PAGEBMBS=YES) <50..10000>
+             This is the maximum number of characters allowed to be
+             transmitted in pages to the same user, Global Chat or
+             Teleconference messages within the number of seconds specified
+             by PAGEBMTM over which the system will assume that an act of
+             page bombing or flooding is currently in progress.
+
+             We suggest a value of no more than 100 characters per second
+             for this option to be effective bearing in mind the high
+             communication rates of modern modems.  Otherwise, set this
+             value to the equivalent of about 2 average lines of
+             Teleconference chat (200 characters).
+
+  BOMBPNSH : {ENUMERATED} [CAUTION] (PAGEBMBS=YES) IGNORE WARN LOCK CAUTION
+                                                   REFLECT KICKOFF KILL
+             This option specifies the action which Command Center takes
+             when it detects that a user has been engaged in an attempt to
+             page bomb or flood (in all cases, the page or message is NOT
+             transmitted) :
+
+                  IGNORE  : This selection simply ignores the offending
+                            transmissions without taking any further action.
+
+                  WARN    : Simply warn the user each time he makes the
+                            attempt.  The warning is contained in Level 6
+                            CNF option BOMBWRNU.
+
+                  LOCK    : Lock the users input channel for the number of
+                            seconds specified in the BMBLOCK option.  The
+                            lock time is persistent so the user cannot
+                            defeat it by hanging up.  If this is done and
+                            the user re-logs before the time has expired,
+                            the message in Level 6 CNF option STILLCKD is
+                            issued and the user's input is once again locked
+                            until the required number of seconds has elapsed
+                            since the time his input was first locked.
+
+                  CAUTION : Warn the user the first time in a session, and
+                            then switch to REFLECT.  The caution message is
+                            contained in Level 6 CNF option BOMBCATN.
+
+                  REFLECT : Send the page or message and a cute message to
+                            the smart-ass who tried to harass other users.
+                            The page or message is sent the number of times
+                            contained in CNF option BMBRFLCT, and during
+                            the period the messages are being transmitted,
+                            the user's input channel is locked to prevent
+                            then from breaking out of the process.  The
+                            trailer message is contained in CNF option
+                            PAGEBOMB.
+
+                            The reflection of the offending page or message
+                            multiple times to the user is cycled in the
+                            normal manner to prevent loading the system and
+                            affecting BBS responsiveness to other users.
+
+                  KICKOFF : Execute the actions in the REFLECT option, and
+                            then boot the user off the system.  In fact,
+                            most users will already have disconnected if the
+                            REFLECT value is set high enough.
+
+                  KILL    : Execute the actions in KICKOFF, and then suspend
+                            the user whether or not he/she is still logged
+                            on.  Note that this suspension is of the regular
+                            kind, i.e. NOT a timed suspension.
+
+             In all cases, an appropriate Audit Trail entry is made logging
+             the offense and action taken.
+
+             The REFLECT option allocates a 1/2 K of memory on the fly for
+             each user it is in the act of punishing.  This memory is
+             released when the required number of reflections have been
+             executed, however if for some reason the memory cannot be
+             allocated, a message will be entered in the Audit Trail to this
+             effect and the user will escape unscathed, although the page or
+             message will still not get through.
+
+  BMBRFLCT : {NUMERIC} [50] (PAGEBMBS=YES) <1..1000>
+             This option sets the number of times that a page bomb or
+             Teleconference flood message is sent back to the offending user
+             as a page.
+
+             The default value of 50 is sufficiently annoying to curtail all
+             but the most determined bombers or flooders, however in the
+             event that you encounter a user who wishes to prove how much
+             he/she can handle, do not be afraid to set this value to the
+             high limit, as the cycled nature of the reflections will ensure
+             that the only one who ends up waiting is the user getting the
+             reflected messages, and not other users on your system.
+
+             When users use scripts to execute page bombing or floods, the
+             scripts themselves are usually free running and have to be
+             stopped manually by the user.  This means that a tremendous
+             amounts of reflected messages can stack up in a very short time
+             which the user will be unable to break out of short of actually
+             hitting the big red switch on either the computer or the modem.
+             In addition the user's input channel is locked during the
+             reflections, thereby denying them any opportunity of breaking
+             out of the loop they have themselves set up!
+
+  BSYLOGON : {BOOLEAN} [YES] NO
+             Set this option to YES to have user's whose BUSY flag is set
+             notified with a warning message at Logon.  Set to NO for no
+             notification to be given to users about the state of their
+             BUSY flag.
+
+  BUSYNFY  : {BOOLEAN} [YES] NO
+             This option determines whether a user whose BUSY flag is set is
+             notified with a warning message after issuing each page.  YES
+             will cause a warning message to be displayed reminding the user
+             that their busy flag is engaged, but not where the user being
+             paged is a Sysop class user (MASTER key holder).  NO will
+             inhibit this warning message.
+
+  BUSYPAGE : {STRING} [NORMAL]
+             This option contains a key to allow holders to page other users
+             while their own BUSY flag is on.  An empty key will prevent all
+             except Sysop class user (MASTER key holders) from paging other
+             users while their own BUSY flag is on.
+
+             To have Sysop class users check explicitly checked for this
+             key, enter a non-null key and prepend it with the "*"
+             character.
+
+  BUSYSET  : {BOOLEAN} [YES] NO
+             This option controls whether Command Center watches the BUSY
+             flag setting of each user and keeps the users BUSY flag set ON
+             if the setting was made with the Command Center Toggle Busy
+             command.
+
+             Several modules in MajorBBS/Worldgroup change the state of a
+             user's BUSY flag and also fail to reset it to its previous
+             state when completed.  This check ensures that a user's BUSY
+             flag will remain as requested by the use of the Toggle Busy
+             command.
+
+             Set to YES to have Command Center continually refresh the state
+             of the users' BUSY flags.  If you have other modules which
+             require that this check not be performed in order to function
+             properly, set this option to NO.
+
+             Note that this setting and its control is completely
+             independent of the module Auto-Busy function, and even with
+             this option set to NO, the module Auto-Busy may still insist
+             on keeping a user's BUSY flag ON while the user is in that
+             module.
+
+  NULLCHAT : {BOOLEAN} [NO] YES
+             Answer YES if you want empty global chat lines to be
+             transmitted on the chat channel.  All users on the channel will
+             be notified of a chat message which will contain no text.
+
+             Answer NO to prevent empty chat lines from being sent on the
+             chat channel.  The user transmitting the empty line will not
+             receive an error, the line will simply be ignored.
+
+  PAGEBMBS : {BOOLEAN} [YES] NO
+             This option controls the detection of "page bombs" or "floods"
+             by users on the BBS.  It arose because in running our own
+             system, we were continually frustrated by the problem users who
+             harassed and annoyed other users with floods in Teleconference
+             and Global Chat and with multiple pages to prevent them from
+             playing games properly etc., (our system has a high proportion
+             of under 15's).
+
+             All of the standard methods of prevention failed usually
+             because these would either deprive legitimate users of a
+             facility or were just incapable of handling the problem.  For
+             instance, we used a commercial module to allow users to
+             selectively specify users who they would not receive pages
+             from, however unless the size of the list allowed was
+             unreasonably large, users could always beat this because our
+             system allows legitimate duplicate accounts, and in addition
+             that product could not control the Teleconference or Global
+             Chat problem since those messages are essentially
+             non-directional and are exposed to the entire channel.
+
+             Of course a user could defeat page bombing entirely by turning
+             ON their BUSY flag, at the cost of depriving themselves of all
+             pages, including legitimate ones.
+
+             Similarly, to control pages we tried adjusting the PAGINT Level
+             4 CNF option, but this affected our (Sysops) ability to page
+             and in addition, smart users simply wrote scripts which paused
+             for the required amount of time and then resent the pages
+             endlessly, as well as the fact that this option has no way of
+             recognizing that the same page or messages is being transmitted
+             multiple times.
+
+             The PAGEBMBS CNF option and its associated control options will
+             provide some of the answers for this kind of problem.
+             Essentially what this option does when engaged (set to YES) is
+             to watch each page, Teleconference message and Global Chat
+             message sent by every user.
+
+             In the case of a page, if it detects that the page is exactly
+             the same as the page previously sent and also to the same user,
+             and is sent within a threshold number of seconds specified in
+             the PAGEBMTM option, the module kicks in with a response
+             specified in the BOMBPNSH option.
+
+             In the case of a Teleconference or Global Chat message, the
+             check is simpler since no User-Id is involved.  If the message
+             being sent is exactly the same as the previously sent message
+             and is sent within the threshold period, it is considered to be
+             a "flood", and the action specified in BOMBPNSH is executed.
+             Since blank lines entered in teleconference do not echo, these
+             will not be considered as an action on the user's part, however
+             if Level 4 CNF option NULLCHAT set to YES, blank lines entered
+             in Global Chat will be considered as transmitted messages and
+             will make the user eligible for detection.
+
+             If a user is paged with a blank message, this will be
+             considered an actual page and repeating this action within the
+             PAGEBMTM threshold time will cause Command Center to sense the
+             action as page bombing.
+
+             In all cases, the offending page or message is not transmitted
+             to the user, Teleconference or Global Chat channel it was
+             directed towards.
+
+             See the PAGEBMTM, BOMBPNSH, and BMBRFLCT options for further
+             detail on how this option functions.
+
+  PAGEBMTM : {NUMERIC} [3] (PAGEBMBS=YES) <1..30>
+             This option sets the time in seconds between identical pages or
+             Teleconference or Global Chat messages for Command Center to
+             recognize the consecutive entries as an act of page bombing or
+             flooding.  Our testing has revealed that under normal
+             circumstances, a page, Teleconference or Global Chat message is
+             sent at frequencies higher than 3 seconds, which is the default
+             value for this option.
+
+             Users can still get around the limitation by scripts which
+             pause long enough to satisfy the PAGBMTM threshold, but the
+             effectiveness of this delay in controlling potential abusers is
+             quite high simply because having to wait several seconds
+             between each page or message removes most of the perceived
+             value of the action of bombing or flooding.
+
+  SYSRSTTM : {BOOLEAN} [YES] (INVMSG=YES) NO
+             When the INVMSG option is set to YES and a Sysop class user
+             toggles their invisibility back to OFF, a logon message will be
+             issued to all users having the capacity to receive logon
+             messages.  In these circumstances, you may wish to have the
+             Sysop class user's on-line time zeroed so that it is not
+             obvious to observant users that they have been on-line while
+             invisible.
+
+             Set this option to YES to have the on-line time reset to zero
+             minutes each time the invisibility status is toggled to OFF,
+             but ONLY IF the INVMSG option is set to YES.  Set to NO to
+             allow the on-line time to remain unchanged in any event.
+
+  UNLSTG   : {STRING} [UNLM]
+             Contains the string returned by text variable OTHDYS to
+             describe the days remaining for users whose class is not
+             limited by days.  Previously the hard-coded string "UNLM" was
+             returned.
+
+  WATCHEM  : {STRING} [WATCHEM]
+             Contains the key to be assigned to users who you wish the
+             system to monitor for page bombing and/or flooding.  Users not
+             possessing this key will never be checked.  Sysop class users
+             (MASTER key holders) are exempt from checking even if this key
+             is explicitly assigned to them.
+
+
+D.  TEXT VARIABLES
+==================
+
+The following text variables have been added and/or changed:
+
+(Note: the full name of the text variable includes the prefix of "SFACC_").
+
+  OTHCON   : Returns the current credit consumption rate of a user.
+
+  OTHDYS   : Now returns the phrase entered in Level 4 CNF option UNLSTG for
+             users whose class is not limited by days instead of the hard-
+             coded string "UNLM".
+
+  OTHMNU   : Returns the current menu location description of a user.  For
+             instance, in modules like HOTELeconference which set the menu
+             location to the room name, replacing the OTHLOC text variable
+             in the USL2TMP, USL3TMP, or USL4TMP text blocks would display
+             the room name for the user's location in the user list.
+
+             In the event that there is no menu title description, OTHLOC is
+             returned.
+
+  OTHSUS   : Returns the number of times a user has been suspended.
+
+
+E.  ADDITIONAL NOTES
+====================
+
+o   Internal Change:  MBBS/Worldgroup systems accept keys from 3 to 15
+    characters in length.  Unfortunately this fact is not always readily
+    apparent to Sysops, and it was brought to our attention very recently
+    that a situation existed where a key was entered in a level 4 CNF option
+    in another one of our modules which was only 2 characters long.
+    Needless to say, the key didn't work!
+
+    The problem is compounded by the fact that although the developer can
+    set the maximum key length in the Level 4 CNF option specification, the
+    minimum length has to remain zero, since NULL keys are perfectly
+    acceptable.  Of course what really is needed in the CNF is something
+    like:
+
+         (min keylength <= keylength <= max keylength) OR (key = NULL)
+
+    We have now added code checks to the initialization routines in Command
+    Center to prevent this situation from occurring here.  That is, if a
+    key is found to be entered as non-NUll but less than 3 characters,
+    Command Center will generate a Catastro during the initialization phase
+    of the system, thereby ensuring that the error is caught before the BBS
+    is brought up.  The Catastro error message will specify by name the
+    offending option which you can identify by either searching in the
+    SFACC.H file or directly in the MSG file.
+
+o   Reminder:  Some Sysops have experienced problems with the "Calling from"
+    field in the =U2 On-Line User Listing because not all users want any
+    part of their address to display for other users to see.
+
+    There are at least 2 solutions available right now to this problem:
+
+    a. Inform the users that they can edit their Account record in Account
+       Display/Edit and change the Address Line 2 field either to empty or
+       perhaps to some value for display purposes only, (btw, the Address
+       Line 2 field is actually the Address 3 field in the database, this is
+       because Address 1 in the database is used for Company Name).  For
+       example, typically this writer's Calling from field displays "Da
+       office ...", or some such pithy calling card!  The down side to this
+       method is that it leaves only 2 lines for entering valid address
+       information for the user.
+
+    b. Manually edit the templates for the =U2 listing and simply remove the
+       last Text Variable in each template or change it some other string or
+       Text Variable.  If you choose to do this, bear in mind that there are
+       2 templates, USL2TMP and USL2ITMP in Level 6 CNF (Text Blocks), the
+       second one being for the Invisible User listing line.  Remove or
+       replace the last Text Variable, SFACC_OTHADR3 from both of these
+       templates.
+
+    Another possible solution would be for us to add a configuration switch
+    similar to the Age Display toggle for the user to control the display of
+    the Text Variable SFACC_OTHADR3, and display something like an "N/A"
+    string if the display is toggled OFF.  We are looking at the possibility
+    of adding such a switch but we are collecting more feedback first about
+    the best way to implement this feature and therefore offer the above
+    solutions in the interim.
+
+o   Command Center now has its own List Server courtesy of Don Hunter, Sysop
+    at followme.com.  The address is ccenter@followme.com.  This server will
+    host an unmoderated discussion on all matters relating to Command Center
+    such as bugs, requests for upgrades, etc.
+
+    To subscribe, send email to the above address with a Topic line only of
+    SUBSCRIBE and a blank message body.  We welcome your participation in
+    this discussion forum.
+
+    Thanks to Don and his crew at followme.com for providing these
+    facilities for us.
+
+o   We've added features to Command Center at an extremely rapid rate since
+    acquiring the module.  While this is a good thing in general, its
+    probably time for us to stop and take stock of what the module really
+    needs now to develop properly and to provide the best value for its
+    users in the future.  What we'd like to do now is to sift our wish list
+    as well as those of our users to ensure that we're adding quality
+    features that will see the highest utilization possible from our
+    existing users while providing a clear cut purchasing advantage for
+    potential buyers.  We need your help to do this since you users have
+    always been better than developers at specifying the correct feature set
+    of any piece of software.  We invite you to use the list server to
+    communicate your ideas in this regards, what you think should be added,
+    changed, what you like, don't like, etc.
+
+
+Soft Arts Ltd.
+66 & 68 Barry Street
+1st Floor
+Kingston
+Jamaica, W.I.
+
+Tel.#s : (809) 922-5201/5173 Voice
+         (809) 922-9036      Fax
+         (809) 922-7990      BBS
+
+E-mail us with comments, suggestions, etc. at-
+    bladerunner@colis.com
+
+(end of release notes)
+
+NOTICE
+============================================================================
+SOFT ARTS Software License Agreement for Command Center
+
+IMPORTANT - READ CAREFULLY:  PROCEEDING WITH INSTALLATION INDICATES YOUR
+ACCEPTANCE OF THE TERMS AND CONDITIONS DESCRIBED HEREIN.  IF YOU DO NOT
+AGREE WITH THEM, DISCONTINUE THE INSTALLATION RETURN THE ENTIRE PRODUCT
+WITHIN 30 DAYS OF THE ORIGINAL DATE OF PURCHASE AND THE PRICE OF THE
+PRODUCT WILL BE REFUNDED TO YOU.
+
+COPYRIGHT
+
+SOFT ARTS LTD. provides this Software and licenses its use throughout the
+world.  You assume responsibility for the selection of the Software to
+achieve your intended results, and for the installation, use, and results
+obtained from the Software.
+
+Command Center and accompanying documentation is copyright (c) 1997 by Soft
+Arts Ltd., hereinafter referred to as Soft Arts. All rights to Command
+Center are reserved by Soft Arts.  You must keep the program in strict
+confidence and treat it like any other copyrighted material. You may not
+copy any written materials accompanying the software program.
+
+
+DEFINITIONS
+
+SOFT ARTS shall be taken as referring to SOFT ARTS LTD.
+
+"You" and "your" shall be taken as referring to the person
+or business entity who purchased this License to use this
+Software or for whom such License was purchased.
+
+"Software" shall be taken as referring to the files on the
+supplied media and to any and all copies, updates,
+modifications, functionally-equivalent derivatives, or any
+parts or portions thereof.
+
+"Run-Time Access" shall be taken as referring to a
+connection that allows the exchange of data between two or
+more computers.
+
+"Live Computer" shall be taken as referring to a single
+computer connected with communications hardware providing
+Run-Time Access to this Software.
+
+"Development Computer" shall be taken as referring to a
+single computer upon which a copy of this Software may be
+installed for configuration and development purposes, not
+providing Run-Time Access to this Software.
+
+"Client Software" shall be taken as referring to the
+program(s) that can be generated with this Software to give
+other computers Run-Time Access to your Live Computer in a
+Windows client/server mode.
+
+"License count" shall be taken as referring to the maximum
+number of Run-Time connections which are authorized to use
+the Software at any one instant, and which has been
+purchased by you.
+
+
+LICENSE
+
+You may:
+
+1.   install and use one copy of this Software on a single
+     Live Computer; you may also install and use one copy
+     of this Software on a single Development Computer.
+
+2.   copy this Software into machine-readable or printed
+     form, for backup or archival purposes in support of
+     your use of this Software.
+
+3.   provide Run-Time Access to this Software on your
+     single Live Computer to up to the number of machines
+     specified in your Licence count at a time; said other
+     machines need not, and must not, be provided with
+     copies of this Software in order to obtain said
+     Run-Time Access.
+
+4.   freely distribute the Client Software either
+     electronically or on diskette(s), CD-ROM(s) or
+     tape(s).
+
+5.   transfer this Software and license to another party
+     if the other party agrees to accept the terms and
+     conditions of this Agreement, and only after paying
+     any licence transfer fee requested by Soft Arts.
+     Please contact Soft Arts to complete a license
+     transfer.  Your use of the software deems your
+     acceptance of this license and warranty and the terms
+     herein.  If the enclosed Software is an update, any
+     transfer must include the update and all prior
+     versions.  If you transfer the Software, you must at
+     the same time either transfer all copies, whether in
+     machine-readable form, to the same party, or destroy
+     any copies not transferred.
+
+YOU MAY NOT USE, COPY, MODIFY, OR TRANSFER THIS SOFTWARE, OR
+ANY COPY, MODIFICATION, OR MERGED PORTION, IN WHOLE OR IN
+PART, EXCEPT AS EXPRESSLY PROVIDED FOR IN THIS LICENSE, OR
+IN AMENDMENTS SIGNED BY AN OFFICER OF SOFT ARTS LTD. IF YOU
+TRANSFER POSSESSION OF ANY COPY OF THIS SOFTWARE, OR ANY
+FUNCTIONALLY-EQUIVALENT DERIVATIVE, OR ANY PORTION OR
+MODIFICATION THEREOF, TO ANOTHER PARTY, YOUR LICENSE IS
+AUTOMATICALLY TERMINATED.
+
+
+TERM
+
+This license is effective until terminated.  You may
+terminate it at any time by destroying all copies of the
+Software covered by this Agreement.  It will also terminate
+upon conditions set forth elsewhere in this Agreement or if
+you fail to comply with any term or condition of this
+Agreement.  You agree upon such termination to destroy this
+Software, including all copies, functionally-equivalent
+derivatives, and all portions and modifications thereof in
+any form.
+
+
+LIMITED WARRANTY
+
+THIS SOFTWARE, INCLUDING CLIENT SOFTWARE, IS PROVIDED "AS IS", WITHOUT
+WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF
+THE SOFTWARE IS WITH YOU.  SHOULD THE SOFTWARE PROVE DEFECTIVE, YOU (NOT
+SOFT ARTS LTD.) ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR,
+OR CORRECTION.
+
+SOFT ARTS does not warrant that the functions contained in this Software
+will meet your requirements or that the operation of this Software will be
+uninterrupted or error-free.  However, SOFT ARTS does warrant the media on
+which the Software is furnished to be free from defects in materials and
+workmanship under normal use for a period of thirty (30) days from the date
+of delivery to you.
+
+YOU THE USER UNDERSTAND AND ACCEPT THAT COMPUTER PROGRAMS BY THEIR VERY
+NATURE CANNOT BE GUARANTEED TO BE 100 PER CENT ACCURATE, OR FREE FROM FLAWS
+IN DESIGN OR OPERATION, OR FROM INCOMPATIBILITIES WITH OTHER SOFTWARE,
+HARDWARE AND/OR OPERATING SYSTEM PLATFORMS.  SOFT ARTS DOES NOT WARRANT,
+REPRESENT, OR GUARANTEE THAT ALL PROBLEMS WILL BE CORRECTED OR THAT ANY
+UPDATES WILL BE COMPATIBLE WITH PREVIOUS VERSIONS OF COMMAND CENTER.
+EXCEPT AS EXPRESSED ABOVE, SOFT ARTS DISCLAIMS ALL WARRANTIES, EXPRESSED AND
+IMPLIED, TO THE PRODUCT, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE, AND SOFT ARTS DISCLAIMS ALL
+OBLIGATIONS AND LIABILITY ON SOFT ART'S PART OR ON THE PART OF ANY OF ITS
+OWNERS, DIRECTORS, MANAGERS, SERVANTS, AGENTS AND/OR EMPLOYEES FOR DAMAGES,
+INCLUDING BUT NOT LIMITED TO SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES IN
+CONNECTION WITH USE OF THE PRODUCT, WHETHER OR NOT SOFT ARTS HAS BEEN
+ADVISED OF THE POSSIBILITY THEREOF.
+
+
+LIMITATION OF REMEDIES
+
+The entire and exclusive liability and remedy for breach of this Limited
+Warranty shall be limited to replacement of defective diskette(s) or
+documentation and shall not include or extend to any claim for or right to
+recover any other damages, including but not limited to, loss of profit,
+data, or use of the software, or special, incidental, or consequential
+damages or other similar claims, even if Soft Arts has been specifically
+advised of the possibility of such damages. In no event shall Soft Art's
+liability for any damages to you or any other person ever exceed the lower
+of suggested list price or actual price paid for the license to use the
+software, regardless of any form of the claim.
+
+SOFT ARTS's entire liability and your exclusive remedy shall be:
+
+a.   the replacement of any media not meeting SOFT ARTS's
+     "Limited Warranty" and which is returned to SOFT ARTS, or
+
+b.   if SOFT ARTS is unable to deliver replacement media
+     which is free of defects in materials or workmanship,
+     you may terminate this Agreement by returning this
+     Software and your money will be refunded.
+
+IN NO EVENT WILL SOFT ARTS BE LIABLE TO YOU FOR ANY DAMAGES, INCLUDING ANY
+LOST PROFITS, LOST SAVINGS, DATA, OR USE OF THE SOFTWARE, OR SPECIAL,
+INCIDENTAL, OR CONSEQUENTIAL DAMAGES OR OTHER INCIDENTAL OR CONSEQUENTIAL
+DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THIS SOFTWARE EVEN IF
+SOFT ARTS OR ITS AUTHORIZED REPRESENTATIVE HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES, OR FOR ANY CLAIM BY ANY OTHER PARTY. IN NO
+EVENT SHALL SOFT ART's LIABILITY FOR ANY DAMAGES TO YOU OR ANY OTHER PERSON
+EVER EXCEED THE LOWER OF SUGGESTED LIST PRICE OR ACTUAL PRICE PAID FOR THE
+LICENCE TO USE THE SOFTWARE, REGARDLESS OF ANY FORM OF THE CLAIM.
+
+
+GENERAL
+
+You may not sub-license, assign, or otherwise transfer this License or
+Software except as expressly provided in this Agreement.  Any attempt to
+otherwise sublicense, assign, or transfer any of the rights, duties or
+obligations hereunder is expressly prohibited and will terminate this
+Agreement.
+
+This Agreement will be governed by the laws of Jamaica.
+
+All Agreements covering this Software (including but not limited to any and
+all updates, upgrades, and enhancements to this Software or any portion
+thereof, bearing the same registration number) shall be deemed to be
+counterparts of one and the same License Agreement instrument.
+
+YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT, AND AGREE
+TO BE BOUND BY ITS TERMS AND CONDITIONS.  YOU FURTHER AGREE THAT IT IS THE
+COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT BETWEEN US, WHICH
+SUPERSEDES ANY PROPOSAL OR PRIOR AGREEMENT, ORAL OR WRITTEN, AND ANY OTHER
+COMMUNICATIONS BETWEEN US RELATING TO THE SUBJECT MATTER OF THIS AGREEMENT.

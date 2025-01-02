@@ -1,0 +1,171 @@
+
+                      INTRODUCING VIRCOM'S
+                   PPP MODULE FOR MAJORTCP/IP
+
+
+FOR IMMEDIATE RELEASE
+
+Thursday, January 18, 1996
+
+(Montreal, Quebec, Canada)  Vircom Inc., makers of the
+MajorTCP/IP Internet connectivity solution and of the Distributed
+MajorBBS Architecture (DMA) lines of products for The MajorBBS
+and Worldgroup platforms, is announcing the introduction of a PPP
+pass-through server and a PPP dialler for its MajorTCP/IP
+products.  The notable features of this new module include:
+
+
+PPP PASS-THROUGH SERVER
+
+. Performance Optimization:  Support for Address Compression,
+  Protocol Compression and Van Jacobson Header Compression,
+  optimizing data throughput.
+
+. PPP smart-sensing:  Vircom's PPP server automatically
+  recognizes, in the auto-sensing phase, that the caller is using a
+  PPP stack.  The channel is immediately switched into PPP mode,
+  without any command prompt.  This completly eliminates complex
+  and customized login scripts, greatly simplifying the end user's
+  setup.  The logon process becomes as simple as connecting to any
+  I.S.P.'s terminal server.
+
+. PPP Authentication Protocol (PAP):  Most PPP stacks your
+  clients might be using support PAP.  Used with the PPP smart-
+  sensing, this makes the end-user setup an amazingly simple task,
+  significantly reducing your technical support requirements.  The
+  PPP server logs the user in ghosting mode.  This allows your
+  client to "telnet" back to your BBS, either in client/server or
+  terminal mode, while concurrently using any other TCP/IP clients,
+  such as a WWW browser, or a graphical IRC client.
+
+. IP Address Negotiation:  With this option, the caller
+  doesn't need to know anything about IP addresses, and where to
+  enter them.  No matter what gets entered in the IP address field
+  of the caller's stack, it will be overridden by this automatic
+  negotiation.  This option works without any kind of scripting on
+  the end-user's PC, again reducing your technical support.
+
+. Primary DNS Address Negotiation:  Microsoft published a new
+  standard in December `95 to support the automatic negotiation of
+  the primary name server IP address.  Much like the above IP
+  address negotiation, this automatic negotiation takes the user
+  one step farther from the technical aspect of connecting to the
+  Internet.  Since the standard is so recent, few stacks are
+  supporting this feature.  It has been tested with Windows 95's
+  dialup networking and Windows NT.
+
+. New Pass-through SLIP/CSLIP/PPP Server features:  Since pass-
+  through users are "ghosted" on the system, new features were
+  introduced to improve the security and efficiency of the BBS.
+  The system operator can now restrict who is able to telnet back
+  into the system, and restrict such telnets to coming only from
+  the address assigned by the pass-through server, preventing
+  multiple people from using the same account concurrently.  Credit
+  consumption rates for the second telnet can also be customized
+  for your business' needs.
+
+
+PPP DIALLER (to Internet Service Provider)
+
+. PPP Authentication Protocol (PAP):  This feature is also
+  supported in the PPP dialler, removing the need for any script to
+  connect to your Internet Service Provider (I.S.P.).  UserID and
+  Password information is entered in CNF fields.  If the I.S.P.
+  doesn't support this feature, the traditionnal login script can
+  be used instead.
+
+. Addresses negotiation:  The IP and DNS addresses negotiation
+  is also supported in the PPP dialler.  This means that your BBS
+  can now use a dynamic IP address, although this will essentially
+  prevent anyone from reaching your BBS.  (Imagine how easy it
+  would be to reach someone randomly changing phone number.)
+
+. New SLIP/CSLIP/PPP Dialler features:  To avoid
+  disconnections of the BBS' link to the Internet, due to the ISP's
+  inactivity hangup, a "keep alive" CNF option was added.  It
+  allows the system operator to configure a time interval, in
+  seconds, to generate activity on the Internet link by pinging the
+  BBS' primary DNS server.
+
+. Current Dialler featrures supported:  All the current
+  features of the internal SLIP/CSLIP dialler are also supported
+  with PPP.  They include redialling the I.S.P. when the connection
+  goes down and use of the scripting language to establish the
+  connection.
+
+
+BOTTOM LINE
+
+The latest PPP standards supported in Vircom's new PPP module can
+contribute significantly toward decreasing your business'
+operating costs and give you more time to expand your market
+share.  Vircom's no non-sense PPP implementation had one goal in
+mind: make Internet connectivity as simple as possible.  How well
+have we done?  A Windows `95 user has no login script to set up
+and only three information to enter to connect to your system:
+
+  1. BBS phone number
+  2. User ID
+  3. Password
+
+We consider the above features essential to any sound PPP
+offering for the Worldgroup platform.
+
+
+AVAILABILITY AND PRICING
+
+The production release of MajorTCP/IP version 1.85, which will
+include the PPP module, will start shipping on January 29, `96.
+
+Current MajorTCP/IP clients will be able to download the
+production release, either from our distributor's or Vircom's
+support BBS, on that day.  The upgrade is free.  A public beta
+release will be available for download, from Vircom's support
+BBS, before then.
+
+New clients may order the software from any of our fine
+distributors below (or other unlisted resellers).  The PPP module
+is available only in the combo release of MajorTCP/IP, priced at
+$700 USD, with the following highlights:
+
+   . Up to 256 TCP Sessions
+   . RLogin & TELNET (Incoming & Outgoing)
+   . DMA v2.1 Client
+   . Finger Client and Server
+   . Finger Information Server
+   . WWW Server
+   . FTP Client
+   . IRC Client
+   . IDENT Client and Server
+   . NNTP Newsgroups
+   . SMTP Emails
+   . POP3 Server
+   . Passthrough SLIP/CSLIP/PPP Server
+   . SLIP/CSLIP/PPP Dialler (to Internet Service Provider)
+
+
+VIRCOM'S SUPPORT BBS
+
+     28.8Kbps modem pool             (514) 687-2210
+     Telnet                          gm.gamemaster.qc.ca
+
+
+VIRCOM'S DISTRIBUTORS
+
+     Digital Consulting Services     (800) 899-2002
+     Tessier Technologies            (800) 473-3177
+     High Velocity Software, Inc.    (800) 572-5582
+     Datasafe Publications, Inc.     (800) 870-0004
+     Sirius Software                 (307) 237-0065
+     Logicom, Inc.                   (800) 764-4266
+     ProDesign, Inc.                 (505) 271-5858
+
+
+
+Vircom can be reached at:
+
+     Telephone                       (514) 990-2532
+     Fax                             (514) 681-3751
+     MajorNet                        MajorTCPIP@GMS
+     Internet                        majortcpip@vircom.com
+

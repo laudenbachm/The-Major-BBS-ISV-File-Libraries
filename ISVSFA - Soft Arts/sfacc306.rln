@@ -1,0 +1,598 @@
+Command Center -- Release Notes
+
+  Actcodes are available by submitting your information to us by e-mail to
+  bladerunner@colis.com, by telephone at (809) 922-5201 or (809) 922-5173,
+  or by FAX to (809) 922-9036.  Ensure that you provide us with your e-mail
+  address so that we can transmit the activation code to you when generated.
+
+  For information on upgrading to WG 3 versions, download PRICES.TXT from
+  the ISVSFA file library on the Galacticomm Demo System(demosys.gcomm.com).
+
+  You can also contact us by dialing in directly to our BBS, creating an
+  account and leaving e-mail to Sysop or Support, but we do not recommend
+  this because of the long distance charges you will incur.
+
+
+
+Version 3.06-MBBS 6.25/WG 1/2 (01 Jun 1997)
+-------------------------------------------
+
+A.  BUG FIXES/REPORTS
+=====================
+
+o   A problem was discovered where use of Command Center's =REN command in
+    conjunction with certain other Global Command handlers could cause
+    occasional and unpredictable CATASTROS.
+
+    This condition was discovered just after V.3.05 was released, (the same
+    day in fact), and was corrected immediately and the distro file changed
+    to include the corrected DLL.  If you obtained V.3.05 after 05/14/97,
+    you would not be affected by this problem.
+
+o   The UNBUSY command would only reset the user's BUSY flag for OFF-LINE
+    users, i.e. it had no effect on the setting of the target users BUSY
+    flag if that user was on-line when the command was executed.  This has
+    been corrected and the command now correctly immediately switches the
+    user's BUSY flag to OFF if he/she is on-line when the command is
+    executed.
+
+o   The DIR command would not reprompt users whose BUSY flag was set ON if
+    the directory listing was long enough to force the command to cycle.
+    The problem would not occur with short directory listings or whenever
+    the user's BUSY flag was set to OFF.
+
+    This has been corrected.
+
+
+B.  NEW/REVISED COMMANDS
+========================
+
+Key: [] = required parameter
+     <> = optional parameter
+
+(Usage shown with default commands)
+
+  =BN      : Busy User Notification
+
+             Usage   =BN <option>
+
+             Where:  option is any one of the following:
+
+                          NONE   - No notification.
+                          ASK    - Ask if user should be added to notify
+                                   list.
+                          AUTO   - Add busy user to notify list
+                                   automatically.
+                          MAIL   - Send page message to user by telegram.
+                          LIST   - Display the entries on the notify list.
+                          CLEAR  - Clear all entries from the notify list.
+
+             This command allows users to set the action to be taken when
+             they page another user whose BUSY flag is currently ON.
+
+             If no command option is entered, the current setting of busy
+             user notification is displayed.
+
+             NONE turns off busy user notification and causes no action to
+             be taken when a page is sent to a user whose BUSY flag is ON.
+
+             ASK prompts the user sending the page to add the busy user to
+             the list of users the sender will be notified about when they
+             become available for paging.
+
+             AUTO adds the busy user to the sender's notification list
+             without prompting.
+
+             MAIL sends the page message by telegram to the busy user.
+
+             LIST provides a report of those users currently on a user's
+             notify list.
+
+             CLEAR removes all current entries from the notify list.
+
+             Notification will take place only after a <CR> entry which is
+             when a new page message can be entered, and which scheme also
+             provides minimum loading on the BBS.  Notification will not
+             take place if the user is in a module which takes over
+             input completely, e.g., Teleconference Chat mode.
+
+             Note that a user is removed from all notify lists when they
+             log off the system.
+
+  =CLS     : Clear ANSI terminal screen
+
+             Usage  =CLS
+
+             This command clears the screen of an ANSI terminal user by
+             issuing the appropriate ANSI construct for that purpose.
+             Non-ANSI terminals cause the command to take no action at all.
+
+  =DIR     : Directory Listing
+
+             The following switches are now supported by the DIR command and
+             function similarly to their equivalent DOS counterparts:
+
+                          /L = Lowercase listing
+                          /B = Bare listing (no header or footer)
+                          /W = Wide listing
+
+  =FNAM    : Rename a file
+
+             Usage: =FNAM [filename1] [filename2]
+
+             Where: filename= the path specification for the file to be
+                              renamed.
+
+                    filename= the new name for filename1.
+
+             Like its DOS counterpart, you are not allowed to enter a path
+             specification in filename since a renamed file must continue to
+             reside in the same location.
+
+             Wildcards are not permitted in any of the filenames.
+
+             If the file being renamed is in use as a source or destination
+             file of any DOS command issued from Command Center or a Remote
+             Sysop function, the rename will not proceed.
+
+  =LT      : List suspensions
+
+             Usage: =LT
+
+             This command simply generates a listing of the currently active
+             timed suspensions.  It is necessary as a separate command since
+             the first parameter entered after the Suspend User command must
+             be presumed to be a User-ID and therefore no command word would
+             be suitable for this command.
+
+             Only timed suspensions are listed.   Suspensions generated from
+             the Remote Sysop menu or without using any of the timed options
+             are ignored. When a suspension expires, either by being cleared
+             by a Sysop, or by the user logging on after the expiration time
+             has been reached, the suspension will not be listed.
+
+             Currently, this command does not CYCLE during the listing, as
+             it does not appear at this time that the size of this listing
+             in most normal cases will warrant cycle-mediation of the report
+             since the number of suspensions active at any one time is
+             usually quite small.  If it becomes apparent that this feature
+             is necessary, the required logic will be added to a later
+             revision.
+
+  =PW      : Change password
+
+             Usage:  =PW <User-Id>
+
+             Where:  User-Id  = Any valid User-ID name in the system whether
+                                currently logged on or not.
+
+             Use this command to change your password or optionally for
+             MASTER key holders, another user's password.
+
+             Successful password entry requires entering the same string
+             twice at the prompts, and the new password must conform to the
+             following rules:
+
+                 1.  The new password must be entered exactly the same
+                     twice (note however that case is irrelevant);
+
+                 2.  The new password must be different from the existing
+                     password;
+
+                 2.  The new password must comply with the server rules
+                     concerning passwords, therefore if the SAFPSW CNF
+                     option is set to NO, entering the User-ID or the string
+                     "PASSWORD" will generate an error.  MASTER key holders
+                     are exempt from this rule and in addition, the MBBS
+                     6.25 version enforces the rule for non-MASTER key
+                     users irrespective of the setting of SAFPSW.
+
+             When a Sysop class user changes the password of another user,
+             either an on-line message or a telegram is generated to advise
+             the user as appropriate.  If the user's BUSY flag is OFF, an
+             online message is sent, otherwise a telegram will be used. When
+             a telegram is sent, the user will be warned before logging off
+             that an unread telegram exists and given the opportunity to
+             cancel the logoff in order to read the system telegram.
+
+             A telegram is sent to off-line users as this would be pointless
+             considering that the mail could not be read until after logging
+             in with the new password!  In addition, Sysop password changes
+             are logged to the Audit Trail file.
+
+             There is a razor's edge situation where the effects of a Sysop
+             class user password change on another user can be undone.  The
+             change to the user's password is made firstly to the on-disk
+             account record for the user, and if the user is on-line, the
+             in-memory record is then updated.  If the user logs off during
+             the tiny span of time between the updating of the on-disk
+             record and the in-memory record, the current un-updated
+             in-memory record contents will be transferred to disk, over-
+             writing the change just made to the password field.  This
+             condition cannot be prevented, however the cure would simply
+             be to change the password again while the user is off-line.
+
+  =RL      : Registry Lookup
+
+             Usage   =RL [User-Id] <DELETE>
+
+             The optional DELETE modifier will now allow MASTER key holders
+             to delete user registry entries.  Users without MASTER key
+             status will receive an error if they attempt to use this
+             flavour of the command.
+
+             If the User-ID name contains a space, you must enclose the ID
+             in double quotes to allow Command Center to recognize where the
+             ID ends.  If the quote is not closed, an invalid User-Id error
+             will be generated.
+
+             If no registry entry exists for the requested user, an error
+             message will be issued advising of this fact.
+
+             MBBS 6.25 does not allow modules to directly reference the
+             registry data file, therefore in this case, once a valid
+             User-ID is entered the function will try to delete the registry
+             entry for the user whether or not it exists, and will never
+             return the "no registry entry" message, and will always instead
+             return a message indicating that the user's registry entry has
+             been deleted.
+
+             The registry deletion is recorded in the Audit Trail.
+
+  =SU      : Suspend User
+
+             Usage   =SU [User-ID] <CLEAR> <Reason>
+
+                     =SU [User-ID] <M=NN|H=NN|DF=NN> <Reason>
+
+                     =SU [User-ID] <MINUTES=NN|HOURS=NN|DAYS=NN> <Reason>
+
+             Where   M/Minutes  = suspension period is 1 .. 59 minutes
+
+                     H/Hours    = suspension period is 1 .. 23 hours
+
+                     D/Days     = suspension period is 1 .. 31 days
+
+             The new options for this command allow un-suspending an already
+             suspended user, and suspending a user for a timed period.
+
+             In the latter case, only one of the period options must be
+             entered, and the period must fall within the limits noted.
+
+             When a user is suspended via a timed suspension, each time the
+             user attempts to logon, a check is made to ascertain whether
+             the timed suspension has expired.  If not, the user is
+             immediately disconnected and the account suspension disconnect
+             message in Level 6 CNF UACCSUSP is displayed.  When a user is
+             suspended without using a timed option, the disconnect message
+             displayed will be the standard message found in ACCSUS in Level
+             6 CNF of BBSMAJOR.MSG.
+
+             Any suspension, whether timed or not, can be cleared by using
+             the CLEAR option.
+
+             All suspension transactions are logged to the Audit Trail.
+
+  =UT      : Un-tag User
+
+             Usage   =UT [User-ID]
+
+             This command un-tags a user account which was earlier tagged
+             for deletion.  The user cannot be on-line if the command is to
+             succeed (this can occur is two MASTER key holders issue
+             commands to kill and un-tag a user simultaneously while the
+             user is online, in that case, the kill command succeeds, and
+             the un-tag command fails).
+
+             Sysop class accounts (MASTER key holders) or protected accounts
+             cannot be un-tagged.
+
+
+C.  CNF OPTION CHANGES
+======================
+
+The following CNF options have been added or changed:
+
+Key: {} = option type 
+     [] = default
+     <> = numeric range
+     () = determined by option setting
+
+  LEVEL 4
+
+  CLSNAM?  : {STRING} []-(#1 .. #5)
+  CLSCOL?  : {STRING} []-(#1 .. #5)
+             These CNF options allow you to configure up to 5 user defined
+             ANSI color sequences assigned to user classes.  The color
+             sequences are returned by the text variable COLCLS based upon
+             whether the user is a member of any of the classes specfied in
+             CLSNAM?.
+
+             Enter a class name in the CLSNAM? options in the order of
+             CLSNAM1 .. CLSNAM5.  Then enter the ANSI color sequence you
+             wish to assign to this class in the corresponding CLSCOL?
+             option.  Ensure that the ANSI color sequence is entered
+             WITHOUT the leading escape character as this is automatically
+             prepended by the program.
+
+  FIVKEY   : {STRING} []
+             The behaviour of this key has been changed.  Release 3.05
+             documented a bug whereby entering a key in this option would
+             automatically cause all MASTER key holders to be forced
+             invisible at logon, since by definition those users qualify as
+             holding FIVKEY, and this behaviour was corrected in that
+             release.
+
+             This revision now partially reverts to the old behaviour, with
+             the added feature that in order to cause MASTER key holders to
+             be explicitly checked for ownership of FIVKEY, simply prepend
+             the key with the "*" character.  This will cause the user to be
+             checked for ownership of the key either by direct assignment or
+             by virtue of the key belonging to the user's class key ring.
+
+             If you want to use FIVKEY in reverse and force invisible all
+             users NOT holding FIVKEY, prepend the key with the "!"
+             character.
+
+             Any combination of "*" and "!" is considered legal and will
+             function as stated above so long as the characters appear in
+             the first 2 characters of the key.  Any instances of these
+             characters occurring after the first 2 characters of the key
+             will be treated as a part of the key itself.
+
+  FIVPAGKY : {STRING} [MASTER]
+             This is a further enhancement of the FIVKEY/FIVPAG options (see
+             previous documentation).  Revision 3.05 introduced the ability
+             for users who were forced invisible at login by holding FIVKEY
+             to page MASTER key holders if FIVPAG was set to YES.
+
+             Now instead of being directed to the holders of the MASTER key,
+             you can specify the key which these users can direct pages to
+             the holders of, thereby allowing you to have new users page
+             personnel in your organization who do not hold MASTER key
+             (Sysop class) status.
+
+             An empty string in this option will default back to MASTER key
+             holders, otherwise the user to whom the page is directed is
+             checked for holding the specified key, and if so, and FIVPAG is
+             set to YES, the page will be allowed.
+
+             Note that MASTER key holders by default automatically possess
+             every key in the system, (or to be more accurate they pass
+             through every lock in the system), so they will automatically
+             qualify for paging when this key is changed in addition to the
+             non-MASTER key holders to whom you explicitly assign this key.
+
+  KEYNAM?  : {STRING} []-(#1 .. #5)
+  KEYCOL?  : {STRING} []-(#1 .. #5)
+             These CNF options allow you to configure up to 5 user defined
+             ANSI color sequences assigned to keys.  The color sequences are
+             returned by the text variable KEYCOL based upon whether the
+             user holds any of the keys specified in KEYNAM?, and the
+             corresponding KEYCOL? sequence is returned.
+
+             Enter a key name in the KEYNAM? options in the order of
+             KEYNAM1 .. KEYNAM5.  Then enter the ANSI color sequence you
+             wish to assign to this key in the corresponding KEYCOL? option.
+             Ensure that the ANSI color sequence is entered WITHOUT the
+             leading escape character as this is automatically prepended by
+             the program.
+
+  LSTALCMD : {ENUMERATED} [NO] YES
+             This CNF option applies only to holders of the SYSOPKEY key
+             which groups Sysop level commands together in the command
+             listing.
+
+             NO (the default) produces a command listing of only those
+             commands which do NOT fall in the SYSOPKEY list, i.e., it
+             excludes the Sysop class commands to provide a smaller listing
+             of only the normal user commands.
+
+             YES means that whenever a command listing is displayed, the
+             entire command set including the commands grouped by SYSOPKEY
+             will be listed.
+
+             When this option is set to NO, SYSOPKEY holders can still
+             obtain a complete command listing by using the syntax
+
+                     =? /A  or =H /A or =? /ALL or =H /ALL
+
+  XCLXFR   : {STRING} []
+             Contains a list of classes you want excluded from receiving
+             transferred credits.  Use this option to prevent unauthorized
+             or unvalidated user classes from receiving credit transfers
+             from other users.
+
+             Enter each class name on a separate line without any ANSI color
+             codes.  There is no limit to the number of classes you may
+             specify.  If you mis-spell a class name, it will not be
+             included in the list.
+
+             Sysop class users (MASTER key holders) are exempt from this
+             restriction and can freely transfer credits to users in
+             any class.
+
+VOXPHONE   : {STRING} []
+             This is the system's voice telephone number.  Its needed if it
+             desirable that the disconnection prompt for suspended users who
+             have timed suspensions, displays the telephone number so that
+             users can be encouraged to call and resolve their suspended
+             status.
+
+             If you want to colorize this string, enter the ANSI codes
+             directly before and after the number.
+
+
+D.  TEXT VARIABLES
+==================
+
+The following text variables have been added and/or changed:
+
+(Note: the full name of the text variable includes the prefix of "SFACC_").
+
+  COLCLS   : Returns the ANSI color sequence assigned to the user's class
+             which was specified in the combination of the CNF Level 4
+             CLSNAM? and CLSCOL? options.  If the user's class was not
+             defined, nothing is returned.
+
+  KEYCLS   : Returns the ANSI color sequence assigned to the user's class
+             which was specified in the combination of the CNF Level 4
+             KEYNAM? and KEYCOL? options.  If the user does not hold any key
+             defined in the group, nothing is returned.  If the user holds
+             more than one of the keys defined in the group, the first key
+             matched in the numerical order of KEYNAM1 .. KEYNAM5 is
+             returned.
+
+             Note carefully that since by definition a MASTER key holder
+             (Sysop class user) holds all keys in the system, they will
+             automatically qualify for the first of any keys entered in this
+             group.  If this is undesirable, prepend the key with the "*"
+             character to force the user to be explicitly checked for
+             ownership of the key either by direct assignment or by virtue
+             of the key belonging to the user's class key ring.
+
+             If you want to use KEYCLS? in reverse and return the color
+             sequence for users NOT holding a particular KEYCLS?, prepend
+             the key with the "!" character.
+
+             Any combination of "*" and "!" is considered legal and will
+             function as stated above so long as the characters appear in
+             the first 2 characters of the key.  Any instances of these
+             characters occurring after the first 2 characters of the key
+             will be treated as a part of the key itself.
+
+
+
+E.  ADDITIONAL NOTES
+====================
+
+o.  Users should take note that all keys in Command Center can be controlled
+    by the use of the "*" and "!" characters.
+
+    By definition a MASTER key holder (Sysop class user) holds all keys in
+    the system, and will automatically qualify as owning any key defined.
+    If this is undesirable, you may prepend the key with the "*" character
+    to force the user to be explicitly checked for ownership of the key
+    either by direct assignment or by virtue of the key belonging to the
+    user's class key ring.  Used in this manner, you can control access of
+    MASTER key holders to Command Center.
+
+    To use any key in reverse and return TRUE if a user does NOT hold the
+    key, prepend the key with the "!" character.  You could for example,
+    enter "!DEMO" as the key for the =IN (Invisibility Toggle), which would
+    result in all users NOT having the DEMO key being able to use the =IN
+    command.
+
+    Any combination of "*" and "!" is considered legal and will function as
+    stated above so long as the characters appear in the first 2 characters
+    of the key.  Any instances of these characters occurring after the first
+    2 characters of the key will be treated as a part of the key itself.
+
+o   This is the final release of Command Center before the release of the
+    WG 3 DOS and NT versions.  When the WG 3 versions are released, Command
+    Center's revision number will be changed to 4.00.  This will cause all
+    existing activation codes to be invalidated with the new revisions.
+    Existing registered users of Command Center who own the Soft Arts
+    versions (3.02 .. 3.05) may obtain new activation codes by e-mailing us
+    with your WG registration number and your existing activation code.
+
+    We would like to publicly thank our Beta testers at webyte.com for the
+    tremendous job they have done supporting us in upgrading and enhancing
+    this module.  Great job Jeff!
+
+    We would also like to thank all those users who owned the previous
+    versions of Command Center and who chose to support our efforts at
+    upgrading the module.  We believe that we have significantly enhanced
+    this module and intend to continue to provide the very best global
+    module available for all Worldgroup platforms.  In the 3 months or so
+    that we have been responsible for this module, we have increased its
+    command set from 43 to 63 commands, in addition to adding dozens of CNF
+    options, bug fixes and other enhancements.
+
+    Over the next few months we will be adding a host of features to this
+    module designed to allow Sysops the functionality of several utility
+    modules in a single globals module.  It is our intention to continue
+    supporting the MBBS and WG 1/2 platforms, so that new features will be
+    added to all of the platforms simultaneously except where these are
+    totally inappropriate, e.g. C/S mode for MBBS.
+
+
+Soft Arts Ltd.
+66 & 68 Barry Street
+1st Floor
+Kingston
+Jamaica, W.I.
+
+Tel.#s : (809) 922-5201/5173 Voice
+         (809) 922-9036      Fax
+         (809) 922-7990      BBS
+
+E-mail us with comments, suggestions, etc. at-
+    bladerunner@colis.com
+
+(end of release notes)
+
+NOTICE
+============================================================================
+
+COPYRIGHT
+Command Center and accompanying documentation is copyright (c) 1997 by
+Soft Arts Ltd., hereinafter referred to as Soft Arts. All rights to Command
+Center are reserved by Soft Arts.  You must keep the program in strict
+confidence and treat it like any other copyrighted material. You may not
+copy any written materials accompanying the software program.
+
+
+LICENSE
+You may use Command Center on a single bulletin board or on-line system on
+which you accept 3rd party logins for any commercial or non-commercial
+purpose.  You may also use the program on one additional bulletin board or
+on-line system which is devoted to testing and development, and to which
+access by 3rd party users is not permitted.  You may copy the program into
+any machine-readable form of backup in support of your use of the program on
+any of the systems referred to above.  You may transfer the license and
+program to any other party only after paying any licence transfer fee
+requested by Soft Arts.  Please contact Soft Arts to complete a license
+transfer.  Your use of the software deems your acceptance of this license
+and warranty and the terms herein.
+
+
+LIMITED WARRANTY
+Soft Arts warrants that the computer media on which Command Center is
+furnished and/or the physical files delivered shall be free from defects in
+materials and workmanship for a period of thirty (30) days from the date of
+purchase by the original purchaser or any transferee of the licence
+authorized by Soft Arts.  Soft Arts shall replace Command Center if the
+original package including all documentation and magnetic media is returned
+to Soft Arts or the authorized Soft Arts re-seller from whom you purchased
+this program within thirty (30) days of the discovery of such defect. The
+sole remedy for any breach of the foregoing warranty shall be a replacement
+of the defective portion of the program.
+
+YOU THE USER UNDERSTAND AND ACCEPT THAT COMPUTER PROGRAMS BY THEIR VERY
+NATURE CANNOT BE GUARANTEED TO BE 100 PER CENT ACCURATE, OR FREE FROM FLAWS
+IN DESIGN OR OPERATION, OR FROM INCOMPATIBILITIES WITH OTHER SOFTWARE,
+HARDWARE AND/OR OPERATING SYSTEM PLATFORMS.  SOFT ARTS DOES NOT WARRANT,
+REPRESENT, OR GUARANTEE THAT ALL PROBLEMS WILL BE CORRECTED OR THAT ANY
+UPDATES WILL BE COMPATIBLE WITH PREVIOUS VERSIONS OF Command Center. EXCEPT
+AS EXPRESSED ABOVE, SOFT ARTS DISCLAIMS ALL WARRANTIES, EXPRESSED AND
+IMPLIED, TO THE PRODUCT, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE, AND SOFT ARTS DISCLAIMS ALL
+OBLIGATIONS AND LIABILITY ON SOFT ART'S PART OR ON THE PART OF ANY OF ITS
+OWNERS, DIRECTORS, MANAGERS, SERVANTS, AGENTS AND/OR EMPLOYEES FOR DAMAGES,
+INCLUDING BUT NOT LIMITED TO SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES IN
+CONNECTION WITH USE OF THE PRODUCT, WHETHER OR NOT SOFT ARTS HAS BEEN
+ADVISED OF THE POSSIBILITY THEREOF.
+
+
+LIMITATION OF REMEDIES
+The entire and exclusive liability and remedy for breach of this Limited
+Warranty shall be limited to replacement of defective diskette(s) or
+documentation and shall not include or extend to any claim for or right to
+recover any other damages, including but not limited to, loss of profit,
+data, or use of the software, or special, incidental, or consequential
+damages or other similar claims, even if Soft Arts has been specifically
+advised of the possibility of such damages. In no event shall Soft Art's
+liability for any damages to you or any other person ever exceed the lower
+of suggested list price or actual price paid for the license to use the
+software, regardless of any form of the claim.

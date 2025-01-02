@@ -1,0 +1,9 @@
+Installation Notes for Home Page Generator
+Make a temporary directory on your hard drive.
+From your download directory unzip the file to your temporary
+directory.
+Example:
+PKUNZIP DYNHTTP C:\TEMP
+Then go to the temporary directory and type install.
+That should do it.
+/s

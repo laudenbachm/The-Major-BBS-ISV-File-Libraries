@@ -1,0 +1,97 @@
+The following is Soft Arts's standard policy on upgrades and transfers of
+modules provided by us:
+
+
+REVISION UPGRADES
+=================
+
+Upgrades are free to registered owners for the major revision life of the
+product. This means that while the module's major revision number is not
+changed, users may obtain free revisions by simply downloading the current
+revision from our file libraries on demosys.gcomm.com or any other location
+where the modules are available.
+
+At our sole discretion, Soft Arts may choose to change the major revision
+number of any module because of significant changes to the module or other
+factors determined by Soft Arts to necessitate a major revision change.  If
+this occurs, Soft Arts may also choose to make the new major revision
+available to existing customers without charge, in which case users may
+receive activation codes on an individual basis by e-mailing us and
+requesting a new code.  Major revision numbers may change in any direction
+necessary to facilitate easy module and product management, and a major
+revision number change in a negative direction may not be construed as
+granting any rights to current users to acquire that revision, other than
+those granted as a result of the exercise of Soft Arts' discretion as stated
+above.
+
+If Soft Arts determines that the new major revision will not be the subject
+of an automatic upgrade, existing users may obtain upgrades after payment of
+the stipulated upgrade fee, as well as proving ownership of the previous
+major revision of the Soft Arts module.  Ownership of a Soft Arts module may
+be proved either by faxing a copy of your Invoice, or simply by submitting to
+us your Worldgroup Registration number and the matching module activation
+code which will allow us to verify your ownership.
+
+
+PLATFORM/LINE COUNT UPGRADES
+============================
+
+Upgrades between platforms or line counts for registered Soft Art's modules
+are available for the price difference between the respective platforms
+and/or line counts.
+
+Please do not request upgrades to modules which were not purchased from us
+as we are unable to upgrade modules on this basis and there can be no
+exceptions to this principle.  Upgrades of this sort imply a recognition of
+previous income received from the sale of the module which is not the case
+where the module was not sold by us in the first place.  The acquisition of
+modules by us from other vendors is on a copyright and source code basis
+only except in the particular instance where we have been requested to
+service the vendor's existing customer base and in that case the purchasing
+arrangements reflect this request.  In such a case, we advise existing users
+that they are eligible for upgrades to our modules.  Except as stated
+however, under no other circumstances are we able to provide upgrade pricing
+to users who have not purchased the module from us.
+
+
+TRANSFERS
+=========
+
+Transfers will be allowed only after receipt by us of a notarized instrument
+signed by the Transferor and the Transferee indicating that the product has
+been transferred from one to the other.  The instrument need not follow any
+strict form of words but must contain in the body a clear statement to the
+effect that the Transferor understands that his/her rights to use the
+software are hereby terminated on Transfer to the Transferee, and that he/she
+understands that it is a breach of copyright law and international
+regulations and Soft Arts' copyright for him/her to continue to use the
+software after the Transfer has been approved by Soft Arts.
+
+A transfer fee of $25.00 per module must be paid for each transfer in
+addition to the above requirment.  Soft Arts reserves the right to change
+this fee without notice to any party.
+
+Please note that Soft Arts reserves the right to refuse to accept
+registration of any transfer which would have the effect of violating our
+upgrade policy, unless the Transferee agrees to the necessary upgrade.  An
+example of this would be in a case where the module being transferred is
+not at the current major revision level, which would necessitate the
+Transferee agreeing to pay the necessary upgrade fee to bring the module
+current before we could agree to accepting the transfer.
+
+
+P. Alexander Beswick
+Managing Director
+
+Soft Arts Ltd.
+66 & 68 Barry Street
+1st Floor
+Kingston
+Jamaica, W.I.
+
+Tel.#s: (876) 922-5201/5173 (Voice)
+        (876) 922-9036      (Fax)
+        (876) 922-7990      (BBS)
+E-mail: bladerunner@colis.com
+
+(last revision: 28 Jan 1998).

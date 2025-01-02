@@ -1,0 +1,337 @@
+
+WEB Blaster Pro Information File
+--------------------------------
+
+Version 2.1 beta - December 10, 1996
+
+All the WEB power you need, all in one module! 
+
+NOW SUPPORTS BOTH GALACTICOMM'S ICO AND VIRCOM'S MAJOR TCP/IP
+
+ --------------------------------------------------------------------
+
+*** Get Professional WEB Power!
+
+  DialSoft proudly presents WEB Blaster Pro!, the successor to our
+  very own WEB Blaster!
+
+  If you own WEB Blaster you already know the great features it has
+  to offer.  With that in mind, add hit & byte counters, subdirectories,
+  multi-homing, top 10 lists, and more!  This is our first beta release
+  of our all new product!  
+
+  When you install WBPro you will see the power of this module.  How?
+  Well, WBPro is designed to install on your system with NO crazy
+  setup procedure.  Simply run the INSTALL, add the module page and
+  that's it!  You don't have to configure any paths, settings, file
+  names, or anything!  We guarantee that there  will be no other module
+  that installs this easily!  
+
+  If that's not enough, this module is also NO MSG compliant.  NO MSG 
+  is DialSoft's new standard of modules.  What does that mean?  All 
+  options you would normally see in level 3 & level4 are moved online
+  so you can make changes to your configuration that take effect 
+  immediately!  No downtime!  DialSoft wants to see your system up 
+  longer! 
+
+  Check out the following URL's for an example of WB Pro's features:
+
+   http://www.jungle.net/wbpusers.htm   (realtime userlist with links)
+   http://www.jungle.net/wbptop10.htm   (top 10 lists, auto generated)
+   http://www.jungle.net/userlist.htm   (directory of user homepages)
+   http://www.dialsoft.com/banner.htm   (example of our BANNER features)
+
+
+  You may run WEB Blaster & WEB Blaster Pro simultaneously on 
+  your system!
+
+ --------------------------------------------------------------------
+
+*** New Features for beta 2.0:
+  
+  - Now supports BANNERS!  Add advertisement banners on ANY of your
+    web pages!  Users may use banners too!  A great way to bring
+    in some extra cash by selling advertisements!  (Banners are
+    random, and can be changed/updated online!)
+
+  - Now supports FTP'ing into ANY multi-homed domain!  All problems
+    are now over!
+
+  - Many thanks to the SysOps who have reported problems! We love you!
+
+ --------------------------------------------------------------------
+
+*** Current Features:
+
+ - Requires WGx.x with Vircom's MajorTCP/IP or
+   Galacticomm's ICO
+
+ - Easy to use interface,  any user from novice to expert will 
+   find WBPro's interface the easiest to use.
+
+ - Convert your current Web Blaster users to Web Blaster Pro using
+   our convert command!
+
+ - NO MSG compliant.  DialSoft is revolutionizing the way modules 
+   work.  Less downtime,  all changes can be made online!  Includes
+   4 command sets to configure your module online!
+
+ - NO MSG commands:
+
+     config1 - General settings, keys, and activation code.
+     config2 - WEB Page settings & space restrictions
+     hosts   - Multi-homed site management utility
+     dirs    - User directory management utility
+
+ - Online help for users. Every command has online help!
+
+ - This module uses the engine that DS-DOS uses!  What does this do 
+   for you?  It gives you access to the following DOS commands:
+
+     DIR ... Directory of files
+     CD .... Change directory
+     MD .... Make directory
+     RD .... Remove directory
+     DEL ... Delete files
+     REN ... Rename files
+     TYPE .. View/type files
+     EDIT .. Edit files
+     COPY .. Copy files
+     XCOPY . Copy directories/files
+     MOVE .. Move files
+     GET ... Get/Download files
+     PUT ... Put/Upload files
+
+   All commands support wildcards.  Switches like /S, /W, /Ax, etc
+   are also supported!  Where will you find power like this?! Only 
+   in DialSoft modules!
+
+ - Several commands for WEB Page statistics:
+  
+     stats ... lists all the pages & directories that have been hit
+               on your system.  Shows how many hits the page has 
+               received, and how many bytes have been transferred.
+ 
+     hits .... gives a monthly breakdown of how many hits/bytes
+               a page has had.
+
+     space ... Show you how much space is available in your directory.
+
+
+     report .. Shows a detailed report of all the users who have
+               web pages,  many details, here's an example:
+
+
+       UserId: XynamaX                        Page created on: 10-08-96
+       =========================================================
+                 Domain: www.xynamax.com
+           Sub-directory:
+          Directory Path: TCPWEB2\WEBPAGES.046
+                   Title: XynamaX Land!
+             Description: Home of the almight X.
+           Email Address: xynamax@jungle.net
+           Active: YES
+       Show in directory: YES
+        Show in userlist: YES
+         Email from list: YES
+        Can make subdirs: YES
+             File status: 56 total files
+        Directory status: 8 directories
+            Bytes status: 7,953,400 total bytes used (10,000,000 max)
+        Extrakeys status: XTRAKEY XTRAKEY2 XTRAKEY3
+              Start date: 10-08-96
+              Total hits: 47
+       Bytes transferred: 1,385,629
+
+  
+ - Users may choose their own directory, or be assigned one.
+   Sysops choose this in "config1".
+
+ - Supports Multi-homing features.  Add hosts online instantly!
+
+ - Hit & byte counters!  NO CGI required!
+
+ - Auto generates an HTML file with the top10 hit sites hosted
+   by your system!
+
+ - Users can enter edit options for their home page, such as:
+     . Description (for the directory)
+     . Whether or not their page is listed in the directory.
+     . Whether or not their page is listed in the real-time userlist.
+     . Whether or not people can send them Email from the userlist.
+     . A custom Email address if they have several Email addresses
+
+   All these options are editable in a Full Screen Data entry session.
+   No silly menuing system, easy and to the point.
+
+ - All security features controlled by KEYS.
+
+ - Sysops can edit user settings, such as:
+     . All user settings mentioned about.
+     . Maximum file space user may use.
+     . ACTIVATE/DEACTIVATE a users home page ONLINE!
+
+   Once again, these are all in a Data Entry session.
+
+ - Generates several files:
+
+     DIRECTORY - A list of all the WEB Pages created on your system.
+                 Users can decide if they want their page listed in
+                 the directory in their options.  Sysops can define
+                 an *UNLIMITED* number of directories, users are 
+                 placed in directories by holding certain KEYS.
+ 
+     USERLIST  - A list of ALL the users ONLINE your system at the
+                 given time!  It also includes links to all the users
+                 homepages if they created them!
+                 Soon: Direct Email from userlist
+
+     TOP10LIST - A list of the top10 sites managed on your system!
+                 Does a daily & all-time list!
+
+     The USERLIST is completely configurable. The sysop can choose
+     a combination of the following fields to create his/her 
+     custom userlist:
+     UserID, Baud Rate, Current Module, Age, Sex, City/State, Time Online
+     Class, and more!
+
+     Check out http://www.jungle.net/userlist.htm  for an example!
+
+     Both of these filenames are Sysop configurable.
+     Sysops may also specify the MINIMUM key required to be shown
+     on the userlist.  Some SysOps asked me to add this so that
+     their DEMO users don't show up.  Done.
+
+ - The file utilities are 100% secure.  Users can NOT overwrite
+   any files except those in their directory. Guaranteed.
+
+ - Pages are automatically disabled when:
+     . The owner loses the key required for a web page
+     . The owner goes over his/her space quota
+     . The sysop deactivates the page.
+
+     All response messages for disabled pages are configurable!
+
+ - TEMPLATES!  Templates are 100% compatible with WEB Blaster's 
+   template features. All templates are loaded at startup, and can be
+   reloaded at anytime after startup. You may edit, delete, rename 
+   template files online.  Creating the templates is simple as well. 
+   You create a template file with a list of questions for your users
+   to answer, in the same file, you list a HTML document for the template
+   to use.  You can specify the name, description, and KEY required to
+   use any template.  Here's an actual example of a .WBT file 
+   (WEB Blaster Template). This file is named REGISTRY.WBT:
+
+   ;All lines that begin with ';' are comments. (like REM in DOS)
+   [setup]
+   template_name=Registry
+   template_desc=This is a simple registry-type WEB page.
+   template_key=DEMO
+
+   [questions]
+   NAME=What is your name?
+   AGE=What is your age?
+   CITY=What city do you live in?
+   GROWUP=What do you want to do when you grow up?
+
+   [html]
+   <HTML>
+   <H1>This is _NAME_'s home page!</H1>
+   <P>
+   Welcome to my home page!  I am _AGE_ years old and I live in _CITY_!
+   <P>
+   When I grow up, I want to _GROWUP_!
+   </HTML>
+   ;end of file
+
+ - Templates are 100% configurable.  Make them any way you like, add 
+   graphics, add links, add anything you like!  You can even edit the
+   templates online using the Full Screen Editor!  This version supports
+   up to 25 templates.
+
+ - Backups!  Let's say a user created a template.  Then he/she created
+   another template, overwriting their old one.  What happens if they
+   don't like the new one?  With WEB Blaster, they can easily retrieve 
+   their old web page, without having to fill out their old template
+   all over again.  WEB Blaster will automatically create backups 
+   of their web pages everytime they create a new one using a template.
+  
+ - Option to check for profanities in directory names and templates.
+
+ - SysOps can now easily edit/change their user-listing files online.
+   Instead of using CNF options, all files (userlist, directory, etc)
+   are controlled by file templates.
+
+ - Now supports easy accounting!  No need to specify the number of days
+   before a user's page expires.  Why?  Because WEB Blaster will 
+   automatically disable a users page when his/her account expires
+   and is switched to a lower class!
+
+ - Grace periods!  What happens if a user's page is disabled, but that
+   user never pays for the WEB page access again?  Their WEB Page files
+   are just eating up hard drive space on your BBS!  Now, a Sysop may
+   give users a grace period.  If a user fails to renew his access in
+   the grace period, his/her page is deleted.  Users are notified at 
+   logon time with how many days they have before their page is deleted.
+
+ - Since users may have several Email addresses, WEB Blaster Pro let's the
+   user type in the address at which they want to receive mail!
+
+ - Quick & responsive customer support.  
+   
+ - All suggestions taken into account!
+
+ --------------------------------------------------------------------
+
+*** How much is all this power?
+
+  $199.95 is the established price for WEB Blaster Pro.
+  If you own WEB Blaster prior to October 16, 1996, the upgrade is
+  FREE!
+
+ --------------------------------------------------------------------
+
+*** How can I check it out?
+
+  You can check out as well as download the latest version of WEB Blaster
+  on our home system the Jungle:
+
+  telnet: jungle.net     modem: 201-JUNGLE8   (/GO WEB)
+
+  or on the Galacticomm Demo system.
+
+  Filename: DIAWBxx.ZIP  where xx=latest version release.
+
+ --------------------------------------------------------------------
+
+*** Ideas & Suggestions
+
+  If you have any ideas that you would like to see in WEB Blaster,
+  please leave me a message!  I will add any features that people
+  suggest to make this the ultimate tool for your system!
+
+  If you want it- we will make it for you!
+
+  Special thanks to all the SysOps out there who have made suggestions!
+
+ --------------------------------------------------------------------
+
+*** How can I get in touch with DialSoft?   
+
+For more information regarding DialSoft:
+
+   The Jungle:              Data: 201-JUN-GLE8 
+                          Telnet: jungle.net     (we have full T1 speed!)
+                          E-mail: marc@jungle.net
+
+   DialSoft information:   Voice: 201-586-1550  attn:Marc Frega
+                             Fax: 201-983-1024
+                         Address: 52 Comanche Avenue,
+                                  Rockaway, NJ 07866
+
+For technical information please e-mail: XynamaX@jungle.net
+
+ --------------------------------------------------------------------
+                    DialSoft - Creativity Is The Key.
+ --------------------------------------------------------------------
+

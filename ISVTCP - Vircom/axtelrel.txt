@@ -1,0 +1,149 @@
+                 INTRODUCING VIRCOM'S ACTIVEX TELNET CLIENT
+
+
+FOR IMMEDIATE RELEASE
+
+Tuesday, February 25, 1997
+
+(Montreal, Quebec, Canada)  Vircom Inc. today announced the introduction
+of its ActiveX Telnet client.  This innovative product provides an ideal
+way to immediately bridge the gap between the Web and terminal interface
+applications, such as BBS'es and legacy mini/mainframe applications.
+
+"Although most new development on the Internet is based on the
+Client/Server model, there is still a huge number of core, revenue
+generating, applications that work in terminal (ASCII/ANSI) mode. Our
+ActiveX telnet client gives SysOps a way to seamlessly offer these legacy
+services to their users coming from the Web using ActiveX compatible
+browsers." commented Sylvain Durocher, president of Vircom, Inc.
+
+The bane of Internet Providers is often to let their clients sign-up,
+enter their credit information and update their customer information,
+without human intervention.  Since these applications are readily
+available within the Worldgroup (http://www.gcomm.com) environment,
+making them accessible on the WWW is greatly eased with Vircom's ActiveX
+telnet client (http://www.vircom.com/axtelnet.htm).
+
+"Client/Server deployment has so far met with varying degrees of success
+on the Web.  Bulky client applications specific to one platform have
+often encountered strong resistance from the user community.  The road to
+thin client technology is still paved with many months of development.
+Our ActiveX telnet client immediately provides a way to get there,
+without any server-side re-engineering." added Richard Lachance, Vircom's
+general manager.
+
+
+FEATURES
+
+
+Key selling points include:
+
+ - Telnet to any hosts on the Internet (i.e. not limited to WWW
+    server where client resides)
+ - Security server application allows administrator to define all
+    possible Telnet destinations and can restrict access to
+    destinations to his own local network (including PPP callers)
+ - Security server maintains a list of currently active connections
+    and keeps an ASCII log file that can be parsed to yield usage
+    statistics
+ - Using Microsoft's "Authenticode" (http://www.microsoft.com/intdev/
+    security/misf8.htm) to guarantee to user that the application is safe
+    to use
+ - Configurable toolbar (like Ms Office's shortcut bar) to execute
+    commands with single mouse click
+ - Through Microsoft's IEAK program (http://www.microsoft.com/ie/ieak/),
+    most Internet packages now available on shelves include the current
+    version of Internet Explorer, supporting ActiveX
+ - Netscape Communicator (browser) version 4 will support the
+    ActiveX technology (http://home.netscape.com/comprod/products/
+    communicator/faq.html)
+
+Other specific features of the ActiveX telnet client will include:
+
+ - ANSI terminal control codes support (colors, arrow keys, cursor
+    control, etc.)
+ - Scroll back review buffer (supporting "Copy to Windows clipboard")
+ - Configurable window size
+ - Concurrent connections site licensing (with server-side component)
+ - One-time automatic download and installation on user's PC
+
+Features planned for in future releases:
+
+ - Zmodem file transfers
+ - Macro keys definition (ex.: function keys), defined by both
+    administrator and user
+ - Scripting language, defined by both administrator and user
+ - User-specific access rights in Security Server
+ - Capture & scrollback buffer saving to disk
+ - Printing
+ - Extensible hooks so that "advanced terminals" could be built
+    (ex.: IBM 3x70 emulation)
+ - Automatic font installation
+ - Automatic, browser based, window sizing
+
+WHY ACTIVEX?
+
+In March '96, Microsoft announced the ActiveX technologies
+(http://www.microsoft.com/corpinfo/press/1996/ Mar96/activxpr.htm) as a
+tool set to create active content on the World Wide Web.  Many other
+companies (http://www.microsoft.com/activex) have already committed
+resources to add ActiveX controls to their applications.  The
+technologies have actually been five years in the making; ActiveX is in
+fact simply an Internet awareness to the OLE controls now widely used in
+Windows desktop applications.
+
+ActiveX offers an ideal way to develop applications to run within a WWW
+browser, independent of the underlying operating system.  In fact, it is
+the only competition to Java applets and here's why so many Microsoft
+dollars are going into its promotion:
+
+ - Extensive font control (ex.: automatic font installation)
+ - Windowing functionality (ex.: resizing)
+ - Input controls (ex.: right-clicking)
+ - Sound
+ - Printing
+ - Integration (OLE style) with other desktop applications
+ - One-time installation as opposed to reloading on every use, as is
+    customary with Java applets
+
+
+AVAILABILITY AND PRICING
+
+The current beta version of the ActiveX telnet client can be seen in
+action on Vircom's WWW site at http://www.vircom.com/axtelnet.htm.  A one
+concurrent connection demo can also be downloaded from that page.
+
+The base product includes a 8 concurrent connections license for $250.00
+(USD).  Clients purchasing the beta version will benefit from a pre-
+release special which includes a 16 concurrent connections license
+(instead of 8) and are automatically eligible to all upgrades until the
+official release version, which would include most, if not all, the above
+planned features.
+
+The number of concurrent connections can be upgraded through the
+following license extensions:
+
+    12 additional concurrent connections       $150.00 (USD)
+    48 additional concurrent connections       $500.00 (USD)
+
+ABOUT VIRCOM
+
+Vircom was incorporated in January 1994, with the mission to develop high
+quality and leading edge software for the online industry.  Since its
+inception, Vircom has distinguished itself through its commitment to the
+highest standards of technical support.  Its first product, MajorTCP/IP,
+was first released in April 1994 and has since sold over 1500 licenses.
+Its other products, all working as Worldgroup modules, include the
+Distributed MajorBBS Architecture (DMA) client and server, its RADIUS
+server and its PPP/SLIP server for Worldgroup for Windows NT.
+
+
+VIRCOM CAN BE REACHED AT:
+
+   Telephone      (514) 990-2532
+   Fax            (514) 523-6990
+   MajorNet       sales@GMS
+   Internet       sales@vircom.com
+   WWW            http://www.vircom.com
+
+ 

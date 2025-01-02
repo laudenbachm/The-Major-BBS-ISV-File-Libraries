@@ -1,0 +1,37 @@
+InterChat (ChatWorld) Information
+
+GameNet and ChatWorld are pleased to announce the opening of 
+"InterChat", a chat network designed solely for WG/MBBS systems. 
+InterChat runs on a private IRC server, and is designed to provide 
+better control over access, better monitoring, and restrictions on the 
+creation of "explicit adult" public channels. Private adult 
+conversations and channels will be unaffected by this restriction, 
+however public channels will be "PG-13". It is our hope that this will 
+be an affordable and value-adding chat service to many general access 
+WG/MBBS systems.
+
+InterChat will be accessible several ways: from JavaNet using IBM's 
+proprietary Java IRC client which not only allows full use of all IRC 
+commands, but also contains URL pushing/accepting and an 
+(optionally displayed) real time stock market ticker, from ChatWorld 
+via either DMA connection or through a JavaNet Telnet Chat client, 
+through any IRC compatible chat client like mIRC, from the Vircom 
+or Gcomm terminal mode IRC clients via normal menuing on your 
+own system, or from Gcomm's IRC C/S module.
+
+Currently, InterChat can be tested from the ChatWorld main menu 
+(for GameNet I) members, from the JavaNet Telnet Chat client, and 
+from the JavaNet IBM chat client, which we will allow unrestricted 
+access to for the next few days. Beginning at the end of this week, 
+InterChat will be available to member systems using their normal IRC 
+clients. Access InterChat will be bundled as a no-additional-cost addon 
+to GameNet 1 members of record as of 2/28/97. Thereafter, InterChat 
+will have an additional cost of $5 monthly for GameNet I member 
+systems, and $10 monthly for nonmember systems (nonmember 
+system minimum subscription term is quarterly).
+
+For information on GameNet, please download the file gamenet.txt 
+from the Galacticomm Demosys (gcomm.com). For further 
+information, or to join GameNet or InterChat, you should either write 
+gamemaster@worldnetoh.com or call 216-561-9447.
+

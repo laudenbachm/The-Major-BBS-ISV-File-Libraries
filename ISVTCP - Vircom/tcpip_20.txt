@@ -1,0 +1,275 @@
+			   INTRODUCING VIRCOM's
+			  MAJORTCP/IP VERSION 2.0
+
+
+FOR IMMEDIATE RELEASE
+
+Wednesday, June 26th, 1996
+
+(Montreal, Quebec, Canada)  Vircom Inc., announced today the 
+production release version 2.0 of its flagship product 
+MajorTCP/IP.
+
+When Vircom began working on MajorTCP/IP in late 1993, its vision 
+of the final product included a staggering suite of Internet 
+tools.  With the final addition of the FTP server, MajorTCP/IP 
+v2.0 is the conclusion of over 32 months of intensive development 
+toward this vision.
+
+The notable features of MajorTCP/IP v2.0 include:
+
+- INTERNET CLIENTS:  The Internet Clients make up the user-
+  interface part of MajorTCP/IP.  These clients currently operate 
+  in ANSI/ASCII mode; graphical (client/server) clients are 
+  planned.  An Internet Client is always used to communicate with 
+  an Internet Server.
+
+  * Telnet:  Telnet is used to open a terminal connection to a remote 
+    site or service.  Playing Multi-Users Dungeons (MUD) or Telneting 
+    to online services are common applications.
+
+  * RLogin/RLogin-Plus:  RLogin is generally used as a true eight bit 
+    connection between local systems.  With the Plus extension, the 
+    remote system can query the Worldgroup system for information, 
+    and even change the credits consumption rate.  This is generally 
+    used to integrate UNIX services in a user-friendly fashion with 
+    the Worldgroup server.
+
+  * IRC:  The Internet Relay Chat (IRC) is the biggest electronic 
+    teleconference in the world.  Without additional costs, your 
+    users will be able to chat in real-time mode with anyone on the 
+    globe.
+
+  * FTP:  The FTP protocol is one of the most commonly used method to 
+    transfer files across the Internet.  Users can connect to a FTP 
+    server, transfer the file to a temporary area on the Worldgroup 
+    server and then download it using conventional file transfer 
+    protocols, such as x-/y-/zmodem, kermit, etc.
+
+  * Finger:  Finger is used to query remote systems for either user 
+    or general information.  The user information typically displays 
+    a profile of the user.  General information can vary wildly, such 
+    as weather forecasts, list of online users, etc.
+
+  * Ident:  Although this client is not directly accessible by the 
+    user, it is a crucial operating component on the Internet.  When 
+    users login the Worldgroup server, via Telnet or RLogin, the 
+    Ident client sends a request to the system where the Telnet is 
+    originating from to attempt to identify the userid of that person 
+    on the remote system.  This feature is a great security tool.
+
+  * DMA:  The Distributed MajorBBS Architecture is a protocol and 
+    concept introduced by Vircom.  It is used to off-load add-ons 
+    from the main Worldgroup server onto a second PC, also running 
+    Worldgroup.  When the user selects an off-loaded option, he/she 
+    is transparently transported over the second system.  The 
+    software running on the second PC is the DMA server, another 
+    product sold by Vircom.  MajorTCP/IP contains the client to 
+    connect to any such DMA server, either locally or half-way across 
+    the world, through the Internet.
+
+- INTERNET SERVERS:  The Internet Servers all run behind the scene, 
+  without any direct user intervention.  Incoming connections from 
+  the Internet must be received and handled by a Server.
+
+  * Telnet:  With the use of a channel type introduced by 
+    MajorTCP/IP, the Worldgroup server can be contacted by anyone 
+    with a Telnet client across the Internet.  This connection could 
+    even be in client/server mode, although it will most commonly 
+    ASCII/ANSI.
+
+  * RLogin:  As the Telnet server above, ASCII/ANSI connections can 
+    be opened with the Worldgroup server by anyone with a RLogin 
+    client.  As RLogin is a true 8 bits connection by default, it is 
+    generally preferable to use it, instead of Telnet, between local 
+    systems.
+
+  * FTP: File libraries can be made available to the Internet via 
+    FTP.  FTP users connect either as their normal userid on the 
+    Worldgroup server or as anonymous users.  Security is maintained 
+    through the Worldgroup server's standard locks  & keys.  
+    Anonymous access is controlled by creating assigning a default 
+    accounting class.
+
+  * Finger:  The finger server can display three types of information 
+    to anyone using a finger client: user status, if directed toward 
+    a specific user; general system information, such as a list of 
+    online users, if directed toward the system; or specific text 
+    information if directed toward configurable pseudo-users.  As an 
+    example,  "info" can be used to display general system 
+    information to anyone who fingers that userid.
+
+  * Ident:  As the Ident client, the server is a background operating 
+    component of the Internet.  Many FTP and IRC servers on the 
+    Internet demand to know the userid, on the remote system, of the 
+    person wishing to use their services.  This use of this security 
+    feature is becoming widespread, and a must.
+
+  * NNTP:  The Network News Transport Protocol is used to exchange 
+    newsgroup articles between news servers.  Each newsgroup is 
+    mapped to a forum on the Worldgroup server, thus providing access 
+    to the articles either via QWK or the Worldgroup Manager (in 
+    client/server mode).
+
+  * POP3:  The Post Office Protocol is used by mail applications, 
+    such as Netscape Mail and Eudora, to retrieve messages on the 
+    Worldgroup server.
+
+  * SMTP:  The Simple Mail Transfer Protocol defines a standard 
+    method of handling and delivering Emails across multiple 
+    platforms and the Internet.  MajorTCP/IP's SMTP server is MIME 
+    compliant, another standard for Email file attachments.  The 
+    standard interfaces of Worldgroup are used to send Internet 
+    Emails, so the user does not have to learn a different user 
+    interface.
+
+  * WWW:  World Wide Web surfers can come visit your Worldgroup 
+    system through this Internet Server.  Used in combination with 
+    Worldgroup's Netscape plug-in or other add-ons, this could even 
+    be the main method used to login your system.  Most of the 
+    standard features of web servers, such as Java, frames and VRML 
+    support are supported.
+
+  * SLIP/CSLIP/PPP passthrough:  This Internet Server is arguably the 
+    most powerful feature of MajorTCP/IP.  Using a TCP/IP winsock 
+    stack, end-users are able to surf the net by connecting in SLIP, 
+    CSLIP or PPP over a modem line.  This server also opens the door 
+    to the many winsock based applications available on the Internet 
+    (CUSeeMe, Internet Phone, RealAudio, WinIRC, etc.).
+
+- ETHERNET CONNECTION:  The Worldgroup server can be connected to 
+  the Internet in two fashions: using a network card or over a 
+  dial-up connection.  An Ethernet connection requires a higher 
+  capital investment, but allows an unlimited growth in the 
+  bandwidth to the Internet.
+  
+  * Compatible with almost all Ethernet network cards: Network card 
+    manufacturers provide an ODI driver, and often a packet driver, 
+    on their installation diskette.  Although MajorTCP/IP requires a 
+    packet driver interface, one is provided to support the ODI shim.  
+    In essence, this means that just about all network cards are 
+    supported.
+
+  * Compatible with any Internet link:  The actual link, whether it 
+    is frame-relay, ISDN, T-1 or even T-3, is handled by external 
+    hardware and interfaces with MajorTCP/IP through the network 
+    card.  This means any kind of Internet link is supported, with 
+    appropriate external hardware.
+
+  * Compatible with Novell Netware (and other unsupported NOS):  
+    Novell is implemented using an ODI shim.  As mentioned above, a 
+    packet driver interface is provided to share the same network 
+    card between MajorTCP/IP and Novell.  A Novell Netware LAN is 
+    definitely not required to run MajorTCP/IP.
+
+- DIAL-UP CONNECTION:  A permanent connection to the Internet is 
+  necessary to work with MajorTCP/IP, so a modem, telephone line 
+  and channel must be dedicated to maintaining the connection.
+  
+  * Standard modem channel:  MajorTCP/IP does not interface directly 
+    with the serial hardware; instead, it uses a standard Worldgroup 
+    channel.  Any kind of equipment that can connect a serial port 
+    can be used to connect to the Internet Provider, including ISDN 
+    modems.  Without intelligent serial hardware though, the maximum 
+    port speed is limited to 57.6kbps.
+
+  * Dialer to provider with scripting:  Connection to the provider 
+    can use a simple scripting language, if required.  This is 
+    generally used to go through the logon process on the Internet 
+    provider's equipment and then start the SLIP/CSLIP/PPP session.
+
+  * Keep-alive/Re-dialer link monitor:  As a permanent connection is 
+    required, MajorTCP/IP will monitor the link.  If the connection 
+    is dropped, attempts will be made to re-establish it.  Some 
+    Internet provider also use an inactivity monitor on their dial-up 
+    lines, hanging up the connection if it remains idle too long.  To 
+    prevent this problem, MajorTCP/IP can be configured to generate 
+    traffic at regular intervals.
+
+- ADVANCED FEATURES:  These advanced features are unique to 
+  MajorTCP/IP in the Worldgroup environment.  Although the above 
+  modules have distinguishing features, these are the big seller 
+  for MajorTCP/IP over competitive solutions.
+ 
+  * PAP support with PPP:  The Password Authentication Protocol is 
+    used when users connect to the PPP dial-up server.  It eases the 
+    end-user setup process by removing the need for scripting at 
+    connection time.  This feature alone can make an enormous 
+    different on technical support requirement for Windows 95 users.
+
+  * DNS negotiation with PPP:  Microsoft has proposed an addition to 
+    the PPP standard in the ability to negotiate the DNS server with 
+    the end-user's winsock stack.  Without this feature a quad 
+    numeric IP address must be given to the end user to enter.  Added 
+    to the PAP, this feature contributes to lowering technical 
+    support costs if the end-user's winsock stack support the 
+    extension.
+
+  * Primary & secondary DNS requester:  It is not uncommon for a 
+    Domain Name Server to fail.  As the DNS is required to convert 
+    domain names into quad numeric IP address, supporting only a 
+    primary DNS leaves your system dead in the water when it fails.  
+    MajorTCP/IP will automatically switch between a primary and 
+    secondary DNS, when either one fails or times out.
+
+  * Multi-homing:  The ability to provide clients with their own 
+    domain name is a recurring requirement.  Without multi-homing, it 
+    isn't possible to handle multiple IP addresses on the same 
+    Worldgroup server, thus impossible to distinctly support multiple 
+    domains.  These virtual domains can be used in conjunction with 
+    the WWW, FTP, SMTP, Telnet and RLogin servers.
+
+  * Expandable to 1,024 sockets:  High volume TCP/IP traffic, 
+    especially with the FTP or WWW server can take a considerable 
+    amount of sockets.  If MajorTCP/IP's base package with 255 
+    concurrent sockets isn't enough, it can be upgraded to 1,024.
+
+
+AVAILABILITY AND PRICING
+
+Current MajorTCP/IP clients may download the release 2.0 from 
+Vircom's support BBS immediately.  The upgrade is free.
+
+New clients may order the software from any of our fine 
+distributors below (or other unlisted resellers). MajorTCP/IP is 
+priced at $700 USD.
+
+
+VIRCOM'S SUPPORT BBS
+
+    28.8Kbps modem pool          (514) 687-2210
+    Telnet                       bbs.vircom.com
+    WWW                          http://www.vircom.com
+    FTP                          ftp.vircom.com
+
+
+VIRCOM'S DISTRIBUTORS
+
+    Digital Consulting Services  (800) 899-2002   sales@digiconsult.com
+    Tessier Technologies         (800) 473-3177   sysop@hs.wisenet.com
+    High Velocity Software, Inc. (800) 572-5582   sales@support.hvs.com
+    Datasafe Publications, Inc.  (800) 870-0004   sysop@dump.com
+    Sirius Software              (888) 747-4872   sirius@gcomm.com
+    Logicom, Inc.                (800) 764-4266   sysop@logicom.com
+    ProDesign, Inc.              (800) 399-2640   sclement@nmol.com
+    Majorware, Inc. (Canada)     (800) 321-3774   info@mjw.com
+    Online Store    (Europe)     +41/75-3736677   sysop@onlinestore.com
+
+
+ABOUT VIRCOM
+
+Vircom was incorporated in January 1994, with the mission to 
+develop high quality and leading edge software for the online 
+industry.  Since its inception, Vircom has distinguished itself 
+through its commitment to the highest standards of technical 
+support.  Its first product, MajorTCP/IP, was first released in 
+April 1994 and has since sold over 1500 licenses.
+
+
+VIRCOM CAN BE REACHED AT:
+
+	Telephone                (514) 990-2532
+	Fax                      (514) 523-6990
+	MajorNet                 sales@GMS
+	Internet                 sales@vircom.com
+	WWW                      http://www.vircom.com

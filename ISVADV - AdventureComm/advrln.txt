@@ -1,0 +1,164 @@
+This is the release notes on all products that AdventureComm Software, Inc.
+currently makes.
+
+All products on this list can be obtained from:
+
+AdventureComm Software
+P.O. Box 1836
+Kenner, LA 70064-1836
+U.S.A.
+
+Credit Card orders call:
+1-888-463-0156
+*We accept Visa, MasterCard, Discover, and American Express*
+
+Our Support BBS can be reached at (504)441-8187, leave email to Sysop
+saying you are a Sysop and you will be placed in the Customer Class.
+
+You can now also telnet to our BBS.
+Telnet Address:  bbs.adventurecomm.com
+IP: 204.251.13.162
+Leave email to Sysop, saying you are a Sysop and you will be placed in
+the Customer Class.
+
+--------------------------------------------------------------------------
+Time and Date Changer v1.50   Newest Version   $35.00
+--------------------------------------------------------------------------
+   v1.50     01/27/98
+
+1. Added a YES/NO option to display to the Audit Trail or not, I got
+   a request for this command because people where using this in
+   a popular Mud game to regenerate monsters to drop items.  He used
+   it over 1000 times in an hour and got alot of items for his members
+   on his bbs system.  Although it is possible to do this, you have
+   to be very careful.  Some games save when people exit and if for
+   some reason the date is a few days ahead and it saves there character,
+   in like a space game, They will not be able to enter and it will
+   say there ship was destroyed.  Just have to watch your users in other
+   modules basically if you are using this module for that purpose.
+   That I know of all Muds save differently so you should be ok changing
+   time or date inside these.
+2. Added a new CNF option for a sysop to decide what to make the lead
+   characters (switch) for time changes.  Set to -ct but up to you now.
+3. Added a new CNF option for a sysop to decide what to make the lead
+   characters (switch) for date changes.  Set to -cd but up to you now.
+4. Added a new CNF option for a sysop to decide what to make the lead
+   characters (switch) for time & date to be displayed.  Set to -tnd
+   but you can change it, alot of global packages use =td or -td do
+   not make them the same as those if you are running one that displays
+   the time and date, if you do you will either have a catastro or a GP.
+   As of now this is the only module I know that uses -tnd.
+5. After taking over EzSoft's Line of modules, if you were running EzSoft
+   Clock you need to email me directly, contact info is above.  You will
+   receive a free copy of the Time and Date Changer with proof of owner
+   ship. Basically a version number and an actcode will tell me if you
+   owned it or not.
+6. Modified the -tnd command greatly, also changed from 2 globals to 1
+   to show the time and date.
+7. Other misc. changes to colors.
+8. Made the Time and Date Changer 3.0 Dos compatible.
+
+   v1.35     08/23/97
+1. Added a write to the audit trail whenever the Time or Date is
+   changed from within the menu or with the global commands.
+2. Added a new CNF option to set for people that you want to be able
+   to change the system time and date globally.
+3. Added 2 more globals to allow a sysop or a person that has the
+   appropriate key to change the system time or system date within
+   any module.  To prevent cheating in some modules, I recommend making
+   this key different than the one you set to go into the module.  The
+   reason is some of the Muds are based on time and\or dates for specific
+   items and monsters to regenerate.  An Op can cheat very easy making
+   monsters regenerate within seconds instead of their appropriate times.
+   It also might be possible to disable this global from the other
+   modules CNF options by putting it in as one of the globals not to
+   allow.
+4. Seperated the versions, now each individual platform has a seperate
+   version.  In preparation of implementing a C/S side and possibly a
+   HTML side.
+5. Changed the price to $35.00 from $19.95 because of the addition of
+   global commands that allow you to change the system time and date
+   globally.  All previous owners get this version at no extra cost.
+6. A few minor color and menu changes.
+
+   v1.30     05/30/97
+1. Changed the Logon Message to allow to be switched from CNF 4
+2. A few minor color adjustments.
+
+   v1.25     05/09/97
+1. Fixed a problem with Nonstop, Continue, Exit on some menu screens.
+2. A few minor color adjustments.
+
+   v1.2      04/16/97
+1. Corrected the menu prompt.
+2. Changed the activation code generator, so with this version you will
+   need a New activation code for this version.
+3. A few minor color changes.
+
+   v1.1      04/12/97
+1. Added global time and date command, so sysops could check the time
+   and date of there system after correcting.
+2. Added key in CNF 3 so sysop could allow certain users to also change
+   the time and date.
+3. Colorized the menu's and updated the main menu, to make more appealing
+   to the eyes.
+4. Other misc. bug fixes.
+
+   v1.0      04/02/97
+1. Saw the need for a time and date changing program so that the sysops
+   could change the time and date of there system. Without the need to
+   bring down there BBS. Such as Daylight saving time, and Leap year,
+   or if your system runs a little slow or fast.
+
+
+--------------------------------------------------------------------------
+Chinese Zodiac v1.25          Newest Version   $25.00
+--------------------------------------------------------------------------
+   v1.25    09/23/97
+1. Ported to WG 3.0 Dos.
+2. Ported to WG 3.0 NT.
+   
+   v1.25    08/23/97
+1. Fixed a problem in which on some BBS systems the module was not
+   displaying correctly or not at all.  It was very hard to track
+   down this problem because it was working fine on our development
+   system and on our live system.  The problem should be fixed now.
+2. Changed the way in which the module operates, it should not eat up
+   memory now.
+3. Changed some menus around to prepare for the major overhaul of this
+   module.
+4. Seperated the versions, now each individual platform has a seperate
+   version.  In preparation of implementing a C/S side and possibly
+   a HTML side.
+
+   v1.20    06/22/97
+1. Fixed spelling errors in the module files, .msg, all files that are
+   visable to the user.
+2. The same activation code will work for those that previously
+   purchased this module.
+3. I strongly recommend erasing the advczod*.* files from your BBS's
+   directory, and perform a new installation.  
+4. Various logic changes in preparation for C/S interface.
+5. Minor color changes to help make the module more appealing.
+
+   v1.11    05/30/97
+1. Made the Logon Message Optional to be displayed or not.  Now a CNF
+   level 4 option.
+
+   v1.1     05/26/97
+1. A few minor color adjustments.
+2. Added text and improved the ANSI pictures.
+
+   v1.05    04/27/97
+1. Corrected the menu prompt.
+2. A few minor color changes.
+
+   v1.01    04/17/97
+1. Colorized the menu's and updated the main menu, to make more appealing
+   to the eyes.
+2. Other misc. bug fixes.
+
+   v1.0      04/12/97
+1. Saw the need for a Chinese Zodiak program so the users of the system
+   can look at there Chinese Zodiak while online.
+

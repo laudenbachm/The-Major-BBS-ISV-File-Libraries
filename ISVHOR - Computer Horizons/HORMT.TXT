@@ -1,0 +1,160 @@
+Your BBS Will Never Miss an Important Call Again     
+==== === ==== ===== ==== == ========= ==== =====
+     
+     Are you worried that your modems aren't always going to work
+properly?  Have you ever had a modem "Flake Out" or had a user report 
+that they called your system, but got no answer?
+     
+     If you run a serious system, modem problems are not acceptable.
+
+     You need Modem Technician, a new program from Computerized
+Horizons, the company that brought you "Console Master" and "Hacker
+Alarm."
+     
+     Modem Technician ensures that you don't have any modem-related
+problems.  It performs two main tasks:  First, it constantly monitors 
+all your modems.  It will alert you audibly whenever it detects any 
+of 10 different problems.  Second, it has a suite of thorough 
+diagnostic tools that will let you see exactly what your modems are 
+doing.
+
+     No matter what brand of modems you use, or their quality, Modem
+Technician will make sure that you find out about any problems before
+your users do.
+
+     Unlike hardware solutions that cost thousands of dollars, Modem 
+Technician was designed for use specifically with Major BBS and 
+Worldgroup, and can detect virtually all serious problems that may 
+occur.    
+
+
+
+CONSTANT MONITORING
+===================
+
+     Modem Technician will constantly monitor all of your modems and
+their UARTs.  It will detect the following problems on your 
+Worldgroup or Major BBS system, and alert you audibly and/or record
+the problem to the audit trail
+
+
+[1] Hardware Ring-no-answer:  Many SysOps have experienced the 
+    dreaded "Ring-No-Answer" problem.  Modem Technician detects this
+    on both the hardware and software levels.  The hardware level is 
+    when the phone is ringing, but the modem does not report the ring 
+    to Worldgroup.  This usually is caused by a modem has "flaked 
+    out," but can also be caused by a bad init string, or modem 
+    format problems.
+
+[2] Software Ring-No-Answer:  Modem Technician also detects this on 
+    the software level.  The software level is when the modem 
+    properly reports that the phone is ringing, but Major BBS or
+    Worldgroup does not properly respond to it.
+
+[3] Phantom User (Software):  A "phantom user" is a user that appears 
+    to be online, but is not.  For some reason, Worldgroup does not 
+    know that they have hung up.  The software level checks to see if
+    the modem microprocessor is reporting that the phone line is 
+    ringing, while Worldgroup thinks that a user is online.
+
+[4] Phantom User (Hardware):  This also involves checking for a  
+    "Phantom User", but at the hardware level.  This will be 
+    triggered when Worldgroup things that a user is online, but the
+    modem hardware either detects a ringing signal (even if it is not
+    reported to Worldgroup), or that there is no carrier present.
+
+[5] ERROR:  This test will make sure that your modems are not sending 
+    an "ERROR" message.  A modem that reports an ERROR has received a
+    command that it does not recognize.  The most common cause of
+    this is a bad init string.
+
+[6] No Response:  Modem Technician will detect when any of your 
+    modems are not responding to commands that are sent to them.  
+    This usually means that a modem has "Flaked Out".  A modem in  
+    this state is totally unreliable.
+
+[7] Failure to Initialize:  Sometimes modems will get stuck in the 
+    "initializing..." state.  Modem Technician will detect this 
+    condition, which may occur when an external modem is 
+    disconnected, or when Worldgroup tries to communicate to the 
+    modem at a speed faster than what the modem can accept.
+
+[8] DSR/CTS Low:  Modem Technician will detect whenever the modems' 
+    DSR/CTS lines stay low.  They can naturally go low during the 
+    course of an online session, but if they stay low there may be a 
+    problem.  This can occur, for example, when an external modem 
+    loses its power.
+
+[9] Bad UART Bits:  Certain UART bits are not used, and must be low 
+    at all times for proper operation.  You will be alerted if these
+    bits are ever high, which usually indicates a faulty UART.  
+    
+[10] Carrier on Vacant Modem:  Your modems must report the true 
+     status of the carrier.  Otherwise, problems will arise.  Modem 
+     Technician will alert you if any of your modems are not 
+     correctly reporting the carrier status.
+
+
+
+
+MODEM/UART DIAGNOSTICS
+======================
+
+     There are four full screens that can be accessed from the local
+console that allow you to monitor your modems and UARTs.  This can be
+quite useful for determining exactly what the problems are with your 
+modems.  The Online Help Screens and the Printed Manual will help you  
+make the most of these screens.
+
+     The screens allow you to view all the UART bits for all your 
+modems (you can see the UART info for up to 16 modems at a time).
+You can also see the UART, Worldgroup, and Max baud rates; as well as
+port addresses and init strings.
+
+     Another screen shows you simulated external modem LEDs.  This 
+screen will, at a quick glace, let you see the most relevant
+information about each modem.
+
+     The final screen is the most important.  It gives you streaming
+information on 11 different phases that occur from the time the phone 
+rings until a user logs on, and then hangs up again.  The data can be 
+shown for 4 different time periods (1/16th second samples, 1/3rd 
+second samples, 1-second samples, or 6-second samples).  This lets 
+you see from 4 seconds to 6 minutes' worth of data on the screen at 
+once.  
+
+     You don't have to use these four screens, since Modem Technician 
+will automatically find problems that occur.  However, if you want to 
+know exactly what your modems are doing, or if you need to prove to
+someone that everything is working properly, this is the only way to 
+do it.
+
+
+ABOUT COMPUTERIZED HORIZONS
+===== ============ ========
+
+Computerized Horizons is dedicated to offering products that are
+unique, high-quality, bug-free and reasonably priced.  If you have
+any problems with any of our products, even free programs or demo
+versions, please contact us.  We want to make sure that everything is
+working properly for you.
+
+
+CONTACT INFORMATION
+======= ===========
+
+The price for Modem Technician is just $149US.  You can pay by check, 
+money order, or credit card (MC/VISA/AMEX/DISCOVER).  If you would like 
+to place an order, or have any questions, you may contact Computerized 
+Horizons by any of the following ways:
+
+Voice: 203/335-7431,  Fax: 203/335-3007
+
+Mail:  Computerized Horizons
+       2490 Black Rock Tpke. #309
+       Fairfield, CT  06430-2404
+
+Our BBS (Fairfield Community Connection): 203/335-4073
+Internet E-mail: sysop@fcc.com    Telnet: fcc.com
+Majornet E-mail: sysop@HOR       Support: ML@MAJORBBS.DEV.HOR  
+World Wide Web : http://www.fcc.com/isv.htm

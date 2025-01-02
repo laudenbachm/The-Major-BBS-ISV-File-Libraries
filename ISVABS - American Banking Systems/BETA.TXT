@@ -1,0 +1,82 @@
+Dear Mega Market 1.08 Beta Test Applicant,
+
+     Thanks for expressing an interest in participating in the beta testing
+of the C/S Sysop version of Mega Market. In order to qualify for this beta
+test, you must currently own a license to the Mega Market or purchase one
+through ABS's sales department at 1-407-888-9091. ABS reserves the right to
+choose beta test sites and to limit the number of sites participating in
+the beta test.
+
+     By signing this letter of understanding you commit to keeping the
+Mega Market software secure from unauthorized use.  Your use of the
+beta test software is limited to the standard ABS Software
+License Agreement in which the software will be shipped.  In addition
+you further agree to the following modifications to the standard
+ABS License Agreement:
+
+1. Beta software may not be transferred to other parties.
+
+2. You must destroy the beta test software and any beta documentation
+   you receive when the commercial version of Mega Market 1.08 officially
+   ships.
+
+3. You are not authorized to reprint or distribute any electronic or
+   printed documentation provided to you during the beta test period.
+
+4. I agree to treat the ABS developers with respect.
+
+5. I fully understand that the 1.08 version is a *beta*, and as such,
+   may crash my system (both Windows and Server). When this happens,
+   I will not call up ranting and raving, but rather, will politely
+   post exactly what I was doing when the problem occurred in the
+   forum, along with the associated GP.OUT or CATASTRO.TXT files.
+
+6. I agree to post any and all bugs found, immediately in the forum.
+
+7. I understand that voice tech support on the 1.08 version will not
+   be available until the FINAL MM 1.08 is released.
+
+8. I understand that ABS, it it's own discretion either with or
+   without cause, can exclude me from the MM 1.08 beta team at any
+   time, and I will simply have to wait for the final release at
+   that point.
+
+9. I promise never to ask "When will it be done?"
+
+
+     When Mega Market 1.08 becomes commercially available, current customers
+will automatically be shipped the final software and documentation.
+Throughout the beta period, it may be necessary to make patches or full
+beta releases available for download from the ABS Online System.
+Downloads will be available from the BETA library or the Worldgroupmm forum.
+
+     For help with installing or operating Mega Market 1.08, please participate
+in the WorldgroupMM forum on the ABS Online System.  Initially support
+will NOT be available through Technical Support.  A notice will be
+posted in the Worlgroupmm forum when support will be available through the
+Technical Support department. 
+
+     If this agreement is not acceptable to you, or Worldgroup server
+downtime is disastrous for your business, please take our suggestion to
+wait until the official product release.  If you do decide to work with
+the beta version however, then please fill out this form COMPLETELY,
+sign it and fax the ENTIRE form back to ABS at 1-407-888-9092
+
+Applicants not completely filling out this form will be rejected.
+
+Signed in agreement: __________________________________________________________
+
+Name (please print): __________________________________________________________
+
+Company:  __________________________________________________________________
+
+Voice phone number:  _________________________________________________________
+
+Worldgroup Registration Number:  ______________________________________________
+
+Worldgroup User Count:  _________  
+
+User-ID on ABS System: __________________________________________
+
+Preferred Internet E-mail Address (optional):__________________________________
+

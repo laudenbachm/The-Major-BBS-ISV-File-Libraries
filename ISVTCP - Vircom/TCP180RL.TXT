@@ -1,0 +1,129 @@
+
+                    MajorTCP/IP version 1.80
+
+     (IDENT, NNTP and POP3 servers & IDENT and IRC clients)
+
+
+For Immediate Release
+
+Wednesday, December 20, 1995
+
+
+(Montreal, Quebec, Canada)  Vircom Inc., makers of the
+MajorTCP/IP Internet connectivity solution and of the Distributed
+MajorBBS Architecture (DMA) lines of products for The MajorBBS
+and Worldgroup platforms, is announcing the production release of
+MajorTCP/IP version 1.80.  The notable improvements and features
+of this new release are:
+
+     IDENT Client and Server:  This security feature, although
+     not foul-proof, allows your system to exchange userid
+     information with remote Internet hosts.  This validation
+     method is often used by IRC servers, which would otherwise
+     refuse a connection from a site without an Ident server.
+     The Ident client attempts to identify the userid of a TELNET
+     caller on the remote system (s)he is calling from.  This
+     feature has already helped many SysOps catch hackers and
+     abusive competitors.
+     
+     NNTP Server:  Carry Usenet (Internet) newsgroups directly in
+     your system's forums, giving your users the advanced
+     functionality of QWK packets for off-line reading and of the
+     Client/Server graphical user interface.  Highlights of the
+     NNTP server are:
+     
+          * Key-based security for posting to newsgroups
+          * Billing surcharges by messages, attachments and/or
+            kilobytes
+          * News traffic does not take any user-count licenses
+          * For security, NNTP traffic may be restrained to a
+            single newsfeed
+          * Supports both The MajorBBS 6.25 and Worldgroup platforms
+          * System signature tagged at the end of each posting
+     
+     POP3 Server:  Through a TCP/IP connection to the system,
+     either using MajorTCP/IP's passthrough SLIP server, a LAN
+     connection or over the Internet, users are able to read
+     their Emails using standard POP3 mail agents, such as
+     Eudora, and even Windows '95's Mail Exchange.  Highlights of
+     the POP3 server are:
+     
+          * Key-based security for using POP3 server
+          * Billing surcharges by time, messages and/or kilobytes
+          * POP3 traffic does not take any user-count licenses
+          * For security, POP3 traffic may be restrained to local
+            connections only
+          * Compliant with RFC1725 standards
+          * Supports MIME file attachments
+          * Supports optional UIDL for POP3 mail agents requiring it
+     
+     IRC Client:  In addition to already being able to use a
+     graphical IRC client through MajorTCP/IP's passthrough SLIP
+     server, users will now be able to discuss on the Internet
+     Relay Chat with this new IRC client.  Highlights of the IRC
+     client are:
+     
+          * Mimics Tele-conference user interface to ease learning
+          * DCC receive file transfers
+          * DCC chat (one on one)
+          * Key-based security for DCC file transfer access
+          * Configurable access to adult material
+          * Background performance optimization for a default IRC
+            server
+          * Supports both The MajorBBS 6.25 and Worldgroup platforms
+     
+     New software manual:  The software manual for MajorTCP/IP
+     was completely rewritten.  The step by step approach of the
+     new manual, and its 160 pages, has already helped many
+     clients.
+
+
+Availability and Pricing
+
+Starting on Friday December 22, our current clients may download
+MajorTCP/IP version 1.80, either from our distributors' or
+Vircom's support BBS.  This upgrade is free of charge.
+
+New clients may order the software from any of our fine
+distributors below (or other unlisted resellers).  The above
+features are available only in the combo release of MajorTCP/IP,
+priced at $700 USD, with the following highlights:
+
+     * Up to 256 TCP Sessions
+     * RLogin & TELNET (Incoming & Outgoing)
+     * DMA v2.1 Client
+     * Finger Client and Server
+     * Finger Information Server
+     * WWW Server
+     * FTP Client
+     * IRC Client
+     * IDENT Client and Server
+     * NNTP Newsgroups
+     * SMTP Emails
+     * POP3 Server
+     * Passthrough SLIP/CSLIP Server
+
+
+Vircom's support BBS
+
+     28.8Kbps modem pool                (514) 687-2210
+     TELNET                             gm.gamemaster.qc.ca
+
+
+Vircom's distributors
+
+     Digital Consulting Services        (800) 899-2002
+     Tessier Technologies               (800) 473-3177
+     High Velocity Software, Inc.       (800) 572-5582
+     Datasafe Publications, Inc.        (800) 870-0004
+     Sirius Software                    (307) 237-0065
+     Logicom, Inc.                      (800) 764-4266
+
+
+Vircom can be reached at:
+
+     Telephone                          (514) 990-2532
+     Fax                                (514) 681-3751
+     MajorNet                           MajorTCPIP@GMS
+     Internet                           majortcpip@vircom.com
+

@@ -1,0 +1,259 @@
+Command Center -- Release Notes
+
+* IMPORTANT NOTICE *
+* EXISTING COMMAND CENTER CUSTOMERS *
+* IMPORTANT: YOU NEED A NEW ACTCODE! *
+
+  Actcodes are available by submitting your information to us by e-mail to
+  bladerunner@colis.com, by telephone at (809) 922-5201 or (809) 922-5173,
+  or by FAX to (809) 922-9036.  Ensure that you provide us with your e-mail
+  address so that we can transmit the activation code to you when generated.
+  If you are a Cyberware CC customer we must have proof of your existing
+  ownership before we can provide you with an activation code for the
+  transfer cost only.
+
+  The cost of transferring your ownership of Command Center is $15.00.  For
+  information on upgrading to WG 3 versions, download PRICES.TXT from the
+  ISVSFA file library on the Galacticomm Demo System (demosys.gcomm.com).
+
+  You can also contact us by dialing in directly to our BBS, creating an
+  account and leaving e-mail to Sysop or Support, but we do not recommend
+  this because of the long distance charges you will incur.
+
+
+
+Version 3.04 (07 April 1997)
+---------------------------
+
+A.  BUG FIXES/REPORTS
+=====================
+  -------------------------------------------------------------------------
+  Item     : C/S Global Chat Channel generating Overflow error for chat
+             channels > 32768.
+
+             This bug manifested itself by generating an "Overflow!" error
+             and summarily closing down Command Center whenever a user set
+             their Global Chat channel > 32768.  In some instances, the
+             closure of Command Center would prevent Windows from shutting
+             down properly.
+
+  Action   : This item has been corrected.  Users may now select channels
+             for Global Chat in the full range of 0 to 65535.
+
+  -------------------------------------------------------------------------
+  Item     : Command Center's main button form was not saving its loaded
+             position.
+
+             Command Center's main toolbar form should install itself
+             initially centered horizontally at the the top of the screen.
+             Thereafter the toolbar should re-display in whatever position
+             the user last placed it.
+
+  Action   : This item has been corrected.  The toolbar now correctly
+             re-displays at the last on-line position.
+
+  -------------------------------------------------------------------------
+  Item     : Command Center's main button form was not properly honouring
+             the setting of the Always on Top checkbox in the Settings
+             form.
+
+             When the Always on Top checkbox in the Settings form was
+             unchecked, Command Center's main button form would still have
+             to be clicked or the user would have to shift focus to and
+             from the form at least once to force the form to display under
+             other windows, such as the Global Chat window.
+
+  Action   : This item has been corrected.  When the Always on Top checkbox
+             is unchecked and the Settings form closed, selecting focus on
+             on any other window will move Command Center's button form
+             underneath the window acquiring the focus.
+
+  -------------------------------------------------------------------------
+  Item     : Command Center's Global Chat window partially obscured by
+             the main button form when Always on Top unchecked.
+
+             When the Global Chat Window was activated in a position
+             overlapping the main button form with the Always on Top
+             checkbox unchecked, the button form overlap was still obscuring
+             the Global Chat window.
+
+  Action   : This item has been corrected.  When the Always on Top checkbox
+             is unchecked and the Global Chat window is activated and
+             overlaps the main button form, the Global Chat window will
+             overwrite the portion of the main button form which overlaps
+             the Global Chat window.
+
+  -------------------------------------------------------------------------
+  Item     : Change Keys C/S form would not accept empty keys.
+
+             The C/S form for changing Command Center keys would not accept
+             an empty string as a valid key values.  Keys already containing
+             a key value could only have that value removed from A/A mode.
+
+  Action   : This item has been corrected.  All keys displayed in the C/S
+             Change Key form will now accept an empty string as a valid
+             key value and will delete any existing key in such case.
+
+  -------------------------------------------------------------------------
+  Item     : Command Center's display of the server's Auto-busy modules was
+             not formatting properly on screen.
+
+  Action   : This item has been corrected.
+
+  -------------------------------------------------------------------------
+  Item     : Entering a specified Auto-busy module which led to another
+             module flagged as Auto-busy could lead to a race codnition
+             where both modules continually set and reset the user's BUSY
+             flag.
+
+  Action   : This item has been corrected.  The Auto-busy logic has now been
+             changed such that once a user has entered a module flagged for
+             Auto-busy and the module causes the user's BUSY flag to be set,
+             the user's BUSY flag will only be reset if one of the following
+             conditions are met:
+
+             a.  the user manually resets their BUSY flag;
+
+             b.  the user exits the module to a module which is NOT flagged
+                 as an Auto-busy module.
+
+
+B.  NEW/REVISED COMMANDS
+========================
+
+(Usage shown with default commands)
+
+  =U       : On-Line User display
+             The on-line user list display has been expanded to provide 5
+             detail levels.  Level 2 & 3 have been moved up by 1 to become
+             levels 3 & 4.  The range is now from 0 to 4.
+
+             The new list is level 2 (=U2),which provides a color coded
+             on-line user display listing.  Invisible users display (to
+             Master key holders only) in reverse highlight.  Master Key
+             holders User-Id's display in the ANSI color sequence specified
+             in CNF option ANSSYS, and non-Master key holders User-Id's
+             display in the color sequence shown in ANSNCL.  The sex for all
+             users is displayed and the sex character is color coded by CNF
+             options ANSMCL and ANSFCL for males and females respectively.
+             The age for users is displayed if the Command Center setting
+             "Display age in list" is set to YES, or if the user viewing the
+             user list holds the MASTER key.
+
+  =AG      : Toggle On-Line Age Display
+             This command toggles the display of a user's age in the On-Line
+             User List level 2 (=U2).  The default is YES.  The age is
+             displayed if either this setting is YES or the user viewing the
+             user list holds the MASTER key.
+
+             The C/S entry for this command can be found in the Settings
+             form as a CheckBox captioned "Display Age".  When checked, the
+             user's age will be displayed in the =U2 list and the C/S
+             On-line user listings, when unchecked the age will not be
+             displayed, except when the user viewing the listing holds the
+             MASTER key.
+
+  =DOWN    : Initiate/Cancel a Shutdown sequence.
+             Use this command to initiate or cancel a timed system shudown
+             with optional Audit Trail entry and broacast to users.
+
+             Usage:  =DOWN [mins] [message] [*]
+
+                     =DOWN
+
+             Where:  mins    = number of minutes to shutdown (0 .. 99).
+
+                     message = any optional message you want recorded in the
+                               Audit Trail and broadcast to users (63 chars.
+                               max).
+
+                     *       = signal that [message] is to be broadcasted to
+                               all users.
+
+             If you =DOWN without any arguments, any system shutdown
+             currently in progress including shutdowns initiated from the
+             Remote Sysop Console will be cancelled.
+
+
+C.  CNF OPTION CHANGES
+======================
+
+The following CNF options have been added or changed:
+
+Key: {} = option type 
+     [] = default
+     <> = numeric range
+     () = determined by option setting
+
+  USRAGE   : {BOOLEAN} [YES] NO
+             Sets the default display value for user's ages for On-Line User
+             List level 2.  YES means that users Command Center settings
+             defaults to displaying their age in this list, NO means that
+             the default will be to display the string "N/A".
+
+  BSYCHK   : {NUMERIC} [30] 1 60 (TGMCLR=DAYS)
+             Command Center handles Auto-busy modules by doing periodic
+             checks on the module states of all users. This option sets the
+             time interval which the module should use for these checks. The
+             default of 2 seconds works well with most systems.  With very
+             heavily loaded systems, you may want to increase this figure.
+
+  CSULV10  : This CNF option contains the text variable corresponding to the
+             Age column header for the C/S On-Line user listing.  The text
+             variable OTHAGE has been replace with OTHADS so that the
+             display of users' ages can be user selected.
+
+  USL2TMP  : {TEXT BLOCK}
+             This CNF item has been modified for the new color coded on-line
+             user display listing.
+
+  USL2ITMP : {TEXT BLOCK}
+             This CNF item contains the template for the reverse highlighted
+             user line display for invisible users for the =U2 on-line user
+             listing.
+
+  USL3TMP  : {TEXT BLOCK}
+             Previously USL2TMP.
+
+  USL4TMP  : {TEXT BLOCK}
+             Previously USL3TMP.
+
+
+D.  TEXT VARIABLES
+==================
+
+The following text variables have been added and/or changed:
+
+(Note: the full name of the text variable includes the prefix of "SFACC_").
+
+  OTHADS   : Returns a string containing the users age right-justified in a
+             3 character width field or the string "N/A".  The age string is
+             returned if either the current user viewing the list holds the
+             MASTER key or the user whose age is being reported has set the
+             "Display age in list" setting (toggled with the =AG command) to
+             YES.  If the user's setting is NO AND the user viewing the list
+             does NOT hold the MASTER key, the string "N/A" is returned.
+
+
+E.  ADDITIONAL NOTES
+====================
+
+The =DOWN command will be expanded in future revisions to allow for full
+screen data entry of a text message to be broadcast to users.
+
+
+Soft Arts Ltd.
+66 & 68 Barry Street
+1st Floor
+Kingston
+Jamaica, W.I.
+
+Tel.#s : (809) 922-5201/5173 Voice
+         (809) 922-9036      Fax
+         (809) 922-7990      BBS
+
+E-mail us with comments, suggestions, etc. at-
+    bladerunner@colis.com
+
+
+(end of release notes)

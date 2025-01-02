@@ -1,0 +1,789 @@
+                           EzSoft - "We make software Ez"                        
+             北北北  EzSoft Add-on Products for Worldgroup List  北北北
+                                 November 1, 1997
+
+
+IMPORTANT NOTICE: Effective January 1, 1998, we will be increasing prices.
+At that time, our $35 modules will be $40, our $50 modules will be $60, and
+our $80 modules will be $100.
+
+
+  Add-ons currently available:
+
+
+    EzSoft Announcer
+
+  This FREE program allows you to send a message at
+  intervals to users without a key. A great way to
+  bug your DEMO users to pay for access (and also to
+  avoid this irritating messsage). You control how
+  often the message is sent and who sees it, along
+  with the message itself, and even whether or not
+  to send it to users in the Full Screen Editor.
+  ***Latest Worldgroup 3 WIN version    : 1.6W***
+  ***Latest Worldgroup 3 DOS version    : 1.6D***
+  ***Latest Worldgroup 1.x and 2 version: 1.6***
+  Worldgroup 3 WIN Filename             : EZEDMP3W.ZIP      FREE
+  Worldgroup 3 DOS Filename             : EZEDMP3D.ZIP      FREE
+  Worldgroup 1.x and 2 Filename         : EZEDMP.ZIP        FREE
+  ===Module available on Systems listed below===
+
+    EzSoft Advertiser
+
+  Advertiser allows you to display ads to your users 
+  while they are online. It can select ads which you 
+  have created and display them at regular intervals 
+  you configure. You control who views the ads and who 
+  doesn't see them; there is a key for your staff not 
+  to see the ads if you wish, and you can configure the 
+  ads so they are broadcast to only a selected audience. 
+  This audience can be selected to be only males, only 
+  females, only adults, only minors, to see an ad only
+  once a day, to display only on a certain channel range, 
+  to display only during prime time hours you configure, 
+  and to be broadcast only to one random user selected 
+  at broadcast time. Advertiser allows you to charge 
+  companies to offer their products and services to your 
+  users, and you can charge premium prices for ads broadcast 
+  during prime time, greatly increasing your profitability. 
+  Ads can be added, removed and configured while the system 
+  is running for maximum flexibility. All of the options can be 
+  configured in CNF to suit your needs. Advertiser can even
+  keep a record of how often each ad is displayed so you can
+  charge for each display if desired.
+  ***Latest Worldgroup 3 WIN version    : 1.1W***
+  ***Latest Worldgroup 3 DOS version    : 1.1D***
+  ***Latest Worldgroup 1.x and 2 version: 1.1***
+  Worldgroup 3 WIN Filename             : EZEAN11W.ZIP      $50.00
+  Worldgroup 3 DOS Filename             : EZEAN11D.ZIP      $50.00
+  Worldgroup 1.x and 2 Filename         : EZEANN11.ZIP      $50.00
+  ===Demo available on Systems listed below===
+
+    EzSoft AFK                                  
+
+  Allows users to tell others that they are away from their 
+  keyboards, and to find out when others are away and return. 
+  Global command makes telling others and checking on them a 
+  snap. When checking other users, you do not have to type the 
+  full handle, but only part of it like the /p page command.
+  Can be used with actions in the Entertainment Teleconference, 
+  or without actions in the standard Teleconference to let 
+  users in your Teleconference channel know your status with 
+  the same global command. Can also show the user's location
+  as "Away From Keyboard" in user listings when users use a
+  global user listing command if you don't use the Teleconference
+  actions. A must-have module for all multi-line systems. All 
+  options and text blocks are fully Sysop configurable in CNF.
+  ***Latest Worldgroup 3 WIN version    : 1.3W***
+  ***Latest Worldgroup 3 DOS version    : 1.3D***
+  ***Latest Worldgroup 1.x and 2 version: 1.3***
+  Worldgroup 3 WIN Filename             : EZEAF13W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZEAF13D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZEAFK13.ZIP      $35.00
+  ===Demo available on Systems listed below===
+				   
+      EzSoft Birthday Announcer                
+
+  This birthday lister displays a birthday ANSI drawing and 
+  birthday wishes to everyone at log-on if a user has a
+  birthday. The user whose birthday is listed is randomly
+  selected at each log-on so that everyone has a chance to
+  be recognized on their special day. Birthday also shows 
+  upcoming birthdays. It can send Email to users on their 
+  birthdays, with gift credits or days in class (Worldgroup
+  version) if you wish. Includes an option to not show user's 
+  ages. All options and text blocks are CNF configurable. 
+  Version 2.8 for Worldgroup includes both C/S and A/A 
+  interfaces.
+  ***Latest Worldgroup 3 WIN version    : 2.8W***
+  ***Latest Worldgroup 3 DOS version    : 2.8D***
+  ***Latest Worldgroup 1.x and 2 version: 2.8***
+  Worldgroup 3 WIN Filename             : EZEBD28W.ZIP      $50.00
+  Worldgroup 3 DOS Filename             : EZEBD28D.ZIP      $50.00
+  Worldgroup 1.x and 2 Filename         : EZEBDY28.ZIP      $50.00
+  ===Demo available on Systems listed below===  
+     
+     EzSoft Busy Notifier                      
+
+  Tells you when you can page someone who is "busy" and 
+  can't be paged. You are notified as soon as they are
+  no longer busy or they log off the system. You don't
+  even have to type the user's full handle; just part of
+  the handle like the /p <user-id> paging command. It even
+  continues to check to see if you can be notified if you
+  are "busy" when your notification arrives.
+  All options and text blocks are configurable by the Sysop 
+  in CNF. 
+  ***Latest Worldgroup 1.x and 2 version: 2.3***         
+  Worldgroup 1.x and 2 Filename         : EZEBSY23.ZIP      $35.00
+  ===Demo available on Systems listed below===
+    
+    EzSoft Call Back                           
+
+  Lets you limit users without the key you choose from re-logging
+  on within the amount of time you choose. You can set a delay of
+  up to 2 hours. Ideal for keeping users with a limit per call
+  from logging off or re-logging and coming back right before their
+  time expires, freeing a line for someone else. "Prime time" option
+  allows you to set when the module runs for during peak times only.
+  All options and text blocks are Sysop configurable in CNF. Delays
+  are recorded in the Audit Trail. The Worldgroup version works with
+  both C/S and A/A users.
+  ***Latest Worldgroup 3 WIN version    : 1.6W***
+  ***Latest Worldgroup 3 DOS version    : 1.6D***
+  ***Latest Worldgroup 1.x and 2 version: 1.6***
+  Worldgroup 3 WIN Filename             : EZECB16W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZECB10D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZECAL16.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Class Change                        
+    
+  Gives you a global command to switch new users into a desired
+  trial class for the desired number of days and at the same time
+  optionally post credits. A great convenience to the Sysop in that
+  now you can do everything in one simple global command and you
+  can configure the number of days that get posted as well as the
+  credits so Class Change handles it all for you. You configure
+  who can use Class Change by key, and all options and text blocks
+  in CNF. Class changes are recorded in the Audit Trail.
+  ***Latest Worldgroup 3 WIN version    : 1.2W***
+  ***Latest Worldgroup 3 DOS version    : 1.2D***
+  ***Latest Worldgroup 1.x and 2 version: 1.2***
+  Worldgroup 3 WIN Filename             : EZECL12W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZECL12D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZECLS12.ZIP      $35.00
+  ===Demo available on Systems listed below===
+    
+    EzSoft Clock                               
+
+  Clock gives you a simple global command, which can be keyed as
+  desired, which allows you to change the BBS clock setting without
+  taking the system down to DOS. A great convenience for systems
+  whose clocks tend to "drift" or are changed by the operation of
+  certain modules, for situations like daylight savings time, etc.
+  Now you can leave the system up while you update your time and
+  the change takes effect immediately!
+  ***Latest Worldgroup 3 DOS version    : 1.1D***
+  ***Latest Worldgroup 1.x and 2 version: 1.1***
+  Worldgroup 3 DOS Filename             : EZECL10D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZECLK11.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Colorize                             
+   
+  Allows your users to insert color and ASCII extended characters        
+  into their messages. Works globally for input such as whispers,
+  the line editor (but NOT full screen editor), pages, the registry,
+  and so on. Users can color their text and background, create
+  special effects such as blinking text and reverse video, and
+  put extended characters into their input. Coloring text and
+  background, special effects and extended characters are all
+  keyed individually so you control who gets access to these
+  commands. The commands are used with characters that you can
+  change in CNF. On-line help that you can edit included. Colorize 
+  even strips out redundant ANSI codes so your users can make the 
+  largest possible message. Now includes lower ASCII characters
+  such as the heart and "beep" characters, and gives you the 
+  ability to turn each lower character ON or OFF.
+  ***Latest Worldgroup 3 WIN version    : 1.4W***
+  ***Latest Worldgroup 3 DOS version    : 1.4D***
+  ***Latest Worldgroup 1.x and 2 version: 1.4***
+  Worldgroup 3 WIN Filename             : EZECO14W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZECO14D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZECOL14.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+      EzSoft Credit Alert                      
+
+  Tells users when they log-on if their credits or days
+  left in class are running low. Also can alert on-line users who
+  are running low on credits if their class uses credits, and can 
+  alert those who have a limit per call when they are running 
+  out of time left. All options and text blocks are configurable
+  by the Sysop in CNF. The Worldgroup version alerts both C/S
+  and A/A users, and gives the option to send Email alerts to
+  your users too.
+  New in version 2.2x: Alerts users whose class allows debt when
+  they are approaching their debt limit.
+  ***Latest Worldgroup 3 WIN version    : 2.2W***
+  ***Latest Worldgroup 3 DOS version    : 2.2D***
+  ***Latest Worldgroup 1.x and 2 version: 2.2***         
+  Worldgroup 3 WIN Filename             : EZECR22W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZECR22D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZEALT22.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Credits
+
+  Credits allows you to define up to 5 classes which you would like
+  to have receive free credits each month. You can specify how many
+  free credits each class gets. Then during the midnight cleanup
+  routine on the day you specify of each month the classes are
+  posted free credits. However, their total free credits will never
+  exceed the amount they are to be posted; so for example, if a 
+  class is to receive 3600 free credits each month, and they have
+  1800 free credits left from the previous month, they will start
+  out the month with only 3600 free credits rather than 5400. They
+  will still keep any paid credits. Great for giving your users
+  the ability to play games and use premium services with a limit,
+  and they may even wish to purchase more credits as a result!
+  You configure all options such as class names, credit amounts,
+  and the day of each month to post and balance credits on.
+  ***Latest Worldgroup 3 WIN version    : 1.1W***
+  ***Latest Worldgroup 3 DOS version    : 1.1D***
+  ***Latest Worldgroup 1.x and 2 version: 1.1***         
+  Worldgroup 3 WIN Filename             : EZECD11W.ZIP      $50.00
+  Worldgroup 3 DOS Filename             : EZECD11D.ZIP      $50.00
+  Worldgroup 1.x and 2 Filename         : EZECRD11.ZIP      $50.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Demo Clean
+
+  Demo Clean allows you to get rid of unused accounts easily and
+  automatically. You configure which accounts are deleted (those
+  who lack a key you specify), and how many days of inactivity
+  before they are tagged for kill. Then during midnight cleanup,
+  these users are tagged for kill. A message can be placed both
+  in the Audit Trail and in a text file telling you of the tag,
+  allowing you the opportunity to remove the tag if you wish.
+  If you don't remove the tag, the account will be deleted at
+  the next cleanup. Accounts which are protected are not tagged
+  for kill.
+  ***Latest Worldgroup 3 WIN version    : 1.0W***
+  ***Latest Worldgroup 3 DOS version    : 1.0D***
+  ***Latest Worldgroup 1.x and 2 version: 1.0***         
+  Worldgroup 3 WIN Filename             : EZEDM10W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZEDM10D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZEDMC10.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Feedback                            
+
+  Provides a convenient place for users to leave feedback to
+  your BBS staff. You configure who can leave feedback by key,
+  as well as who receives the feedback in their Email, and the 
+  program text blocks.  
+  ***Latest Worldgroup 1.x and 2 version: 1.4***
+  Worldgroup 1.x and 2 Filename         : EZEFBK14.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+    EzSoft FreeLine                            
+
+  Keeps DEMO users from tying up your lines. If all lines are
+  in use and DEMO users are logged on, FreeLine hangs up on a
+  DEMO user after telling him he should pay up to avoid this
+  hassle. Keeps a line free for your paying users. Now upgraded
+  so you can choose not to have all lines checked, as well as
+  how often the program checks the lines. Sysop configures 
+  which users get bumped off and which are safe by key, and 
+  what the hang-up message says. FreeLine allows you to 
+  configure which lines are checked, and logs off the DEMO
+  user who has been on the longest time. Records both warnings
+  and log-offs in the Audit Trail. Logs off both C/S and A/A 
+  users.
+  ***Latest Worldgroup 3 WIN version    : 2.0W***
+  ***Latest Worldgroup 3 DOS version    : 2.0D***
+  ***Latest Worldgroup 1.x and 2 version: 2.0***         
+  Worldgroup 3 WIN Filename             : EZEFR20W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZEFR20D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZEFRE20.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Global Post                         
+
+  If you've ever had your system down for a day and had your 
+  users complain about losing a day they paid for Global Post 
+  will end that headache. It allows posting of days in class 
+  and/or credits to all users in a selected class. Now you can 
+  keep your users happy and give them the full number of days 
+  they've paid for without a major hassle by using this module. 
+  Multiple classes can be posted to simultaneously using the
+  simple global commands. Also great for Christmas gifts, special 
+  promotions, etc. Also allows you to globally set how many days 
+  in class all users in desired classes have and how many credits 
+  all users in desired classes have using global commands. This
+  allows you to set the credits of all users to 0 if you are going
+  to a days only system. All options and text blocks are Sysop 
+  configurable in CNF. Postings are recorded in the Audit Trail.
+  ***Latest Worldgroup 3 WIN version    : 1.4W***
+  ***Latest Worldgroup 3 DOS version    : 1.4D***
+  ***Latest Worldgroup 1.x and 2 version: 1.4***
+  Worldgroup 3 WIN Filename             : EZEGP14W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZEGP14D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZEGP14.ZIP       $35.00
+  ===Demo available on Systems listed below===
+
+     EzSoft Globals                           
+
+  This is a package of global commands that you won't be able to
+  live without after you've seen it. Includes macros, Who's Online, 
+  screen type and mode, instant log-off, page console and all Sysops
+  who are online, chat channels, telegrams, transfer credits and days 
+  in class, log-on notices, a switch to not be bothered in the Editor, 
+  and many more, including colorize input. Also included are many Sysop 
+  commands such as give/take user key including negative keys, switch 
+  class, suspend user with automatic unsuspend, post credits and days 
+  in class, extend a user's time on-line, and many neat features like 
+  the ability to page a user whose page mode is set to OFF and the 
+  ability to turn off a user's "Busy". We have made many enhancements 
+  to invisibility and the Sysop commands in this version, and users
+  can choose whether to show their ages to others in the Who's Online
+  display. All commands are keyed, with command strings you define. 
+  Very customizable with many options configurable by the Sysop in CNF.
+  ***Latest Worldgroup 3 WIN version    : 3.3W***
+  ***Latest Worldgroup 3 DOS version    : 3.3D***
+  ***Latest Worldgroup 1.x and 2 version: 3.3***
+  Worldgroup 3 WIN Filename             : EZEGL33W.ZIP      $80.00
+  Worldgroup 3 DOS Filename             : EZEGL33D.ZIP      $80.00
+  Worldgroup 1.x and 2 Filename         : EZEGLO33.ZIP      $80.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Invisible                           
+
+  Allows Sysops to turn any user invisible, and back to normal 
+  again using a global command. Also turns desired users who 
+  don't have a key invisible at log-on. It also automatically 
+  updates the visibility of users whose access changes while on-line,
+  so if a user's class changes he is made invisible or uninvisible
+  automatically! Keeps new users from annoying paying members and 
+  vice versa. All options and text blocks are configurable by the 
+  Sysop in CNF. Use of the global command is recorded in the Audit
+  Trail. The Worldgroup version works with C/S and A/A users.
+  ***Latest Worldgroup 3 WIN version    : 2.3W***
+  ***Latest Worldgroup 3 DOS version    : 2.3D***
+  ***Latest Worldgroup 1.x and 2 version: 2.3***
+  Worldgroup 3 WIN Filename             : EZEIN23W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZEIN23D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZEINV23.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Lines
+
+  Lines allows you to have your system check for the lines filling
+  up during prime time hours you configure. If the lines in the
+  range you want checked are filling up (and filled is configurable
+  by you as well) then Lines will determine a user to disconnect
+  to clear room for a user with higher priority. Lines does this
+  by checking for which key a user has, and by how long the user
+  has been online. The user with the lowest priority (key) who
+  has been on the longest time will be warned, then disconnected.
+  He will then be delayed from reconnecting for an amount of time
+  you specify. Lines can also save complete statistical information
+  on log-ons, warnings, disconnects and delayed log-ons in a text
+  file. All options and text blocks are configurable in CNF.
+  ***Latest Worldgroup 3 WIN version    : 1.0W***
+  ***Latest Worldgroup 3 DOS version    : 1.0D***
+  ***Latest Worldgroup 1.x and 2 version: 1.0***         
+  Worldgroup 3 WIN Filename             : EZELI10W.ZIP      $80.00
+  Worldgroup 3 DOS Filename             : EZELI10D.ZIP      $80.00
+  Worldgroup 1.x and 2 Filename         : EZELIN10.ZIP      $80.00
+  ===Demo available on Systems listed below===
+
+      EzSoft Log-on Lottery
+
+  Offers users the chance to buy a ticket when they log on
+  to win the pot of credits in the Lottery. Each night at
+  BBS clean-up time the winning numbers are drawn, and your
+  users could be the lucky winners. A fun way to get users               
+  to purchase and spend credits. Many options configurable
+  including number of digits, starting pot, cost to play,
+  and even your profit along with all text blocks.  
+  ***Latest Worldgroup 1.x and 2 version: 1.2***         
+  Worldgroup 1.x and 2 Filename         : EZELOT12.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+      EzSoft Logon Notifier                    
+
+  This module tells you when people logon or off and
+  how many lines are in use when users log on. 
+  It can be turned on and off globally and has many 
+  Sysop configuration options. Now includes user log-on
+  and log-off messages to display to others.
+  Logon Notifier does not pester users who are in the Editor 
+  with notices, and Sysops can send messages when toggling 
+  invisibility. Also gives Sysops the true number 
+  of users on line and only actual (rather than faked) log
+  notices.  
+  ***Latest Worldgroup 1.x and 2 version: 4.3***                 
+  Worldgroup 1.x and 2 Filename         : EZELOG43.ZIP      $35.00
+  ===Demo available on Systems listed below===  
+  
+    EzSoft NoGhost                             
+
+  NoGhost allows your users to handle "ghosting" problems on
+  their own. No more calls from irate users saying their account
+  is on and they can't get onto the BBS! If a user logs on, and his 
+  account is still online, the online account is disconnected and he 
+  is logged on. A message is placed in the Audit Trail informing you 
+  of what happened. Optionally Email is sent to the user informing 
+  him that his account was logged on as well. You can configure which 
+  lines you want to allow users to be able to do this on. This module 
+  also prevents users from checking for invisible Sysops by trying to 
+  log on as someone else to see if they are online (for the lines you 
+  allow the module to de-ghost only). Ghost busting can be recorded in
+  the Audit Trail. Versions 1.2 and up for Worldgroup allow C/S users 
+  to de-ghost their accounts while connecting in C/S mode!
+  ***Latest Worldgroup 1.x and 2 version: 1.3***
+  Worldgroup 1.x and 2 Filename         : EZEGHO13.ZIP      $50.00
+  ===Demo available on Systems listed below===
+
+     EzSoft Password Protection                
+
+  Allows the Sysop to force users to change their passwords
+  at intervals you select. Also lists your last five log-on
+  and log-off dates and times. You decide how often passwords
+  have to be changed, as well as if Sysops need to change.
+  Also gives a menu option allowing users to change their
+  password at any time. Verifies the change by making them
+  enter it twice, unlike the one included in the User Account
+  Editor, and allows them to change their passwords even if
+  they don't have access to the User Account Editor.
+  All options and text blocks are configurable by the Sysop 
+  in CNF. Version 3.4 for Worldgroup now includes a C/S
+  interface as well as the standard A/A interface.
+  ***Latest Worldgroup 3 WIN version    : 3.4W***
+  ***Latest Worldgroup 3 DOS version    : 3.4D***
+  ***Latest Worldgroup 1.x and 2 version: 3.4***
+  Worldgroup 3 WIN Filename             : EZEPS34W.ZIP      $50.00
+  Worldgroup 3 DOS Filename             : EZEPS34D.ZIP      $50.00
+  Worldgroup 1.x and 2 Filename         : EZEPSW34.ZIP      $50.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Picture Gram                         
+
+  Allows users to send ANSI pictures with messages to other
+  users in Email. You can choose and edit the ANSI pictures
+  in CNF, and decide whether to charge users credits to send
+  the Picture Grams, who can use the module by key, what all
+  the text blocks say, and many other options. 50 different
+  ANSI pictures in all to choose from, and you can easily
+  replace the standard pictures with other ANSIs.
+  ***Latest Worldgroup 3 WIN version    : 1.4W***
+  ***Latest Worldgroup 3 DOS version    : 1.4D***
+  ***Latest Worldgroup 1.x and 2 version: 1.4***
+  Worldgroup 3 WIN Filename             : EZEPG14W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZEPG14D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZEPIC14.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Rename                              
+
+  Allows Sysops to change a user's handle without creating a 
+  new account. Also allows users to change their own handles, 
+  with the option of charging them for the priviledge, either
+  credits or days in class. Rename ends the hassle of having 
+  to create a new account and then switch class, give keys, 
+  access and credits and then delete the old account. 
+  Now you can do everything in one easy step. All options and text 
+  blocks are Sysop configurable in CNF. Handle changes are recorded
+  in the Audit Trail.
+  Version 1.4 and up for Worldgroup adds options to copy Email and
+  registry  entries to the new handle, and list changes in a text
+  file, as well as a C/S interface.
+  ***Latest Worldgroup 3 WIN version    : 1.6W***
+  ***Latest Worldgroup 3 DOS version    : 1.6D***
+  ***Latest Worldgroup 1.x and 2 version: 1.6***
+  Worldgroup 3 WIN Filename             : EZERN16W.ZIP      $50.00
+  Worldgroup 3 DOS Filename             : EZERN16D.ZIP      $50.00
+  Worldgroup 1.x and 2 Filename         : EZEREN16.ZIP      $50.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Rules                               
+
+  Rules allows you to display your system rules to callers who
+  lack the required key (normally new callers but may be existing
+  callers too). They must view your rules when they log-on and 
+  agree to abide by them, or be denied access to your system until
+  they agree. The rules you display can be a text file of any length
+  for A/A users, and 32k for C/S users. The caller's acceptance of 
+  your rules can be shown in the Audit Trail and a text file if you
+  wish. Users who agree to your rules can be given any or all of 
+  the following; a key, credits, or a new class. Includes interfaces 
+  for both A/A and C/S users in the Worldgroup version. All options 
+  are configurable in CNF. 
+  ***Latest Worldgroup 3 WIN version    : 1.1W***
+  ***Latest Worldgroup 3 DOS version    : 1.1D***
+  ***Latest Worldgroup 1.x and 2 version: 1.1***
+  Worldgroup 3 WIN Filename             : EZERL11W.ZIP      $50.00
+  Worldgroup 3 DOS Filename             : EZERL11D.ZIP      $50.00
+  Worldgroup 1.x and 2 Filename         : EZERUL11.ZIP      $50.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Suspend                             
+
+  Allows Sysops to suspend users with a global command for a desired 
+  number of days, after which your BBS will automatically unsuspend 
+  the user for you. A great help when you don't want to have to worry 
+  about remembering who to unsuspend on what date. Does not require 
+  you to use a midnight cleanup routine to unsuspend. All options 
+  and text blocks are configurable in CNF. Records suspensions in
+  the Audit Trail.
+  ***Latest Worldgroup 1.x and 2 version: 1.5***
+  Worldgroup 1.x and 2 Filename         : EZESUS15.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Sysop Lister
+
+  Shows people who your staff members are when they connect to
+  the system. When users connect, a message is displayed showing
+  them which staff members are online if they need assistance.
+  You configure who is listed as being staff by key. Also gives
+  a global command which will display who the online staff members
+  are at any time, and includes the option to tell your staff that
+  a user may need help. Can record the use of the global command
+  in the Audit Trail.
+  ***Latest Worldgroup 3 WIN version    : 1.0W***
+  ***Latest Worldgroup 3 DOS version    : 1.0D***
+  ***Latest Worldgroup 1.x and 2 version: 1.0***         
+  Worldgroup 3 WIN Filename             : EZESL10W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZESL10D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZESYS10.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Telnet                              
+
+  Allows you to have new users who log-in on a desired range of
+  lines for the first time to be automatically switched to a class
+  you desire. This allows you to have new users who telnet to your
+  system to be automatically upgraded in access for the number of
+  days you wish and even given some free credits if desired. This
+  module removes the hassle of having to search for and upgrade the
+  access of users who telnet to your BBS for good! Switches are
+  recorded in the Audit Trail. The Worldgroup version works with
+  both C/S and A/A users.
+  It also allows you to keep telnet users from calling in on your
+  dialup lines.
+  ***Latest Worldgroup 3 WIN version    : 1.3W***
+  ***Latest Worldgroup 3 DOS version    : 1.3D***
+  ***Latest Worldgroup 1.x and 2 version: 1.3***         
+  Worldgroup 3 WIN Filename             : EZETE13W.ZIP      $50.00
+  Worldgroup 3 DOS Filename             : EZETE13D.ZIP      $50.00
+  Worldgroup 1.x and 2 Filename         : EZETEL13.ZIP      $50.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Text
+
+  Allows you to create text files giving system actions for
+  Worldgroup to perform, such as giving or removing keys,
+  suspending or unsuspending users, deleting users, creating a
+  new user account, or sending an email message. Also allows you
+  to create a text file list of email addresses, including internet,
+  and send an email message to each address, including a file
+  attachment if you wish.
+  ***Latest Worldgroup 3 WIN version    : 1.2W***
+  ***Latest Worldgroup 3 DOS version    : 1.2D***
+  ***Latest Worldgroup 1.x and 2 version: 1.2***
+  Worldgroup 3 WIN Filename             : EZETX12W.ZIP      $50.00
+  Worldgroup 3 DOS Filename             : EZETX12D.ZIP      $50.00
+  Worldgroup 1.x and 2 Filename         : EZETXT12.ZIP      $50.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Time List
+
+  Time List allows you to keep track of your users usage of the
+  BBS, and convert the usage to a format convenient for invoicing. 
+  It prints your users dates and and times of system usage to a text 
+  file once a month on the day you specify during midnight cleanup.
+  The text file will contain each user's times and total minutes and
+  credits used for the call. It is outputted in a format which you
+  can put into a database for conveniently billing users for their
+  time used. You control which users do and do not have their usage
+  listed by key.
+  The Worldgroup version works with both C/S and A/A  users. It also
+  gives users the ability to view their system usage for the current
+  and previous month. A/A users have a global command while C/S users
+  have a menu option.
+  New in version 1.2x: Keeps track of SLIP/PPP usage times and keeps
+  track of time in seconds rather than minutes for more accuracy.
+  Also displays information such as whether users were telnetting
+  and on the Remote Console.
+  New in version 1.3x: Time List can send an Email message to each
+  user with his connection times attached in a text file each month. 
+  ***Latest Worldgroup 3 WIN version    : 1.3W***
+  ***Latest Worldgroup 3 DOS version    : 1.3D***
+  ***Latest Worldgroup 1.x and 2 version: 1.3***         
+  Worldgroup 3 WIN Filename             : EZETM13W.ZIP      $50.00
+  Worldgroup 3 DOS Filename             : EZETM13D.ZIP      $50.00
+  Worldgroup 1.x and 2 Filename         : EZETIM13.ZIP      $50.00
+  ===Demo available on Systems listed below===
+  
+    EzSoft Trader                              
+
+  Allows your users whose classes use days in class to trade days
+  for credits and credits for days in class. This lets them play
+  games which require credits, and if they win they can turn their
+  credits back into days in class. Use of the module is keyed and
+  credits and days are traded at rates you set. You can also charge
+  for each trade made if you wish. Trades are recorded to the Audit
+  Trail at your option, and all text blocks can be configured to
+  suit your tastes. A must have for systems using classes with days
+  in class and games which require credits.
+  ***Latest Worldgroup 3 WIN version    : 1.2W***
+  ***Latest Worldgroup 3 DOS version    : 1.2D***
+  ***Latest Worldgroup 1.x and 2 version: 1.2***         
+  Worldgroup 3 WIN Filename             : EZETD12W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZETD12D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZETRD12.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Vacation                             
+
+  This module allows your users to place their accounts on 
+  "vacation" for a period of time. While they are on vacation, 
+  their days in class are protected and their account is protected 
+  from being deleted. They can choose to end their vacation early 
+  by logging on (Vacation automatically ends a vacation whenever
+  a user connects to your system, even in SLIP/PPP, and in version
+  1.6x, your terminal server.). Vacation dates can be changed or
+  stopped at any time, and Sysops can list and edit or delete user's
+  vacations. The module is keyed so you can control who has access,
+  and of course all the displays can be edited. You can optionally
+  charge users for this service, either credits or days in class,
+  and users can be reminded of upcoming vacations at log-on. This
+  module is a big convenience for both the user and the Sysop.
+  NEW in version 1.5x: Sysops can set vacations for other users.
+  ***Latest Worldgroup 3 WIN version    : 1.5W***
+  ***Latest Worldgroup 3 DOS version    : 1.5D***
+  ***Latest Worldgroup 1.x and 2 version: 1.5***         
+  Worldgroup 3 WIN Filename             : EZEVC15W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZEVC15D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZEVAC15.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+    EzSoft Waiting Room                        
+
+  Waiting Room is a place where users can sit while waiting for
+  friends to log on. While in the Waiting Room they are not charged
+  credits, and the time they are on-line does not count against their
+  time limits. They can see who is on-line in the Waiting Room, and
+  optionally may receive log notices, but cannot use global commands
+  or do anything else. This is the perfect way to increase your system 
+  usage, as it keeps users on-line while they wait for others rather
+  than calling in and logging off after 30 seconds. You can set a delay
+  of how soon users can enter the Waiting Room after leaving it to
+  prevent them from running in and out and abusing it. All options are
+  configurable in CNF including text blocks.
+  ***Latest Worldgroup 3 WIN version    : 1.2W***
+  ***Latest Worldgroup 3 DOS version    : 1.2D***
+  ***Latest Worldgroup 1.x and 2 version: 1.2***         
+  Worldgroup 3 WIN Filename             : EZEWA12W.ZIP      $35.00
+  Worldgroup 3 DOS Filename             : EZEWA12D.ZIP      $35.00
+  Worldgroup 1.x and 2 Filename         : EZEWAT12.ZIP      $35.00
+  ===Demo available on Systems listed below===
+
+
+  Notice: Prices and products available are subject
+  to change at any time without notice. Please contact
+  us for the latest information.
+
+  Discounts: You can get a 10% discount for purchasing 5 or more modules 
+  at one time, and a 20% discount for purchasing 10 or more modules at one 
+  time. Also, we have our new Value Packs which give you a big (greater
+  than 20%) discount on the purchase of a group of modules. We have three
+  Value Packs, Line, Sysop, and User, which include the following modules
+  and prices:
+
+  "Lines" Value Pack
+  Module                 Price
+  ---------------------------- 
+  Call Back              $35
+  FreeLine               $35
+  Note: (you may substitute Lines for Call Back and FreeLine)
+  NoGhost                $50
+  Telnet                 $35 or $50
+  Credit Alert           $35 - total "normal" cost $190 to $215
+
+  Your "Lines" Value Pack cost - $150
+
+  "Sysop" Value Pack
+  Module                 Price
+  ----------------------------
+  Global Post            $35
+  Invisible              $35
+  Password               $35 or $50
+  Rules                  $50
+  Rename                 $35 or $50 - total "normal" cost $190 to $220
+
+  Your "Sysop" Value Pack cost - $150
+
+  "User" Value Pack
+  Module                 Price
+  ----------------------------
+  AFK                    $35
+  Birthday               $35 or $50
+  Colorize               $35
+  Picture Gram           $35
+  Vacation               $35 total "normal" cost $175 to $190
+
+  Your "User" Value Pack cost - $135
+
+  As you can see, our Value Packs give you a good price on some of
+  our popular products. You can select either a Value Pack discount
+  or our standard 10 and 20 percent discounts, but not both on the
+  same purchase.
+
+  EzSoft Demo programs all begin with EzSoft's Developer ID, EZE. You
+  can find all of our demos by doing a wildcard file search for EZE*.ZIP.
+  Specific filenames are listed with each module's description.
+
+	     For more information:
+
+		   U.S. Mail Office Address:
+		   EzSoft
+		   904 N. Pontiac Dr.
+		   Janesville, WI. 53545
+
+		   BBS Systems:
+		   Galacticomm Demo System (954) 583-7808,
+		   or telnet to gcomm.com
+		   Contact Easy Ed 
+
+                   Email:
+                   easy.ed@gcomm.com
+
+                   Forum:
+                   ISVEZE on the Galacticomm Demo System
+
+		   FTP:
+		   gcomm.com, all files available in directory
+                   library/isveze.
+                   Note: you must have customer access on the
+                   Galacticomm system to download these files.
+
+		   WEB:
+		   http:\\www.on-ramp.com\ezsoft
+                   Note: you must have customer access on the
+                   Galacticomm system to download these files.
+                   
+		   Office voice phone: 
+		   (608) 754-5689 
+                   Hours: 10 AM to 8 PM Monday thru Friday
+                          12 PM to 8 PM Saturday and Sunday 
+			  Times are Central Standard Time.
+
+		   To order:
+
+		   EzSoft
+		   Sales Department
+		   904 N. Pontiac Dr.
+		   Janesville, WI. 53545
+
+		   For credit card orders (Authorized Resellers):
+                   AdventureComm Software               (888) 463-0156
+                   6 AM to 10 AM and 2 PM to 7 PM Monday-Friday Central
+                   Standard time.
+
+		   Notice: Prices and products available are subject
+		   to change at any time without notice. Please contact
+		   us for the latest information.
+
+		   We do custom programming for Worldgroup at competitive
+                   rates. There is a two hour minimum charge for any job.
+                   Our rates are as follows:
+                   Worldgroup version 3.0 DOS & Win NT/95 C/S    : $75/hr
+                   Worldgroup version 3.0 DOS & Win NT/95 Non-C/S: $50/hr
+                   Worldgroup version 1.x and 2.0 C/S            : $50/hr
+                   Worldgroup version 1.x and 2.0 Non-C/S        : $35/hr
+                   Call us or drop us an email message with your idea for
+                   a free quote.

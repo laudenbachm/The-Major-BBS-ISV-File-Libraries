@@ -1,0 +1,160 @@
+
+                 Vircom products specifications sheet
+                 ====================================
+
+
+MAJORTCP/IP product line
+------------------------
+
+Internet Clients                     Internet Service Provider
+----------------                     -------------------------
+
+DMA                                  SLIP/CSLIP/PPP Pass-through
+Finger                               Sub-netting not required
+FTP                                  Dynamic IP addresses
+Ident                                Static IP addresses
+IRC                                  PAP support for PPP
+RLogin/RLogin-Plus/Rsh               DNS negotiation for PPP
+Telnet
+
+Internet Servers                     Connectivity
+----------------                     ------------
+
+Telnet/RLogin                        SLIP/CSLIP/PPP dial-up to ISP
+Finger                               Automatic re-dialer & keep alive
+FTP                                  Frame Relay/ISDN/T-1 thru router
+Ident                                Ethernet LAN
+NNTP (Newsgroups)                    Telnet/RLogin Dial-Out channels
+POP3 Mail                               
+SMTP (Emails) with MIME support
+WWW                                  Miscellaneous
+Multi-homing for Telnet, RLogin      -------------
+      FTP, SMTP and WWW servers
+                                     Primary/Secondary DNS support
+                                     Upgradable to 1,024 sockets
+                                     250+ pages software manual
+                                     Pseudo-CGI & Java support
+
+Pricing
+-------
+                        
+  All the above features, running on MajorBBS 6.25, Worldgroup 1.x, 
+  2.0 & 3.0 (DOS version only)
+
+  Price: $700
+
+  
+  - MajorTCP/IP "UNLIMITED" Option
+
+    Brings an existing MajorTCP/IP to a maximum of 1,024 sockets (TCP 
+    sessions) 
+
+    Price: $500
+
+
+
+DISTRIBUTED MAJORBBS ARCHITECTURE Product Line
+----------------------------------------------
+
+The Distributed MajorBBS Architecture provides the ability to migrate
+add-ons off a Worldgroup server, onto a second PC running Vircom’s 
+DMA server.  The DMA client, running on the main system, transparently
+logs the user in the DMA server and starts the add-on.  The integration
+is such that most users won’t realize the add-on is not running on the
+same system.
+
+
+- DMA Server
+
+  255 sockets
+  Galacticomm's "Right to Copy" license
+  Includes one DMA Client for ICO 2 (on the same registration number)
+  Finger Server
+  NNTP Newsgroups Server
+  POP3 Mail Server
+  SMTP Emails 
+  WWW Server
+  FTP Server
+
+  Price: $700
+
+
+- DMA Server "UNLIMITED" Option
+
+  Brings an existing DMA Server  to a maximum of 1,024 sockets
+
+  Price: $500
+
+
+- DMA Client for Worldgroup
+
+  Worldgroup 1.01, 2.0 and Worldgroup 3.0 for Windows NT
+  Sockets controlled by Worldgroup
+
+  Price: $250
+
+
+RADIUS Product line
+-------------------
+
+The RADIUS server, used in conjunction with the terminal server 
+technology, can be used as a growth model to increase the maximum number
+of access lines, phone or otherwise, well beyond the current 
+possibilities.  The RADIUS server lets your Worldgroup system
+authenticate, and bill/track, PPP/SLIP users without logging them into
+the Worldgroup system!
+
+Highlights of features:
+
+  Increased PPP speed without impacting Worldgroup performance
+  Keep PPP users surfing even during crashes or shutdowns of Worldgroup
+  No ceiling in number of phone lines
+  Setup remote points of presence
+  Galacticomm 6-packs are no longer required for each line
+
+Pricing
+-------
+
+- Base RADIUS server
+    Include a 32-ports access license
+
+  Price: $500
+
+
+- RADIUS 32-pack license upgrade
+    Increase number of access ports by 32
+
+  Price: $200
+
+
+- RADIUS 128-pack license upgrade
+    Increase number of access pors by 128
+
+  Price: $700
+
+
+Purchasing MajorTCP/IP or DMA products
+--------------------------------------
+
+The MajorTCP/IP and DMA families of products can be purchased from:
+
+   Digital Consulting Services	(800) 899-2002	www.digiconsult.com
+   Tessier Technologies		(800) 473-3177	www.wisenet.com
+   High Velocity Software, Inc.	(800) 572-5582	www.hvs.com
+   Datasafe Publications, Inc.	(800) 870-0004	www.dsafe.com
+   Sirius Software		(888) 747-4872	www.siriussoft.com
+   Logicom, Inc.		(800) 764-4266	www.logicom.com
+   ProDesign, Inc.		(800) 399-2640	www.nmol.com
+   Annex Online Services	(800) 462-6639	www.annex.com
+   Majorware (Canada)		(800) 321-3774	www.mjw.com
+   Online Store (Europe)     +41 (75) 373 6677	www.onlinestore.com
+
+
+Technical support is available from:
+------------------------------------
+
+   Vircom, Inc.
+	Support : (514) 990-2532
+	MajorNet: support@gms
+	Internet: support@vircom.com
+	WWW     : http://www.vircom.com

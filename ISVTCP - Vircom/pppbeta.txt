@@ -1,0 +1,54 @@
+                   CLOSED BETA-TESTING OF PPP/SLIP SERVER
+                         FOR WORLDGROUP 3.0 FOR NT
+
+
+Vircom's PPP server for Worldgroup/NT has successfully been beta-tested with
+a few large Worldgroup systems.  We are now ready to take on 20 customers
+for a larger, yet still closed, beta-testing period.  The prospect beta
+testers must meet the following requirements:
+
+1) Having experience running Windows NT.  The PPP/SLIP server does not work
+   on Windows 95.
+
+2) Having minimal experience with Worldgroup 3.0 for Windows NT.
+
+3) Being ready to run Worldgroup/NT on a production system with at least
+   16 access lines.  If you're not ready to go live with Worldgroup/NT,
+   please do not apply for this closed beta testing.
+
+4) Having a currently active Internet connection and currently offering
+   dial-up PPP/SLIP services to your user community.
+
+If you meet the above criterias, here are the details to get enrolled in
+this closed beta testing:
+
+1) You will need to configure a subnet for the dial-up PPP/SLIP pool within
+   your address range (class C?).  If you are currently using AIO/ICO, you
+   already had to do that.
+
+2) Your payment will need to be handled through us directly, via one of the
+   following methods:
+
+     - Mastercard, over phone or email (richard@vircom.com)
+       (Visa and American Express cannot currently be accepted)
+
+     - Certified cheque or money order, mailed/courriered to:
+
+             Vircom, Inc.
+             Att.: PPP server beta
+             1205 Papineau Ave.
+             Suite 352
+             Montreal, Quebec
+             Canada, H2K 4R2
+
+3) If you are currently owning AIO/ICO or MajorTCP/IP, you are eligible to
+   a $100 discount on the purchase of the PPP server for Worldgroup/NT.  So
+   payment should be $400 USD instead of $500 USD.  You will need to send
+   us a proof of ownership of AIO/ICO, if applicable.
+
+We will accept the first 20 payments meeting the requirements and enroll
+them into the closed beta testing of the PPP server for Worldgroup/NT.  The
+official release date will be announced after seeing the results of this
+larger closed beta testing period.  Purchasing through Vircom's resellers
+and directly from Galacticomm will be possible only for the release version
+of the product.

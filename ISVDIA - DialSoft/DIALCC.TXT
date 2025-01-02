@@ -1,0 +1,463 @@
+DialSoft Presents...
+
+Chit Chatters v2.0
+Chit Chatters furnishes your system with up to 150 Global Chat Channels!
+Users may use these channels to chat with other users from almost anywhere
+on your system! (Anywhere Global Commands work, Chit Chatters work too!)
+
+Chit Chatters is 100% compatible with The Major BBS 6.25 and Worldgroup
+1.x and 2.x!
+
+Chit Chatters comes with a FREE 14 day FULLY WORKING demo!  If you would
+like to purchase a copy of Chit Chatters, it may be purchased from DialSoft
+for $79.95:
+
+Understanding Terminology:
+--------------------------
+As you have already read, Chit Chatters allows you to define up to 150 Global
+Chat CHANNELS.   Each channel is tunable to a FREQUENCY between
+the values of 1 and 2147483647.  To be able to CHAT with other users via
+Chit Chatters, all users who want to Chat with each other need to:
+  a) Select a channel to CHAT ON
+  b) Tune their selected channel to the SAME FREQUENCY as other users
+      they would like to chat with!
+In actuality, the CHANNEL is nothing more than a Sysop Definable 
+GLOBAL COMMAND -- a command who's purpose is CHATTING!
+
+You may think of a Chit Chatter CHANNEL as behaving like a variable
+frequency WALKIE TALKIE.  Why?  Walkie Talkies are devices used
+by (for example) security guards in malls.  When security guards want to
+TALK to one another, they press a button on their walkie talkie, speak
+into the microphone, and the walkie talkie transmits the sound at a certain
+FREQUENCY!  Some walkie talkies have multiple "frequency" selections.
+That is, there can be (for example) 10 security guards, 5 of whom are tuned
+to frequency 950 Mhz, and the other 5 may be tuned to 970 Mhz.  The 
+people at 950 Mhz WILL NOT be able to communicate with the people at 970 Mhz
+and vice versa.  But they WILL be able to communicate with those people who
+are on the same frequency as them!
+
+Based on the Walkie Talkie analogy above, lets equate the components of
+Chit Chatters to Walkie Talkies:
+
+1) You may define up to 150 Chit Chatter CHANNELS.  Each CHANNEL may
+     be considered a separate walkie talkie -- with one IMPORTANT difference:
+     Unlike walkie talkies, tuning DIFFERENT Chit Chatter Channels to the
+     SAME frequency does NOT allow communication between the two different
+     Chit Chatter Channels.  Each Chit Chatter Channel is 100% independent
+     every other Chit Chatter Channel, regardless of what frequency they may
+     be set at! (If Mike has his !! channel tuned to frequency 100 and Kathy
+     has her (( channel tuned to frequency 100 as well, Mike and Kathy
+     WILL NOT be able to chat with each other via those two different
+     CHANNELS!  They must tune the SAME CHANNEL to the SAME FREQUENCY).
+
+2) To chat on a channel, users must set the SAME CHANNEL to the SAME
+     FREQUENCY (and there are over 2 billion frequencies per channel).
+
+3) To talk on a channel, a user need only type the Chit Chatter CHANNEL NAME
+     followed by the message.  This is the equivalent of PUSHING THE BUTTON
+     on a Walkie Talkie.
+
+4) All users who are on the Channel and at the same frequency as the user in
+    step 3 will see the CHAT TEXT!
+
+
+Logging on for the FIRST TIME:
+------------------------------
+If you have just installed Chit Chatters on your BBS, any user that has
+access to at least one Chit Chatter Channel (i.e. has the Key Needed to
+use at least 1 Chit Chatter channel you have defined in DIALCC.CFG) will
+see the Chit Chatters New User Welcome Message.  The default message is
+a LARGE PURPLE BOX.  It has been designed like this in the hopes that it
+will STAND OUT -- catch the reader's attention.  In this box, you are
+informed that you have access to an exciting new module called Chit Chatters,
+and that this module allows you to GLOBALLY CHAT with other on-line users
+from almost ANYWHERE on the BBS.  You will also be told that to learn more
+about this module, type CHITCHAT from any BBS prompt!
+
+Commands:
+---------
+CHITCHAT - Typed by ITSELF, this is the command to pull up the MAIN Chit
+Chatters introduction screen.  In this screen, you will see a brief
+explanation of what Chit Chatters can do along with an example of how to use
+a Chit Chatter Channel.  In the middle of the screen will be a listing of all
+Chit Chatter Channels you have ACCESS to.  At the bottom of the screen, you
+will see (in addition to some other information), a line that says:
+
+CHITCHAT ON/OFF/DEF -	Turn ON, OFF, or RESET TO DEFAULT 
+                        all your Chit Chatters
+
+This means that if you type:
+----------------------------
+CHITCHAT ON -	You will turn ON ALL your Chit Chatter Channels to their
+                last known frequency settings.
+CHITCHAT OFF-	You will turn OFF ALL your Chit Chatter Channels to their
+                current frequency settings.
+CHITCHAT DEF-	You will reset all your Chit Chatter Channels to BOTH their
+                default frequencies and their default MODES.  (DIALCC.CFG
+                lets you configure the DEFAULT MODE of each channel
+                as ON or OFF by specifying a POSITIVE FRQUENCY if
+                a channel's default mode is ON, NEGATIVE for OFF.
+
+CHITPLUS - This command pulls up a MENU of Chit Chatters Advanced User
+options.  The commands listed in this menu vary depending on what KEYS a user
+holds.  (Some of the descriptions for each command vary as well for the same
+reason.  This will be explained shortly).  The CHITPLUS menu may display the
+following commands:
+  CHITCHAT, CHITFREQ, CHITLIST, CHITLON, CHITLOF, CHITCFG, and CHITPLUS
+
+CHITFREQ - When typed alone, this command displays which Chit Chatter
+channels you have access to, and what frequencies each channel is tuned too
+(or the word 'OFF' if a Channel is turned off).  For those who have the key
+defined in CNF LEVEL 3, SEEFREQ, they may type CHITFREQ <userid> to pull up
+the Channel/Frequency settings of any other on-line user. (They will also see
+additional DESCRIPTION information about this CHITFREQ capability in the
+CHITPLUS menu.)
+
+CHITLIST - This command lists the Channels and Frequency settings of ALL 
+on-line users.  The output looks very similar to the CHITFREQ command, except
+for the fact that CHITFREQ shows the output of only 1 user at a time whereas
+CHITLIST shows the output of ALL on-line users.   To use this command, you
+must have the SEEFREQ key (CNF Level 3).
+
+CHITLON - This is the command used to configure each user's Chit Chatters
+LOGON MESSAGE modes.  Depending on what you have configured in CNF
+Level 4, the CHITLON may not have all "modes" available.  For that matter, if
+you have DISABLED Chit Chatters LOGON messages, this command will not
+exist.   There are TWO MODES:  Receive Mode and Send Mode
+
+Receive Mode - ON or OFF: This mode allows users to configure whether or
+not they want to RECEIVE notification of other users who log in and are tuned
+to at least 1 identical Chit Chatter Channel at the same Frequency.
+	Example:
+	John is on-line with the following Chit Chatter Channel settings:
+		Channel		Frequency
+                [[                  123
+                ]]                  80002
+                ;;                  1
+                --                  900
+
+	Mary logs on.  She's got the following settings:
+		Channel		Frequency
+                [[                  25
+                ]]                  80002
+                ;;                  7239434
+                --                  900
+
+	If John has his Chit Chatters Logon Receive mode ON, he will be
+	notified that Mary has just joined him in the "]] and --" channels!
+        If his notifications are OFF, he will not receive any notification!
+
+Send Mode - PUBLIC or PRIVATE:  This mode, if not disabled in CNF, allows
+users to configure whether or not other on-line users can be NOTIFIED of
+their arrival!  PUBLIC mode means that other users are allowed to see Chit
+Chatters LOGON Notification.  PRIVATE mode means that other users are NOT
+allowed to see Chit Chatters Logon Notification - with ONE NOTABLE EXCEPTION:
+Those who hold the CNF Level 3 Key 'SEEPRIV' will be allowed to see Logon
+Notifications of users who set their SEND MODE to PRIVATE.
+       Thus, in the ABOVE EXAMPLE, if Mary had her SEND mode set to
+       PRIVATE, if John didn't have the SEEPRIV key, he would not have
+       seen the Chit Chatters notification of Mary's arrival, regardless
+       of the fact that he may have had his RECEIVE MODE as ON.
+
+CHITLOF - This command is identical in every respect to the CHITLON
+command except that it applies to LOGOFF notifications rather than LOGON
+notifications.
+
+CHITCFG - This command allows you to perform an on-line RELOAD of
+your DIALCC.CFG file.  This enables you to on-line modify all your Chit
+Chatter Channel COMMAND NAMES, KEY NEEDED, and DEFAULT
+FREQUENCY settings!  To clarify, CHITCFG only performs a RELOAD of
+the DIALCC.CFG file!  It does not provide any editing capabilities!  (You
+need to edit the file on an OFF-LINE system and upload it to the BBS
+machine). To use this command, you must have the CNF Level 3 key
+CFGKEY.  A few notes about this command:
+  1)  Typing CHITCFG by itself provides basic information about the
+      command.
+  2)  To perform a RELOAD of DIALCC.CFG, type: CHITCFG GO
+  3)  If there are any errors in your new DIALCC.CFG file:
+          a) Chit Chatters will try and provide you with the reason for
+             the error(s)
+          b) No new settings will be used!  (i.e. Whatever your settings
+             were before typing 'CHITCFG GO' will remain the same).
+   4) You may receive a WARNING Message if you INCREASE the
+      number Chit Chatter Channels defined in the 'NUMCHAN=x'
+      line of DIALCC.CFG.   Your new settings WILL take effect;
+      however, you will not have your additional channels available
+      until the BBS resets.  The reason for this is:
+        Chit Chatters allocates all its MEMORY during BBS INIT.
+        While it is possible to allocate additional memory while the
+        BBS is up, it reduces the risk of BBS crashes by NOT doing so.
+
+        Example:
+        If the BBS comes up with 10 Chit Chatter channels defined and you
+        modify your DIALCC.CFG file to contain 15 channels, when you
+        type CHITCFG GO, only the first 10 channels will be read in!  The
+        next time the BBS resets, you will have all 15 Chit Chatter channels
+        available!
+
+
+And finally.... Chatting with Chit Chatters!!!
+----------------------------------------------
+To explain how to Chat w/ Chit Chatters, a series of Scenarios will be
+presented. Please assume the following for the next discussion:
+
+There are 4 Chit Chatter Channels defined on your BBS:
+
+Channel Name		Key Needed		Default Frequency
+     !!                    NORMAL                 -100
+     ((                    NORMAL                  50
+     **                    STAFF                   5551212
+     $$                    SYSOP                   100
+
+- Those who have the NORMAL key can chat on Chit Chatters: !! and ((
+- Those who have the STAFF key can chat on Chit Chatter: **
+- Those who have the SYSOP key can chat on Chit Chatters: $$
+- Those who have ALL 3 keys can chat on Chit Chatters: !! ((  ** and $$
+
+Lets assume the following users are on-line:
+Mike		who has the NORMAL key
+Mary		who has the NORMAL key
+Helper		who has the NORMAL and STAFF keys
+Sysop		who has the NORMAL, STAFF and SYSOP keys
+Cosysop	who has the NORMAL, STAFF and SYSOP keys
+
+Everybody above can chat on the !! and (( channels!
+Helper, Sysop and Cosysop can chat on the ** channel.
+Sysop and Cosysop can chat on the $$ channel!
+
+Scenario #1:
+------------
+Mike and Mary want to carry on a private conversation on the !! channel.
+They decide to tune that channel to a frequency of 890123.  To do so,
+they each type:    !!=890123
+
+Now they can Chat on the !! channel!  To do so, they simply need to type:
+!!<message>.  For example, assume Mike types: !!Hi Mary, how are you?
+The output that BOTH Mary and Mike will see is:
+[!!] (890123) Mike: Hi Mary, how are you?
+
+Mary responds by typing: !!I'm fine!  This is a great way to chat!
+Mike and Mary BOTH see:
+[!!] (890123) Mary: I'm fine!  This is a great way to chat!
+
+A few notes about the above:
+1) Notice that the Channel the two users are talking on appears inside
+   BRACKETS on the LEFTMOST PORTION of the output line.  ([!!] in this case).
+2) The next field displayed is the FREQUENCY that the channel being chatted
+   on is tuned to.  (890123 in this case).
+3) The next field is the USER-ID sending the message
+4) Finally the MESSAGE itself is displayed.
+
+Scenario #2 - Mike gets Fancy:
+------------------------------
+Being a curious person, Mike plays around with Chit Chatters.  He types !!
+by itself.  Instantly he sees a list of all users who are tuned to the !!
+channel at frequency 890123.  In this case, only Mary and Mike are in that
+list.  One thing he sees however, is a note at the bottom of the list.  It
+says to type !!? for additional information.  He does so and learns there
+are other features in Chit Chatters.  
+
+Case 1: Mike types:
+!!>Mary Check this out!  
+The output is:
+[!!] (890123) From Mike to (Mary): Check this out!
+
+Case 2:  Mike types:
+!!ga thinks Chit Chatters should be on EVERY BBS!
+The output is:
+[!!] (890123) Mike thinks Chit Chatters should be on EVERY BBS!
+
+Case 3: Mike types:
+!!dice 25,999
+The output is:
+[!!] (890123) Mike rolls <25> 999-sided dice and gets: 961, 356, 895, 395,
+178, 565, 224, 323, 700, 380, 237, 547, 93, 359, 162, 414, 867, 585, 321,
+338, 404, 459, 134, 420, 488, for a total of: >>10805<<
+
+What happened in Cases 1, 2 and 3?
+Case 1:  DIRECTED MESSAGES  -  Mike directed his message to Mary
+         by typing the Chit Chatter Channel Name (!!) followed by the
+         > (Greater Than) Symbol, followed by the user-id, and then
+         finally the message!  (Note: You may specify a PARTIAL or
+         COMPLETE user-id!)
+
+Case 2:  GENERIC ACTIONS - Mike sent a GENERIC ACTION on the
+         (!!) channel by typing the phrase 'ga' after the !!
+         Chit Chatter Channel.
+
+Case 3:  DICE ROLLING - Mike used the Chit Chatters DICE ROLL feature
+         to roll 25 dice (each w/ 999 sides) on the !! channel.  This feature
+         is useful for users participating in on-line Roll Playing Games.
+
+In all 3 cases, the only users who saw output (in this case) were Mike and
+Mary. Why?  They were the only ones tuned to the !! channel at frequency
+890123.
+
+Scenario #3 - Other features:
+-----------------------------
+1) Those who have the CNF Level 3 key SEEFREQ may type any Chit Chatter
+Channel name followed by the # symbol to see a list of what frequencies all
+on-line users are tuned too on the Chit Chatter Channel selected.
+
+For example, if Sysop typed:  !!#
+The output may look like:
+                         Users on Chit Chatter: !!
+----------------------------------------------------------------------------
+	Mike				- 890123
+	Mary				- 890123
+	Helper				- [OFF]
+	Sysop				- 100
+        Cosysop                         - 100
+
+               Type !!? for a menu of additional options
+----------------------------------------------------------------------------
+
+2) Mike decides to type: !!=off.  The next time Sysop types !!#,
+    the output would be:
+                         Users on Chit Chatter: !!
+----------------------------------------------------------------------------
+	Mike				- [OFF]
+	Mary				- 890123
+	Helper				- [OFF]
+	Sysop				- 100
+        Cosysop                         - 100
+
+               Type !!? for a menu of additional options
+----------------------------------------------------------------------------
+
+3) If Mike then types: !!=def, his !! channel will be set to the DEFAULT
+    FREQUENCY of the !! channel.  Because the default frequency for
+    !! is negative, Mike's !! channel will be OFF. 
+
+4) If Mike decides to type !!=on, his !! channel will be turned ON at
+    frequency 100!  Thus, if Sysop then types: !!#, the output will be:
+                         Users on Chit Chatter: !!
+----------------------------------------------------------------------------
+	Mike				- 100
+	Mary				- 890123
+	Helper				- [OFF]
+	Sysop				- 100
+        Cosysop                         - 100
+
+               Type !!? for a menu of additional options
+----------------------------------------------------------------------------
+
+5) If Mike then types !!=411, his !! channel will be tuned to frequency
+    411.  If Sysop then types !!#, the output will be:
+                         Users on Chit Chatter: !!
+----------------------------------------------------------------------------
+	Mike				- 411
+	Mary				- 890123
+	Helper				- [OFF]
+	Sysop				- 100
+        Cosysop                         - 100
+
+               Type !!? for a menu of additional options
+----------------------------------------------------------------------------
+
+
+In a Nutshell (Using !! as a sample channel):
+---------------------------------------------
+!!=off	will turn the !! channel OFF at its current frequency
+	(!!=0 is a shortcut for typing !!=off)
+
+!!=on	will turn the !! channel ON at the LAST FREQUENCY it was set to
+
+!!=def	will set the !! channel to its DEFAULT FREQUENCY and MODE!
+
+!!	will display a list of all users who are tuned to the !! channel at
+        the same frequency as YOU.
+
+!!#	will display a list of all users who have access to the !! channel
+	and what frequency they have that channel tuned to (if their !!
+	channel is ON)
+
+!!<message>	will display <message> on the !! channel
+
+!!>(uid) <msg>  will display a DIRECTED MESSAGE to a user
+
+!!ga <msg>	will display a GENERIC ACTION on the !! channel
+
+!!dice x,y	will roll 'x' number of 'y' sided dice on the !! channel
+
+!!?	will display a MENU of SOME or ALL the above options
+	(It depends on what KEYS a user has.  For example, !!# 
+	 is only displayed to users with the SEEFREQ key)
+
+Information about INVISIBLE users:
+----------------------------------
+Chit Chatters has been designed to allow INVISIBLE users to CHAT on
+Chit Chatter channels with both VISIBLE and INVISIBLE users.  This
+feature allows 'lurking sysops' (for example) to easily chat with SOME
+on-line users while not letting the majority of users know that a Sysop
+is lurking.  Take the !! channel for a moment.  Assume user id's Mike
+and Sysop both have their !! channel tuned to the same frequency:
+
+If Sysop in INVISIBLE and Mike (who doesn't have access to see
+invisible users) types !! to see a list of users on the !! channel, Mike
+will NOT see Sysop in the user list.  However, if Sysop chats on the
+!! channel, Mike WILL SEE any chat dialogue Sysop sends.
+
+For that matter, Sysop will be able to DIRECT MESSAGES to Mike;
+however, Mike will NOT be able to DIRECT MESSAGES to Sysop
+(until Sysop goes VISIBLE).
+
+Thus, the only way a normal user can tell if an INVISIBLE SYSOP is
+tuned to any of his/her Chit Chatter Channels is if the INVISIBLE SYSOP
+types something on the channel!  Thus, Chit Chatters enables Sysops to
+safely monitor the activity in Chit Chatter Channels without normal users
+knowing this is happening.
+
+Some Final Thoughts:
+--------------------
+1) One of the most frequently asked questions about Chit Chatters is: 
+    Q:	Can users /INVITE and /FORGET 'annoying/problematic'
+	users from their Chit Chatter channels
+    A:	No, because:  Each Chit Chatter channel is tunable to over
+	2 billion frequencies!  If a group of users want to "get away"
+	from another user, they can collectively /p each other to switch
+	to another frequency!  The probability of the annoying user
+	guessing the NEW FREQUENCY is very very slim!
+
+2) Something I failed to make clear in this entire document is that users
+can carry on multiple conversations by chatting in MULTIPLE CHIT
+CHATTER CHANNELS!  If you recall, Chit Chatter Channel names
+are nothing more than Global Commands!  Users can use any Global
+Commands they have access to.
+
+Restating sample data from above, based on the following:
+	Channel Name		Key Needed		Default Frequency
+             !!                    NORMAL                 -100
+             ((                    NORMAL                  50
+             **                    STAFF                   5551212
+             $$                    SYSOP                   100
+
+	Lets assume the following users are on-line:
+	Mike		who has the NORMAL key
+	Mary		who has the NORMAL key
+	Helper		who has the NORMAL and STAFF keys
+	Sysop		who has the NORMAL, STAFF and SYSOP keys
+	Cosysop		who has the NORMAL, STAFF and SYSOP keys
+
+Thus:
+- Mike and Mary can carry simultaneous conversations in both the !! and ((
+  channels!
+- Helper can carry simultaneous conversations in the !! (( and ** channels!
+- Sysop and Cosysop can  carry simultaneous conversations in the !! (( ** and
+  $$ channels!
+
+A note about World Group:
+-------------------------
+Chit Chatters currently operates in Ascii/Ansi mode only!   C/S users who are
+on-line will not "conflict" with A/A users.  They will simply be considered
+as either having all their channels OFF, or as not having access to Chit
+Chatters (until they drop to A/A mode).
+
+
+Available at Dialsoft
+201-586-1550 Tech Support
+888-4DIALSOFT  SALES
+WWW.DIALSOFT.COM
+Telnet to Jungle.net
+email : Marc@jungle.net
+

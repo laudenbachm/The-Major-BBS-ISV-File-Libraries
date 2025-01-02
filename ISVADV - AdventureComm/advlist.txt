@@ -1,0 +1,2588 @@
+---------------------------------------------------------------------------
+--------==========================================================---------
+--------|  AdventureComm Software - Price List for October 1998  |---------
+--------==========================================================---------
+---------------------------------------------------------------------------
+
+Prices are good as of October 1, 1998, These prices should be good til 
+the end of October. <However prices are subject to change without notice>
+Availability of a particular platform might also change without notice.
+Some modules might also not be available in some countries.  Some 
+modules have to come from out the country and requires a little more 
+time to receive activation codes for them.
+
+  ***
+  The file advprice.txt is a new file that has all the prices to the
+  modules we currently resell.  This file now serves as a file that
+  contains a little information about each module we resell.
+  ***                                                                 ***
+
+  CONTACT INFORMATION:
+
+  Sales:
+  1-888-463-0156      Toll Free (Sales Only) in US      
+  1-504-467-9186      Voice
+  1-504-469-2957      Fax
+
+  Support BBS:     adventurecomm.com
+                   204.251.13.162
+                   The bbs has alot of the modules we sell on display.
+
+  Webpage:         www.adventurecomm.com
+
+  E-mail:          brad@adventurecomm.com
+
+  For the latest information and demos of the modules listed goto webpage.
+  www.adventurecomm.com
+
+  Thanks,
+  Brad Farrell
+  AdventureComm Software
+
+----------------------------------------------------------------------------
+Price list of products sold by AdventureComm Software including the 
+products we sell resell for other ISV's
+----------------------------------------------------------------------------
+    AdventureComm Software/Ezsoft        Varies See Product List         36+
+ 
+----------------------------------------------------------------------------
+We are authorized resellers for:
+----------------------------------------------------------------------------
+    BBS Solutions                             (WG1,WG2)                   7
+    Datasafe                             Varies See Product List         12
+    Dialsoft                             Varies See Product List         14
+    Farwest                              Varies See Product List         
+    High Velocity Software               Varies See Product List         18
+    InfiNetwork/Palantir/Jabberwocky     Varies See Product List         22
+    Micro Magic                          Varies See Product List         19
+    Rifster Enterprises                  Varies See Product List         10
+    Soft Arts Ltd.                       Varies See Product List         15
+    Wildsoft Development Group           Varies See Product List          3
+    Wilderland Software                  Varies See Product List         21
+
+----------------------------------------------------------------------------
+ We currently sell for a total of 15 ISV's and sell a total of 175+ modules,
+ some of which do not appear in this list.
+
+----------------------------------------------------------------------------
+---------------------===================================--------------------
+---------------------| AdventureComm Software Products |--------------------
+---------------------===================================--------------------
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
++ ADV Advertiser -                                                
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $50.00                              
+----------------------------------------------------------------------------
+  Advertiser allows you to display ads to your users while they are online. 
+  It can select ads which you have created and display them at regular 
+  intervals you configure. You control who views the ads and who doesn't see
+  them; there is a key for your staff not to see the ads if you wish, and 
+  you can configure the ads so they are broadcast to only a selected 
+  audience.  This audience can be selected to be only males, only females,
+  only adults, only minors, to see an ad only once a day, to display only on
+  a certain channel range, to display only during prime time hours you 
+  configure, and to be broadcast only to one random user selected at 
+  broadcast time. Advertiser allows you to charge companies to offer their
+  products and services to your users, and you can charge premium prices 
+  for ads broadcast during prime time, greatly increasing your 
+  profitability.  Ads can be added, removed and configured while the system 
+  is running for maximum flexibility. All of the options can be configured 
+  in CNF to suit your needs. Advertiser can even keep a record of how often 
+  each ad is displayed so you can charge for each display if desired.
+
+----------------------------------------------------------------------------
+  ADV AFK -
+  MBBS, WG 1.X , WG 2.X, WG 3.0DOS, WG 3.0NT $40.00                              
+----------------------------------------------------------------------------
+  Allows users to tell others that they are away from their keyboards, and 
+  to find out when others are away and return. Global command makes telling 
+  others and checking on them a snap. When checking other users, you do not 
+  have to type the full handle, but only part of it like the /p page 
+  command. Can be used with actions in the Entertainment Teleconference, 
+  or without actions in the standard Teleconference to let users in your 
+  Teleconference channel know your status with the same global command. Can 
+  also show the user's location as "Away From Keyboard" in user listings 
+  when users use a global user listing command if you don't use the 
+  Teleconference actions. A must-have module for all multi-line systems. 
+  All  options and text blocks are fully Sysop configurable in CNF.
+  
+----------------------------------------------------------------------------
+  ADV Birthday Announcer -                                             C/S
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $50.00                              
+----------------------------------------------------------------------------
+  This birthday lister displays a birthday ANSI drawing and birthday wishes 
+  to everyone at log-on if a user has a birthday. The user whose birthday is
+  listed is randomly selected at each log-on so that everyone has a chance 
+  to be recognized on their special day. Birthday also shows upcoming 
+  birthdays. It can send Email to users on their birthdays, with gift 
+  credits or days in class (Worldgroup version) if you wish. Includes an 
+  option to not show user's ages. All options and text blocks are CNF 
+  configurable. Worldgroup version includes both C/S and A/A interfaces.
+ 
+----------------------------------------------------------------------------
+  ADV Busy Notifier -
+  MBBS, WG 1.X, WG 2.X $40.00                              
+----------------------------------------------------------------------------
+  Tells you when you can page someone who is "busy" and can't be paged. You 
+  are notified as soon as they are no longer busy or they log off the 
+  system. You don't even have to type the user's full handle; just part of
+  the handle like the /p <user-id> paging command. It even continues to 
+  check to see if you can be notified if you are "busy" when your 
+  notification arrives. All options and text blocks are configurable by 
+  the Sysop in CNF. 
+
+----------------------------------------------------------------------------
+  ADV Call Back -                                                      C/S
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $40.00                              
+----------------------------------------------------------------------------
+  Lets you limit users without the key you choose from re-logging on within 
+  the amount of time you choose. You can set a delay of up to 2 hours. Ideal
+  for keeping users with a limit per call from logging off or re-logging 
+  and coming back right before their time expires, freeing a line for 
+  someone else. "Prime time" option allows you to set when the module runs 
+  for during peak times only.  All options and text blocks are Sysop 
+  configurable in CNF. Delays are recorded in the Audit Trail. The 
+  Worldgroup version works with both C/S and A/A users.
+
+----------------------------------------------------------------------------
+  ADV Class Change -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $40.00                              
+----------------------------------------------------------------------------
+  Gives you a global command to switch new users into a desired trial class
+  for the desired number of days and at the same time optionally post 
+  credits. A great convenience to the Sysop in that now you can do 
+  everything in one simple global command and you can configure the number 
+  of days that get posted as well as the credits so Class Change handles it
+  all for you. You configure who can use Class Change by key, and all 
+  options and text blocks in CNF. Class changes are recorded in the Audit 
+  Trail.
+  
+----------------------------------------------------------------------------
+  ADV Colorize -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $40.00                              
+----------------------------------------------------------------------------
+  Allows your users to insert color and ASCII extended characters into their
+  messages. Works globally for input such as whispers, the line editor (but
+  NOT full screen editor), pages, the registry, and so on. Users can color 
+  their text and background, create special effects such as blinking text
+  and reverse video, and put extended characters into their input. Coloring 
+  text and background, special effects and extended characters are all keyed
+  individually so you control who gets access to these commands. The 
+  commands are used with characters that you can change in CNF. On-line 
+  help that you can edit included. Colorize even strips out redundant ANSI 
+  codes so your users can make the largest possible message. Now includes 
+  lower ASCII characters such as the heart and "beep" characters, and gives 
+  you the ability to turn each lower character ON or OFF.
+
+----------------------------------------------------------------------------
+  ADV Credit Alert -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $40.00                              
+----------------------------------------------------------------------------
+  Tells users when they log-on if their credits or days left in class are 
+  running low. Also can alert on-line users who are running low on credits 
+  if their class uses credits, and can alert those who have a limit per call
+  when they are running out of time left. All options and text blocks are 
+  configurable by the Sysop in CNF. The Worldgroup version alerts both C/S
+  and A/A users, and gives the option to send Email alerts to your users 
+  too.
+
+----------------------------------------------------------------------------
+  ADV Credits -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $50.00                              
+----------------------------------------------------------------------------
+  Credits allows you to define up to 5 classes which you would like to have
+  receive free credits each month. You can specify how many free credits 
+  each class gets. Then during the midnight cleanup routine on the day you 
+  specify of each month the classes are posted free credits. However, their
+  total free credits will never exceed the amount they are to be posted; so 
+  for example, if a  class is to receive 3600 free credits each month, and 
+  they have 1800 free credits left from the previous month, they will start
+  out the month with only 3600 free credits rather than 5400. They will 
+  still keep any paid credits. Great for giving your users the ability to 
+  play games and use premium services with a limit, and they may even wish 
+  to purchase more credits as a result!  You configure all options such as
+  class names, credit amounts, and the day of each month to post and 
+  balance credits on.
+
+----------------------------------------------------------------------------
+  ADV Demo Clean -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $40.00                              
+----------------------------------------------------------------------------
+  Demo Clean allows you to get rid of unused accounts easily and 
+  automatically. You configure which accounts are deleted (those who lack a
+  key you specify), and how many days of inactivity before they are tagged 
+  for kill. Then during midnight cleanup, these users are tagged for kill.
+  A message can be placed both in the Audit Trail and in a text file telling
+  you of the tag, allowing you the opportunity to remove the tag if you 
+  wish. If you don't remove the tag, the account will be deleted at the next
+  cleanup. Accounts which are protected are not tagged for kill.
+
+----------------------------------------------------------------------------
+  ADV Feedback -
+  MBBS, WG 1.X, WG 2.X $40.00                              
+----------------------------------------------------------------------------
+  Provides a convenient place for users to leave feedback to your BBS staff.
+  You configure who can leave feedback by key, as well as who receives the 
+  feedback in their Email, and the program text blocks.  
+
+----------------------------------------------------------------------------
+  ADV FreeLine -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $40.00                              
+----------------------------------------------------------------------------
+  Keeps DEMO users from tying up your lines. If all lines are in use and 
+  DEMO users are logged on, FreeLine hangs up on a DEMO user after telling 
+  him he should pay up to avoid this hassle. Keeps a line free for your 
+  paying users. Now upgraded so you can choose not to have all lines 
+  checked, as well as how often the program checks the lines. Sysop 
+  configures which users get bumped off and which are safe by key, and what
+  the hang-up message says. FreeLine allows you to configure which lines 
+  are checked, and logs off the DEMO user who has been on the longest time.
+  Records both warnings and log-offs in the Audit Trail. Logs off both C/S 
+  and A/A users.
+
+----------------------------------------------------------------------------
+  ADV Global Post -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $40.00                              
+----------------------------------------------------------------------------
+  If you've ever had your system down for a day and had your users complain 
+  about losing a day they paid for Global Post will end that headache. It 
+  allows posting of days in class and/or credits to all users in a selected 
+  class. Now you can keep your users happy and give them the full number of
+  days they've paid for without a major hassle by using this module. 
+  Multiple classes can be posted to simultaneously using the simple global 
+  commands. Also great for Christmas gifts, special promotions, etc. Also 
+  allows you to globally set how many days in class all users in desired 
+  classes have and how many credits all users in desired classes have using
+  global commands. This allows you to set the credits of all users to 0 if 
+  you are going to a days only system. All options and text blocks are 
+  Sysop configurable in CNF. Postings are recorded in the Audit Trail.
+
+----------------------------------------------------------------------------
++ ADV Globals -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $80.00                              
+----------------------------------------------------------------------------
+  This is a package of global commands that you won't be able to live 
+  without after you've seen it. Includes macros, Who's Online, screen type
+  and mode, instant log-off, page console and all Sysops who are online, 
+  chat channels, telegrams, transfer credits and days in class, log-on 
+  notices, a switch to not be bothered in the Editor, and many more, 
+  including colorize input. Also included are many Sysop commands such as 
+  give/take user key including negative keys, switch class, suspend user 
+  with automatic unsuspend, post credits and days in class, extend a user's 
+  time on-line, and many neat features like the ability to page a user 
+  whose page mode is set to OFF and the ability to turn off a user's 
+  "Busy". We have made many enhancements to invisibility and the Sysop 
+  commands in this version, and users can choose whether to show their ages
+  to others in the Who's Online display. All commands are keyed, with 
+  command strings you define.  Very customizable with many options 
+  configurable by the Sysop in CNF.
+
+----------------------------------------------------------------------------
+  ADV Invisible -                                                      C/S
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $40.00                              
+----------------------------------------------------------------------------
+  Allows Sysops to turn any user invisible, and back to normal again using 
+  a global command. Also turns desired users who don't have a key invisible
+  at log-on. It also automatically  updates the visibility of users whose
+  access changes while on-line, so if a user's class changes he is made 
+  invisible or uninvisible automatically! Keeps new users from annoying 
+  paying members and  vice versa. All options and text blocks are 
+  configurable by the  Sysop in CNF. Use of the global command is recorded 
+  in the Audit Trail. The Worldgroup version works with C/S and A/A users.
+
+----------------------------------------------------------------------------
+  ADV Lines -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $80.00                              
+----------------------------------------------------------------------------
+  Lines allows you to have your system check for the lines filling up during
+  prime time hours you configure. If the lines in the range you want checked
+  are filling up (and filled is configurable by you as well) then Lines will
+  determine a user to disconnect to clear room for a user with higher 
+  priority. Lines does this by checking for which key a user has, and by how
+  long the user has been online. The user with the lowest priority (key) who
+  has been on the longest time will be warned, then disconnected.  He will 
+  then be delayed from reconnecting for an amount of time you specify. Lines
+  can also save complete statistical information on log-ons, warnings, 
+  disconnects and delayed log-ons in a text file. All options and text
+  blocks are configurable in CNF.
+
+----------------------------------------------------------------------------
+  ADV Log-on Lottery -
+  MBBS, WG 1.X, WG 2.X $40.00                              
+----------------------------------------------------------------------------
+  Offers users the chance to buy a ticket when they log on to win the pot 
+  of credits in the Lottery. Each night at BBS clean-up time the winning 
+  numbers are drawn, and your users could be the lucky winners. A fun way
+  to get users to purchase and spend credits. Many options configurable
+  including number of digits, starting pot, cost to play, and even your 
+  profit along with all text blocks.  
+
+----------------------------------------------------------------------------
+  ADV Logon Notifier -
+  MBBS, WG 1.X, WG 2.X $40.00                              
+----------------------------------------------------------------------------
+  This module tells you when people logon or off and how many lines are in
+  use when users log on. It can be turned on and off globally and has many 
+  Sysop configuration options. Now includes user log-on and log-off 
+  messages to display to others.  Logon Notifier does not pester users who
+  are in the Editor with notices, and Sysops can send messages when 
+  toggling invisibility. Also gives Sysops the true number of users on 
+  line and only actual (rather than faked) log notices.  
+  
+----------------------------------------------------------------------------
+  ADV NoGhost -                                                        C/S
+  MBBS, WG 1.X, WG 2.X $50.00                              
+----------------------------------------------------------------------------
+  NoGhost allows your users to handle "ghosting" problems on their own. No 
+  more calls from irate users saying their account is on and they can't get
+  onto the BBS! If a user logs on, and his account is still online, the 
+  online account is disconnected and he is logged on. A message is placed 
+  in the Audit Trail informing you of what happened. Optionally Email is 
+  sent to the user informing him that his account was logged on as well. 
+  You can configure which lines you want to allow users to be able to do 
+  this on. This module also prevents users from checking for invisible 
+  Sysops by trying to log on as someone else to see if they are online (for
+  the lines you allow the module to de-ghost only). Ghost busting can be 
+  recorded in the Audit Trail. Worldgroup version allow C/S users to 
+  de-ghost their accounts while connecting in C/S mode!
+
+----------------------------------------------------------------------------
+  ADV Password Protection -                                            C/S
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $50.00                              
+----------------------------------------------------------------------------
+  Allows the Sysop to force users to change their passwords at intervals 
+  you select. Also lists your last five log-on and log-off dates and times.
+  You decide how often passwords have to be changed, as well as if Sysops
+  need to change.  Also gives a menu option allowing users to change their
+  password at any time. Verifies the change by making them enter it twice, 
+  unlike the one included in the User Account Editor, and allows them to
+  change their passwords even if they don't have access to the User Account
+  Editor.  All options and text blocks are configurable by the Sysop in 
+  CNF. Worldgroup version now includes a C/S interface as well as the 
+  standard A/A interface.
+
+----------------------------------------------------------------------------
+  ADV Picture Gram -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $40.00                              
+----------------------------------------------------------------------------
+  Allows users to send ANSI pictures with messages to other users in Email.
+  You can choose and edit the ANSI pictures in CNF, and decide whether to 
+  charge users credits to send the Picture Grams, who can use the module by 
+  key, what all the text blocks say, and many other options. 50 different
+  ANSI pictures in all to choose from, and you can easily replace the 
+  standard pictures with other ANSIs.
+
+----------------------------------------------------------------------------
+  ADV Rename -                                                         C/S
+  MBBS, WG 1.X, 2.X, WG 3.0DOS, WG 3.0NT $50.00                              
+----------------------------------------------------------------------------
+  Allows Sysops to change a user's handle without creating a new account. 
+  Also allows users to change their own handles, with the option of 
+  charging them for the priviledge, either credits or days in class. Rename
+  ends the hassle of having to create a new account and then switch class, 
+  give keys, access and credits and then delete the old account.  Now you
+  can do everything in one easy step. All options and text blocks are Sysop
+  configurable in CNF. Handle changes are recorded in the Audit Trail.
+  Worldgroup version adds options to copy Email and registry entries to the
+  new handle, and list changes in a text file, as well as a C/S interface.
+
+----------------------------------------------------------------------------
+  ADV Rules -                                                          C/S
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $50.00
+----------------------------------------------------------------------------
+  Rules allows you to display your system rules to callers who lack the
+  required key (normally new callers but may be existing callers too). They
+  must view your rules when they log-on and agree to abide by them, or be
+  denied access to your system until they agree. The rules you display can
+  be a text file of any length for A/A users, and 32k for C/S users. The
+  caller's acceptance of your rules can be shown in the Audit Trail and a 
+  text file if you wish. Users who agree to your rules can be given any or
+  all of  the following; a key, credits, or a new class. Includes 
+  interfaces for both A/A and C/S users in the Worldgroup version. All
+  options are configurable in CNF. 
+
+----------------------------------------------------------------------------
+  ADV Suspend -
+  MBBS, WG 1.X, WG 2.X $40.00                              
+----------------------------------------------------------------------------
+  Allows Sysops to suspend users with a global command for a desired number
+  of days, after which your BBS will automatically unsuspend the user for
+  you. A great help when you don't want to have to worry about remembering 
+  who to unsuspend on what date. Does not require you to use a midnight 
+  cleanup routine to unsuspend. All options and text blocks are
+  configurable in CNF. Records suspensions in the Audit Trail.
+
+----------------------------------------------------------------------------
+  ADV Sysop Lister -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $40.00                              
+----------------------------------------------------------------------------
+  Shows people who your staff members are when they connect to the system.
+  When users connect, a message is displayed showing them which staff
+  members are online if they need assistance. You configure who is listed 
+  as being staff by key. Also gives a global command which will display who
+  the online staff members are at any time, and includes the option to tell 
+  your staff that a user may need help. Can record the use of the global
+  command in the Audit Trail.
+
+----------------------------------------------------------------------------
+  ADV Telnet -                                                         C/S
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $50.00
+----------------------------------------------------------------------------
+  Allows you to have new users who log-in on a desired range of lines for 
+  the first time to be automatically switched to a class you desire. This
+  allows you to have new users who telnet to your system to be 
+  automatically upgraded in access for the number of days you wish and even
+  given some free credits if desired. This module removes the hassle of 
+  having to search for and upgrade the access of users who telnet to your
+  BBS for good! Switches are recorded in the Audit Trail. The Worldgroup
+  version works with both C/S and A/A users. It also allows you to keep
+  telnet users from calling in on your dialup lines.
+
+----------------------------------------------------------------------------
+  ADV Text -
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $50.00
+----------------------------------------------------------------------------
+  Allows you to create text files giving system actions for Worldgroup to 
+  perform, such as giving or removing keys, suspending or unsuspending 
+  users, deleting users, creating a new user account, or sending an email 
+  message. Also allows you to create a text file list of email addresses, 
+  including internet, and send an email message to each address, including 
+  a file attachment if you wish.
+
+----------------------------------------------------------------------------
++ ADV Time List -                                                      C/S
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $50.00                              
+----------------------------------------------------------------------------
+  Time List allows you to keep track of your users usage of the BBS, and 
+  convert the usage to a format convenient for invoicing. It prints your 
+  users dates and and times of system usage to a text file once a month on
+  the day you specify during midnight cleanup.  The text file will contain
+  each user's times and total minutes and credits used for the call. It is
+  outputted in a format which you can put into a database for conveniently
+  billing users for their time used. You control which users do and do not 
+  have their usage listed by key.  The Worldgroup version works with both 
+  C/S and A/A  users. It also gives users the ability to view their system 
+  usage for the current and previous month. A/A users have a global command
+  while C/S users have a menu option. Keeps track of SLIP/PPP usage times 
+  and keeps track of time in seconds rather than minutes for more accuracy.
+  Also displays information such as whether users were telnetting and on 
+  the Remote Console.  Time List can send an Email message to each user 
+  with his connection times attached in a text file each month. 
+  
+----------------------------------------------------------------------------
+  ADV Trader -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $40.00
+----------------------------------------------------------------------------
+  Allows your users whose classes use days in class to trade days for 
+  credits and credits for days in class. This lets them play games which
+  require credits, and if they win they can turn their credits back into 
+  days in class. Use of the module is keyed and credits and days are 
+  traded at rates you set. You can also charge for each trade made if you
+  wish. Trades are recorded to the Audit Trail at your option, and all 
+  text blocks can be configured to suit your tastes. A must have for 
+  systems using classes with days in class and games which require credits.
+
+----------------------------------------------------------------------------
++ ADV Vacation -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $40.00
+----------------------------------------------------------------------------
+  This module allows your users to place their accounts on "vacation" for a
+  period of time. While they are on vacation, their days in class are
+  protected and their account is protected from being deleted. They can
+  choose to end their vacation early by logging on (Vacation automatically
+  ends a vacation whenever a user connects to your system, even in
+  SLIP/PPP). Vacation dates can be changed or stopped at any time, and 
+  Sysops can list and edit or delete user's vacations. The module is keyed 
+  so you can control who has access, and of course all the displays can be 
+  edited.  You can optionally charge users for this service, either credits
+  or days in class, and users can be reminded of upcoming vacations at 
+  log-on. This module is a big convenience for both the user and the Sysop.
+  Sysops can set vacations for other users.
+
+----------------------------------------------------------------------------
+  ADV Waiting Room -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $40.00
+----------------------------------------------------------------------------
+  Waiting Room is a place where users can sit while waiting for friends to  
+  log on. While in the Waiting Room they are not charged credits, and the   
+  time they are on-line does not count against their time limits. They can  
+  see who is on-line in the Waiting Room, and optionally may receive log    
+  notices, but cannot use global commands or do anything else. This is the  
+  perfect way to increase your system usage, as it keeps users on-line      
+  while they wait for others rather than calling in and logging off after   
+  30 seconds. You can set a delay of how soon users can enter the Waiting   
+  Room after leaving it to prevent them from running in and out and abusing 
+  it. All options are configurable in CNF including text blocks.            
+
+----------------------------------------------------------------------------
+  Chinese Zodiac -     
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $25.00                                 
+----------------------------------------------------------------------------
+  This module shows you and your users a ANSI graphic along with the
+  information that pertains for that year.  This is the Chinese version
+  of the zodiac, no its not written in chinese its written in English.
+  Some might be familiar with the Year of the Rat, Horse, Dog, Snake, and
+  so on.  That is what is displayed with this module,  Type in your year
+  of birth and it will tell you what "Year" you were born in, show you
+  a picture of that Years Sign, and give you information to describe what 
+  kinda people are born during that "Year".  Works for both MBBS and WG.
+
+----------------------------------------------------------------------------
++ Email Spy                                        
+  MBBS, WG 1.X, WG 2.X, WG 3.x Dos, WG 3.x NT $100.00
+----------------------------------------------------------------------------
+  This modules allows you to monitor your users mail to make sure they are
+  not sending pirated material or pornographic material to places they 
+  should not be sending it.  If you are concerned about the safety of your
+  system this program is a must have.
+
+----------------------------------------------------------------------------
+  Mancala                                                              NEW
+  WG 1.X, WG 2.X, WG 3.0DOS, WG3.0NT $50.00
+----------------------------------------------------------------------------
+  This module is a recreation of the ancient African game of Mancala.
+  Your users challenge one another and try to gather the most stones.  
+  There is instructions on exactly how to play and it also keeps a 
+  High Score listing.  Once you get the hang of this game it will become
+  very addicting.
+
+----------------------------------------------------------------------------
+  Time and Date Changer - Global                          
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS $35.00
+----------------------------------------------------------------------------
+  This module allows you to change your system time or date online while
+  the bbs is up.  The changes are executed from within its own module
+  page, and there is 2 globals that allow you to check the system
+  time and date.  There is no longer a need to bring your system down
+  to change the system time and date settings.  The changes take place
+  immediately.  Especially good for daylight savings time, Leap year
+  changes, and if your system clock wanders.  Works for both MBBS and WG.
+                                  
+  2 new globals were added that allow you to change the system time
+  or date from practically anywhere on your system.                            
+
+----------------------------------------------------------------------------
+  Lost Realms                                                   Coming Soon
+  All Platforms 
+   3 users $200.00  9 users $350.00  17 users $450.00  33 users $500.00
+        65 users $700.00  129 users $850.00  256 users $1000.00
+----------------------------------------------------------------------------
+  Starting game information.  A full game layout will be displayed in a file
+  when the module becomes available.
+
+  Features:
+  *   3000+ Rooms
+  *   500+ Weapons and Armor, Over 500 Spells
+  *   Over 10 different races
+  *   6 classes that evolve into 30 subclasses
+  *   Over 500 Monsters, with a lot of Bosses
+  *   Room to Room combat via spells and missle weapons
+  *   The original game will have 3 major cities and multiple villages
+  *   Fighter types can build non magical armor and weapons
+  *   Mage types can build magical weapons and potions
+  *   Thieves can set traps and seal items from unsuspecting passerbys
+  *   Users can setup shops in the city and sell their treasures
+  *   Many more features than mentioned.
+  *   More add-ons will be released for the module in the future, including
+      a building kit that will allow you to build your own areas and items.
+
+      Release Date  Mid-Late November 1998
+
+
+----------------------------------------------------------------------------
+-------------------------==========================-------------------------
+-------------------------| BBS Solutions Products |-------------------------
+-------------------------==========================-------------------------
+----------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+Certificates -                                                         
+  MBBS, WG 1.X, WG 2.X $29.95
+---------------------------------------------------------------------------
+  Use the module to create codes/certificates that you can mail, or give 
+  to users, or impulse buyers! Great for mailings, gift certificates and
+  more!
+
+---------------------------------------------------------------------------
+Cracked -    
+  WG 1.X, WG 2.X $25.00
+---------------------------------------------------------------------------
+  Do you ever check your audit trail and find hacking attempts? Do you wish 
+  that you could give your users something to hack on besides your userlog?
+  Thats where Cracked comes in!
+
+  Features:
+
+  * Supports Ascii/Ansi. (No C/S interfce as of yet.)
+  * 10 CNF configurable passwords with a credit award for each.
+
+---------------------------------------------------------------------------
+Quick Help - 
+  WG 1.X, WG 2.X 49.95                                               
+---------------------------------------------------------------------------
+  Quick Help allows you to create simple help files online!  All help 
+  topics can be key'd and users can list or display a help topic with a 
+  global command!  Great for systems small or large that want to allow 
+  their users 24 hour help.
+
+  Features:
+
+  * Help files have their own key.  
+  * The help trigger can be changed in CNF.
+  * A MUST for ANY system!
+
+----------------------------------------------------------------------------
+Secure Keys -
+  WG 1.X, WG 2.X $35.00
+----------------------------------------------------------------------------
+  Does your system use the assistance of helpers, and need MORE security?  
+  If your answer was YES, then this module is for you! Skeys is a module 
+  that allows a sysop to define up to 5 keys that can be given to a user 
+  that has access to skeys.  The user will not actually have the keys until 
+  they type a password to recieve them.  (Passwords are user specific.)  
+  When the user logs off the keys are removed for even more security!  You 
+  cannot afford to be with out this module.
+
+  Features:
+
+  * Supports Ascii/Ansi. (No C/S interfce as of yet.  Terminal mode.)
+  * Global command is configurable.
+  * All commands and menu entry points are key'd.
+  * Helpers (or sysops) don't have sensitive key until they NEED them!
+  * Keys are removed at the end of the session.
+
+----------------------------------------------------------------------------
+Suspend -    
+  WG 1.X, WG 2.X $35.00 
+----------------------------------------------------------------------------
+  Do you ever have to suspend users on occasion?  Do you hate having to 
+  remember who you suspended, why, then having to un-suspend them when 
+  its time?  If so, Suspend is for YOU! This module allows you go use a 
+  global command with pre-programmed messages, or you may suspend a user 
+  with a menu selection and a custom message!
+
+  Features:
+
+  * Supports Ascii/Ansi. (No C/S interfce as of yet.)
+  * Global command is configurable.
+  * All commands and menu entry points are key'd.
+  * Global suspend allows up to 5 pre-defined messages!
+  * Menu suspend allows you to send a free form suspension message.
+  * Users are kicked off line with a configured message telling them why 
+    they are suspened.
+  * You can look up a user to see if they are suspened, by who, reason, and 
+    number of total suspensions!
+  * Users who are suspended are displayed a message before they are hungup 
+    on that tells them why they were suspened, and for exactly how long!
+  * Users are unsuspened when the time comes automatically!
+  * Log user login attempts to audit trail and/or a log file.
+
+---------------------------------------------------------------------------
+The Hideout! - 
+  WG 1.X, WG 2.X $50.00
+---------------------------------------------------------------------------
+  The Hideout! is a multi-user chat area that asks the user to enter in an 
+  alias as they enter.  No one know's who is who!
+
+  Features:
+
+  * Supports Ascii/Ansi. (No C/S interfce as of yet.)
+  * Configurable profanity check for alias's.
+  * Option to force users invis.
+  * Up to five handles can be blocked (I.E. Sysop, Helper, ect.)
+  * CNF to change color of output, or RAINBOW.
+  * Comes with its own actions!
+  * Generic Actions.
+  * Whispering.
+  * Directed Messaging.
+
+----------------------------------------------------------------------------
+User Invis -                                                           C/S
+  WG 1.X, WG 2.X $50.00
+----------------------------------------------------------------------------
+  Ever wanted to force your new users invisible at login to keep them from 
+  paging (annoying?) your pay users?  User Invis is what you need.
+
+  Features:
+
+  * Supports Ascii/Ansi and Client/Server.
+  * Configurable message to display to user.
+  * Works off a key so you can force either a user or class invis.
+  * A/A Mode has a sysop definable global command to toggle invis.
+
+  Great for helpers!
+
+
+----------------------------------------------------------------------------
+-----------------------------=====================--------------------------
+-----------------------------| Datasafe Products |--------------------------
+-----------------------------=====================--------------------------
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+AutoRate - 
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $99.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+AutoSubscription -                                                     C/S
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $100.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+CheckMan -                                                             C/S
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $49.00                              
+----------------------------------------------------------------------------
+  Allows you to do online checks for your users.  A possible payment
+  method to gain access to your BBS system.
+
+----------------------------------------------------------------------------
+Global Power -                                                         C/S
+  WG 1.X, WG 2.X, WG 3.0DOS $99.00/WG 3.0NT $129.00                              
+----------------------------------------------------------------------------
+  Global package.
+
+----------------------------------------------------------------------------
+HelpMan - 
+  WG 1.X, WG 2.X $49.00                              
+----------------------------------------------------------------------------
+  A program that takes the .Doc file from your modules and makes it
+  possible to view them per module.
+
+----------------------------------------------------------------------------
+Merchant Package -                                                     C/S
+  WG 1.X, WG 2.X, WG 3.0DOS $495.00/WG 3.0NT $595.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Marketplace -                                                          C/S
+  WG 1.X, WG 2.X, WG 3.0DOS $199.00/WG 3.0NT $249.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Multimedia Registry -                                                  C/S
+  WG 1.X, WG 2.X, WG 3.0DOS $199.00/WG 3.0NT $249.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Omni-Mall -                                                            C/S
+  WG 1.X, WG 2.X, WG 3.0DOS $399.00/WG 3.0NT $499.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+POS Dial - 
+  WG 1.X, WG 2.X, WG 3.0DOS $249.00/WG 3.0NT $295.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Rewards -                                                              C/S 
+  WG 1.X, WG 2.X $20.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+EZ Charge (VisaMan) -                                                  C/S
+  WG 1.X, WG 2.X, WG 3.0DOS $199.00/WG 3.0NT $249.00                              
+----------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------
+-----------------------------=====================--------------------------
+-----------------------------| Dialsoft Products |--------------------------
+-----------------------------=====================--------------------------
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Bouncer - 
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS $59.95/WG 3.0NT $79.95                              
+----------------------------------------------------------------------------
+  Are you tired of pestering users logging on your system with the name 
+  "asdff"?  Perhaps thier phone number was "201-GO-AWAY"? Wouldn't you want
+  to keep these users off your system?  Well now you can!  But wait, there's
+  more!  How would you like to control the amount of users online?  Let's 
+  say you didn't want those non-paying users on during prime-time hours?
+  This is all possible with the Bouncer!  (NOW Supports NO MSG!)  The
+  bouncer is a multi-purpose utility which allows you to keep users off the
+  system when you want them to stay off!  Now includes the /P Bombing 
+  Bouncer, plus the ability to bounce PPP/SLIP and C/S users!
+
+----------------------------------------------------------------------------
+Chit Chatters -
+  MBBS, WG 1.X, WG 2.X $79.95
+----------------------------------------------------------------------------
+  A global teleconference with a huge amount of channels.  Great for users
+  who want a way to talk amongst themselves while playing a game or in the
+  menu system.  An extremely powerful global chat module for many users.
+
+----------------------------------------------------------------------------
+Control - 
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS $149.95/WG 3.0NT $199.95                              
+----------------------------------------------------------------------------
+  The most powerful module there is to CONTROL your system!  CONTROL will
+  handle all Lines, Classes, TCP/IP Users, Idle Users, Rodents, and more!
+  Also capable of finding duplicate accounts, exporting user database, 
+  logging on invisible, baud rate statistics, un-ghosting accounts, locking
+  out users, forwarding new user mail to upto 5 accounts/forums, granting
+  special access to users based on time of day, and more!  Too many features
+  to list, this is the do-it-all module!  All configuration is done online,
+  no downtime!  Includes full 40+ page Sysop manual.
+
+----------------------------------------------------------------------------
+Dial Notes - 
+  MBBS, Worldgroup 1.x, 2.x, 3.0DOS, 3.0NT $29.95
+----------------------------------------------------------------------------
+  You'll never realize how handy this module can be!  With Dial Notes, you 
+  and your users could have somewhere to store information easily!  Forget 
+  pen and paper!  Dial Notes lets you have SEVERAL notes pages for 
+  information storage!  Includes global commands to Edit, Add, and 
+  Read messages!  A small, yet powerful module!  All commands and options 
+  are configurable ONLINE because it supports Dialsoft's NO MSG standard!
+
+----------------------------------------------------------------------------
+Dialchat -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS $99.95/WG 3.0NT $179.95                              
+----------------------------------------------------------------------------
+  Multi-user teleconference.  Designed to replace the current 
+  teleconference.  Allows users to change handles and use colors anywhere 
+  in teleconference.  Full bulletin board posting within chat and dozens
+  of commands for users to make their own chat environment.
+
+----------------------------------------------------------------------------
+DS-DOS Dos Shell - 
+  MBBS, WG 1.X, WG 2.X $99.95
+----------------------------------------------------------------------------
+  Our DOS emulator let's you use almost *all* of MS-DOS's regular commands!
+  Use our DOSKEY feature to scroll through previous commands!  Supports /S
+  directory recursion too!  DS-DOS also allows you to run BATCH (*.BAT)
+  files online!  Our COPY, XCOPY, and MOVE commands all let you see how 
+  much of your files have copied with a handy percentage meter!  Now 
+  includes individual user access!!  Give DOS directories to users, great
+  for multi-homed web sites!  Associate files with colors!  Online GREP! 
+  32k edit buffer online!  Online CNF options also!
+
+----------------------------------------------------------------------------
+Frequently Used Globals -                                                       
+  8 users $99.95/32 users $149.95/128 users $199.95/256 users $349.95  MBBS         
+  8 users $99.95/32 users $149.95/128 users $199.95/256 users $349.95  WG1/2
+----------------------------------------------------------------------------
+  Featuring 100 stock Global commands! Plus 40 Sysop Definable Commands! 
+  This global package replaces 2 Global Command Packages in 1 shot!  Every
+  global command may be assigned two different names!!  Now with true 
+  *NO MSG* !!! Incredible on-line configuration system configurable without
+  the hassle of Level 3 and Level 4 options!
+
+----------------------------------------------------------------------------
+Graffiti Wall w/HTML Page - 
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS $39.95/WG 3.0NT $49.95                              
+----------------------------------------------------------------------------
+  The only true graffiti wall package.  We designed it to be as cool as
+  possible.  Entertainment systems beware, this module is addictive.  Users 
+  post thief thoughts on an ANSI Brick background during logon or GLOBALLY.
+  As a bonus, check out its HTML generated Graffiti wall template.
+
+----------------------------------------------------------------------------
+Global Information Center - 
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS $29.95/WG 3.0NT $49.95                              
+----------------------------------------------------------------------------
+  Allows sysops to design and make ANSI or text pages available by a global
+  command.  Example: "events" "phone numbers" "RATES" etc...  Assign a 
+  global command to your information.  A very useful program for making
+  information available quickly and easily.  Awesome sysop interface for 
+  making files available.  Full FSD support.
+
+----------------------------------------------------------------------------
+Hot Keys - 
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS $59.95/WG 3.0NT $79.95                              
+----------------------------------------------------------------------------
+  Ok, we were told it couldn't be done.  Global Tab colors are here!  Not
+  only that, imagine the functionality of DOSKEY built into the menuing 
+  system as well.  Abort input at any menu prompt, redraw split lines or
+  lines overwritten by line noise!  Wait there is more!  Global support for
+  control keys, that right Control-Z brings up a menu of Hot Keys and the
+  user defined hot keys to bring you anywhere on the system or to execute
+  any command and its sysop configureable.  
+
+----------------------------------------------------------------------------
+Dialsoft Marquee - 
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS $59.95/WG 3.0NT $79.95                              
+----------------------------------------------------------------------------
+  A sysops dream!  Allows sysops to prevent scrolling messages to the users 
+  during login or any menuing system page.  Now with Graffiti Marquee, users
+  can create, essentially, a scrolling Graffiti Wall!
+
+----------------------------------------------------------------------------
+Signature Editor -
+  MBBS, WG 1.X, WG 2.X $29.95
+----------------------------------------------------------------------------
+  With this signature editor, your users may personalize their own 
+  signatures for their Internet needs!  They simply choose which signature
+  they would like to edit, and customize it their own likings!  Here's a 
+  description of each signature:  E-MAIL - This signature will appear at 
+  the end of all there outgoing Internet E-Mail messages.  NEWS - This 
+  signature will appear at the end of all of their postings on your News 
+  server.  PLAN FILE - This message can be viewed by anyone who "fingers" 
+  them!  They may also define an alternate set of signatures for themselves 
+  that can be used instead of thier primary signatures.
+
+----------------------------------------------------------------------------
+Web Blaster Pro Client/Server + ASCII/ANSI -
+  WG 1.X, WG 2.X, WG 3.0DOS $249.95/WG 3.0NT $299.95                              
+----------------------------------------------------------------------------
+  This is the most powerful web management software available for the 
+  Worldgroup Platform.  Supports Multihoming under vircom, including FTP.  
+  Includes site and page counters and full sysop client as well as user 
+  homepage management clients.  If you run Major TCP/IP you must install 
+  210-8 or newer.
+
+----------------------------------------------------------------------------
+Zap 'Em -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS $29.95/WG 3.0NT $39.95                              
+----------------------------------------------------------------------------
+  An awesome way to have some fun with problem users and teach them a 
+  lesson.  Various ways to make a user sorry for something he has done.  
+  While none are damaging to the user, some make it look that way - such as 
+  a simulated Hard Drive Format, or a simulated Windows Fatal Error (R)- You
+  know, the blue screen! :-).  Zap them with COLORS or a STROBE light effect
+  and many more.  Try it out.  It's one of our best sellers!
+
+
+----------------------------------------------------------------------------
+-----------------------------------============-----------------------------
+-----------------------------------| Farwest  |-----------------------------
+-----------------------------------============-----------------------------
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Tele-Trivia -
+  WG 1.X, WG 2.X  $200.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Trivia -
+  WG 1.X, WG 2.X  $200.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Trivia Suite -                                                         C/S
+  WG 1.X, WG 2.X  $249.00                                                 
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Adult Questions -
+  WG 1.X, WG 2.X  $39.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Questions by Topic #1 -
+  WG 1.X, WG 2.X  $39.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Questions by Topic #2 -
+  WG 1.X, WG 2.X  $39.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Questions by Topic #3 -
+  WG 1.X, WG 2.X  $39.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Questions by Topic #4 -
+  WG 1.X, WG 2.X  $39.00                              
+----------------------------------------------------------------------------
+
+
+
+----------------------------------------------------------------------------
+--------------------------==========================------------------------
+--------------------------| High Velocity Software |------------------------
+--------------------------==========================------------------------
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Auto Validator -
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT  $80.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Console Lock -
+  WG 1.X, WG 2.X  $30.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Crossroads -
+  WG 1.X, WG 2.X  $250.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Cyber Wumpus 2010 -
+  WG 1.X, WG 2.X  $99.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Form Editor -
+  WG 1.X, WG 2.X  $75.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Genesys -                                                              C/S
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT  $995.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Global Destruction -
+  WG 1.X, WG 2.X  $125.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+High Velocity Utilities -
+  WG 1.X, WG 2.X  $100.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Image Preview -
+  WG 1.X, WG 2.X  $30.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Menu Magician C/S -                                                    C/S
+  WG 1.X, WG 2.X  $150.00                              
+----------------------------------------------------------------------------
+  Allows you to edit your menu tree to your system while the system is
+  up and running.
+
+----------------------------------------------------------------------------
+Menu Magician - Terminal -
+  WG 3.0DOS, WG 3.0NT  $50.00                              
+----------------------------------------------------------------------------
+  Allows you to edit your menu tree to your system while the system is
+  up and running.
+
+----------------------------------------------------------------------------
+Mercury -                                                              C/S
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT  $29.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+MetaKeys -
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT  $50.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Newsroom C/S -
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT  $80.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Scrybe -
+  WG 1.X, WG 2.X  $49.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Spot -                                                                 C/S
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT  $60.00                              
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Trade Wars 2002 -
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT  $400.00                              
+----------------------------------------------------------------------------
+  The classic Space Adventure game.
+
+----------------------------------------------------------------------------
+Trade Wars 2002 Pro Addon -  Requires Trade Wars 2002
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT  $159.00                              
+----------------------------------------------------------------------------
+  Allows you to create planets and edit game options online.
+
+----------------------------------------------------------------------------
+Web Master II -                                                        C/S
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT  $99.00                              
+----------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------
+---------------------------========================-------------------------
+---------------------------| InfiNetwork Products |-------------------------
+---------------------------========================-------------------------
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Bingo - C/S only                                              NEW C/S Only
+  WG 1.X, 2.X, WG 3.0DOS, 3.0NT, 3.1XNT $149.00                  
+----------------------------------------------------------------------------
+  Fun for all ages. Bingo is one of the most popular
+  american pasttimes, and now you can have it on your system!
+
+  Bingo is a fully Client/Server game with entertaining
+  graphics and amusing sounds. Your users will love it!
+
+  Bingo features:
+
+  * Inter-game chat. Built-in chat lets users interact
+    while waiting between bingo balls or games.
+
+  * Players can compete for prizes. Winners are awarded
+    various prizes in credits. Bingo winner prominently
+    displayed to all.
+
+  * Supports IN-GAME BANNER ADVERTISING!
+    Yes, Bingo is "Sponser-enabled (TM)", meaning you
+    can sell advertising space WITHIN the Bingo game.
+    As people are generally sitting or chatting while
+    waiting for the next bingo ball to arrive it is a
+    GREAT place for ads!
+    Full ad logging tracks views and click-thrus.
+
+----------------------------------------------------------------------------
+Big Brother -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.XNT $50.00       Works in 3.12NT
+----------------------------------------------------------------------------
+    Ever had the need to track everything a particular user does?
+    Need to know what someone is doing to crash/disrupt your system?
+    Just want to capture to disk the activities of a few malcontents?
+    Just want to spy?
+
+    Now you can!  BIG BROTHER watches over your BBS. Just give him
+    the userids to watch and say goodbye to "He-said, She-said".
+
+    Features
+
+      * Big Brother will log to disk input entered from a user.
+      * He even captures global commands!
+      * He does NOT include Chat, E-mail or Flash.
+      * He can track up to 10 different userids.
+      * Big Brother can track ALL input in a particular
+        module (regardless of userid).
+      * He'll also monitor up to 10 different modules.
+      * He can suspend accounts when someone tries to hack the password
+
+    Applications
+
+      + You don't know what someone is doing to crash your file library
+        Call on Big Brother.
+      + Your users are complaining about someone, but you don't have 
+        time to babysit the system. Big Brother will watch him for you.
+      + You wonder if you can trust someone. Big Brother will tell you.
+      + You don't know how someone is going where they don't belong.
+        Big Brother will show you.
+      + You want to protect user accounts from hacking by auto-dialers.
+
+      Teleconference Chat Logging for the 3.0 version.
+
+----------------------------------------------------------------------------
+Cybertank -                                           
+  MBBS, WG 1.X, 2.X, 3.0DOS, 3.0NT $295.00
+----------------------------------------------------------------------------
+  By far the most advanced war game out on the BBS market, Cybertank
+  offers your users competitive conflict on a global scale. Armed with
+  Cybertanks 10 kilometers wide, they conquer a vast continental landscape
+  where terrain provides strategic passage for the wise, and surreptitious
+  ambush for the crafty. A place where a wise ruler can build a great
+  nation, even to become a superpower, able to unleash the power of
+  the atom upon those who would oppose him.
+
+  FEATURES:
+
+  * Players can build their own Cybertanks from the Ground up.
+    A wide selection of Armor types, Suspension units, Weapons,
+    Defense Systems, and Fire Control Computers lets your users
+    create their own one-of-a-kind Armored Fighting Vehicle.
+
+  * A global terrain map adds a whole new dimension to combat.
+    Here terrain plays an important factor as to what areas players
+    can move through as well as the cover it offers from enemy fire.
+
+  * Of the weapons systems Strategic Nuclear weapons are by far the most
+    powerful and interesting.  Not only will they deliver tremendous
+    damage when used against an opposing AFV, they will permanently alter
+    the landscape - reducing hundreds of miles of mountain, water, and
+    forest to ashen radioactive desert.  Your players will enjoy being
+    able to make permanent changes to the game map (at least until the
+    next game!)
+
+  * Not just a combat game. Rising to the ranks of Superpower is largely
+    based on ability as a Ruler. Controlling provinces, building
+    capitals and factories, allocating labor and resources - virtually
+    all the tools of statecraft are at their disposal. A wise ruler over
+    a good province would do well, but a tax-happy tyrant over an
+    aggressive population may find them revolting against him!
+
+----------------------------------------------------------------------------
+Document Viewer -                                               
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $149.00
+----------------------------------------------------------------------------
+  Publish Documents on the Web and Worldgroup faster than ever!
+
+  With just the click of a button you can put your documents online as
+  they appear in their original form - color, graphics, fonts, and all!
+  Best of all, your users won't have to install complicated "Document 
+  Viewer" software to see them.  With Palantir's Document Viewer you'll get 
+  the functionality of Adobe Acrobat without it's huge file size or 
+  confusing install procedures.
+
+  Features
+  --------
+  * Full-text searching throughout the entire document.
+    You can even cut and paste!
+  * Hypertext links and bookmarks make it easy for users
+    to jump to important locations within a document.
+  * Feature-rich document processing tools including Bookmarks,
+    Highlighter pens, Sticky Notes, and Printing.
+  * Thumbnail page views, zoom and page navigation features.
+  * Documents appear as you created them, including embedded graphics
+    and fonts.
+  * Just "Print" your documents to create the online version.
+    It's that easy!
+  * The download of the viewer and document is completely transparent
+    to your user.  He simply selects a menu option and the document is
+    delivered and displayed on his screen!
+
+----------------------------------------------------------------------------
+Document Viewer/Envoy bundle -                                               
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $210.00
+----------------------------------------------------------------------------
+  Includes Document Viewer plus an Envoy Bundle.
+
+----------------------------------------------------------------------------
+Flower Shop -
+  MBBS, WG 1.X, 2.X, 3.0DOS, 3.0NT $99.00
+----------------------------------------------------------------------------
+  Even an electronic rose smells as sweet...
+  Now your love-sick users can send their sweetheart a bouquet of roses
+  on-line or to their e-mail box!  Get-wells, birthdays, weddings all
+  go well with electronic flowers.
+
+  Different arrangements cost in credits.  To show his true love, a user
+  shouldn't hesitate to spend 10,000 credits for top-of-the-line
+  electronic flowers.  Optional "card" lets him wax eloquent of his hearts 
+  desires.
+
+  This module will certainly add up to a healthy use of credits on your 
+  BBS.  Don't be another minute without this module, call today!
+
+  Now Flowershop does birthday cards!
+
+  This new feature automatically sends birthday greetings as well as
+  an optional credit "gift" to your users on their birthday.
+  An upcoming birthday list is also display to all at logon time.
+
+----------------------------------------------------------------------------
+Food Fight -                                               NEW C/S version
+  MBBS, WG 1.X, 2.X, 3.0DOS, 3.0NT $149.00
+----------------------------------------------------------------------------
+  Can you survive the Electronic Lunchroom?
+  The Junior High lunchroom is fraught with peril: girls with the cooties,
+  wimps who ties your shoelaces together, and, of course, bullys who tease
+  you.  It's no wonder the average student needs to defend himself with
+  the most deadly weapon available - Food!
+
+  The game is simple, defend yourself from Pranks, Teasing, and Food
+  while keeping yourself as clean as possible.  The teachers assume that
+  the messier a student is, the more involved in the food fight he is and
+  it's off to the principal's office when they catch you.
+
+                     What's on the menu:
+
+  * ANSI food. Users will love to be able to cover their screen in slime!
+    Hopefully the spinach won't drip off your monitor into your keyboard.
+
+  * Pranks.  Everything from tying shoes to teasing!
+
+  * Social status. Who's the coolest. Who's the toughest.
+
+  * Advancement. Start in 1st grade and advance toward Food Fight Alumni.
+
+----------------------------------------------------------------------------
+Form Manager -                                               
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $495.00
+----------------------------------------------------------------------------
+                       FILL OUT FORMS ON-LINE!
+
+  Form Manager lets you present an on-line form for your users to fill out.
+  Each form is an 80 character by 24 line input screen which supports
+  full-screen data entry, tabbing, and various data restrictions.
+
+  Features:
+
+  > Form results are saved in a comma-delimited file - easy for import into
+    just about any database, spreadsheet, or word processor!
+  > You can also have an image of the completed form sent to a user-id.
+  > Forms fields can support:
+
+    * Numeric only restrictions
+    * Minimum and maximum values
+    * Multiple choice values
+    * Secret data entry
+    * Default values
+    * Required fields
+
+  > Can grant a key if they fill out a form. Can require a key.
+  > Form results can be appended directly to any dbase .DBF file.
+
+  Applications:
+
+  * Event Registration Form.  Users can sign up for special events,
+    conference reservations, classes, and the company picnic.
+  * Special access request. Do you have restricted areas on your
+    system?  Have an on-line access request form.
+  * Mailing List.  Users can put their names on the mailing list.
+    Import the file into a database and print the mailing labels.
+  * BBS Member Registration.  Users could apply for membership to
+    your BBS by filling out a form.  You could even prompt for their
+    credit card number.
+  * Product/Problem Support Form.  Users could register problems
+    with products on-line.
+  * Order Entry Form. Prompt for Ship to, Billing address and
+    credit card number.
+  * Loan Application. Prompt for vital credit information.
+  * Insurance Application.  Let users fill out claims or applications.
+  * Travel Application.  Place their requests on-line.
+  * BBS Credit Coupon Registration. Does your BBS give out free time
+    in the form of coupons? Have them redeem their coupons on-line.
+  * Subscriptions. Magazine and Club Memberships can easily be
+    handled on-line.
+  
+----------------------------------------------------------------------------
+Gunfighter (BRAWL)-
+  MBBS, WG 1.X, 2.X, 3.0DOS, 3.0NT $149.00
+----------------------------------------------------------------------------
+  This here teleconference ain't big enough fer the two of us...
+
+  The place goes deadly silent as everyone                /\/\
+  waits your move. BadClown, the fastest               (_|____|_)
+  gunslinger this side of a 28800 bps modem,              .\/.
+  has called you out. You check your items:              | -- |
+  Colt45, Smith and Wesson, and a shotgun.            ____----____
+  But you've got a sneakgun in yer boot and          (            )
+  you just might be able to drop him before          |        @   |
+  he gets his revolver out. Suddenly, a chair
+  breaks across BadClown's back. You duck a            GUNFIGHTER
+  bottle of sasparilly thrown by another user
+  and the place goes beserk. Hold on to yer hat,
+  your BBS just erupted into a barroom brawl!
+
+  A sure-fire hit on any system.  Gunfighter is an action-packed game of
+  role-playing in the wild west.  Starting off with a couple of guns and
+  some ammo, players can develop improved fighting abilities as they rise
+  the ranks from "Greenhorn" to the lightning fast draw of a "Gunslinger".
+  Best of all, it happens right in teleconference!  One minute, the same
+  boring chit-chat, the next, a full fledged brawl.  Of course, users who
+  choose not to join in the fun will continue on as if nothing happened.
+
+----------------------------------------------------------------------------
+InfiBase -
+  MBBS, WG 1.x, WG 2.x, WG 3.0DOS, WG 3.0NT $695.00
+----------------------------------------------------------------------------
+  "Pay attention Galacticomm Sysops.  If you are tired of spending hundreds
+  of dollars for Galacticomm add-on software, take a close look at INFIBASE,
+  a slick, easy-to-use application development program from InfiNetwork.
+
+  InfiBase is a hierarchical databse that can meet multiple needs for
+  Galacticomm Sysops.  In fact, with a little imagination, Sysops can design
+  any application requiring collection and dissemination of information that
+  can be classified in a hierarchy.  Best of all, the Sysop doesn't have to
+  be a programmer to develop custom applications.
+
+  Infibase can be viewed as a single solution for multiple problems.  
+  Surprisingly, Infibase solutions in many cases are as elegant and 
+  effective as some of the single-purpose third party add-ons.  With a
+  little sweat and ingenuity, this program can enhance the functionality of
+  your BBS, improve caller satisfaction, and collect your money for you. 
+  You can give your online programs a unified look, feel, and command
+  structure.  It can save you hundreds if not thousands of dollars in third
+  party software.  InfiBase not only will solve many of your immediate
+  needs but, as your system grows, it will help you meet many of your
+  future needs with minimal expense" 
+  SySop News and Cyberworld Report, Dec 1994, Steve Graves
+
+  *More then just pictures, sound, text, animation, video, word processing,
+   programs...  Infibase displays just about anything!  Attach up to 26 
+   files to each record.
+
+  *Friendly user interface, Powerful search features, Dbase import/export
+  
+  *Comprehensive statistics tracking, Credit card processing
+ 
+  *And extensive multimedia support, 6 Graphic formats, 3 animation formats,
+   3 sound formats, and 3 video formats supported.
+
+  Infibase comes with a CLASSIFIED database, but it may be edited to be
+  whatever you want it to be.
+
+----------------------------------------------------------------------------
+InfiBase "Solutions Pack" -
+  MBBS, WG 1.x, WG 2.x, WG 3.0DOS, WG 3.0NT $99.00 
+----------------------------------------------------------------------------
+  This is an additional 3 databases, allowing you to have a total of 4
+  seperate databases running at 1 time.  It includes, PEN PALS, JOB SEARCH,
+  and PERSONALS.  Each of these maybe modified if you wish to be what you
+  want them to be.  So for instance if you do not want a PEN PALS database
+  you can modify it to be a USER Database or whatever other database you can
+  think of.  *This package requires Infibase to run*
+
+----------------------------------------------------------------------------
+Major Jail -
+  MBBS, WG 1.X, WG 2.X, 3.0DOS, 3.0NT $25.00
+----------------------------------------------------------------------------
+  Sometimes it's nice to gently correct a user who's been slightly
+  annoying without alienating and angering them.  The MajorBBS Jail
+  provides just that, a light-hearted approach to correctional
+  punishment.  This way, the problem is handled and everyone leaves
+  in a good mood.  It also adds a bit of mystery to your system as
+  rumors circulate that you have the only BBS in town with an
+  on-line dungeon!
+
+----------------------------------------------------------------------------
+Online Publisher Suite -                                               
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $995.00
+----------------------------------------------------------------------------
+  Includes: 1 Librarian, 1 Builder, and Unlimited Viewers.
+
+              Want to host many publications and magazines 
+                on your system like America Online does?
+
+                    Online Publisher is for you.
+
+  If you are looking to host a large number of publications on your
+  system from various external content providers, you'll need online
+  publisher. From the publishing tools needed by your content providers 
+  to the viewing software needed by your readers, this publishing suite 
+  provides everything you need to offer fully interactive multimedia 
+  publications on your online service.
+
+  What is does
+  ------------
+  Online Publisher is the next step in electronic publication
+  distribution, allowing you to provide readers with fully interactive
+  multimedia publications in both the online and *offline* environments
+  (Yes, you can also create a CD with your content on it).
+
+  It is a comprehensive product suite for the total lifecycle of a 
+  publication, making it easier to take a publication from its initial
+  creation to deployment on an online service (currently 
+  Galacticomm's Worldgroup).  Unlike HTML publications on the Web,
+  content providers don't have to spend a lot of time in a layout stage,
+  formatting documents for online presentation. Nor do they have to 
+  spend a lot of time with the web programmer each time they add a new 
+  issue online.
+
+  The Online Publisher solves the number one problem that plagues online
+  electronic publications -- the large size of files containing imbedded
+  graphics.   This is particularly important in the online world where
+  readership is discouraged by requiring a reader to endure a long
+  download of a large file before it can be viewed.  The Online Publisher
+  is designed to place an entire publication online, unlike traditional
+  "document capture" tools whose size quickly becomes unwieldy when 
+  combining multiple documents of a publication.  Using a segmented
+  approach and providing in real time only those pieces a reader requests
+  reduces reader wait time and increases readership.
+
+
+  How it works
+  ------------
+  Readers navigate a publication using a familiar "magazine-like" 
+  interface to quickly reach items of interest to them.  Once there, a 
+  reader can browse an article or view attached multimedia files 
+  including graphics, sound and video.  Attached article items can also
+  be program executables that will be launched when a user selects 
+  them - allowing them, for example, to "test-drive" software they've
+  just read about.  Moreover, all access to articles and attached 
+  items (advertisements, charts, etc.) is recorded.  Publishers will
+  know more than that a "hit" was made, they'll know "who" made that
+  hit.  This provides accurate readership information to advertisers
+  and content providers, information that can't be identified with
+  print publications and is unavailable with Web-type browsers.
+
+  By providing a seamless interface to other applications on an online
+  service, the Online Publisher gives content providers the ability to
+  extend publications beyond simple information presentation. 
+  Interactivity is increased by allowing readers to e-mail the editor
+  or authors directly.  Feedback and discussion can be promoted by
+  offering online discussion areas.  Readers can even order items
+  advertised in an issue by accessing an online shopping mall.
+
+  Who might use it
+  ----------------
+  How a community-based system might use it...
+
+  A local online service may wish to offer local organizations 
+  (Churches, Special interest clubs, Community groups, etc.) the 
+  ability to take their newsletters and association publications and 
+  easily put them on the it's online system.  This gives the smaller
+  organization a low-cost entry into the online world, and the 
+  online system benefits from an increased customer base as the
+  organization brings all of it's members online.
+
+  How a national online system might use it...
+
+  A national online service, targeting a specific industry, could
+  offer a place on it's system to all the industry-specific trade 
+  publications. The Online System then becomes a one-stop-shop for
+  all industry related information - increasing it's customer base
+  as each publication brings it's members online.  The publication,
+  in turn, can increase advertising revenue by offering it's 
+  sponsors the option to post an online advertisement in addition
+  to their printed material - all without having to invest in
+  building their own Internet presence.  And the reader is no 
+  longer searching the Internet, hopping from site to site, and
+  working his way through different interfaces for each publication.  
+
+----------------------------------------------------------------------------
+Online Publisher Multimedia Add-on -                                               
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $300.00
+----------------------------------------------------------------------------
+  Supports a number of image (including JPEG), sound, animation, and video
+  formats.  Supports launching word processing programs, spreadsheets, 
+  Acrobat files, etc.
+
+----------------------------------------------------------------------------
+Online Publisher Builder additional license -                                               
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $100.00
+----------------------------------------------------------------------------
+  This will allow you to have more builders for the Online Publisher.
+
+----------------------------------------------------------------------------
+Online Publisher Extended Tech Support -                                               
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $199.00
+----------------------------------------------------------------------------
+  1 year support program beyond the initial free 90 days tech support.
+
+----------------------------------------------------------------------------
+PowerBase -                                              
+  WG 3.0NT $995.00
+----------------------------------------------------------------------------
+  Includes Powerlink (Information Below)
+  API that allows Worldgroup Programs to access any ODBC compliant database,
+  including Oracle, SQL Server, Access, and others.
+
+  Looking for an easy-to-use online Database for worldgroup?
+ 
+  PowerBase is a database display tool that allows your users to query
+  information from any ODBC compliant database.  This means you can
+  provide access to many databases such as Microsoft Access, SQL Server,
+  Oracle, Dbase, Foxpro and many more.  Data is presented in an intuitive  
+  spreadsheet fashion for easy perusal by your users.  
+
+  In addition, a wide variety of data display formatting is provided 
+  including the ability to display field totals.
+
+  Here are a few features of Powerbase:
+
+  * OPEN
+    Works with any ODBC-compatible database including: Microsoft Access,
+    Oracle, SQLServer, Dbase, Foxpro, and many more!
+
+  * EASY
+    No Programming Required! Powerbase automatically configures itself
+    to your database.  You'll be up and running in just minutes without
+    programming or database scripting.  Data is displayed in a friendly
+    easy-to-view spreadsheet format. Quick-Search Power Bar for 
+    easy-to-use query interface.  PowerBase automatically configures 
+    itself to the database and table selected.
+ 
+  * SECURE
+    Use OBDC authorization to require users to enter a datasource login
+    name and password.
+
+  * FLEXIBLE
+    Extensive data display formatting features.  Colorize numbers based
+    on their value, indicate percentages, and display totals.
+
+  * DESIGNED TO MAKE YOU MONEY
+    Use the Query Charge option to apply a surcharge when the user 
+    makes a search against the database.
+
+----------------------------------------------------------------------------
+RingMasters -
+  MBBS, WG 1.X, 2.X, 3.0DOS, 3.0NT $99.00
+----------------------------------------------------------------------------
+  Ringmasters effectively simulates the action and drama of a hard-hitting,
+  fast-action boxing match complete with referee.  Punch intensity, 
+  location, fatigue, and ability all come into play as your users square
+  off in the ring.
+
+  * Divisional title belts from     * Ringside option lets everyone
+    street fighter to heavyweight     participate, where they can
+    champion of the on-line world!    cheer/jeer rivals in the ring.
+
+  * Unique attribute and skill      * Easy to use interface lets New
+    combinations keeps users          signups experience multi-player
+    on-line developing the ultimate   gaming right away.
+    fighting machine.
+
+  * Variable offense/defense        * Completely CNF configurable,
+    tactics offer a surprising        Restricted commands encourages
+    depth of strategy to keep even    users to get live time.
+    the most demanding interested.
+
+----------------------------------------------------------------------------
+Socrates -                                               
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $1499.00
+----------------------------------------------------------------------------
+  Online teaching and comprehension testing application.  It includes 2
+  lessons and allows you to build more as you need them.
+
+----------------------------------------------------------------------------
+TeleChat Trivia -
+  MBBS, WG 1.X, 2.X, 3.0DOS, 3.0NT $149.00
+----------------------------------------------------------------------------
+  Automatically adds itself to either your Standard or Entertainment
+  Teleconference. Why force your users to go to another area to play
+  trivia?  Let them enjoy all the features of your teleconference
+  while they play!
+
+  Features:
+
+    * Nearly 50,000 questions!
+    * Plays DIRECTLY in your teleconference! (Standard OR Entertainment)
+    * Can restrict game to 1 tele channel (Entertainment only)
+    * Top players list
+    * Monthly Hall of Fame (top player for each month)
+    * Game is run in rounds - gives everyone a chance to be a winner
+    * Winner announced at end of each round
+    * Keys to play trivia
+    * Users who do not wish to play can turn the game off
+    * Configurable speed of question display, round time
+    * Configurable option to display or not to display answers
+    * Offline utility lets you import more questions into the database
+    * Offline question editor
+    * Sysop Cheat command (shhh.. your users will think you're brilliant!)
+
+----------------------------------------------------------------------------
+The Doctor -
+  MBBS, WG 1.X, 2.X, 3.0DOS, 3.0NT $50.00
+----------------------------------------------------------------------------
+  The BBS Doctor is an AI INTERACTIVE teleconference personality.
+  He'll actually talk BACK to your users.  You'll be surprised how
+  quickly people become involved with him. More than a few people
+  even thought he was an actual user!
+
+  Now your BBS can have it's own electronic Rogerian psychotherapist!
+
+----------------------------------------------------------------------------
+User Commissions -
+  MBBS, WG 1.X, WG 2.X, 3.0DOS, 3.0NT $149.00
+----------------------------------------------------------------------------
+                     LET YOUR USERS WORK FOR YOU!
+
+   Now wannabe sysops can put their money where their mouth is.
+   Our new USER COMMISSIONS module lets you offer a commission
+   in credits on your system for usage they get others to generate!
+
+   You select particular modules and the users who can receive
+   commission based on the usage generated that day for that module.
+   Commissions can be given for time spent online, credits used
+   or a combination of both.  Each night the BBS will automatically
+   calculate the % and post to each account. In addition to audit
+   trail entries, each user will get an email indicating earnings.
+
+   Your system usage will increase as your "investors" look
+   for unique and creative ways to increase YOUR on-line usage!
+
+   The ideal arrangement. If a user is lame, then they earn
+   little to nothing. Those who are are creative and energetic,
+   who add usage to YOUR system, will be rewarded for their efforts.
+
+   Give your users a stake in your BBS... give them a COMMISSION!
+
+
+----------------------------------------------------------------------------
+---------------------------========================-------------------------
+---------------------------| Micro Magic Products |-------------------------
+---------------------------========================-------------------------
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Magic Keys -                                                  
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $49.00
+----------------------------------------------------------------------------
+  Powerful set of user psuedo-keys.
+
+  Magic Keys is an eclectic set of locks and keys for The Major BBS and
+  Worldgroup system operator.  They make a powerful addition to your
+  toolbox to assist in securing and customizing your system.
+
+  All Magic Keys can be intermixed with other Magic Keys, key sets from 
+  other vendors, and pseudo keys built into the Galacticomm software. 
+  This will allow you to address complex situations.  All keys are fully
+  sysop configurable.
+
+  Magic Keys currently contains the following keys.  More keys are planned
+  for the future.  
+
+  Includes:
+  HAS-CREDITS, EXEMPT-FROM-CREDITS, AND, OR, NOT, DAY-OF-WEEK, TIME-OF-DAY,
+  PRIME-TIME, SEX, AGE, CHANNEL-GROUP, CHANNEL
+
+  Here are a couple of keys you can create with Magic Keys and a 
+  description of what they do.
+
+  _A_PAY_A_Y18:  Only allow paying users who are 18 or older to access
+  your adult GIF files.
+
+  _O_N_PT1_O_G3:  Only allow access to teleconference if user is 
+  accessing via telnet (channel group 3) or if it is not Prime Time for
+  your system.
+
+----------------------------------------------------------------------------
+Master/Slave -                                                  
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $149.00
+----------------------------------------------------------------------------
+  Create "Family" accounts.
+
+  Master/Slave allows you to create a "family" of accounts which can be 
+  billed and maintained as one account, yet allow each family member to have
+  their own identity.  You can also specify the number of family members to 
+  allow on at the same time.  Great for corporate accounts.  You can sell a
+  business five accounts but allow all their employees to have unique and 
+  individual accounts.  Another great feature is that the Master can create 
+  the Slave accounts and also have limited control over what keys they hold.
+
+----------------------------------------------------------------------------
+Module Barricade -                                             
+  MBBS, WG 1.X, WG 2.X $39.00
+----------------------------------------------------------------------------
+  Password protect any menu module.
+
+  Place a password on any module.  Go beyond the limits of locks and keys.
+  When a user selects a barricaded module from your menus, they must enter
+  the password to gain access.  Use with WorldGrouper to barricade 
+  individual or groups of File Libraries and Message Forums.
+
+----------------------------------------------------------------------------
+Phoenix -                                                  
+  MBBS, WG 1.X, WG 2.X $99.00
+----------------------------------------------------------------------------
+  Powerful global User-ID changer.
+
+  Your users have been asking for it, now you can give it to them.  Allow
+  them to change their User IDs without losing valuable on-line information.
+  Email, high scores, and captured planets can all remain after the User-ID
+  change.  A developers kit will allow any ISV to add Phoenix support to
+  their programs.  Even if you have a program without Phoenix support,
+  there are ways to add support outside of the program.  Features include a
+  change request history, charge per use, and access locks.
+
+----------------------------------------------------------------------------
+Power Locks -                                                  
+  MBBS, WG 1.X, WG 2.X $79.00
+----------------------------------------------------------------------------
+  Programmable security and configuration locks.
+
+  Power Locks is now available.  Locks can now be bigger than the current 15
+  character limit.  Much Bigger!  And, they are programmable too making 
+  Power Locks the most powerful and flexible security and psuedo key 
+  package available.
+
+----------------------------------------------------------------------------
+Web Spinner -                                                  
+  MBBS, WG 1.X, WG 2.X $49.00/WG 3.0DOS, WG 3.0NT $64.00
+----------------------------------------------------------------------------
+  Place file libs on the web with full descriptions.
+
+  If you need to make information available to as many people as possible
+  without investing a lot of time, then Web Spinner can help.  Now you can
+  make your file libraries available via the web automatically and 
+  painlessly with this HTML code generator.  Web Spinner can be configured
+  to generate HTML files that can be placed on any web server: 
+  Major TCP/IP, ICO, NT, UNIX, and more.
+
+  The WG 3.0 version allows you to specify how files will be sorted within
+  a library.  Select by filename or by date in ascending or descending 
+  order.
+
+----------------------------------------------------------------------------
+WorldGrouper LITE -                                                  
+  MBBS, WG 1.X, WG 2.X $49.00
+----------------------------------------------------------------------------
+  Group forums, libraries, teleconferences.
+
+  Search through 217 file libraries to find OS/2 GAMES?
+  Search through 138 forums to find comp.bbs.majorbbs?
+  Mix your adult teleconferences with your tele-games?
+
+  I don't think so!  Group or nest message forums, file libraries,
+  teleconferences, shopping mall stores, and more by whatever categories
+  you choose.  No need to replace any existing modules or functions.
+  Uses standard locks and keys as provided by Galacticomm.  Keep Fidonet
+  echoes separate from Usenet news, and Adult files separate from OS/2
+  files, with this easy to use but powerful tool.  The LITE version allows 
+  1 box with up to 10 keys.
+
+----------------------------------------------------------------------------
+WorldGrouper PLUS -                                                  
+  MBBS, WG 1.X, WG 2.X $99.00
+----------------------------------------------------------------------------
+  The PLUS version allows up to 10 boxes, each may contain up to 25
+  keys.  The LITE version allows 1 box with up to 10 keys.  
+
+  WorldGrouper PLUS also includes:
+
+  WorldGrouper LITE
+  Lock Pick from the Magic ToolBox
+  PAGENAME and PARENT-PAGENAME pseudo keys from Magic Keys
+  Logical AND pseudo key function from Magic Keys
+
+----------------------------------------------------------------------------
+                              *****************
+                              * Magic Toolbox *
+                              *****************
+                    $25.00 each or $99.00 for 5 of these.
+                   Collection of must have sysop utilities.
+
+Magic Toolbox includes the following modules:
+----------------------------------------------------------------------------
+Account Creator -
+  MBBS, WG 1.X, WG 2.X $25.00
+----------------------------------------------------------------------------
+  Create accounts from text file.
+
+  Provide a list of user names and passwords along with a class 
+  specification and the accounts will be created very quickly.
+
+----------------------------------------------------------------------------
+Approve All -                                               OFFLINE UTILITY
+  MBBS, WG 1.X, WG 2.X $25.00
+----------------------------------------------------------------------------
+  Approve all files in a library.
+
+  If you ever need to approve all the files in one, some, or all libraries
+  then Approve All can greatly simplify the task.  You provide a list of 
+  libraries to process and all unapproved files in those libraries will be
+  approved.
+
+----------------------------------------------------------------------------
+Audit Trail Lister -                       
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $25.00
+----------------------------------------------------------------------------
+  List and search audit trail.
+
+  Audit Trail Lister will allow you to list your audit trail by specifying
+  a begin and end date.  You can also specify a search string where only
+  entries containing that string will be listed.  Strings could be a module
+  name or a user name.  Great for tracking the activity of a particular 
+  user or module.
+
+----------------------------------------------------------------------------
+Credit Wrench -                                             OFFLINE UTILITY
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $25.00
+----------------------------------------------------------------------------
+  Modify credits by class.
+
+  Credit Wrench allows you to modify credits by class or for all users.  You 
+  may set credits to a fixed amount or add/subtract a number of credits to
+  the users current total.  You can also generate a report listing all
+  users, their credit totals, and current class.  Use with a batch file 
+  utility and you can reset credits for a particular class to some value
+  the first of each month.  Great for allowing only so many hours access
+  per month to your services.
+
+----------------------------------------------------------------------------
+Day Wrench -                                                OFFLINE UTILITY
+  MBBS, WG 1.X, WG 2.X $25.00
+----------------------------------------------------------------------------
+  Modify days remaining by class.
+
+  Day Wrench allows you to modify days remaining by class or for all users.
+  You may set days remaining to a fixed amount or add/subtract a number of
+  days to the users current total.  You can also generate a report listing 
+  all users, their credit totals, and current class.  Use with a batch file
+  utility and you can reset days remaining for a particular class to some
+  value the first of each month.  Great for allowing only so many hours 
+  access per month to your services.
+
+----------------------------------------------------------------------------
+Download Chainsaw -                                         OFFLINE UTILITY
+  MBBS, WG 1.X, WG 2.X $25.00
+----------------------------------------------------------------------------
+  Prune old and unpopular files.
+
+  List download counts for all files or a set of libraries or just the
+  totals for these libraries.  You can also specify only files of a certain
+  age or popularity.  Once listed you can also request that those files be
+  killed and removed from your system.  Helps keep old and unpoplular
+  files from wasting your drive space and cluttering file listings as seen
+  by your users.
+
+----------------------------------------------------------------------------
+Library Rename -                                            OFFLINE UTILITY
+  MBBS, WG 1.X, WG 2.X $25.00
+----------------------------------------------------------------------------
+  Also check menu tree.
+
+  Library Rename will rename a file library.  You can also ask it to attempt
+  to modify any alternate file paths and any command strings in the menu
+  tree which may contain the library name.
+
+----------------------------------------------------------------------------
+Lock Pick -                                                 OFFLINE UTILITY
+  MBBS, WG 1.X, WG 2.X $25.00
+----------------------------------------------------------------------------
+  Change library/forum access locks quickly.
+
+  Lock Pick allows you to modify certain locks on a list of file libraries 
+  or message forums which you specify.  No more need to edit each lib or
+  forum by hand.  Do it as a batch process and save valuable time.
+
+----------------------------------------------------------------------------
+Master File Lister -                                        OFFLINE UTILITY
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $25.00
+----------------------------------------------------------------------------
+  Dump file list to text file.
+
+  Master File Lister will create a master file list from your file 
+  libraries.  Need a 00FILES.TXT for your FTP site?  Then you need Master
+  File Lister.  Works great with Web Spinner.
+
+----------------------------------------------------------------------------
+Path Changer -                                              OFFLINE UTILITY
+  MBBS, WG 1.X, WG 2.X $25.00
+----------------------------------------------------------------------------
+  Change Alter File Paths quickly.
+
+  Path Changer allows you to quickly modify the Alternate Path Prefix for
+  your File Libraries with just a few keystrokes. A life saver when you
+  need to change your CD-ROM from drive D: to E: or if you need to move 
+  some file libraries to a new hard drive.
+
+----------------------------------------------------------------------------
+User Lister -                                               OFFLINE UTILITY
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $25.00
+----------------------------------------------------------------------------
+  Custom list userbase to text file.
+
+  User Lister will list all user account data as a text file or in a 
+  special format which can be read by most databases.  The output format is
+  completely user definable.  Output pipe delimited for Informix, comma
+  delimited for Access or Dbase, mail label format, or whatever you want.
+
+----------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------
+-----------------------================================---------------------
+-----------------------| Rifster Enterprises Products |---------------------
+-----------------------================================---------------------
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Account Display/Edit -
+  WG 1.X, WG 2.X $49.00                              
+----------------------------------------------------------------------------
+  Sysop Editor allows you to edit any users account without going to the 
+  console or logging on as that user.  Even allows for the SYSOP to change
+  that users PASSWORD from within Account Display/Edit.  This module will 
+  allow you to KEY each field in the ACCOUNT DISPLAY/EDIT function by Gcomm.
+  Fields that are keyable: Name, Company, Address, Phone #, Sex, Birthday,
+  Password (A/A only). Also will allow you to allow credit transfers 
+  regardless of SHWCRD in the BBSSUP.MSG.
+
+----------------------------------------------------------------------------
+Credit Poster -                         
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $49.00                              
+----------------------------------------------------------------------------
+  This program allows the sysop of Systems that have MONTHLY accounts that
+  wish to give credits to users when they want them with limits without
+  sysop intervention.  Great for those games that require credits on monthly
+  on-line services and DMA servers.  C/S App, Menuizable, and Global
+  Command.
+
+----------------------------------------------------------------------------
+Global Teleconference -                                                 
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $59.00                              
+----------------------------------------------------------------------------
+  This is a must have for every chat oriented online system.  Two billion
+  channels are supplied!  Each user may participate in up to THIRTY-SIX
+  channels at a time.  Action words are supported.  Default channels are
+  supported for new users!  Even includes a Dice set for Role Playing Games.
+
+----------------------------------------------------------------------------
+Line Announcer -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $49.00                              
+----------------------------------------------------------------------------
+  This program will announce a MESSAGE to a user based on what line he is 
+  on. This program will look for a file called rifann??.txt if it is 
+  present it will Display it to that user.  This is great for those systems 
+  that have lines SPONSORED by a business so you can display Different 
+  Advertisements based on the line the user is on.
+
+----------------------------------------------------------------------------
+Line Lock -
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $35.00                              
+----------------------------------------------------------------------------
+  This program will restrict calls to a specific set of lines to insure that
+  a user has a certain key to allow Entry.  Great for locking out telnet 
+  callers from using your DIALUP lines give all classes a KEY except your 
+  TELNETERS.  This program is 100% configurable and has a PRIME TIME feature 
+  built in.
+
+----------------------------------------------------------------------------
+Low Warning -                                                           
+  WG 1.X, WG 2.X $49.00/WG 3.0DOS, WG 3.0NT $69.00                             
+----------------------------------------------------------------------------
+  This program will send an email message to your users that are running 
+  low on Credits and/or Days.  Has the ability to send custom messages.
+
+----------------------------------------------------------------------------
+Monitor -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $10.00                              
+----------------------------------------------------------------------------
+  This module adds two new globals to your BBS, /MON and /INP.  These 
+  commands work like the MONITOR and INPUT commands in the remote sysop menu
+  but can be activated from anywhere on the BBS and you can continue to use
+  the BBS as you wish.  The main program does this all for Free, now if you
+  would like to have 5 more globals activated for this module you will have
+  to pay the $10 dollar registration fee.
+
+----------------------------------------------------------------------------
+Quick Mail - 
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $50.00                              
+----------------------------------------------------------------------------
+  This is the first program of its kind a TRUE telegram program.  This 
+  program will send a Quick one line message through the EMAIL system of 
+  your system to ANY valid email address that your BBS uses.  IE: Netaccess,
+  Maillink, Internet, Local, Ect.  This program also has it's own 10 user
+  Address Book that is tied into normal Email and Forums so you can use it
+  for your regular messages as well.
+
+----------------------------------------------------------------------------
+Time Control - 
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $55.00                              
+----------------------------------------------------------------------------
+  This module does a couple of things. First it'll add a new global
+  for use with your BBS, This allows you to extend a users time either
+  for the good or for the bad. Very useful if you have a user that has
+  spent there allowed time on-line for the day and decides they want to
+  pay and have more time. You can take time away that they have been on
+  effectively allowing him back on for that amount of time. Another thing
+  that global is good for is that it will allow you to add or take time 
+  away from a user that is currently on-line. The other part of this 
+  module allows you to add Time restraints to those users with unlimited 
+  time per call to stay on if the bbs isn't busy and restrict them to a 
+  configurable time limit if the BBS is Busy. It can be set up to count 
+  lines 3-13 or any number of lines that you have configured as long as 
+  there consecutive and that there is a configured channel for that line #.
+  Also has a Built in Prime Time Routine with Max-Time-Per-Day, and Key
+  allowed to Logon during Primetime. Now has Different Prime times
+  configured depending on what day of the week it is when the BBS is
+  brought up.
+
+----------------------------------------------------------------------------
+Whos-On - 
+  MBBS $35.00/WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $65.00 
+----------------------------------------------------------------------------
+  This module will display the users logged on. Configurable to display the
+  list of users during log on. This module is 100% editable as far as
+  displays to the user. The global activator is configurable as well. 
+  The key to see invisible defaults at super and the activator is set to # 
+  which can all be changed. This program is Compatible with Vircoms # scheme 
+  Right out of the BOX so to speak Plus some, Works with Tele, DOORS, and 
+  other places that isn't Two COMMAND Line heavy. NEW COMMANDS, /f By 
+  Default Will display any and all file transfer being done on the system. 
+  Will display User-Id, File Name, BPS, Uploading/Downloading, Percent Done 
+  and Protocal. This program has had a Major Facelift to make it even 
+  BETTER and is in my opinion the BEST Whos On-Line Module on the market for 
+  WORLDGROUP. 
+
+
+----------------------------------------------------------------------------
+-------------------------===========================------------------------
+-------------------------| Soft Arts Ltd. Products |------------------------
+-------------------------===========================------------------------
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Ad Master - 
+  2 users $29.00/8 users $79.00 /Unlimited $129.00  MBBS
+  2 users $29.00/8 users $79.00 /Unlimited $129.00  WG1/2
+  2 users $49.00/8 users $109.00/Unlimited $149.00  WG3/DOS
+  2 users $69.00/8 users $129.00/Unlimited $169.00  WG3/NT
+----------------------------------------------------------------------------
+  Allows you to broadcast messages or advertisments anywhere on your system 
+  at any time.  Broadcasts can be in ASCII, ANSI, or RIP format.  ASCII ads
+  can be created and changed online and use your favorite program to create
+  ANSI or RIP files for viewing and registering them online.  Useful for
+  announcing upcoming activities and specials to your users.
+
+----------------------------------------------------------------------------
+Blademaster - 
+  2 users $47.50/8 users $119.00/Unlimited $199.00  MBBS
+  2 users $47.50/8 users $119.00/Unlimited $199.00  WG1/2
+  2 users $67.50/8 users $149.00/Unlimited $239.00  WG3/DOS
+  2 users $87.50/8 users $169.00/Unlimited $259.00  WG3/NT
+----------------------------------------------------------------------------
+  A detailed ANSI arena combat simulation.  Designed to provide users with
+  endless hours of blood-racing battle.  Best of all with a special editor
+  included with your purchase, you can create your own unique hordes of
+  gibbering, vicious monsters to make your game an endless exciting
+  challenge.
+
+----------------------------------------------------------------------------
+Blox - 
+  2 users $39.00/8 users $99.00 /Unlimited $165.00  MBBS
+  2 users $39.00/8 users $99.00 /Unlimited $165.00  WG1/2
+  2 users $59.00/8 users $129.00/Unlimited $209.00  WG3/DOS
+  2 users N/A   /8 users N/A    /Unlimited N/A      WG3/NT
+----------------------------------------------------------------------------
+  ANSI Tetris, fit the falling shapes to form solid rows across the chute 
+  and score points.  The more rows you complete, the faster the shapes fall.  
+  ANSI game is very similar to the ever popular game of Tetris.
+
+----------------------------------------------------------------------------
+Cashere
+  MBBS, WG 1.X, WG 2.X $159.00/WG 3.0DOS $199.00/WG 3.0NT $219.00
+----------------------------------------------------------------------------
+  Cashere is very much like your own personal bank account, online, that
+  can let your users purchase many different system items such as credits or
+  subscriptions, without having to wait for the Sysop.  As with most
+  things in life, you must have money to buy things.  Cashere allows
+  your users to have that money available to the system, in order to make 
+  those purchases.
+
+  There are several ways for your users to "deposit" the funds into their
+  bank account.
+
+   - Send in a cheque or money order for deposit.
+   - Bring in cash, in person.
+   - Use your credit card.
+   - Or even allow them to "borrow" from the system.
+
+  Once your users have those funds in their account, they can make purchases
+  as they need to.
+
+----------------------------------------------------------------------------
+Command Center -                                                        C/S      
+  2 users $49.00/8 users $109.00 /Unlimited $129.00  MBBS         
+  2 users $69.00/8 users $119.00 /Unlimited $149.00  WG1/2
+  2 users $99.00/8 users $159.00 /Unlimited $199.00  WG3/DOS
+  2 users $119.00/8 users $179.00/Unlimited $219.00  WG3/NT
+----------------------------------------------------------------------------
+  Command Center is by far one of the most important modules you could add
+  to your system.  It offers dozens of global commands to your users.  
+  Telegrams, global chat, broadcasts, and log-off messages are just a few of
+  Command Center's many features.  Includes over 50 different global 
+  commands.  Sysop utilities allow for global class and key changes, 
+  suspensions, deletions, global credit posting and much more.  Great for
+  Worldgroup Systems!  Some of the most popular features are: complete help
+  available for all commands, all global commands have their own "key" for 
+  complete access control, each user has the ability to rename each of their
+  global commands, "Who's Online" list can be completely configured
+  with text variables, global credit transfer with the minimum transfer 
+  amount, logoff and logon notifications and nicknames, complete audit trail 
+  listings for most sysop commands, lists of new users, and recent callers.
+
+----------------------------------------------------------------------------
+Electronic Fairways - 
+  2 users $11.95/8 user $29.50/Unlimited $49.00   MBBS
+  2 users $11.95/8 user $29.50/Unlimited $49.00   WG1/2
+  2 users $31.95/8 user $59.50/Unlimited $89.00   WG3/DOS
+  2 users $51.95/8 user $79.50/Unlimited $109.00  WG3/NT
+----------------------------------------------------------------------------
+  Nice text golfing game, the course features many different obstacles such
+  as sand traps, ponds, rough areas, and tress.
+
+----------------------------------------------------------------------------
+Field Goal Challenge - Unlimited                                COMING SOON
+  MBBS      N/A                                                    C/S ONLY
+  WG1/2   $ 49.00
+  WG3/DOS $ 99.00
+  WG3/NT  $119.00
+----------------------------------------------------------------------------
+  As the name implies, Field Goal Challenge is a football-type kicking game.
+  Kick field goals from the 10, 20, 30, 40, or 50 yard line against winds
+  ranging from 0 to 29 miles per hour.  Players can play for the high score 
+  or challenge each other to a game of 5 kicks, all at varying skill levels
+  (amateur, rookie, and pro).  Users with sound cards will be booed, cheered
+  and when the ball is snapped will hear the quarterback's candence.  If you
+  have football fans on your system, this program is a must.
+
+----------------------------------------------------------------------------
+IP-Keys - Unlimited                                                     NEW
+  MBBS    $ 79.00 
+  WG1/2   $ 79.00
+  WG3/DOS $ 99.00
+  WG3/NT  $129.00
+----------------------------------------------------------------------------
+  Keys based on IP address.
+
+----------------------------------------------------------------------------
+Progressive Klondike Solitaire -                                        C/S
+  2 users $39.00 /8 users $79.00 /Unlimited $109.00  MBBS
+  2 users $59.00 /8 users $99.00 /Unlimited $129.00  WG1/2
+  2 users $99.00 /8 users $149.00/Unlimited $189.00  WG3/DOS
+  2 users $109.00/8 users $159.00/Unlimited $199.00  WG3/NT
+----------------------------------------------------------------------------
+  A classic rendition of the ever popular Solitaire card game.  Users have
+  the ability to save a game that they are in the middle of and return to it
+  later.  Klondike's progressive pot is automatic with monthly payoffs and
+  score results.  Statistical reports are automatically generated for the
+  Sysop's use and information.  WGMAN C/S interface offers superb graphics.
+
+----------------------------------------------------------------------------
+Progressive Slots -                                                     C/S
+  2 users $19.00/8 users $59.00 /Unlimited $79.00   MBBS                 
+  2 users $39.00/8 users $79.00 /Unlimited $99.00   WG1/2
+  2 users $59.00/8 users $109.00/Unlimited $149.00  WG3/DOS
+  2 users $79.00/8 users $129.00/Unlimited $179.00  WG3/NT
+----------------------------------------------------------------------------
+  Bring the excitement of Las Vegas slot machines to your system! An
+  animated Client/Server, ANSI, ASCII slot machine puts the finishing
+  touches on the game.  The C/S version even has sounds, so your users will
+  really fell like they're in Vegas.
+
+----------------------------------------------------------------------------
+Progressive Video Poker -                                               C/S
+  2 users $19.00/8 users $59.00 /Unlimited $79.00   MBBS
+  2 users $39.00/8 users $79.00 /Unlimited $99.00   WG1/2
+  2 users $59.00/8 users $109.00/Unlimited $149.00  WG3/DOS
+  2 users $79.00/8 users $129.00/Unlimited $179.00  WG3/NT
+----------------------------------------------------------------------------
+  Innovative sysops will find ways to maximize returns on this massive money 
+  maker which offers a progressive pot and detailed Sysop reports.  Since 
+  this module is 100% global in design, it can be played anywhere on the
+  system, even in another module.  Video poker has full Sysop 
+  configurability from payoff odds to the optional progressive Royal Flush 
+  jackpot, with minimum and maximum betting levels.  A "bet remember" 
+  feature keeps it easy for users to play, and play, and play.  Features 
+  full BMP/ANSI cards to users who can support Client/Server or ANSI, and of 
+  course an ASCII version for those who cannot.  A Sysop only report option 
+  will keep track of how much profit you have made.
+
+----------------------------------------------------------------------------
+Sea Battle -                                                            C/S
+  2 users $39.00 /8 users $79.00 /Unlimited $109.00  MBBS
+  2 users $59.00 /8 users $99.00 /Unlimited $129.00  WG1/2
+  2 users $99.00 /8 users $149.00/Unlimited $199.00  WG3/DOS
+  2 users $119.00/8 users $169.00/Unlimited $219.00  WG3/NT
+----------------------------------------------------------------------------
+  An adaptation of the popular board game Battleship.  Sea Battle puts 
+  player vs. player (or player versus computer) in a contest of strategy and 
+  skill.  Issue a challenge, set up your fleet, man your battlestations, and 
+  fire away.  Sink your opponent's ships before they sink yours.  A fun and
+  addictive game for users of all ages.  C/S version has great sound and
+  graphics. Superb Head to Head competition! ....... Very Addictive!!!!!
+
+----------------------------------------------------------------------------
+The Casino -                                                            NEW
+  2 users $45.00/8 user $111.00/Unlimited $185.00   MBBS           
+  2 users $45.00/8 user $111.00/Unlimited $185.00   WG1/2
+  2 users $60.00/8 user $150.00/Unlimited $240.00   WG3/DOS
+  2 users $80.00/8 user $170.00/Unlimited $260.00  WG3/NT
+----------------------------------------------------------------------------
+  The Casino is a multiplayer game module featuring five popular card
+  games: 7 card stud, 5 card draw, 5 card stud, Jacks or Better, and
+  Blackjack.  ANSI players enter through the lounge where they can talk
+  with other players and sip a few drinks before heading to the tables.
+  Casino employees are always there, day or night, to make sure the
+  patrons are happy.
+
+----------------------------------------------------------------------------
+Yahtzee -                                                               C/S
+  2 users $19.00/8 users $59.00 /Unlimited $79.00   MBBS
+  2 users $39.00/8 users $79.00 /Unlimited $99.00   WG1/2
+  2 users $79.00/8 users $129.00/Unlimited $159.00  WG3/DOS
+  2 users $89.00/8 users $139.00/Unlimited $169.00  WG3/NT
+----------------------------------------------------------------------------
+  Our electronic version of the popular dice game!  Players roll simulated 
+  dice combinations of numbers to score points.  Uses ANSI graphics to
+  display dice if user is set up for IBM or compatible machines.  Otherwise,
+  ASCII text graphics are used. A top ten list lets players compete for
+  high scores.  New multiple Yahtzee feature allows for unlimited high
+  scores.  Complete checking of all rolls for placement within "score sheet"
+  Game is also C/S for superb graphics.
+
+----------------------------------------------------------------------------
+Zorgon -
+  2 users $30.00/8 users $77.00 /Unlimited $129.00  MBBS
+  2 users $30.00/8 users $77.00 /Unlimited $129.00  WG1/2
+  2 users $50.00/8 users $107.00/Unlimited $169.00  WG3/DOS  
+  2 users $70.00/8 users $127.00/Unlimited $189.00  WG3/NT   
+----------------------------------------------------------------------------
+  The most elaborate multiplayer adventure game ever designed for 
+  Worldgroup!  Zorgon is a fully interactive multiplayer text adventure 
+  designed exclusively as an add-on game module for Worldgroup.  It is 
+  similar, in a way, to such games as Zork, Deadline, etc.  The key 
+  difference being that many players may be in the game at once, in REAL 
+  TIME!
+
+
+----------------------------------------------------------------------------
+------------------------=============================-----------------------
+------------------------| WilderLand Software, Inc. |-----------------------
+------------------------=============================-----------------------
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Archery -
+  MBBS, WG 1.X, WG 2.X $69.95   4 user $49.95   Client $49.95
+----------------------------------------------------------------------------
+ Be a Cyber-Robinhood! Knock an arrow on your bow, and test your skills
+ against a moving target, and the wind. If you've got what it takes
+ you might just make the top scores list. A full Client/Server verion
+ available.
+
+----------------------------------------------------------------------------
+AutoTerm -
+  MBBS, WG 1.X, WG 2.X $99.00  
+----------------------------------------------------------------------------
+ Turn your BBS console into a fully functional terminal program! You've
+ got a bank of modems, why can't you use them too? Included in this
+ program is scrollback, scripting, file transfers including Zmodem
+ and more. A must have!
+
+----------------------------------------------------------------------------
+Chain Reaction - 
+  MBBS, WG 1.X, WG 2.X $69.95
+----------------------------------------------------------------------------
+ This is a word game that yor users will love. The sysop can add more
+ puzzles to this game. In this game the user starts with a word, then
+ starts guessing the words. All words are related and work down a chain
+ from the top word to the bottom word. Example: Star Sun Light. As you
+ can see a Sun is related to a Star and Light is related to Sun.
+
+----------------------------------------------------------------------------
+Chat Lounge - 
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $39.95                                           
+----------------------------------------------------------------------------
+ A simple teleconference which allows people to use aliases for total
+ anonymity. Includes generic actions.
+
+----------------------------------------------------------------------------
+DOS Text File Editor - 
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $39.95
+----------------------------------------------------------------------------
+ This is a sysop utility which will allow you to load, view and edit
+ text files right online. A great utility for modifying offline config
+ or help files without the need to take down the BBS, or be at the
+ console.
+
+----------------------------------------------------------------------------
+Erotica! - (Adult Game) 
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $199.00
+----------------------------------------------------------------------------
+ The ONLY ADULT Role Playing for for Galacticomm! Enter the world of
+ Erotica and fight for the title of the most erotic person in the
+ land. The object? Seduce other players.. But beware, even if your
+ not playing your charater is still in the game to be used/abused
+ by other players! Sorry no demos available on this one!
+
+----------------------------------------------------------------------------
+File Viewer -
+  MBBS, WG 1.X, WG 2.X $29.95
+----------------------------------------------------------------------------
+ Stop those text files from scrolling off the page. This is a File Page
+ replacement modules that you use in your Menu Tree to display files.
+ Full page up and page down scrolling and even Keyword searches. Just
+ think, your whole User Doc online and your suers can search for the
+ area they need to know more about.
+
+----------------------------------------------------------------------------
+Hi-Rollers -
+  MBBS, WG 1.X, WG 2.X $39.95
+----------------------------------------------------------------------------
+ Your users roll the die and bank their rolls trying to get the goal
+ you set. A simple and easy game to play for all. This game does not
+ require fast reflexes, just some luck rolling the dice!
+
+----------------------------------------------------------------------------
+Horoscope -                                                            C/S
+  WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $59.00
+----------------------------------------------------------------------------
+ Horoscope lets your BBS bring daily horoscopes to your users! Let
+ your users find out what their day will bring, or get guidance in
+ making a decision! Currently has 1000+ horoscopes with more on the
+ way. Includes beautifully designed CLIENT/SERVER interface.
+
+----------------------------------------------------------------------------
+Internet Navigator - 
+  MBBS, WG 1.X, WG 2.X $259.95
+----------------------------------------------------------------------------
+ Make finding places on the Internet a breeze for your users with the
+ Internet Navigator. Lots of places to scan and pick. Your users just
+ find the area that interestes them and hit 'ENGAGE' and they are sent
+ on their way. For easy use, it has full ANSI screen control. Users
+ can use Page up, Page Down, or do keyword searches.
+
+----------------------------------------------------------------------------
+Legends: In Search of Dragons -
+  MBBS, WG 1.X, WG 2.X $199.00
+----------------------------------------------------------------------------
+ Legends is a Role Playing game engine which leaves you in charge
+ of creating your own world. It features 1/4 screen ANSI overhead
+ views, with test descriptions. Includes the ability to add rooms
+ monsters, and items online. In addition, you can create scripts
+ which can help in creating your own quests and scenerios.
+
+----------------------------------------------------------------------------
+Lingo - 
+  MBBS, WG 1.X, WG 2.X $69.95
+----------------------------------------------------------------------------
+ Lingo is a word game in which a player is given a five letter word
+ they must try to guess. Each time a player guesses a wrong word, they
+ are told if any of the letters matched up, or if the letter is in
+ the word they are trying to guess. The fewer guesses the player
+ gets the word in, the higher the score. Sysop can add words!
+
+----------------------------------------------------------------------------
+Mega Slots -
+  MBBS, WG 1.X, WG 2.X $79.95
+----------------------------------------------------------------------------
+ Play one of three different slot machiines, each with its own
+ progressive jackpots. The sysop can configure all three machines
+ including pay-off percentages!
+
+----------------------------------------------------------------------------
+Prize Giveaway -
+  MBBS, WG 1.X, WG 2.X $39.95
+----------------------------------------------------------------------------
+ Prize Giveaway will be a hit on your BBS system! Let your users enter
+ to win a prize. Sysop can set many options in the program, including
+ the ability to give away free online time, or actual prizes.
+
+----------------------------------------------------------------------------
+Safe Cracker - 
+  MBBS, WG 1.X, WG 2.X $40.00                                           
+----------------------------------------------------------------------------
+ Can you crack the safe before the cops come running? If you can,
+ you will get the credits inside. But if your caught, be prepared
+ to pay the fine.
+
+----------------------------------------------------------------------------
+Slotto America - 
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $49.00                                           
+----------------------------------------------------------------------------
+ A full screen ANSI progressive slot machine which also includes a
+ pick 6 lottery for a twist!
+
+----------------------------------------------------------------------------
+Space Wumpus -
+  MBBS, WG 1.X, WG 2.X $159.95     4 user $89.95
+----------------------------------------------------------------------------
+ This is a fast paced game where users enter a playing field to begin
+ battle. If a user enters by himself then he competes against 25 other
+ computer players. In this game the users mode around and try to stomp
+ each other before they get stomped. So if two users are side by side
+ on the grid and the left user hits his right arrow key before the right
+ user hits his left arrow key then he wins and continues to stomp other
+ users. The stomped user is sent to a waiting room where he can talk to
+ other players.
+
+----------------------------------------------------------------------------
+Super Disc CD-ROM Manager - 
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT $289.00
+----------------------------------------------------------------------------
+ Add CD-ROMs to your system in minutes! Super Disc has an easy to use
+ interface, which allows keying CD's by CD, and areas on the CD. You
+ also have the ability to impose surcharges. Super Disc also has an
+ intuitive CLIENT/SERVER interface. No add-ons necessary!
+
+----------------------------------------------------------------------------
+Tarot Card Reader -                                                    
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT  ANSI $49.00  C/S $79.00   
+----------------------------------------------------------------------------
+ For generations people have believed in the power if the tarot. This
+ module does an authentic Celtic reading. In addition, there is a
+ CLIENT/SERVER interface available which will display the cards in
+ full color.
+
+----------------------------------------------------------------------------
+Time Machine -
+  MBBS, WG 1.X, WG 2.X $19.95  
+----------------------------------------------------------------------------
+ This modules is great for systems which have alot of unlimited or
+ monthly type accounts. It allows a user to "cash in" a day of time
+ for credits! This module well over tripled our systems useage of
+ credit based/gambling games such as Klondike Solitare, Video Poker,
+ Casino, etc...
+
+----------------------------------------------------------------------------
+WilderLands MUD                 
+  Unlimited User: $495.00     16 User: $395.00     4 User: $295.00
+----------------------------------------------------------------------------
+ The sequel to the original WilderLands! This is the most dynamic and
+ enthralling RPG available. Includes the ability to add rooms, items,
+ and monsters online. In addition you have the ability to to use our
+ proprietary programming language to create quests, and manipulate
+ virtually any game objects, and attributes. Game has three cities,
+ three dungeons, vast wilderness areas, desert islands, and more.
+ Create your own worlds!
+
+
+----------------------------------------------------------------------------
+-----------------------==============================-----------------------
+-----------------------| Wildsoft Development Group |-----------------------
+-----------------------==============================-----------------------
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+Bathroom Stall - 
+  MBBS, WG 1.X, WG 2.X $20.00/WG 3.0DOS, WG 3.0NT $40.00                                           
+----------------------------------------------------------------------------
+  A variation of the popular Graffiti Wall program found on a number of
+  systems around the world.  Allows 3 different bathrooms (Male, Female, and
+  Unisex) and up to 50 different stalls in each bathroom to leave messages.
+  Allows the user to pick the color of the message.  Sysop configurable
+  options to allow users to get "Caught" in the wrong bathroom by the
+  opposite sex, or only allow users to enter their own bathrooms ie. Male or
+  Female... Unisex is open to all.
+
+----------------------------------------------------------------------------
+Neverending Stories -
+  MBBS, WG 1.X, WG 2.X, WG 3.0DOS, WG 3.0NT, WG 3.1XNT $50.00              
+----------------------------------------------------------------------------
+  Give your users a chance to write stories on-line together!  Set each 
+  story's access by age range, key or both.  Export story's pages to text
+  files online.  Delete unwanted pages online.  Delete stories online.
+  If you have anyone that likes to write creatively, write poetry, or just
+  write their own stories, this is the module for you.  This is a very nice
+  module.  
+
+----------------------------------------------------------------------------
+Secret Word -
+  MBBS, WG 1.X, WG 2.X $40.00                                           
+----------------------------------------------------------------------------
+  An Entertainment Teleconference addon-on that allows you to award either
+  days or credits to users who type a secret word.  Words are picked from
+  a data file randomly after each word is typed and the words that are
+  flagged after being used so they won't get used again, until all other
+  words have been used.  When you activate the module, it will allow the
+  sysop to enter up to 1100 different words that can be used by the module.
+  Very nice addon for Tcon.
+  
+----------------------------------------------------------------------------
+
+
+  All products on this list are sold by AdventureComm Software, 
+  if you would like to buy any of these modules for your system,
+  Call 1-888-463-0156 or 1-504-467-9186 today! 
+
+  Send Check or Money order to:
+
+  AdventureComm Software
+  PO Box 641836
+  Kenner, LA 70064-1836
+  U.S.A.
+
+  Please include Galacticomm registration number, Full Name, Full Address,
+  products you are interested in, and your telephone number.
+
+  You can check out our web page and send me email, our web page address
+  is  www.adventurecomm.com  demos maybe downloaded from this site soon.
+
+  If you have any new ideas for a module send them to sales@adventurecomm.com
+  if we like the idea and can get it implemented, we will give you a free
+  copy for life.
+
+  I welcome all ISV's and Sysops to our BBS system.  We will be running a wide
+  selection of modules on our system for our customers to be able to see some
+  of the modules we create and resell in action.  The account is free, just 
+  leave an email to the Sysop saying you run a BBS, and your access will be 
+  upgraded as soon as we see it.  Its even possible it will be upgraded 
+  instantly.
+
+  Thanks,
+  Brad Farrell
+  AdventureComm Software
+  telnet: adventurecomm.com  IP: 204.251.13.162

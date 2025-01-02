@@ -1,0 +1,114 @@
+                       Introducing Vircom's
+                SLIP Server module for MajorTCP/IP
+                         July 11th, 1995
+
+FOR IMMEDIATE RELEASE
+
+(Montreal, QC) Vircom Inc., developers of the widely used MajorTCP/IP Internet
+connectivity module for the MajorBBS and WorldGroup line of products announced
+today the imminent release of MajorTCP/IP's newest feature:  A SLIP Server.
+
+This SLIP server is a true SLIP server.  It allows MajorBBS/Worldgroup callers
+to have dynamic or static (sysop configurable) IP addresses allocated to them
+while they are loging on.
+
+The SLIP server is fully compatible with Windows-based TCP/IP Winsock stacks
+and will also work with any software that is SLIP compatible.
+
+The key features of the SLIP server are:
+
+    * Static/Dynamic IP addresses. (1)
+    * No other computer required.
+    * Proxy-ARP SLIP Server. (2)
+    * WorldGroup compatible.
+    * MajorBBS 6.25 compatible.
+    * SLIP user ghosting. (3)
+    * Access control using keys.
+    * Flexible accounting (credits per minute and/or per kilocharacter).
+    * Easy to install and configure (all in one message file).
+    * Compatible with dialing/login scripts of TCP/IP stacks like Trumpet
+      Winsock. (4)
+    * Captive SLIP users. (5)
+    * CSLIP Support. (6)
+    * PPP Support (in a future release).
+
+    (1) A dynamic address is allocated by default to each user who connects
+        using SLIP.  This address is re-used when the caller disconnects.
+        The Sysop can allocate STATIC IP adresses to specific users, using
+        an online configuration module.
+
+    (2) Proxy-ARP means that you don't need to modify your routing tables
+        in order to have your SLIP users routed on your network. The SLIP
+        server will make it known to your LAN that these addresses are
+        controlled by the BBS.
+
+    (3) This allows the user to telnet back into the BBS, making it possible
+        for him to use TCP/IP applications concurrently with the WorldGroup
+        Client software.
+
+    (4) The SLIP server intercepts the normal bbs login sequence to
+        prevent confusion with the various prompts and login messages one
+        normally gets when logging into a MajorBBS/WorldGroup system.
+        A sample LOGIN.CMD script file that supports automatic dynamic
+        IP address configurations is shipped with the SLIP server.
+
+    (5) This feature allows you to lock-out certain classes of users who
+        won't be allowed to connect to outside destinations.  This gives
+        you the ability to create DEMO services for new SLIP users.  For
+        example, they will be able to telnet into your BBS and view your
+        WWW pages.
+
+    (6) CSLIP (Van Jacobson Header Compression) support is built-in the
+        SLIP server and is fully automatic. The Sysop doesn't have to
+        change anything for the users to be able to use CSLIP. CSLIP
+        can reduce the overhead of TCP/IP packets by a factor of up to
+        10:1.
+        
+Sample applications
+===================
+
+A user will connect to your BBS using the Trumpet/Winsock's login script. Once
+connected, he can start the WorldGroup client software enabling him to use
+the BBS services normally.  In addition, he can activate a TCP/IP application
+in another window at the same time.  For instance, he can be browse the WEB
+using Netscape while reading the BBS forums and downloading BBS files.
+
+It's even possible to use the SLIP server to provide SLIP access to
+another BBS.
+
+The SLIP server module will be available as a FREE upgrade to current
+clients of Vircom who are using the MajorTCP/IP Combo package (with the
+incoming/outgoing facilities)
+
+The SLIP server module is part of the new MajorTCP/IP version 1.75 release.
+Contact your MajorTCP/IP dealer for more information on how to obtain this
+FREE upgrade.
+
+Availability and Pricing
+========================
+MajorTCP/IP v1.75 (and the SLIP server) is scheduled to ship on
+Tuesday July the 18th, 1995.
+
+Pricing of MajorTCP/IP remains the same.
+
+Vircom Inc.
+===========
+MajorTCP/IP is Vircom's flagship product and has been shipping since April '94.
+Since then, more than 600 MajorBBSes all over the world have used MajorTCP/IP
+to transform their BBSes into gateways to the Internet.
+
+Vircom, Inc., was incorporated in January '94 with the mission of bringing
+advanced quality products to the MajorBBS/Worldgroup line of products with
+a tradition of superior technical support.
+
+For more information, please contact one of our dealers:
+
+Digital Consulting Services 212-697-7340
+Tessier Technologies        305-473-5525
+High Velocity Software      602-234-2207
+DataSafe Publications       505-294-4980
+Sirius Software             307-237-0065
+
+Vircom can be reached at 514-990-2532 or via E-mail: majortcpip@vircom.com
+
+                            -30-

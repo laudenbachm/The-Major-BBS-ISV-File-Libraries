@@ -1,0 +1,136 @@
+Vircom's direction for Worldgroup v3.0
+
+
+        Galacticomm will soon release Worldgroup v3.0 on two parallel 
+platforms.  The legacy DOS version of Worldgroup v3.0 will introduce some 
+new features and will require a port for all modules.  Ported modules will 
+not be backward compatible with earlier versions of Worldgroup.
+
+The Windows NT release of Worldgroup v3.0 proposes powerful new features 
+(such as Active HTML) on a powerful operating system.  The shift from DOS to 
+Windows NT as underlying architecture brings radical changes, both at the 
+technical and business levels, for all Independent Software Vendors (ISV).
+
+Windows NT is a feature-rich operating system which provides a great deal 
+more functionality than MS-DOS.  This is especially true in the hardware 
+drivers and networking stacks, but also extends at higher levels.  These 
+weaknesses of DOS created opportunities for ISV's, such as Vircom, to 
+provide functionality within the Worldgroup for DOS environment.
+
+Vircom’s products were especially affected by the change in operating 
+system.  We had to study in depth the new environment, its opportunities and 
+how our current product lines fit into the new picture.  This document 
+presents the direction Vircom will adopt toward the new platform in relation 
+with its current product lines.
+
+Our direction is intimately linked with the underlying operating system.  As 
+Galacticomm will release Worldgroup v3.0 based on both DOS and Windows NT, 
+Vircom must propose two parallel strategies.  Each of the four current 
+products of Vircom will be discussed in each strategy.
+
+Worldgroup 3.0 for DOS
+
+* MajorTCP/IP:  Vircom has ported MajorTCP/IP to Worldgroup v3.0 for DOS.  
+Although it contains no additional features, it required a substantial 
+development effort to port.  An upgrade fee of $100.00 (US) will be charged, 
+unless you have purchased MajorTCP/IP after June 1st '96. The upgrade can be 
+purchased September 23rd '96 at any of our current distributors/resellers.  
+A new activation code will be necessary.
+ 
+* DMA Server:  Vircom has ported the DMA Server to Worldgroup v3.0 for DOS.  
+Like MajorTCP/IP, an upgrade fee of $100.00 (US) is applicable, unless the 
+DMA Server has been purchased after June 1st '96. The upgrade can be 
+purchased September 23rd '96 at any of our current distributors/resellers.  
+A new activation code will be necessary.
+ 
+* DMA Client for Worldgroup(ICO): Vircom has ported the DMA Client for 
+Worldgroup(ICO) to Worldgroup v3.0 for DOS.  The port required minimal 
+efforts and is available September 23rd '96, free of charge, to current 
+licensees of the DMA Server and DMA Client for Worldgroup(ICO), from our 
+support BBS.
+ 
+* RADIUS Server: Vircom has ported the RADIUS Server to Worldgroup v3.0 for 
+DOS.  Since the product was introduced in August '96, no upgrade fee will be 
+charged to current licensees.  Note that MajorTCP/IP is required for the 
+RADIUS Server to run on Worldgroup v3.0 for DOS.
+
+
+Worldgroup 3.0 for Windows NT
+
+* MajorTCP/IP:  Vircom will not be porting MajorTCP/IP to Worldgroup v3.0 
+for Windows NT.  There are three main reasons for this decision:
+ 
+1. Windows NT has a built-in TCP/IP networking stack, featuring powerful 
+specifications such as high performance multi-threading, tight integration 
+with the NT kernel and winsock standard compliance.
+
+2. The full feature set of Galacticomm's Advanced Internet Option (except 
+the PPP server) is bundled in the baseline of Worldgroup v3.0 for Windows NT.
+
+3. The difficulty of directly porting MajorTCP/IP to Windows NT would be 
+extremely high and present many interoperability problems with NT’s base 
+TCP/IP stack.  In the end, our customers will be better served with a 
+different solution.
+ 
+However, the Worldgroup v3.0 for Windows NT presents opportunities for the 
+development of new independent modules that provide similar features to 
+those found in MajorTCP/IP on Worldgroup for DOS.  We're planning, or 
+currently working, on the following products for Worldgroup v3.0 for 
+Windows NT:
+ 
+* Multi-homing pack (For WWW, Telnet, FTP & SMTP)
+* PPP Server (see below)
+* Enhanced WWW Services
+* TCP/IP feature pack (other MajorTCP/IP features)
+ 
+* DMA Server:  Vircom currently has no plan to port the DMA Server to 
+Worldgroup v3.0 for Windows NT.  Since the DMA Server is intimately linked 
+with MajorTCP/IP, the same difficulties would be encountered in making a 
+port.  A new derivative product, similar in features, may be created for 
+Worldgroup v3.0 for Windows NT in the future. 
+ 
+* DMA Client for Worldgroup: Vircom has ported the DMA Client for Worldgroup 
+to Worldgroup v3.0 for Windows NT.  The port required minimal efforts and is 
+available September 23rd '96, free of charge, to current licensees of 
+MajorTCP/IP, DMA Server an d DMA Client for ICO, from our support BBS.
+ 
+* RADIUS Server: Vircom has ported the RADIUS Server to Worldgroup v3.0 for 
+Windows NT.  Since the product was introduced in August '96, no upgrade fee 
+will be charged to current licensees.  The RADIUS Server for Worldgroup v3.0 
+for Windows NT is available September 23rd '96 from our support BBS.
+
+PPP services on Worldgroup v3.0 for Windows NT
+
+        There are two upgrade paths to customers who want to migrate their 
+"pass-through" PPP operations to Worldgroup v3.0 for Windows NT.  In a joint 
+alliance, Vircom and Galacticomm propose the following alternatives:
+
+* Software solution:  This solution is meant for systems with intelligent 
+multi-port serial hardware installed in the PC running Windows NT.  Vircom's 
+PPP server would be used to route packets between the modem and the NT 
+TCP/IP stack.  Because of its centralized model, there is a ceiling to the 
+growth potential of this option.
+ 
+* Hardware solution:  The power of this solution is its distributed model.  
+modems are not connected directly into the PC running Windows NT.  Instead, 
+they are connected into terminal servers.  A terminal server is a 
+self-contained multi-port hardware device.  It has its own CPU, software 
+and Ethernet adapter.  They come in sizes of 8, 16, 32 or 64 ports.  (And 
+probably 128 ports too!)  A caller establishes a PPP connection directly 
+with the terminal server the phone line is connected to.  The terminal server 
+then turns around and authenticates the user-id, password and security 
+against the Worldgroup PC, running the RADIUS server.  As a terminal server 
+can be anywhere on a TCP/IP network, it is the ideal solution to set up 
+points of presence in remote areas/cities.
+
+Conclusion
+
+Vircom is very enthusiastic about the new opportunities that Worldgroup for 
+Windows NT opens.  It brings open technologies, standards and API's, such as 
+ActiveX, Microsoft's IIS, winsock, and many others, very close to the 
+Worldgroup platform, to bridge the gap with multi-platform online services.
+
+Although Vircom's development efforts will focus on the Windows NT product 
+line, we will continue to maintain and upgrade our DOS applications for all 
+versions of Worldgroup.
+

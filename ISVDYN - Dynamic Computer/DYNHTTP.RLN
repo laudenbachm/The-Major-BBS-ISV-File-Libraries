@@ -1,0 +1,512 @@
+//
+// Version 2.0 Release Version
+//
+// HTML User Home Page Generator Release Notes / Installation Guide
+//
+// Installation instructions follow the release notes.
+//
+
+March 13, 1996     - Updated documentation, please note there is now
+                     documentation in word 6 format DYNHTTP.DOC
+                     
+                     *Requires a complete re-install of the .MSG file.
+                      this is automatic at installation time.  Please
+                      re-enter your info in CNF, the old file was backed
+                      up as DYNHTTP.M_G
+                     
+                     To be completed in the next update:
+                     REQUESTS TO BE PROCESSED - Various SysOps have
+                     requested the following enhancements.
+                     1) A second limit and a second KEY for disk space
+                        limitations (Leaving a third KEY for complete
+                        override)
+                     2) An option in CNF LEVEL 4 as to how to handle
+                        users home pages when creating them.
+                        *Right now is a user named BOB creates a home
+                         page the link is written like this:
+                         http://www.system.com/bob/bob.htm
+                         ...with an option to create pages as INDEX rather
+                         than as USER the pages would be created like this:
+                         http://www.system.com/bob/index.htm
+                         or
+                         http://www.system.com/bob
+                         (The second is possible because our servers allow
+                          for returning index.htm whenever a directory is
+                          accessed without a filename.)
+                     3) A CNF LEVEL 4 option to auto-delete user's home
+                        pages.  If set to yes you will enter a grace period
+                        before deletion.  This will allow a user who's
+                        account has expired to re-subscribe within the
+                        grace period before his/her page is deleted at
+                        cleanup.
+                     4) A command for the user to scan their directory
+                        for files and notify them of the amout of space 
+                        they are using.
+                     5) Allowing user's to delete pages from their own
+                        directory.
+                     6) Allowing a user to upload multiple pages to their
+                        directory.  This will work as follows:
+                        An additional KEY option will be set in CNF Level 4
+                        for allowing multiple pages.  The user's top page
+                        will be named as set in the option described in
+                        feature # 2 above.
+                     7) Implementation of a log file when deleting users
+                        from the respective database. (Includes: User-Id,
+                        Web Id, Current Class and deletion date.) Comma
+                        delimited.
+                     *) I think that will make for a very complete
+                        home page generator.  As we are nearing final
+                        release, please email tfazio@unix.trilogy.net
+                        with any final reports, errors, or ommissions.
+
+
+March 12, 1996     - Completed the sysop menu beta testing and released
+                     version 2.0
+
+February 25, 1996  - Sysop menu went into beta test.  Fixed bug with
+                     generating a master page from online with vircom's
+                     database.
+
+February 20, 1996  - Changed Template so that in a type 4 or 5 page
+                     when the user enters their email address it also
+                     becomes a mailto hotspot.
+                     
+February 6, 1996   - Moved functions out of the VDA to solve a problem
+                     reported by Kevin Adams, where if a user-id was 14+
+                     characters it would be appended by the WEB or INet
+                     ID.  FIXED!!!
+
+February 4, 1996   - Added the ability for users to upload multiple
+                     pages.
+
+February 3, 1996   - Added functionality for index.htm option for
+                     the name created user home pages.
+
+January 29, 1996   - Found 2 missing terminators in the master directory
+                     list html code. Fixed!  
+
+January 26, 1996   - It was reported ba a system that they would
+                     lockup at shutdown, re-worked code, fixed!
+
+January 20, 1996   - SYSOP Functions being added...Hurray!!!
+                     New option in CNF Level 4 Configuration.
+                     Auto Create a Master directory at cleanup Yes or NO.
+                     This will auto-generate your linkable file
+                     DYNUSER.HTM in the Defined HTML directory.
+                     We are working on the sysop functions in order
+                     of importance, the auto-generated page was first,
+                     you should be seeing more progress with the
+                     actual "SYSOP FUNCTIONS" menu soon.
+
+
+January 15, 1996   - NEW ACTIVATION CODE REQUIRED
+                     To allow us to have demos available we had 
+                     to change our coding procedures...sorry.
+
+January 14, 1996   - Fixed Page type "5", was swapping HTML Title
+                     and the URL link.
+
+January 13, 1996   - Corrected summary line that was being truncated
+                     in the "registry type pages"
+
+December 12, 1995  - Fixed problem with the "N" option on the menu
+                     not showing up when a user enters even though
+                     the choice "N" works.
+
+December 10, 1995  - Made a couple of cosmetic changes in the .MSG
+                     file (LEVEL 6).  You do not have to reinstall
+                     the .MSG file, but these changes will not take
+                     effect unless you do.
+
+December  5, 1995  - Just a note:
+                     The TCPUIDS.DAT file and the GALGWI.DAT file
+                     are no longer needed with this new version.
+                     We have incorporated our own internal database
+                     where the user can choose an ID specific to
+                     their Web's Home Page.  It *does not* affect
+                     their internet email ID at all.
+
+December  3, 1995  - Complete re-install of the .MSG file required.
+                     *or* in the following options change the options
+                     to the following.
+                     MAXURL - remove option from the .MSG file.  
+                              This is no longer used.
+                     TOTURL - change the %d to 10
+                     NOURL  - change the %d to 10
+                   - Fixed GP with the internal database when vircom's
+                     database was selected.
+                   - Fixed URL Title and HREF address (they were being  
+                     swapped when the home page was generated.
+
+December  2, 1995  - Corrected Problem that occured when attempting  
+                     create a directory under Novell.
+
+November 30, 1995  - Packaged product for beta release Version
+                     is 2.0a
+                   - Planned beta for the sysop portion is planned
+                     for late December.
+                   - Addition of moving blank image for users
+                     who do not have an image to upload will
+                     be included with the sysop utilities.
+                   - Allowing users to delete their own web
+                     page structure (page & image(s)) is planned
+                     for the same release in late december.
+
+November 28, 1995  - Added new database type (Internal) for those
+                     systems using Vircom's or ICO 2's new smtp 
+                     naming convention.
+
+November 25, 1995  - Changed The "Registry" type pages to be viewed
+                     as tables when using browsers that display this
+                     type of HTML.
+
+November 24, 1995  - Designed a totally "new look" to the pages that
+                     are generated, added ALL new graphics, and
+                     made the generated pages compliant to HTML 2
+                     as well as many features of HTML 3.  We did
+                     take extra precaution to make sure that pages
+                     would be able to be viewed by almost any web
+                     page browser.
+
+November 15, 1995  - First closed beta released.  Note: You must
+                     put in the correct path to where your HTML
+                     files are stored to avoid a GP.
+
+October   , 1995   - User interface has been tested and succesfully
+                     generates Web Pages
+
+September   , 1995 - Conversion process from Major Pro to "C"
+                     was started.
+
+--------------------------------------------------------------------------
+MajorPRO Version No Longer Supported for release note purposes above this
+Line.
+--------------------------------------------------------------------------
+
+July 26, 1995 - Compiled final beta for WorldGroup and tested
+                all functions.
+
+July 25, 1995 - Make lots of cosmetic changes to the templates.
+                Added A handful of CUSTOM made images that
+                will auto display with your web pages.
+
+July 23, 1995 - MAJOR Changes....Pheww..
+                Jack From Miller's Party Board
+                had a good suggestion for adding JPEG
+                support, which I had though of, but,
+                did not think important.  Anyway,
+                DYNHTTP now supports either GIF or JPG
+                files in home pages.  
+                Added templates for a total of 5 auto
+                generating Home Pages.  They are:
+                1) Descriptive w/gif or jpg
+                2) Descriptive w/gif or jpg & a URL Link
+                3) HOTLIST w/gif or jpg & up to 30 URL Links
+                4) Registry Style Home Page
+                5) Registry Style Home Page w/a URL Link
+                You will need to overwrite your old DYNHTTP.MSG
+                file for this upgrade.  So, write down your
+                configuration and your activation code before
+                unzipping directly into your BBS directory.
+                Oh, and yes Both JPG's and GIF's are removed
+                when deleteing a user's WWW Home Page.
+
+July 22, 1995 - Fixed a bug that would delete a user
+                at the are you sure prompt when you 
+                pressed enter rather than moving on
+                to the next user.
+
+July 21, 1995 - Added two NEW features and keyed them 
+                separately.  First you can now allow
+                users to upload their own home page.
+                Second, you can allow users to upload 
+                multiple GIF images.
+                When a user is deleted from the inet
+                UID database all of their directory is
+                removed...the same goes for when you
+                delete a users home page.
+
+July 21, 1995 - Made a "WorldGroup Compatible" version!
+                The zip file for this version is named:
+                DYNHTPWG.ZIP and the MajorBBS Version
+                is named DTNHTPMB.ZIP.
+                The current version number will be noted
+                at the top of this document from now on.
+                Added functionality for users to upload
+                a new image file rather than re-doing their
+                whole page over again.
+
+July 20, 1995 - Made cosmetic changes to the page templates.
+                Cleaned up code for auto generated master
+                directory.  The filname created is created
+                in the directory named in HTPDIR, and is
+                called DYNUSER.HTM.  You can create a link
+                on your system's home page to "Go to the
+                Directory of Users" (with home pages of course).
+
+July 19, 1995 - Added a feature to the "sysop's" menu.
+                You can now generate a master directory
+                of users.  It *can* be linked in from your
+                main home page.
+                Suggested by: Robert B.
+
+July 18, 1995 - Entirely re-wrote code for database selection
+                to speed up the program overall and support
+                MGI's GALGWI.DAT data file.  The Module should
+                operate with either Vircom's or Gcomm's package.
+                Started adding code for generating a master
+                directory home page.  Without using up lots
+                of memory i decided to limit it to 250 users
+                home pages  ie: The first 250 in alphabetical
+                order.
+
+July 17, 1995 - Added alot of coding for sysop utilities.
+                Released Beta 1 for Vircom database users
+                only.  MGI compatability is ready to be
+                added.  But, would like to fully debug before
+                chopping up the code.
+
+July 16, 1995 - First beta put on live system
+
+
+
+***
+MENUTREE
+--------
+Installation and Configuration
+------------------------------
+First make sure that you have created a module page somewhere
+off of one of your menus.  
+The Module should be: Web Page Generator/Wizard
+
+
+
+LEVEL 3 Options
+---------------
+ACTCOD Your activation code required to run the module.
+
+
+LEVEL 4 Options
+---------------
+   
+   
+SOFTW   Select the type of software you are using.
+        This integrates the internet id databases
+        of either ICO/MGI or VIRCOM's Major TCP/IP
+        Galacticomm's ICO/MGI Combo (GCOMMS)
+                        or
+        Vircom's Major TCP/IP (VIRCOMS)
+                        or
+        Our own internal database (INTERNAL)
+        This is for those systems using ICO 2 without MGI
+        and for the Vircom Systems that are using the alias
+        database with the user id lenghth set above 8 characters.
+
+         þ The TCPUIDS.DAT file and the GALGWI.DAT file
+           are no longer needed with this new version.
+         þ We have incorporated our own internal database
+           where the user can choose an ID specific to
+           their Web's Home Page.  It *does not* affect
+           their internet email ID at all.
+        
+        DEFAULT = INTERNAL
+
+USEKEY  This is the key required to use this program.
+        A user with this key has access to create a 
+        home page.
+
+SYSKEY  This is very powerful only VERY trusted users
+        should have this key.  Users with this key
+        can delete home pages as well as internet ids.
+
+OWNKEY  Users with this key can upload their own home
+        page.  It will be automatically named
+        the users <internet-id>.HTM
+
+GIFKEY  Users with this key can upload their own GIF
+        files.  They are asked for a filename without
+        the extension.  The .GIF is appended automatically.
+
+DIRSPC  This is the total amount of space in BYTES that
+        any one user's HTML and Images can occupy.
+        DEFAULT = 75000
+
+
+SPCKEY  Users with this key are not held to the space
+        restriction in option DIRSPC and could possibly
+        fill up your hard drive.  This should be for
+        trusted members only.
+        DEFAULT = MASTER
+
+ALLDEL  Allow a user to delete their own page? 
+        Enabling this option will allow a user to delete
+        everything in their directory and remove their
+        directory from your web servers sub directory.
+        DEFAULT = YES
+ 
+HTPDIR  This is the full path to your MAIN WWW Servers
+        directory.  With Vircom's Major TCP/IP it is
+        defaulted to HTML.  Make sure you include the
+        trailing "\".  This is where your Web server 
+        points to for page access.
+        DEFAULT = html\
+
+HTPHOM  This is the actual URL that will be tagged on
+        to the end of every users home page.  Every
+        user's home page will have a link to the URL
+        you define below.
+        DEFAULT = http://www.trilogy.net
+
+HTPGRA  This is the graphic that will display with your
+        users page when reffering to your WWW home page
+        for the system.
+        The ../ signifies that the graphic is in the 
+        directory specified above in HTPDIR.  It is 
+        needed for the graphic to be displayed.
+        DEFAULT = ../home.gif
+
+HTPUSR  Your user will want to know how to access his/her 
+        WWW page.  What you enter below is the path on the
+        internet to their page.  It will be appended with
+        directory name and page name.  Again make sure to
+        follow the example closely.
+        ie: http://www.bbs.trilogy.net/tfazio/tfazio.htm
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^~~~~~~~~~~~~~~~~~
+           what you put in          what the module puts in
+
+        DEFAULT = http://www.bbs.trilogy.net/
+
+Be careful how you play with testing out the various utilities I have
+added for viewing data and deleting data.
+The following is how it works.
+
+Viewing Users 
+-------------
+You cannot do any harm here so have fun.
+
+Browsing Users with the delete option
+------------------------------------
+This allows you to view the database of internet id's
+It shows you the internet id, user id, current class, and last day on.
+If you select "y" to delete a record after it is displayed you do get 
+asked "Are You Sure" before we actually delete the record.
+When you delete the user-id out of the database, their home page is
+also deleted if they have one.  Progress will be displayed on the
+screen as this is happening, so you will know if the user had data stored.
+
+
+Browsing Users home Pages with the delete option
+------------------------------------------------
+This allows you to view the database of internet id's
+It shows you the internet id, user id, current class, and last day on.
+If the user has a home page it will also be displayed in HTML format.
+If you select "y" to delete a record after it is displayed you do get 
+asked "Are You Sure" before we actually delete the record.
+When you actually delete the home page here it confirms each
+step as it is deleted and is displayed to you on the screen.
+User id's ARE NOT deleted with this function.  For deleting a home page
+along with the user id use the "remove user from database" choice.
+
+
+***********
+-----------
+You can also delete an individual user directly as well as an individual
+home page.
+
+
+Added Feature
+-------------
+A file called DEL-IDS.ASC is appended with every "ID" deletion you make.
+It creates a one line entry per deletion that contains:
+Internet-ID, User-Id, Current Class, & Last Date On
+
+
+*NOTE: The internet id shown is only the user's Web Page ID if
+       the option SOFTW is set to INTERNAL.  If it is set to
+       GCOMMS or VIRCOMS and you decide to "delete a user id from
+       the database" the user's internet id will be deleted from
+       the database you are using, so just be aware that you can
+       delete the user's internet e-mail ID also.
+
+User's Pages are kept to a single page and a single GIF file to 
+maintain an easy way of managing users home pages.  More templates
+are planned for a near future date, but the page and image limitations
+will be kept the same.  Check out the Internet Navigator and Address
+Book.  The only product for navigating the net from your system that
+you will need.
+You can add lots of areas/email addresses/sites/muds/games, etc to
+the existing starter database that is included.
+
+Any questions or problems please email tfazio@trilogy.net or
+call me (Tony) voice at 201-501-0105 5pm to 11pm EST.
+
+To register this software or for a FREE 30 day demo code please call
+our official distributor:
+
+Logicomm, Inc.
+--------------
+Sales Only Call: 800-764-4266
+Other Inquiries: 954-726-3868
+Fax your order : 954-726-3748
+
+For tech support please call:
+
+Dynamic Computer  
+----------------
+Support: 201-501-0105 (Nights 5pm to 11pm EST)
+
+Price: $99.95 US
+
+General Information & Copyright Notice.
+-----------------------------------------
+This software was written to further enhance the operation of The MajorBBS.
+It is our intention to continue to provide excellent software and service
+at a minimal investment to you.
+
+This software is copyrighted by Dynamic Computer Sales & Services, Inc.
+You must Be 18 yrs or older to purchase this software.
+By purchasing this package, you are licensed to use this software on your
+MajorBBS/WG.  This license runs concurrent with the GSBL license granted to
+you by Galacticomm for your use.  If you violate the GSBL license, you
+violate the DYNHTTP license.  It's that simple.
+
+You may not copy or provide evaluation copies of your DYNHTTP files.  There
+are demonstration copies of DYNHTTP available for that purpose.  Your
+DYNHTTP license is NOT transferrable except under WRITTEN authorization from
+Dynamic Computer Sales & Services, Inc., in which case a transfer fee
+of 25% of the current price of the program will be required.
+
+This software carries market exclusions.  For use in the state
+of New Jersey, you must contact Dynamic Computer Services, PO Box
+462, Bergenfield, New Jersey, 07621.  BBS number is 201-439-1555 and
+voice is 201-501-0105.  Systems operating this software which do business in
+these areas violate the DYNHTTP license unless a prior written
+agreement is arranged.  If a purchase has been made with the intent
+of violating the market exclusion, the purchaser agrees to cease
+and desist the operation of the software package and waives all
+rights to a refund of the purchase price.
+
+The purchaser of this software assumes sole responsibility in determining
+the usefulness of this package, and agrees to hold harmless and indemnify
+Dynamic Computer Services for any losses, coincidental or otherwise
+which result from the use of this package.  Those losses include loss of
+business due to system inactivity arrising from this package.  While 
+Dynamic Computer Services has made every effort in eliminating the
+likelyhood of such an occurance, the purchaser and user of this software
+must realize that the possibility exists with this software and most other
+MajorBBS packages.  Dynamic's liability in such instances is the full refund
+of the purchase price of this package.
+
+Above all, this is new software.  If you detect a bug, send email to
+tfazio@trilogy.net on the Internet, or locally SYSOP on Trilogy, SYSOP@TIS
+201-501-0105 and we'll try to fix it ASAP.
+
+
+
+
+
+
+
+
+
+

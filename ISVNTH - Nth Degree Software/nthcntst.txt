@@ -1,0 +1,86 @@
+
+                Win A Free Copy Of Order And Chaos Contest
+                ==========================================
+
+
+ Welcome to the Pre Release "Win A Copy Of Order And Chaos" Contest! A
+ simple contest that can save you money, earn some prestige, show your
+ stuff and possibly win a free copy of "Warlords Of Order And Chaos"!
+
+ The rules of the contest are simple. During the prerelease of "Order And
+ Chaos", as is the normal state of any pre release product, you might
+ encounter bugs. These bugs are worth money to you! 
+
+ Contest Rules:
+ ==============
+
+ Find bugs, typos, logic holes, game balance problems and report them to
+ us. We will verify the bug/problem and respond with a verification of your
+ finding, with a dollar value attached to the problem that you have won!
+ Accumulate these bug-bucks through the contest (we will keep track at our
+ development facility) and who ever finds the biggest pile of bugs (in bug-
+ bucks) will win their activation code free. Even if you don't win the big
+ prize, you will receive the credit of your bug-bucks towards you Order And
+ Chaos purchase. Find enough, and it may be free anyway, even if you don't
+ place first. This is your chance to show us ISV's how sloppy we are and
+ make us pay for it!
+
+ Typos  are worth       $0.50 (since they offer no challenge)
+ Minor Bugs are worth   $5.00
+ Crash Bugs are worth  $10.00
+ Game Balance Bugs     $10.00
+ Logic Holes           $10.00
+ "Humdingers" (these are awarded at our discretion for outstanding bugs/
+ game balance problems/logic holes. Real Hum Dingers!)
+                       $15.00
+
+Send your bugs/typos etc... to: NthSupport@cq.cqi.com
+
+Please Include:  Your Name,
+                 GComm Reg Number, (this is used for purposes of storing
+                                    your finds in our database, and will
+                                    not be divulged to any party.)
+                 Your Voice Line Number,                   
+                 Your Domain Name if Applicable,
+                 Your Version Of GComm Software.
+
+
+                          Fine Print
+                          ==========
+
+ If a bug/problem/typo is reported by more than one party, the first party
+ to report it (based on received email order) will be allocated the "find",
+ no duplicates after that will be valid. Credit may be accumulated to the
+ full retail purchase price of the product, but not beyond that point, 
+ however for purposes of determining the grand prize winner we will be
+ accumulating bug-bucks beyond that value for the sole purpose of 
+ determining a winner. Credit accumulated during the contest is valid 
+ towards purchasing Warlords Of Order And Chaos by Nth Degree, and is not
+ valid for other products. Credit accumulated is not transferable. Credit
+ will expire 60 days after close of contest. Contest will be closed on the
+ date that the final product is posted to the ISVNTH library at Gcomm.
+
+ Generic crashes with no backup will not be valid unless accompanied by 
+ steps to reproduce, or at least enough clues to verify the bug. If the 
+ clues help reproduce (not necessarily fix, just reproduce) the bug, it 
+ will be classified as a "bugfind" and will be eligable for "bug-bucks".
+
+ Bugs due to flakey hardware or installation error (not following the
+ installation). Also bugs due to deliberately deleting files, modifying
+ contents of files or other catastrophic deliberate actions do not qualify
+ as "bugs".
+
+ By competing in this contest you agree to having your bbs name  and
+ contact info displayed at the end of the contest (a small piece of glory).
+
+ NOTE:
+ Nth Degree and it's affiliates (Resellers and Test Sites) are not eligable
+ for participation in this contest.
+
+ CURRENT STANDINGS
+ =================
+
+ 1st)   webyte.com
+ 2nd)   Loke Wen Wei
+ 3rd)   nic.nucleus.com
+

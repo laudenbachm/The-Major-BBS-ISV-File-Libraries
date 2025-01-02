@@ -1,0 +1,65 @@
+[NEW! Is your Internet site secure from hackers?]
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ Computerized Horizons ³ Voice: 508/464-5667 ³ http://www.fcc.com/weblines ³
+³ Orders:  800/459-4073 ³ BBS  : 203/268-1275 ³ E-mail:    horizons@fcc.com ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+     
+     Are hackers targeting your Internet site?  Do you have valuable
+data, or users that may want to try breaking into your system?  If
+so, you need Internet Security Monitor, a NEW program by Computerized
+Horizons, the company that brought you WebLines, Modem Technician, and
+other popular programs for Worldgroup and Major BBS.
+
+     Internet Security Monitor will alert you to some simple, yet
+powerful, information that a hacker could easily get about your system.
+For example, there may be IP's on your network that are connected to
+computers you weren't aware of (could a hacker have a PPP connection
+running on your Unix box?).  Also, some of your computers could have
+unusual ports open that hackers might be able to take advantage of.
+
+     Another feature of Internet Security Monitor is that it will go
+through all your open ports and run scripts to get information that
+a hacker might be able to find out about your system.  Even if you
+have an old Unix box still connected to your site, Internet Security
+Monitor will be able to show you the information a hacker could get
+from its chargen, echo, and discard ports.
+
+      Perhaps the best feature of Internet Security Monitor is the
+trap that it places for hackers.  One of the worst problems about
+attacks from hackers is that if they use IP spoofing (as several common
+attacks, such as SYN flooding and 'r' command authorization attacks),
+the hackers can't be traced after they leave your system.  However, the
+trap that the Internet Security Monitor places will likely catch the
+*real* IP address of the hacker *before* they attack your system.
+
+     Even better, the trap that Internet Security Monitor places also
+includes a "decoy" that the hackers will see, and likely wish to
+explore.  While they are exploring the decoy, Internet Security Monitor
+runs several further trace routines.  The extra information obtained
+through these traces can often give you what you need to prove the
+exact identity of the hacker.
+
+     Internet Security Monitor runs on Worldgroup and Major BBS
+systems, with the Major TCP/IP Internet software.  The trap that it
+sets for hackers can only work on the IP address(es) of your
+Worldgroup/MajorBBS system.  However, the checks that it performs for
+IP addresses, ports, and script-checking of the ports *will* work on
+any system in your network, including Unix and NT computers!
+
+     Computerized Horizons is one of the leading developers of
+Internet applications (such as WebLines) and security software (such as
+Hacker Alarm) for Worldgroup and Major BBS systems, and for years has
+been known for the sophistication of its programs (WebLines is the most
+sophisticated WWW-accessible BBS software on the market for any
+platform; Modem Technician is also unmatched on any multiline system).
+
+     Internet Security Monitor provides the best possible protection
+against hackers for your Worldgroup/MajorBBS system, for just $149.
+You can order Internet Security Monitor directly from Computerized
+Horizons by calling 800/459-4073 (we accept MC, Visa, Discover and
+AmEx), or through one of our resellers.
+    
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ Computerized Horizons ³ Voice: 508/464-5667 ³ http://www.fcc.com/weblines ³
+³ Orders:  800/459-4073 ³ BBS  : 203/268-1275 ³ E-mail:    horizons@fcc.com ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ

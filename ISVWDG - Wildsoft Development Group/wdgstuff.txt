@@ -1,0 +1,89 @@
+WDG (Wildsoft Development Group) is currently selling the following 2 
+modules that are compatible with the MBBS 6.25 and WG2.0 platforms in 
+terminal mode.   Demos are availiable in the ISVWDG file library.
+
+Bathroom Stall:  
+  A variation of the popular Graffitti Wall program  found on a number 
+of BBS's around the country.    Allows three different Bathrooms 
+(Male, Female, and Unisex) and up to 50 different stalls in each 
+bathroom to leave messages in. Allows users to pick the color of 
+thier messages or users can allow the module to pick the color. 
+Sysop configurable options to allow users to get "Caught" in the 
+wrong bathroom by the opposite sex or only allow users to enter  
+the bathrooms of thier sex(Male or Female, Unisex is always  open to all). 
+   MBBS 6.25 & WG2.0 Price: $20.00
+        WG3.0/DOS&NT Price: $40.00
+
+Secret Word:     
+  An Entertainment Teleconference add-on that allows you to award 
+either Days or Credits to users who type a secret word.  Words are 
+picked from a data file randomly after each word is typed and the 
+words that are flagged after being used so that they won't be used 
+again until all the other words have been used.  Registered Package 
+comes with a Secret Word editor that allows sysops to enter up to 1100 
+different words that can be used by the module.   Get this module and 
+entice users to use your Entertainment  Teleconference!   
+
+Features include:
+  1.) a utility that runs at cleanup and takes the days winners and appends them to a text         file for easy accounting.  
+  2.) Sysop configurable to display win blurb to all other users on-line or just to those in 
+        Teleconference.
+  3.) Will Send up to 5 different add blurbs randomly to all users online, amount to use
+        sysop configurable.   Sysops can enter the text they want sent to users as an add
+        for the Secret Word.  
+  4.) Has command to allow users to see who has won for the day, Sysop's list shows
+        same information along with the words used.
+
+       Price: $40.00
+
+NeverEnding Stories:
+ This module allows your users to write stories as a group. It allows
+ you as Sysop to allow access by user's keys to read, create, and add
+ to stories created.  If you wish, you can even allow any user to create
+ new stories. You can set the maximum allowable amount of stories to be
+ created, set a default key and profanity level for each story.  When a
+ story has been completed, or interest is lost in it, you can extract
+ the story's pages to a normal text file without bringing down the BBS.
+ Platforms: MBBS 6.25/WG2.0/WG3.0NT
+ WG3.0 DOS version available upon request
+ Price: $50.00
+
+
+   All of the above modules can be purchased at the following location
+   by check or moneyorder (U.S. Dollars Only please) directly from:
+            
+              Wildsoft Development Group
+              15185 Mesquite Trail
+              San Antonio, Tx 78253
+              Voice:(210)688-9325
+              BBS:  (210)688-9331
+              EMail: mage@txdirect.net
+                          mage@gcomm.com
+
+Or from:
+             
+AdventureComm Software, Inc.
+We currently resell for BBS Solutions, Rifster Enterprises, Soft Arts
+Ltd. and Wildsoft Development Group as well as our own modules that we
+develop.
+
+You can download the price list for July in the ISVADV or WGADDONS file
+library, or you may visit our web page   www.addons.com/isvadv
+
+Sales:  1-888-463-0156  Toll Free   Call 24 hours a day, if we are not
+                                    in the office, leave a message and
+                                    we will call you back asap.
+                                    (International Sysops send email to
+                                    farrell@bellsouth.net)
+
+Support System:  1-504-441-8187     BBS is a live system with users and
+  sorry our telnet is not setup     also has a Customer setup that
+  just yet, hopefully soon          Sysops and ISV members will be
+                                    placed into. You can see the modules
+                                    we sell in action.
+
+
+   Thanks
+   Rich Wildey
+   Wildsoft  Development Group 
+

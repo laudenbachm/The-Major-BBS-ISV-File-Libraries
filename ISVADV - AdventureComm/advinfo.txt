@@ -1,0 +1,122 @@
+AdventureComm Software - General Announcement
+September 4, 1998
+
+All the MajorBBS and 3.0 Dos/3.1 Dos versions of the modules
+you see here will be available for download from my Demo System
+located at:  adventurecomm.com   They will not be available for 
+download from the Galacticomm Demo System due to library size
+restrictions.  We will support MBBS to WG 3.12 for all our modules.
+
+Some modules are being worked on to be compatible to 3.12, these 
+should be finished soon.
+
+All the EzSoft modules have been converted to ADV modules.
+For instance EzSoft Password Protection is now ADV Password Protection
+and so on.  If you were a previous owner of an EzSoft version you will
+receive a FREE upgrade for your system.  The only time this would not 
+be the case is if you upgraded from MBBS to WG 3.0 or WG 2.0 to WG 3.0
+there is a small charge for platform conversions, in accordance to Ed's old
+policies.  As always, any bug fixes or patches are always free.  The only
+time you will be charged is if there is major changes to the code such as a
+C/S interface or an HTML interface and so on.
+
+These modules have been converted.  If you would like to find out more
+about a particular module from this list, look through advlist.txt.
+
+Released - EzSoft==>ADV
+
+ADV Announcer            ADV Demo Clean             ADV Picture Gram
+ADV Advertiser             ADV Feedback                ADV Rename
+ADV AFK                   ADV Freeline               ADV Rules
+ADV Birthday Announcer            ADV Global Post           ADV Suspend
+ADV Busy Notifier             ADV Invisible             ADV Sysop Lister
+ADV Call Back              ADV Lines                ADV Telnet
+ADV Class Change              ADV Log-on Lottery              ADV Text
+ADV Colorize             ADV Logon Notifier                 ADV Trader
+ADV Credit Alert              ADV NoGhost              ADV Waiting Room
+ADV Credits              ADV Password Protection
+
+Holding Pattern - 
+
+ADV Time List             ADV Globals            ADV Vacation
+
+ADV Credit Alert has had the Radius support removed from it so it would
+be possible for others that don't have Radius servers to be able to at least
+get a new copy.  It will have Radius support added to it in the future.  After
+I return from the SysCon98 in Las Vegas in October, Radius support will
+be added to a few modules.
+
+ADV Time List is converted however there is serious problems with it and 
+will not be released until the Radius and PPP problems are fixed.  These fixes
+will also take place after I return from the Convention.
+
+ADV Vacation will be released after I return from the convention also due to
+minor problems with it.
+
+ADV Globals will be released after I return from the convention also due to
+minor problems with conversions from 2.0 to 3.0 which have not been
+resolved yet.
+
+Chinese Zodiac is not going to change except for a C/S interface and possibly
+an HTML interface in the future.
+
+Time and Date Changer will not change except for a C/S interface in the future.
+
+Mancala will have actions added to the waiting room and doing game chat
+area.  A list of people waiting in the Waiting room will also list who is waiting
+there also in a future release.  Price will also increase to $65.00 at that time.  As
+of now the module cost $50.00.  Anyone buying a version now will get the
+newer versions for free.  There will also be a C/S interface made for the game
+in Mid October and released.  Once the C/S version is released it will cost 
+$100.00 for Mancala with A/A and C/S interface.  There will be a $25.00 upgrade
+fee for those wanting the C/S interface.
+
+E-mail Spy will be released in Mid-September.  A few changes are being made to
+the source before it will be released.  I am going to try to make it where you could
+look up a single users email if you want.  As of right now it allows you to view all
+mail from everyone.  I know sometimes you might suspect only 1 user is possibly
+sending pornographic or illegal material through your email.  This will allow you
+to not have to go through all your users mail if you don't want to.  Once this 
+feature is added the modules price will change from $80.00 to $100.00.  Anyone that
+gets the module now would get that upgrade for free.
+
+The  Mud Game.  I will have the Mud game out in Beta 
+hopefully before I leave for the Convention.  Without revealing alot about the 
+game I can only say that I have played alot of Mud games in the past and will
+be putting the best of all ideas from the Muds I have played into this Mud.  I
+have 5 beta systems that will be running this Mud before final release.  The
+Mud will cost between 150 and 1000.  There will be versions for 2, 8, 16, 32, 64, 
+128, and 256 users.  I have not decided on the prices for them yet.  More 
+information will be released when it hits Mid Beta probably in Mid November.
+I am hoping the Mud will be released early to Mid-December before the Holidays.
+
+
+Other Modules.
+
+I will be releasing alot of new modules in the future.  I can't stand converting and
+porting because it takes up all the time that could be used in making new modules.
+New modules will be made hopefully between 1 to 2 a month, starting in November.
+
+
+The newest information will always be available on my Demo System located at:
+Demo System:
+adventurecomm.com
+
+Webpage:
+www.adventurecomm.com
+
+You can also reach me via email:
+brad@adventurecomm.com
+
+MajorNet Node:
+ADV
+
+Development Forum:
+MAJORBBS.DEV.ADV
+
+
+Thanks,
+Brad Farrell
+AdventureComm Software
+
+PS I would like to thank those that took the time to read this document in full.

@@ -1,0 +1,159 @@
+                       Introducing Vircom's
+                Distributed MajorBBS Architecture V2.0
+                         July 13th, 1995
+
+
+FOR IMMEDIATE RELEASE.
+
+(Montreal, Canada) Vircom Inc., makers of the MajorTCP/IP internet
+connectivity solution for the MajorBBS/Worldgroup line of products,
+introduces a breakthrough in MajorBBS connectivity called DMA, which
+stands for "Distributed MajorBBS Architecture".
+
+This product will be included with MajorTCP/IP v1.75 and all subsequent
+versions.  Shipping begins on the 18th of July, 1995.  Details follow.
+
+The other new features of MajorTCP/IP v1.75 (including the new SLIP server)
+are listed in seperate announcements.
+
+
+DMA - Distributed MajorBBS Architecture
+=======================================
+
+A case scenario:  A long time ago, your BBS ran with only a handfull
+of lines.  Your fledging BBS grew, becoming larger and larger as time
+and luck would have it.  You now have 70, maybe even 100 or more lines.
+But now, you have a few problems ...
+
+1) Your feature-packed system's performance is starting to suffer.
+You hesitate to add new lines or new features because you simply don't
+know when you'll hit the proverbial performance wall.  Other smaller
+BBSes competing in your market are starting to run circles around your
+system because they haven't hit the wall yet.
+
+2) You'd love to add a new product that just came out (say, a super-duper
+multiplayer game), but you just don't know how stable it is on a large
+system like the one you're running.  You don't know the kind of load it's
+going to add.  When you were running a small system, you didn't really
+mind a crash here and there, but now, with the thousands of paying members
+who use your system, you dread that little General Protection Fault error
+that will kick your seventy users offline and keep your BBS down while some
+of your files are being re-indexed.
+
+3) You're running Worldgroup and as luck would have it, you're smacking into
+the 16MB memory barrier at high speeds.  You find that you have to switch
+off some very important modules if you want your system to have enough
+memory for your BBS system to start.
+
+
+** Vircom has a solution for you! **
+
+The Distributed MajorBBS architecture (DMA) allows you to distribute
+part of your MajorBBS/Worldgroup services and DLLs to other computers
+on your local area network (or to other sites on the Internet) while
+making this transparent to your users. This way, you can keep the very
+fast and stable main Bulletin Board System busy answering your modems,
+while the more hardware-intensive modules are running on another computer,
+thus improving speed and reliability.
+
+
+Question: What do we mean by "transparent to your users"?
+
+It means that your users will be able to pick a service running on
+your "SUB-BBS" from one of your menu options the same way he would pick
+a service running on your main BBS.  They will be connected automatically
+(accounts will be created if needed) to the SUB-BBS and transported to
+the appropriate service.  All of this occurs invisibly, unnoticeable
+from the user's point of view.  In fact, your other users who look
+at who is logged in will see that the user who has been routed to the
+SUB-BBS is still running directly off the main board.
+
+Even better.  If the off-loaded services are based on a line-by-line
+interface (like adventure games or teleconference), the users on those
+services can still page (or be paged) by users who are on the main machine
+transparently.  They can also use all the globals as if they'd never left
+the main system.
+
+
+How does this work?
+===================
+
+It's all based on MajorTCP/IP's new DMA Mode (v2.0) extensions.
+On your main BBS, you'll be running MajorTCP/IP using the new DMA mode
+of RLogin which lets you direct your users to the proper SUB-BBS.
+
+On your SUB-BBS, you'll be running the incoming-only version of
+MajorTCP/IP in SUB-BBS Mode with enough user licenses to handle the
+desired number of concurrent users desired.  The SUB-BBS mode of the
+incoming version maintains SUB-BBS security by only allowing legitimate
+users to connect thru Rlogin in BBS mode.
+
+The two machines running MajorTCP/IP can thus exchange information using
+our RLogin-plus protocol extensions.  This completly automate (and hide)
+the account creation process.
+
+The two or more computers making up the BBS/SUB-BBS network are connected
+to each other using ethernet local area network hardware and they don't have
+to be in the same geographical area (they can be connected through the
+Internet or a private TCP/IP network).
+
+No Novell server is required.
+
+
+Compatibility
+=============
+
+The Distributed MajorBBS Architecture works on MajorBBS 6.25 and
+WorldGroup in both the BBS and SUB-BBS systems.  However, client/server
+applications on the SUB-BBS are not supported at this time.
+
+DMA only works on top of MajorTCP/IP.  If you have ICO, you will need
+to purchase a copy of MajorTCP/IP and install an additional network card
+if you want to have ICO and DMA active at the same time.
+
+Changes from V1.0 of DMA
+========================
+
+1) Much easier to configure: No changes required to your modules
+   configuration files on the SUB-BBS.
+2) Completly automates Account Creation, Login and Logout.
+3) Totally Secure Networking. Can be set to only accept TCP/IP
+   packets coming from specific sources.
+4) Multiple BBSes to one SUB-BBS relationships supported. (see below)
+
+Multiple BBSes to One SUB-BBS relationships
+===========================================
+
+This allows you to setup (for example) a centralised game server that
+will be shared by a number of BBSes.  Automatic Account creation is still
+supported.  We detect and handle account collision (where the same User-ID
+is used on multiple BBSes) automatically.
+
+This allows your users to have multiple characters in games that you
+install on your SUB-BBS.
+
+Licensing
+=========
+
+Please note that you must purchase a copy of MajorBBS/WorldGroup for
+each SUB-BBS you are running.  You must also have enough 6 packs to
+handle the maximum number of concurrent users you want on your SUB-BBS.
+
+You must also purchase a copy of MajorTCP/IP for each SUB-BBS and BBS
+where you are running MajorTCP/IP or DMA.
+
+MajorTCP/IP (and DMA) dealers
+=============================
+
+Digital Consulting Services 212-697-7340
+Tessier Technologies        305-473-5525
+High Velocity Software      602-234-2207
+DataSafe Publications       505-294-4980
+Sirius Software             307-237-0065
+
+Contacting Vircom Inc.
+======================
+
+Vircom Inc.
+Sylvain Durocher
+Internet  : majortcpip@vircom.com

@@ -1,0 +1,464 @@
+Command Center -- Release Notes
+
+  Actcodes are available by submitting your information to us by e-mail to
+  bladerunner@colis.com, by telephone at (809) 922-5201 or (809) 922-5173,
+  or by FAX to (809) 922-9036.  Ensure that you provide us with your e-mail
+  address so that we can transmit the activation code to you when generated.
+
+  You can also contact us by dialing in directly to our BBS, creating an
+  account and leaving e-mail to Sysop or Support, but we do not recommend
+  this because of the long distance charges you will incur.
+
+
+Version 1.02-MBBS 6.25/WG 1/2/WG 3 DOS/WG 3 NT (10 Aug 1997)
+------------------------------------------------------------
+
+A.  BUG FIXES/REPORTS
+=====================
+
+o   The Teleconference monitor system has been improved to filter out exits
+    from Teleconference.  This means that the exit commands from
+    Teleconference will not be recorded for comparison and sensing purposes
+    for monitored users.
+
+o   Handling of the /p command has been improved.  When SYSPAGCC is set to
+    yes (the recommendd setting), /p now correctly recognizes the arguments
+    "on", "off", and "ok", as the MBBS/Worldgroup handler does.
+
+o   The list of excluded classes in the Level 4 CNF option XCLXFR was being
+    incorrectly displayed whenever the credit transfer function prevented a
+    transfer of credits to one of the classes in the list.  The exclusion
+    did work correctly but additionally incorrectly displayed the entire
+    exclusion list.  This behaviour has been corrected.
+
+o   Corrected help text for some of the more recent commands.
+
+o   The FL, LU and the new LK commands have all had their cycling logic
+    improved.  Previously, the command would not cycle until the user's
+    output buffer space available dropped below a preset minimum of 500
+    bytes.  This meant that with long listings requiring an intensive
+    database search (such as the Forum Access List) in a large user base,
+    the command might cause the system to delay servicing other users while
+    the user being serviced by the command filled up their output buffer
+    with the database search cycle in progress.
+
+    The commands now cycle immediately after a single lookup in the database
+    which means that although the command will take marginally longer to
+    complete, there will be absolutely no slowdown in servicing other users
+    on the system.
+
+
+B.  NEW/REVISED COMMANDS
+========================
+
+Key: [] = required parameter
+     <> = optional parameter
+
+(Usage shown with default commands)
+
+  =BN      : Busy Notify
+
+             Previously, whenever the busy notification was set to ASK or
+             MAIL, the system would act on a page directed from a user to
+             themselves.  This meant that if a user's BUSY flag was ON, and
+             they paged themself with Busy Notify set to ASK or MAIL, they
+             would either be prompted to add themselves to the Busy Notify
+             List, or have a Telegram sent automatically from themself to
+             themself with the page message.
+
+             This behaviour has been changed.  The notification system will
+             now ignore any page from a user to the same User-ID.
+
+  =FL      : List Forum Access
+
+             Usage   =FL [<!>Forum name]
+
+             The optional "!" character prefixed to the forum name will
+             generate a listing of all users who do NOT have access to the
+             specified forum.
+
+  =LK      : List Users With Key
+
+             Usage   =LK [<!>Key name]
+
+             This command lists User-Id's for those non-Sysop class users
+             who hold or do NOT hold the key specified on the command line.
+             If the key is prepended with the "!" character, the users NOT
+             holding the key are listed.  The key name specified must be a
+             complete and accurate existing key name if a listing is to be
+             produced.
+
+             Sysop class users (MASTER key holders) are excluded from the
+             listing since by default they hold every issued key.
+
+  =INJ     : Inject channel input
+
+             Usage   =INJ [channel #] [text]
+
+             This command injects the text string following the channel
+             number into any non-Sysop class valid and active channel
+             followed by a <CR> causing that string to be processed as if it
+             were typed in by the user.  A blank line cannot be injected.
+
+             When using this command to assist users, it is useful to ensure
+             that their screen length is set to continuos before sending
+             input to their channel as a screen pause will still require
+             input from the user to continue, and the inject command will
+             fail if the user's BUSY flag is set, or they are currently
+             sitting in a screen pause prompt, or another message is being
+             delivered to the user.
+
+
+C.  CNF OPTION CHANGES
+======================
+
+The following CNF options have been added or changed:
+
+Key: {} = option type 
+     [] = default
+     <> = numeric range
+     () = determined by option setting
+
+  BMBSUSP  : {ENUMERATED} [UNLIMITED] (BOMBPNSH=KILL) UNLIMITED MINUTES
+                                                      HOURS DAYS
+             This option specifies the type of suspension which a convicted
+             page bomber or flooder will receive when sentenced by the
+             system.  It only applies when the BOMBPNSH option is set to
+             KILL.
+
+             The options are as follows:
+
+                  UNLIMITED : Suspend the user for an unlimited period, i.e
+                              a non-timed suspension which must be cleared
+                              manually.
+                  MINUTES,
+                  HOURS,
+                  DAYS      : Generate a timed suspension for the user
+                              appropriate to the selection.  The suspension
+                              will be effective for the period specified in
+                              option BMBSPPER.
+
+  BMBSPPER : {NUMERIC} [1] (BMBSUSP#UNLIMITED) <1..59>
+             This option sets the period for a timed suspension of a page
+             bomber or flooder.  It is only effective when the BMBSUSP
+             option is NOT set to UMLIMITED.
+
+             The period will be for the option value set in BMBSUSP, i.e,
+             minutes, hours or days.  The value entered is validated by the
+             limits for each option and forced to conform to those maximim
+             values as follows:
+
+                  MINUTES   : 1..59 (limits enforced by CNF)
+                  HOURS     : 1..23 (lower limit enforced by CNF)
+                  DAYS      : 1..30 (lower limit enforced by CNF)
+
+             In the case of HOURS or DAYS, the upper limits are enforced in
+             the module during initialization, and the value will be lowered
+             to the appropriate upper limit as required.
+
+  EDITNAME : {STRING} [Editor]
+             This is the name of the Editor module on your system.  Command
+             Center uses this name to determine when a user is in the Editor
+             so that advertisement or logon/logoff messages can be withheld
+             if specified in options MSGEDIT and LOGINEDT.
+
+             Normally you should NOT need to change this value unless you
+             are running a custom editor module with a different name from
+             the default module provided with your MBBS/Worldgroup system.
+
+  ENBLEMSG : {BOOLEAN} [NO] YES NO
+             This option enables the sending of announcements or gratuitous
+             advertisment messages to users holding the key specified in
+             option MSGKEY.  The message is located in Text Block USERMSG,
+             and is sent repeatedly to each user whenever the number of
+             seconds specified in option MSGTICK has elapsed.
+
+             This feature is normally used to send information about
+             purchasing system services to demonstration or prospect users.
+
+  LOGINEDT : {BOOLEAN} [NO] YES NO
+             This option controls whether log-on/off messages generated by
+             users are supressed to users in the Editor module on the
+             system.
+
+             NO allows the messages to be transmitted, subject to the user's
+             individual setting for reception of log-on/off messages.  YES
+             prevents users who are in the Editor module from being bothered
+             by these messages, even when their reception of log-on/off
+             messages is enabled.
+
+  MSGKEY   : {STRING} [DEMO] (ENBLEMSG=YES)
+             This option contains the key used to identify users who are to
+             receive the message enabled by the ENBLEMSG option.
+
+             To have Sysop users explicitly checked for the presence of this
+             key, prepend the key with the "*" character.  To enter a NOT
+             key, i.e. reverse the sense of the key by identifying all users
+             who do NOT have the key specified, prepend the key with the "!"
+             character.  (These two characters can be combined as long as
+             they are placed in the 1st two characters of the string).
+
+  MSGTICK  : {NUMERIC} [300] (ENBLEMSG=YES) <30..3600>
+             This is the number of seconds to elapse between each transmit
+             of the announcement or gratuitous advertisement message.
+
+  MSGEDIT  : {BOOLEAN} [NO] (ENBLEMSG=YES) YES NO
+             Answering YES causes Command Center to send the announcement
+             messages to users who are in the Editor module on the system,
+             answering NO prevents those users from being bothered by these
+             messages while they are in the Editor.
+
+
+D.  TEXT VARIABLES
+==================
+
+The following text variables have been added and/or changed:
+
+(Note: the full name of the text variable includes the prefix of "SFACC_").
+
+  OTHUSR   : Most of the text variables used in Command Center assume that
+             the current user is already in the context of what the
+             MBBS/Worldgroup system considers the "other user".  This is
+             always true whenever the operation being performed is a Command
+             Center function, however where for instance you wish to use a
+             Command Center text variable inside a page managed by another
+             module, this context may have have been changed by that module
+             and the text variable may therefore return incorrect
+             information.
+
+             This text variable returns no actual text, but forces the
+             current user's details into the "other user" context so that
+             if a subsequent text variable is relying on this setup, it will
+             obtain correct information.
+
+  VOXPHN   : Returns the system voice telephone number entered in the Level
+             4 CNF option VOXPHONE.
+
+
+E.  ADDITIONAL NOTES
+====================
+
+
+Soft Arts Ltd.
+66 & 68 Barry Street
+1st Floor
+Kingston
+Jamaica, W.I.
+
+Tel.#s : (809) 922-5201/5173 Voice
+         (809) 922-9036      Fax
+         (809) 922-7990      BBS
+
+E-mail us with comments, suggestions, etc. at-
+    bladerunner@colis.com
+
+(end of release notes)
+
+NOTICE
+============================================================================
+SOFT ARTS Software License Agreement for Command Center
+
+IMPORTANT - READ CAREFULLY:  PROCEEDING WITH INSTALLATION INDICATES YOUR
+ACCEPTANCE OF THE TERMS AND CONDITIONS DESCRIBED HEREIN.  IF YOU DO NOT
+AGREE WITH THEM, DISCONTINUE THE INSTALLATION RETURN THE ENTIRE PRODUCT
+WITHIN 30 DAYS OF THE ORIGINAL DATE OF PURCHASE AND THE PRICE OF THE
+PRODUCT WILL BE REFUNDED TO YOU.
+
+COPYRIGHT
+
+SOFT ARTS LTD. provides this Software and licenses its use throughout the
+world.  You assume responsibility for the selection of the Software to
+achieve your intended results, and for the installation, use, and results
+obtained from the Software.
+
+Command Center and accompanying documentation is copyright (c) 1997 by Soft
+Arts Ltd., hereinafter referred to as Soft Arts. All rights to Command
+Center are reserved by Soft Arts.  You must keep the program in strict
+confidence and treat it like any other copyrighted material. You may not
+copy any written materials accompanying the software program.
+
+
+DEFINITIONS
+
+SOFT ARTS shall be taken as referring to SOFT ARTS LTD.
+
+"You" and "your" shall be taken as referring to the person
+or business entity who purchased this License to use this
+Software or for whom such License was purchased.
+
+"Software" shall be taken as referring to the files on the
+supplied media and to any and all copies, updates,
+modifications, functionally-equivalent derivatives, or any
+parts or portions thereof.
+
+"Run-Time Access" shall be taken as referring to a
+connection that allows the exchange of data between two or
+more computers.
+
+"Live Computer" shall be taken as referring to a single
+computer connected with communications hardware providing
+Run-Time Access to this Software.
+
+"Development Computer" shall be taken as referring to a
+single computer upon which a copy of this Software may be
+installed for configuration and development purposes, not
+providing Run-Time Access to this Software.
+
+"Client Software" shall be taken as referring to the
+program(s) that can be generated with this Software to give
+other computers Run-Time Access to your Live Computer in a
+Windows client/server mode.
+
+"License count" shall be taken as referring to the maximum
+number of Run-Time connections which are authorized to use
+the Software at any one instant, and which has been
+purchased by you.
+
+
+LICENSE
+
+You may:
+
+1.   install and use one copy of this Software on a single
+     Live Computer; you may also install and use one copy
+     of this Software on a single Development Computer.
+
+2.   copy this Software into machine-readable or printed
+     form, for backup or archival purposes in support of
+     your use of this Software.
+
+3.   provide Run-Time Access to this Software on your
+     single Live Computer to up to the number of machines
+     specified in your Licence count at a time; said other
+     machines need not, and must not, be provided with
+     copies of this Software in order to obtain said
+     Run-Time Access.
+
+4.   freely distribute the Client Software either
+     electronically or on diskette(s), CD-ROM(s) or
+     tape(s).
+
+5.   transfer this Software and license to another party
+     if the other party agrees to accept the terms and
+     conditions of this Agreement, and only after paying
+     any licence transfer fee requested by Soft Arts.
+     Please contact Soft Arts to complete a license
+     transfer.  Your use of the software deems your
+     acceptance of this license and warranty and the terms
+     herein.  If the enclosed Software is an update, any
+     transfer must include the update and all prior
+     versions.  If you transfer the Software, you must at
+     the same time either transfer all copies, whether in
+     machine-readable form, to the same party, or destroy
+     any copies not transferred.
+
+YOU MAY NOT USE, COPY, MODIFY, OR TRANSFER THIS SOFTWARE, OR
+ANY COPY, MODIFICATION, OR MERGED PORTION, IN WHOLE OR IN
+PART, EXCEPT AS EXPRESSLY PROVIDED FOR IN THIS LICENSE, OR
+IN AMENDMENTS SIGNED BY AN OFFICER OF SOFT ARTS LTD. IF YOU
+TRANSFER POSSESSION OF ANY COPY OF THIS SOFTWARE, OR ANY
+FUNCTIONALLY-EQUIVALENT DERIVATIVE, OR ANY PORTION OR
+MODIFICATION THEREOF, TO ANOTHER PARTY, YOUR LICENSE IS
+AUTOMATICALLY TERMINATED.
+
+
+TERM
+
+This license is effective until terminated.  You may
+terminate it at any time by destroying all copies of the
+Software covered by this Agreement.  It will also terminate
+upon conditions set forth elsewhere in this Agreement or if
+you fail to comply with any term or condition of this
+Agreement.  You agree upon such termination to destroy this
+Software, including all copies, functionally-equivalent
+derivatives, and all portions and modifications thereof in
+any form.
+
+
+LIMITED WARRANTY
+
+THIS SOFTWARE, INCLUDING CLIENT SOFTWARE, IS PROVIDED "AS IS", WITHOUT
+WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF
+THE SOFTWARE IS WITH YOU.  SHOULD THE SOFTWARE PROVE DEFECTIVE, YOU (NOT
+SOFT ARTS LTD.) ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR,
+OR CORRECTION.
+
+SOFT ARTS does not warrant that the functions contained in this Software
+will meet your requirements or that the operation of this Software will be
+uninterrupted or error-free.  However, SOFT ARTS does warrant the media on
+which the Software is furnished to be free from defects in materials and
+workmanship under normal use for a period of thirty (30) days from the date
+of delivery to you.
+
+YOU THE USER UNDERSTAND AND ACCEPT THAT COMPUTER PROGRAMS BY THEIR VERY
+NATURE CANNOT BE GUARANTEED TO BE 100 PER CENT ACCURATE, OR FREE FROM FLAWS
+IN DESIGN OR OPERATION, OR FROM INCOMPATIBILITIES WITH OTHER SOFTWARE,
+HARDWARE AND/OR OPERATING SYSTEM PLATFORMS.  SOFT ARTS DOES NOT WARRANT,
+REPRESENT, OR GUARANTEE THAT ALL PROBLEMS WILL BE CORRECTED OR THAT ANY
+UPDATES WILL BE COMPATIBLE WITH PREVIOUS VERSIONS OF COMMAND CENTER.
+EXCEPT AS EXPRESSED ABOVE, SOFT ARTS DISCLAIMS ALL WARRANTIES, EXPRESSED AND
+IMPLIED, TO THE PRODUCT, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS FOR A PARTICULAR PURPOSE, AND SOFT ARTS DISCLAIMS ALL
+OBLIGATIONS AND LIABILITY ON SOFT ART'S PART OR ON THE PART OF ANY OF ITS
+OWNERS, DIRECTORS, MANAGERS, SERVANTS, AGENTS AND/OR EMPLOYEES FOR DAMAGES,
+INCLUDING BUT NOT LIMITED TO SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES IN
+CONNECTION WITH USE OF THE PRODUCT, WHETHER OR NOT SOFT ARTS HAS BEEN
+ADVISED OF THE POSSIBILITY THEREOF.
+
+
+LIMITATION OF REMEDIES
+
+The entire and exclusive liability and remedy for breach of this Limited
+Warranty shall be limited to replacement of defective diskette(s) or
+documentation and shall not include or extend to any claim for or right to
+recover any other damages, including but not limited to, loss of profit,
+data, or use of the software, or special, incidental, or consequential
+damages or other similar claims, even if Soft Arts has been specifically
+advised of the possibility of such damages. In no event shall Soft Art's
+liability for any damages to you or any other person ever exceed the lower
+of suggested list price or actual price paid for the license to use the
+software, regardless of any form of the claim.
+
+SOFT ARTS's entire liability and your exclusive remedy shall be:
+
+a.   the replacement of any media not meeting SOFT ARTS's
+     "Limited Warranty" and which is returned to SOFT ARTS, or
+
+b.   if SOFT ARTS is unable to deliver replacement media
+     which is free of defects in materials or workmanship,
+     you may terminate this Agreement by returning this
+     Software and your money will be refunded.
+
+IN NO EVENT WILL SOFT ARTS BE LIABLE TO YOU FOR ANY DAMAGES, INCLUDING ANY
+LOST PROFITS, LOST SAVINGS, DATA, OR USE OF THE SOFTWARE, OR SPECIAL,
+INCIDENTAL, OR CONSEQUENTIAL DAMAGES OR OTHER INCIDENTAL OR CONSEQUENTIAL
+DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THIS SOFTWARE EVEN IF
+SOFT ARTS OR ITS AUTHORIZED REPRESENTATIVE HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES, OR FOR ANY CLAIM BY ANY OTHER PARTY. IN NO
+EVENT SHALL SOFT ART's LIABILITY FOR ANY DAMAGES TO YOU OR ANY OTHER PERSON
+EVER EXCEED THE LOWER OF SUGGESTED LIST PRICE OR ACTUAL PRICE PAID FOR THE
+LICENCE TO USE THE SOFTWARE, REGARDLESS OF ANY FORM OF THE CLAIM.
+
+
+GENERAL
+
+You may not sub-license, assign, or otherwise transfer this License or
+Software except as expressly provided in this Agreement.  Any attempt to
+otherwise sublicense, assign, or transfer any of the rights, duties or
+obligations hereunder is expressly prohibited and will terminate this
+Agreement.
+
+This Agreement will be governed by the laws of Jamaica.
+
+All Agreements covering this Software (including but not limited to any and
+all updates, upgrades, and enhancements to this Software or any portion
+thereof, bearing the same registration number) shall be deemed to be
+counterparts of one and the same License Agreement instrument.
+
+YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT, AND AGREE
+TO BE BOUND BY ITS TERMS AND CONDITIONS.  YOU FURTHER AGREE THAT IT IS THE
+COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT BETWEEN US, WHICH
+SUPERSEDES ANY PROPOSAL OR PRIOR AGREEMENT, ORAL OR WRITTEN, AND ANY OTHER
+COMMUNICATIONS BETWEEN US RELATING TO THE SUBJECT MATTER OF THIS AGREEMENT.

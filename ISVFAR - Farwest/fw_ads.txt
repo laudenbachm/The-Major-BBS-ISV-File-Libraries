@@ -1,0 +1,627 @@
+
+                 FARWEST BBS DETAILED PRODUCT INFORMATION
+
+                           (Effective March 1997)
+
+
+1.0 CONTENTS
+------------
+
+   1.0 - Contents
+   2.0 - Introduction
+   3.0 - Contacting Farwest
+       3.1 - Modem/Telnet
+       3.2 - Voice
+       3.3 - Fax
+       3.4 - Email
+       3.5 - Regular mail
+       3.6 - Courier Service (Federal Express)
+       3.7 - Accessing our FTP site
+   4.0 - Purchasing information
+       4.1 - Company Check, Money Order, Bank Draft, Cashier's Check
+       4.2 - Western Union Wire Transfer
+       4.3 - After Payment is Received
+       4.4 - Authorized Resellers
+           4.4.1 - Datasafe Publications, Inc.
+           4.4.2 - Digital Consulting Service, Inc.
+           4.4.3 - High Velocity Software, Inc.
+   5.0 - Technical Support
+       5.1 - Support BBS
+       5.2 - Support via MajorNet
+       5.3 - Support via the Internet
+       5.4 - Voice support
+   6.0 - Price List
+   7.0 - Product Information
+       7.1 - Farwest Trivia Suite
+       7.2 - Farwest Trivia
+       7.3 - Tele-Trivia
+       7.4 - Othello
+       7.5 - Roll the Bones
+       7.6 - Question Developer Kit
+       7.7 - Questions by Topic I
+       7.8 - Questions by Topic II
+       7.9 - Adult Questions
+       7.10 - Action Word Add On
+       7.11 - Global Tic Tac Toe
+
+2.0 INTRODUCTION AND GENERAL BACKGROUND
+---------------------------------------
+
+Farwest BBS first went online November 15, 1985. In March 1989
+Farwest switched to Galacticomm's Major BBS software. Shortly
+after moving to MBBS, Farwest became a third party developer for
+the Major BBS add on market. We are proud to claim the following
+accomplishments.
+
+ 1 - Our Othello game module                                July 1989
+ 2 - A translation of the Galacticomm Flash Developers
+     Kit code into Turbo Pascal                            April 1990
+ 3 - Development and advancement of VROOM technology      August 1990
+ 4 - Our Mjrmail utility module (purchased by
+     Galacticomm in July of 1992)                        October 1990
+ 5 - CD-ROM module for PC-SIG ROM disc                  December 1990
+ 6 - CD-ROM module for Alde Carousel ROM disc           February 1991
+ 7 - CD-ROM module for Alde Spectrum ROM disc              March 1991
+ 8 - Super Disc CD-ROM Manager module (purchased by
+     Wilderland software in July 1995)                  February 1992
+ 9 - Global Tic-Tac-Toe game                           September 1992
+10 - Farwest Trivia game                               September 1992
+11 - Console Macros                                          May 1993
+12 - Farwest Grab Bag                                        May 1993
+13 - Action Word Add On                                 November 1993
+14 - Roll the Bones                                        March 1994
+15 - Tele-Trivia                                       September 1994
+16 - Question Developer Kit                                 June 1995
+17 - Questions by Topic I                                   July 1995
+18 - Questions by Topic II                               October 1995
+19 - Adult Questions                                     January 1996
+20 - Client/Server Farwest Trivia                      September 1996
+
+
+3.0 CONTACTING FARWEST BBS
+--------------------------
+
+3.1 Calling via Modem/Telnet
+----------------------------
+
+We operate a MajorBBS/WorldGroup system that can be reached in the
+following ways:
+
+Modem:  250-381-3934 (14.4 kbps)
+Modem:  250-381-1135 (28.8 kbps, 33.6kbps with a USR Courier)
+
+Telnet: farwest.bc.ca
+
+When you first call Farwest BBS, we ask that you sign on as a NEW
+user, and answer the standard questions. Please note that Farwest
+is a real name system and does not use alias User-IDs, so from
+the moment you sign up, your user-id will become your REAL name.
+(example: Bob Smith, Sam Kincaid, etc...)
+
+As soon as you answer the last question in setting up your account,
+you will be immediately given DEMO access to the system. Please
+write E-mail to the Sysop to get your access upgraded. All Major BBS
+Sysops are automatically provided with FREE access. This will allow
+you to have full access to our system and the ability to download
+demos of our modules.
+
+3.2 Calling Voice
+-----------------
+
+You can call us voice at the following numbers...
+
+Voice: 250-953-0659 - Aaron Sundberg
+or     250-381-6462 - Ren L'Ecuyer
+
+If no one answers when you call, please leave a message on the
+answering machine. We return all calls.
+
+3.3 FAX
+-------
+
+Our fax number is 250-381-6462.
+
+3.4 Electronic Mail
+-------------------
+
+Farwest is hooked up to the MajorNet and the Internet. If you are
+interested in any of our products, then you can send us private
+email to any of these addresses.
+
+MajorNet:                   Internet:
+  Info@FAR                    info@farwest.bc.ca
+
+3.5 Regular Mail
+----------------
+
+IMPORTANT! This address is for REGULAR mail only! Please DO NOT
+send anything to this address using Express Mail, UPS, Purolator,
+Federal Express, or any other courier service. They WILL NOT
+deliver to this address. Doing so will only result in costly
+delays.
+
+Our regular mailing address is
+
+    Farwest BBS
+    PO Box 8389
+    Victoria BC  V8W 3R9
+    Canada
+
+Be forewarned, sending us mail can be VERY slow. From between 7
+and 15 days for regular air mail.
+
+3.6 Courier Service
+-------------------
+
+If you want to send us something in a hurry, then Federal Express
+is the ONLY option. Federal Express guarantees 24 hour delivery
+from almost any point in the USA. Two days from Mexico. Please DO
+NOT try to use other courier services. They cannot guarantee 24 hour
+service to Victoria, BC, They also do not have the same quality of
+tracking service.
+
+If you elect to use Federal Express, then you will need a "real
+people address" and not a PO box number. Since couriers will not
+deliver to a post office box, you can use the following address
+for all Fed Ex shipments.
+
+Aaron Sundberg
+104-1655 Begbie Street
+Victoria, BC  V8R 1L4
+Canada
+
+Telephone: 250-953-0659
+
+3.7 Accessing our FTP site
+--------------------------
+
+All of Farwest BBS' demos and the most recent version of this file can
+be accessed via anonymous ftp at
+
+ftp://ftp.farwest.bc.ca/worldgroup/demos/
+
+We also keep updated versions of our demos and this file on the
+Galacticomm demo system accessible at
+
+ftp://gcomm.com/isvfar/
+
+
+4.0 PURCHASING INFORMATION
+--------------------------
+
+4.1 Company Checks, Money Orders, Bank Drafts, Cashier's Check
+--------------------------------------------------------------
+
+If you wish to purchase any of our modules, then simply send us a
+company check, INTERNATIONAL money order, a bank draft, or cashier's
+check made payable to FARWEST BBS, to either of the addresses
+mentioned above. Unfortunately we cannot accept any personal checks.
+
+NOTE: We are located in Canada. If you are outside of Canada, please
+      ensure that any payment you send is negotiable outside of your
+      home country.
+
+4.2 Western Union Wire Transfer
+-------------------------------
+
+For those of you that would like to use a credit card for payment,
+Western Union is a suitable alternative. Simply check your telephone
+book for the Western Union number closest to your location.  Give
+them a call, tell them you want to wire money and use your credit
+card as a method of payment.
+
+They will ask you for a name (Ren L'Ecuyer or Aaron Sundberg) and
+a location (Victoria, BC, Canada) as well as your credit card data.
+If you elect to use this approach, then obviously we need to know
+a few things such as your name, telephone number and your location
+(city and state).
+
+It usually takes about 2 to 3 hours to process.  We contact the local
+Western Union representative in Victoria, pick up the money, alter
+your user account on our system - and you are free to download.
+
+Western Union does allow an alternative method of payment - and
+it sure gets here fast.  As you can expect, there is a fee - but this
+is not much more than sending payment via Federal Express.
+
+You may wish to give this method of payment some consideration. If
+you do decide to send your payment via Western Union please call
+Farwest to confirm the order and the information being given to
+Western Union to prevent any confusion.
+
+4.3 After Payment is Received
+-----------------------------
+
+As soon as we receive your payment we will give you access to
+download the purchased items from our BBS. It is important that
+you call our BBS and set up an account as soon as you can.
+
+In the event that you cannot download the purchased items, then
+we can do one of two things.
+
+ 1) Mail the diskettes to you via a courier. (At your expense).
+
+ 2) Mail the diskettes to you via the normal postal service.
+    (air mail).
+
+PLEASE - Try to remember the following... There is no explanation,
+         but regular mail to and from the west coast of Canada
+         can take 7 to 15 days depending on many variables such as
+         time of year, distance involved, phase of the moon, etc.
+
+4.4 Authorized Resellers
+------------------------
+
+Currently there are three authorized resellers of Farwest's products.
+They are, Adept Communications, Cheersoft, Datasafe Publications,
+Digital Consulting Service, High Velocity Software, and Logicom.
+
+4.4.1 Datasafe Publications, Inc.
+---------------------------------
+
+Datasafe Publicastions
+3301 Jaun Tabo NE, Suite 113
+Albuquerque, NM  87111
+USA
+
+Phone: Orders: 800-870-0004
+       Voice:  505-294-4980
+       Fax:    505-294-8225
+       BBS:    505-294-1575
+
+Telnet: dsafe.com
+Web:    http://www.dsafe.com/
+
+4.4.2 Digital Consulting Service, Inc.
+--------------------------------------
+
+Digital Consulting Services
+PO Box 2142
+Secaucus, NJ  07094
+USA
+
+Phone: Orders: 800-899-2002
+       Voice:  212-697-7340
+       Fax:    212-949-8083
+       BBS:    212-242-2270
+
+Email: mehrmann@digiconsult.com
+
+4.4.3 High Velocity Software, Inc.
+----------------------------------
+
+High Velocity Software
+PO Box 33455
+Phoenix, AZ  85067-3455
+USA
+
+Phone: Orders: 800-572-5582
+       Voice:  602-234-2207
+       Fax:    602-234-0730
+       BBS:    602-222-3000
+
+Telnet: garden.hvs.com
+Email:  support@mail.hvs.com
+Web:    http://www.hvs.com/
+FTP:    ftp://hvs.com/
+
+
+5.0 TECHNICAL SUPPORT
+---------------------
+
+5.1 Support BBS
+---------------
+
+The best way to get technical support is to call our BBS and leave
+private email to "Support". (No quotes of course.) If you think you
+have found a bug then when you call, upload any of GP.OUT,
+CATASTRO.TXT, FW_LOG.LOG or capture files that may help document
+the suspected bug. Please see Section 3.1 on how to connect with
+our support BBS.
+
+5.2 Support via MajorNet
+------------------------
+
+Farwest maintains a support news group on MajorNet. You can leave any
+questions or comments on Farwest BBS products in this news group. If
+you have MailLink we suggest you set up MAJORBBS.DEV.FAR on your
+system. This will allow you to keep on top of product updates and
+bug fixes.
+
+Additionally Farwest has a support forum on MajorNet specifically for
+the reporting of errors found in the Trivia databases. You can tune
+into this Forum at MAJORBBS.DEV.FAR.TR.
+
+If you have a question or problem that you want to send in private email
+then you can send email to Support@FAR.
+
+5.3 Support via the Internet
+----------------------------
+
+If you have a question or problem that you want to send by email over
+the Internet, then you can send email to support@farwest.bc.ca.
+
+5.4 Voice Support
+-----------------
+
+If you have a question or a problem that needs immediate attention,
+then give us a call at 250-953-0659
+
+
+6.0 PRODUCT PRICE LIST
+----------------------
+
+1 - Farwest Trivia Suite                    $249.00  (best buy)
+
+2  - Farwest Trivia (RIP support)           $200.00  (demo available)
+3  - Tele-Trivia                            $150.00  (demo available)
+4  - Farwest Othello (RIP support)           $69.00  (demo available)
+5  - Roll the Bones                          $59.00  (demo available)
+6  - Question Developer Kit                  $50.00
+7  - Questions by Topic I                    $39.00
+8  - Questions by Topic II                   $39.00
+9  - Adult Questions                         $39.00
+10 - Action Word Add On                      $29.00ø (demo available)
+11 - Global Tic-Tac-Toe                      $25.00
+
+ø Currently works with Farwest Trivia and Othello.
+
+All prices are in US funds. All products with the exception of
+Console Macros come with global Tic-Tac-Toe as a FREE bonus!
+
+All products marked as having a demo available can be downloaded
+by calling Farwest BBS and typing /GO DEMOS. Or you can download
+them from our FTP site. (ftp://ftp.farwest.bc.ca/worldgroup/demos/)
+
+
+7.0 PRODUCT SUMMARIES
+---------------------
+
+Please note that all of Farwest's products require a 386 or better
+to run. All Farwest products are compatible with MajorBBS 6.2x and
+are 100% WorldGroup terminal mode compatible.
+
+7.1 Farwest Trivia Suite
+------------------------
+
+The Farwest Trivia Suite is really five products for one price.
+Included are, Farwest Trivia, Tele-Trivia, the Action Word Add On,
+Questions by Topic I, and Questions by Topic II. You save over 15%
+by purchasing these products as a package rather than individually
+
+For descriptions of these product please read the write ups below.
+
+7.2 Farwest Trivia
+------------------
+
+Farwest Trivia is one of the most popular trivia game available
+for MajorBBS/WorldGroup. The game takes place in a full Tele-
+conference style environment complete with whispers, directed
+messages, and action words via our Action Word Add On.
+
+Great features include:
+
+a) RIP support with all the commonly used commands as buttons.
+
+b) 69,000 question database.
+
+c) Online question editor to add/edit/delete questions.
+
+d) Ability to add different question categories.
+
+e) Configurable high score list as well as an "all time" high
+   score list.
+
+f) Automatic high score clearing DAILY, WEEKLY, MONTHLY, etc.
+
+g) Sysop commands. (access for these is configurable.)
+
+Farwest Trivia only costs $200US, or just $100 if you already own
+Tele-Trivia. If you are interested, give us a call and download
+the Demo. Remember, that for and extra $29 you can get virtually
+unlimited action words with the Action Word Add On. (see below).
+
+7.3 Tele-Trivia
+---------------
+
+This is a Tele-Game implementation of the very popular Farwest
+Trivia.  Tele-Trivia has all the same features as Farwest Trivia
+with some new ones that are sure to make it a winner on your
+system.
+
+Great features include:
+
+a) Can be played globally from most places on your BBS.
+
+b) Play can be limited to Teleconference only.
+
+c) Play can be limited to a single Teleconference channel.
+
+d) Configurable split  screen play  allows  users to isolate the
+   top four lines of  their screen  for Tele-Trivia play and the
+   remainder for regular Teleconference.
+
+e) 69,000 question database.
+
+f) Online question editor to add/edit/delete questions.
+
+g) Ability to add different question categories.
+
+h) Configurable high score list as well as an "all time" high
+   score list.
+
+i) Automatic high score clearing DAILY, WEEKLY, MONTHLY, etc.
+
+j) Sysop commands. (access for these is configurable.)
+
+Tele-Trivia requires the Entertainment Teleconference 6.2 to
+work. A version that works with the Standard Teleconference is
+available upon request. Tele-Trivia costs $150US, or $50US for
+current owners of Farwest Trivia.
+
+7.4 Othello
+-----------
+
+The Othello module is a multiplayer implementation of the board
+game  (also known as Reversi or Flipper).  Othello was Farwest's
+very first module, written in 1989. Since that time  Othello has
+been praised for its clean interface and stability.
+
+Great features include:
+
+a) Full mouse driven interface using RIP.
+
+b) Chess like rating  system in addition to a regular high score
+   list.
+
+c) Full Teleconference style environment complete with whispers,
+   action words, and enter/exit messages.
+
+d) Configurable automatic high score resets.
+
+e) Online Sysop commands.
+
+Othello only costs $69US.  The upgrade cost from  version 4.0 is
+$25US.  If you are interested, give us a call and  download the
+demo version. Remember that for an extra $29 you can get virtually
+unlimited action words with the Action Word Add On. (See below).
+
+7.5 Roll the Bones
+------------------
+
+Roll the Bones is a multi-player game of chance that can be played
+globally from most places on your BBS. Like poker, users put credits
+into a pot. They then roll a pair of dice (the bones) several times,
+flipping numbered pegs that add up to the dice rolls. They roll the
+dice until they can no longer flip any pegs. The remaining pegs (if
+any) are tallied, and that becomes the player's score. After everyone
+has had their turn, the user with the lowest score wins the pot.
+
+Roll the Bones is very easy to learn. After a single game a first
+time player becomes as proficient as a veteran. Additionally, the
+game is fast moving. A single game of Roll the Bones takes about as
+long to play as a single game of Poker. This short learning curve
+and length of game make it ideal for people popping in and out of
+Teleconference, or a game like Farwest Trivia.
+
+Roll the Bones is a great addition for any entertainment style BBS.
+If you are interested in Roll the Bones it will only cost you $59US.
+Give us a call and download the demo.
+
+7.6 Question Developer Kit
+--------------------------
+
+Develop and sell your own question banks for Farwest Trivia and
+Farwest Tele-Trivia. Just create a question bank in text format
+using your favorite editor, run a conversion utility, enter the
+product information into the Developer's Kit, and you are ready
+to your sell question banks.
+
+Now that Farwest Trivia and Farwest Tele-Trivia support different
+categories of questions, you can create question banks on specific
+topics such as Sports, Music, Star Trek, History, etc.
+
+Features include:
+
+a) Your customers will need an activation code to "import" your
+   question banks.
+
+b) Online product registration and activation code generator for
+   your customer's convenience.
+
+c) Online customer editor. Allows for easy license transfers.
+
+The Question Developer's Kit is just $50. You could make this
+investment back with just a couple sales of your own question
+banks.
+
+7.7 Questions by Topic I
+------------------------
+
+Questions by Topic I is a categorized database of questions for
+use with Farwest Trivia and/or Farwest Tele-Trivia.
+
+a) 9 different categories of questions, Sports, Movies, Music,
+   Sci-Fi, TV, Geography & History, Literature, Bible, and Kids.
+
+b) A total of just over 27,000 questions.
+
+c) Import questions without taking your board down.
+
+d) Switch between categories with a simple Sysop command.
+
+A great way to add value to your Farwest Trivia and/or Farwest
+Tele-Trivia game.
+
+7.8 Questions by Topic II
+--------------------------
+
+Questions by Topic II is the sequel to Questions by Topic I. It has
+27,000 questions categorized across several categories including
+James Bond, TV Show, Movies, Slogans, Kids, Hollywood walk of Fame,
+Cheers, Music, Sports, Cartoons, Disney, and X-Files questions. (The
+Music, Sports and Movies categories contain new questions and are
+different from those found in Questions by Topic I.)
+
+7.9 Adult Questions
+--------------------
+
+A number of Sysops have asked for an adult database. For those boards
+that cater to an adult audience, Farwest now provides a database
+with 3800+ questions, that should catch the interest of adults.
+
+The adult database sells for just $39.
+
+7.10 Action Word Add On
+-----------------------
+
+The Action Word Add On is a module that works with Farwest Trivia
+and Othello. The Action Word Add On allows you to add hundreds
+(or thousands) of action words to Farwest Trivia and Othello. Here
+are some of the Action Word Add On's features...
+
+a) A simple yet comprehensive online ANSI editor to add/update/delete
+   action words.
+
+b) Ability to add hundreds or even thousands of action words.
+
+c) Seamless integration with Farwest Trivia, and Othello.
+
+c) Action words are not limited to a single word. For example you could
+   have GRIN and EVIL GRIN as two different action words.
+
+d) Each action can be given its own key so that only users with the
+   specified key can use or see the action.
+
+e) Action Words are stored in a hash table for INSTANT access. No
+   pauses for Btrieve access.
+
+f) Generic Actions.
+
+If you like the Action Word Add On and would like to add more action
+words then do not hesitate to give Farwest a call and order it.
+Remember it only costs $29 US.
+
+
+7.11 Global Tic Tac Toe
+----------------------
+
+Global Tic Tac Toe was an experiment in game theory that got out of
+control. Out of control? Yes! This is not just any Tic Tac Toe game.
+Lets look at some of the features...
+
+A) Play against the computer.
+B) Play against other players in a Teleconference like environment.
+C) Play by mail.
+D) Play it globally from virtually anywhere on the BBS.
+E) Watch the computer play itself.
+F) Configurable high scores, automatic idle game deletion, and
+   maximum active games.
+
+This game will not pack the users onto your system, but it is
+"technically cute".
+
+Global Tic Tac Toe comes free with Farwest Trivia, Tele-Trivia,
+Othello, and Roll the Bones. If you just want Global Tic Tac Toe it
+only costs $25 US.
+

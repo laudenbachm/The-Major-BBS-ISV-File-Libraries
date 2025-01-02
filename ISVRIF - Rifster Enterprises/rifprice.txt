@@ -1,0 +1,177 @@
+
+                        北北北  Rifster Enterprises  北北北
+                                   DEC 18, 1997
+                                    WorldGroup
+
+  Currently available:
+
+
+      Rifster Monitor                          $FREE
+                     Available in all versions
+
+  This Module adds two new globals to your BBS. /MON and /INP
+  These commands work like the MONITOR and INPUT commands in the
+  remote sysop menu but can be activated from anywhere on the BBS
+  and you can continue use the BBS as you wish. Also available
+  for a $10 dollar Fee 5 New Globals will be activated for the
+  Monitor Program. (This fee can only be done thru US MAIL Only)
+
+    Modem Control (Line control)               $Donation
+
+  This really simple program will set any line on your BBS Except
+  the console to NO-ANSWER or BUSY on Boot up. Good for doing tests,
+  keeping a modem from Dialing out unless you want it to, or what
+  ever else you may want it for. if you find a need for this please
+  send in a donation for what you think it's worth to you. A New
+  Innovative Idea from Rifster Enterprises.
+
+    Whos-Online WorldGroup Version             $65.00
+
+  This module will display the users logged on. Configurable to display the
+  list of users  during log on. this module is 100% editable as far as
+  displays to the user. the global activator is configurable as well. This
+  program was originally written for my private system for my staff members
+  to see other users that where invisible they liked it so much that they
+  asked me to make it available to all my users, also a few other sysops ask
+  me about it as well. the key to see invisible defaults at super and the
+  activator is set to # which can all be changed. This program is
+  Compatible with Vircoms # scheme Right out of the BOX so to speak
+  Plus some, Works with Tele, DOORS, and other places that isn't Two
+  COMMAND Line heavy. NEW COMMANDS, /f By Default Will display any and
+  all file transfer being done on the system. Will display User-Id, File
+  Name, BPS, Uploading/Downloading, Percent Done and Protocal.
+  This program has had a Major Facelift to make it even BETTER. and is in
+  my opinion the BEST Whos On-Line Module on the market for WORLDGROUP. I am
+  also open to add text variables by request. please send email to
+  Rifleman@on-ramp.com with what you will like to have for a text variable
+  if I don't already Include it. Will run for 15 days without an Activation
+  code.
+
+
+      Rifster Time Control                     $55.00
+
+
+  This module does a couple of things. first it'll add a new global
+  for use with your BBS, This allows you to extend a users time either
+  for the good or for the bad. very useful if you have a user that has
+  spent there allowed time on-line for the day and decides they want to
+  pay and have more time. You can take time away that they have been on
+  effectively allowing him back on for that amount of time. another thing
+  that that global is good for is that it will allow you to add or take
+  time away from a user that is currently on-line. Great to Subtract
+  say 5 mins from a user to prevent him from being logged off before his
+  time limit for that call has been reached. the other part of this module
+  allows you to add Time restraints to those users with unlimited time per
+  call to stay on if the bbs isn't busy and restrict them to a configurable
+  time limit if the BBS is Busy. it can be set up to count lines 3-13
+  or any number of lines that you have configured as long as there
+  consecutive and that there is a configured channel for that line #.
+  this program will run for 15 days without an activation code.  Also
+  has a Built in Prime Time Routine with Max-Time-Per-Day, and Key
+  allowed to Logon during Primetime. Now has Different Prime times
+  configured depending on what day of the week it is when the BBS is
+  brought up.
+
+
+      Rifster Global Teleconference            $59.00
+
+  Rifsters Global Teleconference v2.80 is a full featured multi-channel
+  globalized teleconference. Action words included.  Users can participate
+  in thirty-six channels simultaneously out of two billion! Fully
+  configurable.  Commands included for sorting channels and listing public
+  channels. 30 Day Demo Available. $15 Dollar Upgrade Fee From Cheersofts
+  Version to Ours.
+
+      Rifster Line Announcer                   $49.00
+
+  This program will announce a MESSAGE to a user based on what Line he
+  is on. this program will look for a file called rifann??.txt if it
+  if present it will Display it to that user. This program is Designed
+  for a MASTERKEY holder DEMO only. This is Great for those systems that
+  wish to sell SPONSORSHIPS for their Lines. On Sysop made about $500 in
+  the first four months he has had this program. It will display a different
+  Advertisements based on the line the user is on.
+
+      Rifsters Account Display/Edit            $49.00 (WG1.x/2.0 ONLY)
+
+  This program is a Modification/Replacement to Gcomms Account Display/Edit
+  Program. It will allow you to KEY the MAJOR fields in the Editor.
+  Also allow Credit Transfers Regardless of what SHWCRD in BBSSUP.MSG
+  says. This program now has a USERCOPY utility. This program contains a
+  TWO hour Demo.
+
+      Rifsters Line Lock                       $35.00
+
+  This program will restrict calls to a specific set of lines to insure that
+  a user has a certain key to allow Entry. Great for Locking out telnet
+  callers from using your DIALUP lines give all classes a KEY except your
+  Telneters. this program is 100% configurable. and has a PRIME TIME feature
+  built in. FREE to Registered users of TIME CONTROL by Rifster Enterprises.
+  this program will run for 15 days without an activation code.
+
+      Rifsters Credit Poster                   $49.00
+
+  This Program allows the sysop of systems that have MONTHLY accounts to give
+  themselfs credits with-in limits without sysop intervention. Great for
+  those games that Require credits on a monthly On-Line service and DMA
+  servers. C/S App, Menuizable, and Global Command Available. this will run
+  for 15 days without an activation code.
+
+      Quick Mail                               $50.00
+
+
+This is the First program of it's kind a TRUE telegram program. This
+program will send a Quick one line message through the EMAIL system of your
+system to ANY valid email address that your BBS uses. IE: Netaccess, MailLink,
+Internet, Local, Ect. This program also has it's own 10 user Address Book
+that is tied into normal Email and Forums so you can use it for your regular
+messages as well. a 15 day demo is available on this product.
+
+      Low Warning                  WG3.x       $69.00
+                                   WG1.x/2.0   $49.00
+
+This program is simple but sweet it will send a Email message
+to your users that are low on Credits/Days. You can Customize the
+messages by Class or us the defualt message. Very Configurable. A 15
+day demo is available on this product.
+
+             For more information:
+
+             U.S. Mail Office Address:
+                   Rifster Enterprises
+                   400 W Winnie Lane #21
+                   Carson City, NV 89703
+
+             BBS Systems:
+                   Galacticomm Demo System (954) 583-7808,
+                   or telnet to gcomm.com library ISVRIF
+
+                   Web URL:
+                   HTTP://WWW.ADDONS.COM/RIFSTER
+
+                   Majornet:
+                   MAJORBBS.DEV.RIF
+
+             Office voice phone:
+                   (702)885-7646
+
+             To order:
+
+                   Rifster Enterprises
+                   Sales Department
+                   400 W. Winnie Lane #21
+                   Carson City, NV 89703
+
+             For credit card orders:
+
+                   AdventureComm Software, Inc.
+                   (888)463-0156
+
+             Notice: Prices and products available are subject
+             to change at any time without notice. Please contact
+             us for the latest information.
+
+             Free UPGRADE to WG3.0 all Platforms for All Worldgroup
+             product owners. Except for Low Warning in which case
+             upgrade is the Diffrence in price.
+

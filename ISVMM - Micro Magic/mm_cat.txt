@@ -1,0 +1,572 @@
+Micro Magic
+Catalog of Products
+
+(205) 971-9711 voice
+(205) 971-0064 fax
+(205) 971-0001 bbs
+http://www.magicbbs.com
+ftp://ftp.magicbbs.com/magicbbs
+keford@magicbbs.com
+keford@GCM
+lib/forum ISVMM on DEMOSYS
+
+
+
+
+---------------------------------------------------------------------------
+
+Products
+
+   * WorldGrouper - group forums, libraries, teleconferences.
+   * Web Spinner - put your libraries on the WWW.
+   * Phoenix - powerful User-ID changer.
+   * Magic Toolbox - collection of must have utilities.
+       1. Credit Wrench - modify credits by class.
+       2. Daw Wrench - modify days remaining by class.
+       3. Audit Trail Lister - list and search audit trail listing.
+       4. User Lister - custom dump userbase to text/database file.
+       5. Master File Lister - dump file list to text file.
+       6. Path Changer - change Alternate File Paths quickly.
+       7. Lock Pick - change library/forum access locks quickly.
+       8. Approve All - approve all files in a library.
+       9. Account Creator - create accounts from text file.
+      10. Channel Accountant - report channel usage by user.
+      11. Download Chainsaw - prune old and unpoplular files.
+      12. Library Rename - also checks menu tree.
+   * Magic Keys - powerful set of locks and keys.
+   * Power Keys - big programmable key macros.
+   * Module Commander - C/S access control for modules.
+   * Gravity Wars - C/S game based upon the classic.
+   * Module Barricade - password protect any menu module.
+
+Services
+
+   * Update Notification - we will keep you up to date.
+   * FERRET - search for products from ISVs.
+   * Major Links - links to Galacticomm related info.
+   * Magic BBS - our support & entertainment board.
+
+Doing Business
+
+   * Ordering Information - credit cards accepted.
+
+The End - common quick jump menu is here.
+
+---------------------------------------------------------------------------
+        Above is the index for the following products and services.
+---------------------------------------------------------------------------
+
+WorldGrouper
+
+     Search through 217 file libraries to find OS/2 GAMES?
+     Search through 138 forums to find comp.bbs.majorbbs?
+     Mix your adult teleconferences with your tele-games?
+
+     I don't think so! Group or nest message forums, file libraries,
+     teleconferences, shopping mall stores, and more by whatever categories
+     you choose. No need to replace any existing modules or functions. Uses
+     standard locks and keys as provided by Galacticomm. Keep Fidonet
+     echoes separate from Usenet news, and Adult files separate from OS/2
+     files, with this easy to use but powerful tool.
+
+     The PLUS version allows up to 10 boxes, each may contain up to 25
+     keys. The LITE version allow 1 box with up to 10 keys. The
+     documentation will explain what a box and a key represent.
+
+     WorldGrouper PLUS also includes:
+        * WorldGrouper
+        * Lock Pick from the Magic ToolBox
+        * PAGENAME and PARENT-PAGENAME pseudo keys from Magic Keys
+        * Logical AND pseudo key function from Magic Keys
+
+     Quick Specs:
+        + Price: $99/$49
+        + Latest: 1.06
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: supports both terminal and C/S GUI
+        + Download Software
+        + Screen Shots
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Web Spinner
+
+     If you need to make information available to as many people as
+     possible without investing a lot of time, then Web Spinner can help.
+     Now you can make your file libraries available via the web
+     automatically and painlessly with this HTML code generator. Web
+     Spinner can be configured to generat HTML files that can be placed on
+     any web server: Major TCP/IP, ICO, NT, UNIX, and more.
+
+     See Web Spinner in action at the follow sites:
+        * Galacticomm
+        * Fort Bragg
+        * Colorado's LawyerNet
+        * Federal Bulletin Board or the U.S. Government Printing Office
+        * Alternatives Information
+        * arcos.org
+        * BBS-LA
+        * ASTRO Online Services
+        * Nordic BBS Filkataloger
+        * Alpha Oil Tools
+        * Point Source Information Provision and Exchange System (PIPES)
+          U.S. E.P.A. Office of Water
+        * Administration for Children and Families, U.S. Department of
+          Health and Human Services
+        * Intergraph Corporation
+
+     Quick Specs:
+        + Price: $49
+        + Latest: 1.40
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: no bbs user interface required, runs offline
+        + Download Software
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Phoenix
+
+     Your users have been asking for it, now you can give it to them. Allow
+     them to change their User IDs without losing valuable on-line
+     information. Email, high scores, and captured planets can all remain
+     after the User-ID change. A developers kit will allow any ISV to add
+     Phoenix support to their programs. Even if you have a program without
+     Phoenix support, there are ways to add support outside of the program.
+     Features include a change request history, charge per use, and access
+     locks.
+
+     The following contain Phoenix support. Ask the respective vendors for
+     additional information.
+      Micro Magic      everything, of course :)
+
+      Galacticomm      The Major BBS 6.2x, Worldgroup, Entertainment
+                       Collection
+      Vircom           MajorTCP
+      Datasafe         VisaMan, POSDIAL, Global Power
+      High Velocity    Auto-Validator
+      Sirius           Game Connection, Happy Birthday
+      Farwest          Tele-Trivia
+      Rifster
+      Enterprises      Quick Mail
+                       MajorMUD, WebLines, Trivia Party, CASHere, Console
+      and others       Master, Sceptre, Cards!, Movie Party, Oops!, Word
+                       Party, Hacker Alarm, Modem Technician, anything
+                       using HWM Account Number
+
+     Quick Specs:
+        + Price: $75
+        + Latest: 1.10
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: runs A/A, C/S interface under development
+        + Download Worldgroup 2.0 version
+        + Download Worldgroup 1.01 version
+        + Download MBBS 6.25 version
+        + Screen Shots
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Magic Toolbox
+
+     Magic Toolbox is a collection of utilities including the following:
+        o Credit Wrench - modify credits by class.
+        o Audit Trail Lister - list and search audit trail listing.
+        o User Lister - custom dump userbase to text/database file.
+        o Master File Lister - dump file list to text file.
+        o Path Changer - change Alternate File Paths quickly.
+        o Lock Pick - change library/forum access locks quickly.
+        o Approve All - approve all files in a library.
+        o Account Creator - create accounts from text file.
+        o Channel Accountant - report on channel usage by user.
+        o Download Chainsaw - prune old and unpopular files from libs.
+        o Library Rename - also checks menu tree.
+
+     Quick Specs:
+        + Price: $25 each, 5 for $99, ALL for $199
+        + Latest: see individual tools
+        + Platforms: see individual tools
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Credit Wrench
+
+     Credit Wrench allows you to modify credits by class or for all users.
+     You may set credits to a fixed amount or add/subtract a number of
+     credits to the users current total. You can also generate a report
+     listing all users, their credit totals, and current class. Use with a
+     batch file utility (there are many) and you can reset credits for a
+     particular class to some value the first of each month. Great for
+     allowing only so many hours access per month to your services.
+
+     Quick Specs:
+        + Price: $25, also part of Magic Toolbox
+        + Latest: 1.20
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: offline utility
+        + Download Software
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Day Wrench
+
+     Day Wrench allows you to modify days remaining by class or for all
+     users. You may set days remaining to a fixed amount or add/subtract a
+     number of days to the users current total. You can also generate a
+     report listing all users, their credit totals, and current class. Use
+     with a batch file utility (there are many) and you can reset days
+     remaining for a particular class to some value the first of each
+     month. Great for allowing only so many hours access per month to your
+     services.
+
+     Quick Specs:
+        + Price: $25, also part of Magic Toolbox
+        + Latest: 1.00
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: offline utility
+        + Download Software
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Audit Trail Lister
+
+     Audit Trail Lister will allow you to list your audit trail by
+     specifying a begin and end date. You can also specify a search string
+     where only entries containing that string will be listed. Strings
+     could be a module name or a user name. Great for tracking the activity
+     of a particular user or module.
+
+     Quick Specs:
+        + Price: $25, also part of Magic Toolbox
+        + Latest: 1.00
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes:
+        + Download Software
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+User Lister
+
+     User Lister will list all user account data as a text file or in a
+     special format which can be read by most databases. The output format
+     is completely user definable. Output pipe delimited for Informix,
+     comma delimited for Access or Dbase, mail label format, or whatever
+     you want.
+
+     Quick Specs:
+        + Price: $25, also part of Magic Toolbox
+        + Latest: 1.10
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: offline utility
+        + Download Software
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Master File Lister
+
+     Master File Lister will create a master file list from your file
+     libraries. Need a 00FILES.TXT for your FTP site? Then you need Master
+     File Lister. Works great with Web Spinner.
+
+     Quick Specs:
+        + Price: $25, also part of Magic Toolbox
+        + Latest: 1.00
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: offline utility
+        + Download Software
+        + Screen Shots
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Path Changer
+
+     Path Changer allows you to quickly modify the Alternate Path Prefix
+     for your File Libraries with just a few keystrokes. A life saver when
+     you need to change your CD-ROM from drive D: to E: or if you need to
+     move some file libraries to a new hard drive.
+
+     Quick Specs:
+        + Price: $25, also part of Magic Toolbox
+        + Latest: 1.00
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: offline utility
+        + Download Software
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Lock Pick
+
+     Lock Pick allows you to modify certain locks on a list of file
+     libraries or message forums which you specify. No more need to edit
+     each lib or forum by hand. Do it as a batch process and save valuable
+     time.
+
+     Quick Specs:
+        + Price: $25, also part of Magic Toolbox
+        + Latest: 1.00
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: offline utility
+        + Download Software
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Approve All
+
+     If you ever need to approve all the files in one, some, or all
+     libraries then Approve All can greatly simplify the task. You provide
+     a list of libraries to process and all unapproved files in those
+     libraries will be approved.
+
+     Quick Specs:
+        + Price: $25, also part of Magic Toolbox
+        + Latest: 1.00
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: offline utility
+        + Download Software
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Account Creator
+
+     Create accounts offline from information in a text file.
+
+     Quick Specs:
+        + Price: $25, also part of Magic Toolbox
+        + Latest: 1.00
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes:
+        + Download Software
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Channel Accountant
+
+     Generate reports of who is using which channels and how much? Great
+     for helping with special billing needs.
+
+     Quick Specs:
+        + Price: $25, also part of Magic Toolbox
+        + Latest: 1.00
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: offline utility, not yet available
+        + Download Software
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Download Chainsaw
+
+     List download counts for all files or a set of libraries or just the
+     totals for these libraries. You can also specify only files of a
+     certain age or popularity. Once listed you can also request that those
+     files be killed and removed from your system. Helps keep old and
+     unpoplular files from wasting your drive space and cluttering file
+     listings as seen by your users.
+
+     Quick Specs:
+        + Price: $25, also part of Magic Toolbox
+        + Latest: 1.00
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: offline utility
+        + Download Software
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Library Rename
+
+     Library Rename will rename a file library. You can also ask it to
+     attempt to modify any alternate file paths and any command strings in
+     the menu tree which may contain the library name.
+
+     Quick Specs:
+        + Price: $25, also part of Magic Toolbox
+        + Latest: 1.00
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: offline utility
+        + Download Software
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Magic Keys I
+
+     Magic Keys is an eclectic set of locks and keys for The Major BBS and
+     Worldgroup system operator. They make a powerful addition to your
+     toolbox to assist in securing and customizing your system.
+
+     All Magic Keys can be intermixed with other Magic Keys, key sets from
+     other vendors, and pseudo keys built into the Galacticomm software.
+     This will allow you to address complex situations. All keys are fully
+     sysop configurable.
+
+     Magic Keys currently contains the following keys. More keys are
+     planned for the future. If you would like to request a special key,
+     please contact Micro Magic.
+
+     Includes:
+          HAS-CREDITS, EXEMPT-FROM-CREDITS, AND, OR, NOT, DAY-OF-WEEK,
+          TIME-OF-DAY, PRIME-TIME, SEX, AGE, CHANNEL-GROUP, CHANNEL
+
+     Here are a couple of keys you can create with Magic Keys and a
+     description of what they do.
+
+     _A_PAY_A_Y18: Only allow paying users who are 18 or older to access
+     your adult GIF files.
+
+     _O_N_PT1_O_G3: Only allow access to teleconference if user is
+     accessing via telnet (channel group 3) or if it is not Prime Time for
+     your system.
+
+     Quick Specs:
+        + Price: $49
+        + Latest: 1.45
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: PARENT does not work with Worldgroup
+        + Download Software
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Power Keys
+
+     Not yet available, currently in beta test. Will offer keys that can be
+     bigger than the current 15 character limit. Much Bigger. And, they
+     will be programmable too making Power Keys the most powerful and
+     flexible psuedo key package available.
+
+     Quick Specs:
+        + Price: $??
+        + Latest: X.XX
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: not yet available
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Module Commander
+
+     Control access to C/S modules. If user does not have a particular key
+     then display a message. Great for advertising how to purchase
+     exteneded access. Require a password to continue. Grant a key when
+     they enter. Charge credits to use option. Launch module or URL based
+     upon class of user.
+
+     Quick Specs:
+        + Price: $??
+        + Latest: X.XX
+        + Platforms: Worldgroup 1.x & 2.x
+        + Notes: not yet available
+        + Download Software
+        + Screen Shots
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Module Barricade
+
+     Place a password on any module. Go beyond the limits of locks and
+     keys. When a user selects a barricaded module from your menus, they
+     must enter the password to gain access. Use with WorldGrouper to
+     barricade individual or groups of File Libraries and Message Forums.
+
+     Quick Specs:
+        + Price: $39
+        + Latest: 1.00
+        + Platforms: MajorBBS 6.x, Worldgroup 1.x & 2.x
+        + Notes: C/S interface under development
+        + Download Software
+        + Screen Shots
+        + View Documentation
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Gravity Wars
+
+     The only thing to worry about are your enemies and the fundamental
+     laws of gravity. Enter this fire fight but be smart enough to shoot
+     around the planets. Create private games. Design your own ships.
+
+     Quick Specs:
+        + Price: $XX
+        + Latest: X.XX
+        + Platforms: Worldgroup 1.x & 2.x
+        + Notes: not yet available, C/S only
+        + Screen Shots
+        + Buy It
+
+                           [ -- top -- end -- ]
+---------------------------------------------------------------------------
+
+Ordering Information (Buy It)
+
+     We accept VISA, Master Card, American Express, Purchase Orders, Money
+     Orders and Checks drawn on US funds. See our Company Info page for
+     information on contacting us to place your order. If you choose our
+     "Green" shipping method there is no charge. Simply download our
+     product, purchase the activation code, and print the documentation if
+     you need a hardcopy. Other special shipping options available. We ship
+     via Federal Express and US Postal Service.
+
+     All Micro Magic products are transferrable six months after purchase
+     with an accompanying transfer fee. Ask for details.
+
+     Prices subject to change without notice.
+
+     (back to top)
+
+     ----------------------------------------------------------------------
+
+
+        [ Company_Info | Product_Info | Ferret | Register | Major_Links |
+              Magic_BBS | Friends | Update_Notification | keford ]
+         Last updated 12-NOV-96 by keford@magicbbs.com at (205) 971-9711

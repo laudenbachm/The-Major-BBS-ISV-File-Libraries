@@ -1,0 +1,83 @@
+Command Center -- Release Notes
+
+* IMPORTANT NOTICE *
+* EXISTING COMMAND CENTER CUSTOMERS *
+* IMPORTANT: YOU NEED A NEW ACTCODE! *
+
+  Actcodes are available by submitting your information to us by e-mail to
+  bladerunner@colis.com, by telephone at (809) 922-5201 or (809) 922-5173,
+  or by FAX to (809) 922-9036.  Ensure that you provide us with your e-mail
+  address so that we can transmit the activation code to you when generated.
+  If you are a Cyberware CC customer we must have proof of your existing
+  ownership before we can provide you with an activation code for the
+  transfer cost only.
+
+  The cost of transferring your ownership of Command Center is $15.00.  For
+  information on upgrading to WG 3 versions, download PRICES.TXT from the
+  ISVSFA file library on the Galacticomm Demo System (demosys.gcomm.com).
+
+  You can also contact us by dialing in directly to our BBS, creating an
+  account and leaving e-mail to Sysop or Support, but we do not recommend
+  this because of the long distance charges you will incur.
+
+
+
+Version 3.03 (28 March 1997)
+---------------------------
+
+A.  BUG FIXES
+=============
+
+There have been no bug fixes since the last revision.
+
+
+B.  NEW COMMANDS
+================
+
+There have been no commands added since the last revision.
+
+
+C.  CNF OPTION CHANGES
+======================
+
+The following new CNF options have been added or changed:
+
+Key: {} = option type 
+     [] = default
+     <> = numeric range
+     () = determined by option setting
+
+  SYSNIK   : {BOOLEAN} YES [NO]
+             This option determines whether users who are NOT MASTER key
+             holders are allowed to use the word "SYSOP" in their nicknames.
+             Prior to this option  Command Center would allow this behaviour
+             which could be potentially confusing to other users because
+             global chat messages from users include their nickname.
+
+
+D.  TEXT VARIABLES
+==================
+
+There have been no changes to text variables since the last revision.
+
+
+E.  ADDITIONAL NOTES
+====================
+
+No additional notes.
+
+Soft Arts Ltd.
+66 & 68 Barry Street
+1st Floor
+Kingston
+Jamaica, W.I.
+
+Tel.#s : (809) 922-5201/5173 Voice
+         (809) 922-9036      Fax
+         (809) 922-7990      BBS
+
+E-mail us with comments, suggestions, etc. at-
+    bladerunner@colis.com
+
+
+(end of release notes)

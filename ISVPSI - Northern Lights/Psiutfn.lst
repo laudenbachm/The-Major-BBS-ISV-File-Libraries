@@ -1,0 +1,188 @@
+These are a list of functions available in PSI's utilities.
+
+-----------------------
+
+Features:
+
+All LEVEL3 and LEVEL4 configurations are online for your convenience.
+Command concatenation and optional changing of commands to suit
+your system has been programmed in.  We decided to code more powerful
+commands and let the sysops determine how they are used rather than to
+limit them.
+
+Several functions are offered FREE and will work without registration,
+but we are sure if you use these functions, you will get to like them
+and send in the small reg fee. :)
+
+-----------------------
+
+BRIEF LIST
+
+
+1.  Keyring Search                  FREE
+2.  True User Listing               FREE
+3.  Userid Changer
+4.  New User Creator
+5.  Day Add to class
+6.  Credit Add to class
+7.  Key'd account editor
+8.  Day->cred cred->day swap
+9.  Birthday notifier
+10. Low on creds/days email notifier
+11. Certificate creation and redemption
+
+
+DETAILED LIST
+
+FREE Functions available:  (will not EXPIRE)
+
+(I put the free ones on the top because everyone likes free stuff)   :)
+
+
+Search keyring   :       <FREE> <FREE> <FREE> <FREE> <FREE>
+
+    Allows a sysop to search thru personal, class, and master key rings
+    of every user/sysop on the system.  Allows you to search for
+    exact matches or close matches.
+
+
+True List Users  :       <FREE> <FREE> <FREE> <FREE> <FREE>
+
+    This command will pull infomation out of the LEVEL6 msg for each
+    account, and displays it to the users screen.  On my system, we
+    display only the userid and last line of their address, (City, State
+    and ZIP), but you can configure the LEVEL6 for any of PSI's text
+    variables.  A list of the variables are in the docs.  This also
+    allows 'parsing' of that line.
+
+    Example: listusr ted -- will display all lines with the word 'ted'
+    in them.  Powerful search utility if you limit it to sysop only and
+    put full account information in it.
+
+
+
+Functions:
+(we hope you will use these and want to reg the prog!)
+
+SYSOP COMMANDS
+-----------------------
+
+These commands are primarily used by sysops on my system.
+
+
+Sysop change userid :
+
+    Just like the change userid function below, but the sysop can enter
+    in variable credit charges for name change, confidentiality, and
+    suspend or delete the account.
+
+New User creation:
+
+    This allows a sysop to create new users on the fly by typing in
+    only the fields (s)he wishes, (besides the required userid and
+    class).  It uses a full screen editor and is easy to use.  There
+    is also an optional email sent to the user or another address
+    from LEVEL6 messages.
+
+Day Add         :
+
+    Allows a sysop to add days to a class or many classes on the fly.
+    Optionally emails the user who received days about adding the
+    days to their account.
+
+Credit Add      :
+
+    Allows a sysop to add credits to a class or many classes on the
+    fly.  Optionally emails the user who received the credits about
+    adding them to their account.
+
+
+Certificate create:
+
+    Allows a sysop to create certificate numbers for redemption by
+    users.  Can change a class, add days or credits to a user's
+    account by them redeeming a code.
+
+
+USER COMMANDS (mostly)
+-----------------------
+
+UserID changer   :
+
+    This allows a user to change his/her userid by answering simple
+    questions.  The userid will follow guidelines set by you in
+    your configuration for normal userids, (profanity checking,
+    numbers in userids, etc).  Charges are assessed via the online
+    configuration by the sysop.  Optional charges can be allowed for
+    confidential name changes, which are left out of the user listing.
+    Charges even apply if the user is 'credit exempt' unless they
+    have the 'exempt' key, (in the online configuration).
+
+    Sysops may also configure if the account is to be suspended or
+    deleted by default.
+
+
+List userid changes:
+
+    Sysop access will display the last # of names which were changed,
+    (also determined by sysop configuration), showing who changed their
+    name, the name changed to, date, time and if it was confidential.
+
+    For the normal user, the list command will only list non-confidential
+    account changes, if they have access.
+
+
+Account Editor   : (obsolete in WG3.0)
+
+    Normally, there would be no need to have an account editor but if
+    your system is like my system, when someone decides to leave your
+    system with their 3 bad checks, they don't want you to have their
+    phone number or address, so they will put a bunch of garbage in
+    their account.  What the account editor does is allow a sysop to
+    block fields in their account they cannot access, such as real name,
+    address, phone number, sex, birthdate, etc.  Even if you leave access
+    to all fields, if you toggle on the logging for the account editor
+    their OLD information is logged to disk for you to go back thru
+    when you have time, or need it.
+
+    SYSOP FUNCTIONS:
+
+    As a sysop, there are times when you might want to edit someones
+    information from remote instead of on console or via client server.
+    If you type in 'user userid' where the userid is the user you want
+    to edit, their information will appear and you may edit it at will.
+    Once in the user editor, if you change the 'userid' field, it will
+    load up the next person.  You do not have to type in the full name,
+    just enough to differentiate between the next user.
+
+
+Swap Days/Credits:
+
+    These functions allow a user to swap days for credits or credits for
+    days.  The exchange rate is set online via configuration.  Max days
+    per month that a person can exchange may also be configured.
+
+
+Redeem           :
+
+    This function allows a user to redeem a code created by a sysop
+    for credits, days, or membership.
+
+
+INTERNAL FUNCTIONS
+-----------------------
+
+Birthday Notification :
+
+    Posts a birthday message to a user on logon and optionally posts
+    them credits.  If they have access to getting credits, it displays
+    one message, else it displays another (we use it for members and
+    non-members).  If it's keyed 'DISABLE', the function is disabled.
+
+Email Notification    :
+
+    This function will notify users on the system of low days or credits.
+    The thresholds are set by the sysop in the configuration.  Great
+    for getting in payments early.  We set ours to 10 days and 3 days
+    out.  Works for C/S and PPP users as well.
+

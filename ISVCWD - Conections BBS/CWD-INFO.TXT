@@ -1,0 +1,259 @@
+
+         +=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+
+         [  SOFTWARE CATALOG      |  CONNECTware Development   ]
+         [  CONTACT INFORMATION   |  CONNECTions BBS           ]
+         [  PRICE LIST            |  ISVCWD                    ]
+         [  January 27th, 1998    |  Prowler Productions       ]
+         +=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+
+
+  -=-=- 1/27/98 -=-=- What's NEW! -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+   We now accept CREDIT CARD registrations. All our products may be
+   purchased directly from us via credit card (Visa/Mastercard). A
+   small processing fee may apply (ask for details). To purchase by
+   credit card, please provide your card #, card type, name on card,
+   and expiration date, along with a filled-out register.txt (which
+   is a file that comes in our program/game .zip's). To purchase by
+   credit card, or for more information, contact Tonya (ladybug@cxo.com).
+
+   The 1997 Lunatix IGM contest has ended. Congrats go to Brandon Burch
+   (1st place, $100, with "Sadie's Brothel"), Mark Wrynn (2nd place,
+   $65, with "Chou's Eggroll Emporium"), and Don Reichert (3rd place,
+   $35, with "Psycho Swamp"). These winning IGM's, as well as 4 other
+   entries, are availible *FOR FREE* for download: LUNIGM97.ZIP.
+
+  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+   Our software is released as "ShareWare" which means you have the chance
+   to try it before you buy it. Although each product has certain
+   limitations, the shareware versions NEVER expire!
+
+   If you wish to upgrade your version of any of our products, simply
+   download and install the latest version! Your ShareWare version will
+   continue, with no need to reset the player/user files at all.
+   
+   When you register, your purchase remains good through any upgrades.
+   Simply download and install the latest version, and viola! You'll be
+   running the latest version, still registered, with no need to reset
+   the player/user files.
+
+   When upgrading, there is no difference between the Registered program
+   and the ShareWare version of the program. If you were running the demo
+   version when you upgrade, you'll continue to run the demo version.
+   If you were running the Registered version, you'll continue running the
+   registered version. So, upgrading is EASY! Stay current with the
+   latest releases for no extra charge!!!
+
+   An "upgrade" is defined as a product version beginning with the same
+   number. For example, Lunatix 5.3E is considered an upgrade to Lunatix
+   5.0A. Lunatix 6.0A, however, would be a brand new game.
+
+-=-=- LUNATIX -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Version 5.xx
+
+      Lunatix, for use with Worldgroup & MBBS. Now is the time to express
+  your insanity, play pranks on other patients, attack each other, flirt
+  with the nurse or other patients, and discover tons of other things to
+  do in this RPG/Adventure game as you attempt to escape! Lunatix has
+  been a hit with Sysops & Players since its original release & it's
+  still going strong!
+
+  Features include: ONLINE CNF config (no need to take the BBS offline)
+                    A Loan Shark (Genghis Khan)
+                    NEW transfer crazy bucks option
+                    Useful ITEMS such as a rope, antimatter, Crazy
+                       Statue, Killer Sphere, CodeBreaker, Valentine...
+                    A "chat wall" in the cafeteria
+                    A lab for mixing potions
+                    TELECONFERENCING! (Whispers, direct messages, global
+                       in-game gossip, and lots of "action" words!)
+                    Native IGM support! Lunatix is truly MODULAR!!
+                    Player-to-Player flirting (or flirt with a nurse)
+                    Player-to-Player in-game mail!
+                    Color Codes (player names can even be in color)
+                    Lots more! Install it and find out for yourself!!
+
+      We constantly get great feedback from Sysops and players. Lunatix is
+  an instant hit. Players love the competition it provides. The IGM add-ons
+  are very popular as well. Lunatix is easy to play at the surface, but
+  contains many things a player can discover, with lots of techniques and
+  tricks to make game play even more fun!
+
+  The latest version for WG1/2/MBBS is LUNAT*.ZIP ("*" is the version).
+  The latest version for WG3/NT/WIN95 is LUNWG*.ZIP ("*" is the version).
+  The latest version for WG3/DOS is LUNWD*.ZIP ("*" is the version).
+
+-=-=- DISTANT PLACES -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Version 1.xx
+
+      Distant Places is an add-on for Robinson Technologies' popular
+  Tournament Legend of the Red Dragon add-on (T-LORD) for WG1/2, MBBS6.25,
+  and WG3 (Win95/NT only). Because T-LORD was originally going to be
+  released with a scripting language somewhat like you see in Lunatix,
+  we were disappointed when Seth chose to release T-LORD with IGM support
+  requiring "true" WG/MBBS IGM modules instead.
+
+      This presented a number of disadvantages. Only those people who
+  own a Worldgroup Developer's Kit (all the tools you need are VERY
+  expensive) could develop IGM's. You would have to be a C++ programmer,
+  with a fair amount of skill, to write a T-LORD IGM. For a sysop,
+  modules use memory to load, so a game with 20 T-LORD IGM's would be
+  using a sizable chunk of RAM! Also, with no constraints, "true" IGM
+  modules would have the ability to do anything they darn well
+  please -- award billions of gold... make the player a level 12 even if
+  they were level 1, and so on. This would be a nightmare for players
+  who wanted a fair game. Also, T-LORD IGM's might cost $25 to $50 or
+  potentially even more! 20 of them would be a nice amount of money!
+
+      Distant Places was created to fill a vast void (the lack of T-LORD
+  IGM's) and help eliminate these problems. DP is an IGM for T-LORD,
+  conforming to the guidelines of a WG/MBBS IGM module. However, its
+  sole purpose is to give T-LORD the much-needed ability to run "script"
+  IGM's -- just like in Lunatix but customized for T-LORD. Anybody can
+  create a script IGM, and the kit to write them is free! DP provides
+  built-in constraints so prevent IGM's from being written that award
+  billions of gold or increase the player's level. Scripts don't require
+  extra RAM to run. After DP is loaded, you could have 1 script or 100
+  scripts -- you wouldn't notice a single byte more of RAM being used!
+  Many DP IGM's are free. Even the ones that aren't range from $5 to
+  $10, which is definitely more affordable.
+
+  Look for the latest version as: CWDLI*.ZIP where "*" is the version.
+  The latest version for WG3/NT/WIN95 is CWDLG*.ZIP ("*" is the version).
+
+-=-=- MYSTIC MESSAGES -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Version 2.xx
+
+      Mystic Messages, for use with WG1/2 and MBBS6.25, was the first
+  module ever to be released by Prowler Productions. At a glance, it's
+  a graffiti wall. The most common response is "So? I already have one!"
+
+      MM is more than just an ordinary "add an anonymous line" wall. In
+  fact, it's MUCH more, but it's no more difficult to use than those
+  walls that do much less!
+
+     >> Users can post ANSI's to the wall! Select from a set of built-in
+        pictures including a heart, flowers, a cigarette, "wanna play
+        house?" "I love you" "You loooooser" and many many more! The
+        ANSI's are small and fit right onto the wall! REAL Graffiti! If
+        needed, you can even disable this feature.
+     >> Define up to 4 price levels for posting these ANSI's. Simple
+        ANSI's for 200 credits, up to the best ANSI's for 2000 credits.
+        Set this yourself to more or less (or free) and even give
+        a "no charge" key to users you don't wish to charge at all.
+     >> Sysops can set a KEY required to read the "real" names of the
+        message posters, otherwise message appear anonymous. The default
+        key is SYSOP.
+     >> Users can write messages in Lunatx-style color! It's easy!
+        `9J`3oe `9B`3ob `$`4``WAS `%HERE!!!`h`7 :)
+     >> Users who don't know how to use colors codes can easily write
+        messages without color:
+        Joe Bob WAS HERE!!! :)
+     >> Built-in "help" provides a quick way to learn how to use colors.
+     >> Colors can be used GLOBALLY on the bbs -- in /P pages, inside
+        teleconference, in E-Mail (if using the line-edit mode), in the
+        user registries, and more! If this isn't desirable, Sysops can
+        disable MM global colors (but most BBS's LOVE the global colors).
+     >> The color key can be changed by the sysop. does the ` key pose
+        a conflict with another module? No problem. Change it to + or
+        \ or one of several others.
+     >> Are some users abusing the wall, or using it in violation of
+        the BBS rules? Not a problem -- simply give them the "No Wall"
+        key (defaults to NOMMWALL) to keep them out! This could even be
+        used for the opposite reason -- so that only paying users can
+        get in!
+     >> Sysops (or an MM-wall-OP, if given the key) can erase individual
+        lines (messages) from the wall, or blank out the whole thing!
+     >> Messages expire after 3 days to keep it "current." However, set
+        it up to expire every day... every week... every month... or
+        never at all!
+     >> Using Worldgroup's built-in "cuss-checker" you can prevent
+        obscene messages from being posted - or allow them if you wish!
+     >> Users can read the wall forward (newest messages appear at the
+        bottom so it's all shown in consecutive order) or backward (new
+        messages appear at the top, the way some other walls do it).
+
+      For all its configurability and its many features, Mystic Messages
+  remains one of the best-kept secrets we have (not sure why). It's VERY
+  inexpensive, offers INCREDIBLE easy-to-use global colors, REAL GRAFFITI,
+  and tons of options for the sysop... yet it's very SIMPLE to use!
+
+  Look for the latest version as: MMESS*.ZIP where "*" is the version.
+
+-=-=- CURRENT PRICE LIST -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+    When purchasing any of our modules, you must ALWAYS provide a
+    register.txt file. This is a file, included in the .ZIP with all
+    our products, which you must fill out with your name, BBS name,
+    and other vital information. Without register.txt we CANNOT and
+    WILL NOT process your registration. If you use Lunatix, register.txt
+    can be found in the bbs's LUN5DOCS directory. When purchasing Lunatix
+    online via MIDAS, you must email register.txt to us. When purchasing
+    via physical check, print and fill out register.txt and include it
+    with your check in the envelope. Make checks payable to CONNECTions.
+
+----> Lunatix <----
+
+  Lunatix for WG1/2/MBBS6.25 unlimited simultaneous users in-game.. $ 300
+  Lunatix for WG3 (Win95/NT) unlimited simultaneous users in-game.. $ 300
+  Lunatix for WG3 (DOS) unlimited simultaneous users in-game....... $ 300
+
+----> Lunatix Lite <----
+
+  (All registered features enabled except limit of 2 users in-game)
+  Lunatix for WG1/2/MBBS6.25 limit of 2-users simultaneously....... $ 150
+  Lunatix for WG3 (Win95/NT) limit of 2-users simultaneously....... $ 150
+  Lunatix for WG3 (DOS) limit of 2-users simultaneously............ $ 150
+
+----> Lunatix Lite to Lunatix Full Upgrade <----
+
+  Lunatix for WG1/2/MBBS6.25 upgrade 2-user to unlimited user...... $ 150
+  Lunatix for WG3 (Win95/NT) upgrade 2-user to unlimited user...... $ 150
+  Lunatix for WG3 (DOS) upgrade 2-user to unlimited user........... $ 150
+
+----> Distant Places <----
+
+  Distant Places T-LORD add-on for WG1/2/MBBS6.25.................. $  40
+  Distant Places T-LORD add-on for WG3 (WIN95/NT).................. $  40
+
+----> Mystic Messages <----
+
+  Mystic Messages for WG1/2/MBBS6.25............................... $  20
+
+                               -=-=-=-=-=-
+
+  NOTE: For products which have both a WG1/2 and a WG3 version, the
+        upgrade to WG3 is FREE. Just email akiss@cxo.com with a request.
+
+    By-Mail registrations should be sent, with a check for the
+    appropriate ammount, to: CONNECTions BBS
+                             P.O. Box 568
+                             Kechi, KS  67067-0568
+
+    You may also write a check online (our most common method of purchase)
+    by dialing CONNECTions BBS (316-682-7346) or telent to bbs.cxo.com.
+    Contact a sysop (Lady Bug or Adar) to receive a key which will allow
+    you to make a purchase through MIDAS. You'll receive your code within
+    24 hours via email!
+
+    Credit Card registrations are also accepted now!
+
+    All prices are subject to change without notice.
+
+-=-=- CONTACT INFO -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+       Technical Support: Mike Snyder (wyndo@cxo.com)
+
+       Sales Information: Tonya Robertson (ladybug@cxo.com)
+                          Gregg Bragg (adar@cxo.com)
+                          DataSafe (david.kerl@dsafe.com)
+
+         CONNECTions BBS: Direct Dial: 316-682-7346
+                          Telnet: bbs.cxo.com
+                          Web URL: http://www.cxo.com/
+                          ISVCWD: http://www.cxo.com/cwd/
+
+    Prowler Procductions: Web URL: http://www.cxo.com/~lunatix/
+                      
+      Enhancement/Feature Suggestions should be sent to:
+                          Mike Snyder (wyndo@cxo.com)
+                          Anna Kasl (akiss@cxo.com)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

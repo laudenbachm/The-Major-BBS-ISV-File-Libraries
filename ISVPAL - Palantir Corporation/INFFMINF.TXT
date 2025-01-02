@@ -1,0 +1,51 @@
+				  Form Manager
+
+
+Form Manager lets you present an on-line form for your users to fill out. 
+Each form is an 80 character by 24 line input screen which supports 
+full-screen data entry, tabbing, and edits. You can have up to 25 forms with 
+100 fields on each form.
+
+With a little ingenuity you'll find Form Manager can be used for a variety of 
+applications. Here are just a few:
+    Event Registration Form -- to sign up for conferences, etc.
+    Special Access Request -- grant a key upon filling out form 
+    Mailing List  -- print mailing labels from information captured
+    Product Support -- users register problems with products on-line
+    Order Entry Form -- prompt for shipping address and credit card number
+    Loan/Insurance Application -- make important fields required entry
+
+Form Manager permits you to assign edits to constrain the values entered 
+in fields.  The following edits are available:
+   numeric only
+   yes/no only
+   date field
+   minimum value
+   maximum value
+   multiple choice (user chooses from a limited list of values)
+   suggested choice (choose from list or enter your own value)
+   required field
+   spaces prohibited
+
+Fields can be set as SECRET ("*" is displayed instead of the actual value). 
+This is useful for passwords and other sensitive information.  
+
+Fields can also be assigned a default value that will be used unless changed 
+by the user.
+
+Information can be written to an ASCII file or a dBase-compatible file.  
+The userid of the person filling out the form and the date/time the form was 
+filled out can be automatically captured to the file.  Copies of the form 
+can be sent by e-mail to a default userid or a userid specified by the 
+person filling out the form.  You can also set up the form to grant a key to
+users who fill it out (reward for taking a survey, for example).
+
+
+Form Manager - $495
+    supports ASCII and ANSI-mode users (compatible with Worldgroup)
+
+Form Manager for Worldgroup - price to be determined
+    supports Worldgroup-client users
+
+Expected release date of Form Manager for Worldgroup is December 4.
+

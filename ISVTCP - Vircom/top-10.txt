@@ -1,0 +1,185 @@
+                Top 10 Reasons To upgrade to MajorTCP/IP
+                ----------------------------------------
+
+Early in 1994, Vircom shook the MajorBBS world by shipping the first 
+release of what was to become a success story: MajorTCP/IP.
+
+MajorTCP/IP enabled MajorBBSes from all over to world to connect to 
+the Internet, something that had been possible only with complex UNIX 
+or Netware based hybrid systems. 
+
+For some time, MajorTCP/IP was the only choice Sysops had if they 
+wanted to connect their system to the Internet. While other options 
+now exist, we hope that the following chart and associated text will 
+convince you that, in 1996, MajorTCP/IP is still the best solution 
+when connecting your Worldgroup/MajorBBS server to the Internet or 
+TCP/IP Intranets.
+
+Choose the leader, the innovator, Vircom's MajorTCP/IP!
+
+
+
+                                        MajorTCP/IP 2.00  ICO/AIO 2.1
+                                        ----------------  -----------
+1.  Save on User Six-Packs                      Yes            No
+2.  Multi-homing: Telnet/Rlogin Server          Yes            No
+    (Virtual BBS)
+3.  Multi-homing: SMTP Email                    Yes            No
+    (Virtual Domains)
+4.  Multi-homing: WebServer                     Yes            No
+    (Virtual Web Sites)
+5.  Multi-homing: FTP Server                    Yes            No
+    (Virtual FTP Sites)
+6.  Distributed MajorBBS Architecture           Yes            250$
+    (DMA Client)
+7.  Password Authentication Protocol (PAP)      Yes            No
+8.  Automatic DNS negotiation in PPP mode       Yes            No
+9.  WebServer: Password (key) protected pages   Yes            No
+10. Rlogin+ scripting                           Yes            No
+
+
+1.  Save on User Six-Packs
+--------------------------
+
+One of the most costly areas for Worldgroup/MajorBBS is the User 
+Six-Packs.  With MajorTCP/IP, User Six-Packs are not required for most 
+of our features, therefore saving you a lot of money.
+
+Some Web browsers can be configured to make multiple requests on the 
+server simultaneously; for example, to download images from a Web 
+page. Netscape(tm) can be configured to make up to six concurrent 
+requests. With ICO/AIO, you would require a whole User Six- Pack for 
+a single person browsing on your server.  The money you save with 
+MajorTCP/IP on User Six-Packs alone pays for our software.  
+
+Features requiring User-Count License   MajorTCP/IP 2.00  ICO/AIO 2.1
+(Six-Packs)
+                                        ----------------  -----------
+1.  Web Server                                 No             Yes
+2.  NNTPD Server                               No             Yes
+3.  SMTP Server                                No             Yes
+4.  POP3 Server                                No             Yes
+5.  Incoming Telnet/Rlogin                     Yes            Yes
+6.  Outgoing Telnet/Rlogin                     No             No
+7.  Telnet/Rlogin Dialout Emulation Channels   Yes            Yes
+8.  DMA Client                                 No             No
+9.  FTP  Client                                No             No
+10. FTP Server                                 Yes            Yes
+11. IRC Client                                 No             No
+12. Finger Server                              No             Yes
+13. Finger Client                              No             No
+14. IdentD Server                              No             Yes
+
+
+2.  Multi-Homing: Telnet/Rlogin Server (Virtual BBS)
+----------------------------------------------------
+
+Your Worldgroup server can be configured to listen to multiple IP 
+addresses, providing a powerful method of hosting multiple virtual BBS 
+on the same Worldgroup server.  When a Telnet/Rlogin connection is 
+established, MajorTCP/IP defines a pseudo-key based on the IP address 
+called.  Used in conjunction with products such as Wilderland Software's 
+Virtual User, different login screens and menu trees could be displayed.
+
+
+3.  Multi-Homing: SMTP Email (Virtual Domains)
+----------------------------------------------
+
+The domain added to the User ID on outgoing E-mails can be different 
+based on the user's class.  Added to MajorTCP/IP's multiple mail 
+aliases, it is possible to truly handle mail for different domains.  
+There is no limit of virtual mail domains on the same Worldgroup server.
+
+
+4.  Multi-Homing: WebServer (WWW Virtual Domain)
+------------------------------------------------
+
+Based on the IP address the WWW request came for, web pages stored in 
+different directories will be transmitted to the browser.  Since the 
+information is kept in distinct menu tree structure for each IP 
+address, maintenance of the client's web site becomes an easy task. 
+Our Web server can keep independent access log files for each Web site 
+and, when combined with our Extended Log Format feature, it becomes a 
+simple procedure to compile statistic/billing information for each Web 
+site using log analyzers such as WebTrends(tm).
+
+5.  Multi-Homing: FTP Server (Virtual FTP Sites)
+------------------------------------------------
+
+A seperate anonymous class can be created for logins in each different
+IP address defined on the system.  This allow Sysops to create
+"virtual" anonymous FTP site that will give access to different sets
+of libraries, depending on the FTP Server address (or hostname)
+selected by the user.
+
+
+6.  Distributed MajorBBS Architecture
+-------------------------------------
+
+The Distributed MajorBBS Architecture (DMA) allows you to distribute 
+part of your Worldgroup/MajorBBS services and DLLs to other computers 
+on your Local Area Network (or to other sites on the Internet) while 
+making this transparent to your users. With this setup, you can keep 
+the main server busy answering your modems, while the more 
+hardware-intensive modules are running on another computer, thus 
+improving speed and reliability. 
+
+The DMA Client is included in the Combo version of MajorTCP/IP, 
+whereas the DMA Client for ICO/AIO costs 250$.
+
+
+7.  Password Authentication Protocol (PAP)
+------------------------------------------
+
+Our SLIP/CSLIP/PPP dialer (to connect to your provider via modem) and 
+our SLIP/CSLIP/PPP server (to allow your customers to connect to you) 
+supports PAP in PPP mode. This allows for scriptless connections with 
+Windows 95/NT. All you or your Windows 95/NT customers need to do is 
+to configure the username, the password and the phone number to dial 
+to. That's it! When connecting to your provider in PPP mode, your 
+provider must support PAP in order to connect using this method. 
+(Note: For Windows 3.x and Trumpet WinsockT users, the only thing you 
+need to set up in the script is the dialing procedure to your server.)
+
+ 
+8.  Automatic DNS negotiation with PPP
+--------------------------------------
+
+A Domain Name  Server address will be assigned and automatically 
+configured if the customer is using a dialer that supports it, such as
+Windows 95/NT
+ 
+When combining the last two features mentioned, customers using 
+Windows 95/NT can connect to your server as if connecting to any other 
+ISPs. However, this procedure may even be easier than connecting to 
+other ISPs, since not every ISP has an environment with so many 
+advantages and features.
+
+
+9.  WebServer: Password (key) protected pages
+---------------------------------------------
+
+Access to some pages can be secured either with an IP address or a 
+key.  In the latter case, the browser will prompt the user for a BBS 
+userid & password. The server will then check to see if that user has 
+the proper key to view the page. This can be used to create a secured 
+menu tree with web pages, just like the terminal or client-server menu 
+trees. 
+
+
+10.  RLogin+ scripting
+----------------------
+
+You can use our RLogin+ proprietary protocol to pass values to an 
+external server (UNIX, DMA) if you wish to run one alongside to your 
+main server.  This allows you to have the flexibility over UNIX 
+servers to run Archie, Gopher and many other applications. Some of 
+our clients have used this scripting capability to integrate Wildcat 
+5 servers as services within a WorldGroup system. Furthermore, you 
+can make RLogin+ connections transparent to your users, so it all seems
+like a tight integrated environment.
+
+
+
+
+Rev: October 31st/96

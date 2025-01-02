@@ -1,0 +1,26 @@
+Product		Price	Demo?		Interface		Platform/WG version
+				ANSI	C/S	A-HTML	2.0	3.0DOS	3.0NT	3.12DOS	3.12NT		
+Infibase	$695	y	y	y	n	y	y	y				
+Form Manager	$495	n	y	y	n	y	y	y				
+Document Viewer	$149	n	n	y	n	y	y	y				
+Powerbase	$995	y	n	y	n	n	n	y				
+Socrates	$995	y	y	y	n	y	y	y				
+Publisher	$995	n	n	y	n	y	y	y				
+												
+Games												
+Cybertank	$295	y	y	n	n	y	y	y				
+Ringmasters	$99	y	y	n	n	y	y	y				
+Flowershop	$99	y	y	n	n	y	y	y				
+Bingo		$149	y	y	y	n	n	y	y				
+
+Chat games												
+Brawl		$149	y	y	y	n	y	y	y				
+Food Fight	$149	y	y	y	n	y	y	y				
+TeleChat Trivia	$149	y	y	y	n	y	y	y				
+The Doctor	$99	y	y	y	n	y	y	y				
+
+Utilities												
+User Commission	$149	n	y	n	n	y	y	y				
+Big Brother	$50	y	y	n	n	y	y	y				
+Major Jail	$25	y	y	n	n	y	y	y				
+												

@@ -1,0 +1,1318 @@
+LANGUAGE {English/ANSI},{English/RIP}
+
+LEVEL0 {}
+FILE01   {TTIHOR.MSG} Horses Message Base
+
+LEVEL3 {}
+
+ This Key will allow access to the Horse Track
+ Sysops Menu.  Anyone having this key will be able
+ to change certain configuration variables, as well
+ as add and delete horses from the data base, and
+ reseting High Scores.
+
+KEYNAM {MASTER} S 15 Sysop Key
+
+ To run this software you must have the proper activation
+ code.  to get this activation code you must call Tessier
+ Technologies, INC. at (305) 473-5525 and request an
+ activation code for Horse Track.  Have your registration
+ number in hand and an activation code will be given to you
+
+ACTCOD {N1J-6P2RK} S 15 Activation Code
+
+
+LEVEL4{}
+
+ Answer YES to this question if you want the users
+ to see a logon message from Horse Track that
+ displays the Current Race, Current Set, and the
+ minutes until the next race starts.
+
+LOGINM {Do you want to use the logon alert message? YES} B
+
+ This is the password that works with the Sysop
+ Key to enter the Sysop Menu.
+
+SYSPWD {chango!} S 0 Sysop Password
+
+ If someone wins credits, you can post what type of
+ bet that they won the credits on to a file.  This
+ file will be found in the BBSV6 directory.  The file
+ name is TTIHOR.LOG
+
+USEFIL {Answer yes to print wins to a file: YES} B
+
+ When someone bets, you can post what type of
+ bet that they made, and the amount of credits they
+ bet to a file.  This file will be found in the BBSV6
+ directory.  The file name is TTIHORB.LOG
+
+USEFIL2 {Answer yes to print bets to a file: YES} B
+
+LEVEL6 {}
+
+TRYTRK
+{
+[37mHorse Racing Report:
+     [32mSet #: [31m%d
+    [32mRace #: [31m%d
+ [32mPost Time: [31m%s minute(s)
+} T HORSE TRACK 
+
+GOTHER  
+{[37m***
+[32m%s [37mjust walked into the Clubhouse.
+} T HORSE TRACK 
+
+HELPSC
+{[0m   [1;32mHorse Racing v2.11 is an interactive betting game created by
+Wally Muharsky and Yannick Tessier.  Here are some commands
+help you out:
+
+[35mBET  [33m........... [35mGo to the betting window. (Betting on current Race).
+BETS  [33m.......... [35mDisplay all your bets on current race.
+BETS #  [33m........ [35mShows your bets for a particular race (1-14)
+[36mCREDITS  [33m....... [36mShows amount of credits you have to bet.
+HIGH  [33m.......... [36mShows top ten credit winners.
+HELP BET  [33m...... [36mGeneral HELP on different types of betting.
+[33mHELP QB  ....... QuickBet Help.  Place bets on this race without going to
+                 the betting Window
+[35mLISTRACE #  [33m.... [35mShows Winning order or Race Lineup for a race.
+LOOKUP (name) [33m.. [35mLook up statistics on a horse horse.
+PAYOFF  [33m........ [35mShows the Payoff for the Last Race.
+[36mPREVIEW ........ Shows a list of all races with winners/favorites/picks
+PROGRAM  ....... Look through your Horse Program.
+SCAN  .......... Shows you who is where in Horses.
+[35mSCORE  ......... Shows how many credits you have won.
+SHOWRACE  ...... Shows the Lineup and odds for the current race
+WATCH ON/OFF  .. Turns the capability to Watch the race On/Off
+} T HORSE TRACK
+
+HELLOH
+{[33mWelcome to [31m%s [33mDowns.
+
+[36mWe are currently on race #[31m%d [36mof set #[31m%d[36m.
+[36mPost time is in [31m%d [36mminute(s).
+} T HORSE TRACK
+
+WELBAK
+{[37mWelcome Back to the Races.  Hope you have good luck!
+} T HORSE TRACK
+
+WELCOM
+{[[[0;37;40m
+[1;37;44m…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª[40m
+[1;37;44m∫                              [1;33mWritten by:  [1;31mWally Muharsky         [1;37m∫[40m
+[1;37;44m∫[1;35m  Welcome To:                              [1;31mYannick Tessier        [1;37m∫[40m
+[1;37;44m∫                                                                  ∫[40m
+[1;37;44m∫       [1;32m€€     €€                                                  [0;1;37;44m∫[40m
+[1;37;44m∫       [1;32m€€     €€                                                  [1;37m∫[40m
+[1;37;44m∫       [1;32m€€     €€                                                  [1;37m∫[40m
+[1;37;44m∫       [1;32m€€‹‹‹‹‹€€  ‹€€€€‹   ‹€€€‹   ‹€€€‹    ‹‹€€€‹   ‹€€€‹        [1;37m∫[40m
+[1;37;44m∫       [1;32m€€ﬂﬂﬂﬂﬂ€€ €€    €€ €€   €€ €€   ﬂ€  ﬁ€ﬂ   ﬂ€ €€   ﬂ€       [1;37m∫[40m
+[1;37;44m∫       [1;32m€€     €€ €€    €€ €€       ﬂ€‹‹‹   €€€‹‹‹€ﬂ  ﬂ€‹‹‹        [1;37m∫[40m
+[1;37;44m∫       [1;32m€€     €€ €€    €€ €€      €‹   €€  ﬁ€     ‹ €‹   €€       [1;37m∫[40m
+[1;37;44m∫       [1;32m€€     €€  ﬂ€€€€ﬂ  €€       ﬂ€€€ﬂ    ﬂ€€€€€ﬂ  ﬂ€€€ﬂ        [1;37m∫[40m
+[1;37;44m∫                                                                  [1;37m∫[40m
+[1;37;44m∫                 [1;33m(c) 1991 Tessier Technologies                    [1;37m∫[40m
+[1;37;44m»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº[1;35;40m
+|Welcome to HORSES!
+Written by Wally Muharsky and Yannick Tessier.
+(c) 1991 Tessier Technologies.
+ 
+]} T HORSE TRACK 
+
+RACETI 
+{[36mWe are currently on race #[31m%d [36mof set #[31m%d[36m.
+[36mPost time is in [31m%d [36mminute(s).
+} T HORSE TRACK 
+
+TELECO
+{[33mType [31m? [33mor [31mHELP [33mfor more information.
+} T HORSE TRACK
+
+SCORED
+{[33mYou have won [31m%s[33m credits.
+You have bet [31m%s[33m.
+Your winning percentage is [31m%d%%[33m.
+} T HORSE TRACK
+
+HSCORES
+{[37mScores for [31m%s:
+
+[33mThey won [31m%s[33m credits.
+They bet [31m%s[33m.
+Their winning percentage is [31m%d%%[33m.
+} T HORSE TRACK
+
+USRNFND
+{[31mSorry, that user is not found.
+} T Horse Track
+
+CREDIT
+{[33mYou have [31m%s[33m credits to bet.
+} T HORSE TRACK
+
+SYSREG
+{[31m
+[37mPlease Call [31mTessier Technologies [37mat [31m(305) 473-55251[37m.
+Have your registration number in hand to activate this program.
+} T HORSE TRACK
+
+NOTREG 
+{[31m
+[37mSorry, this game has not yet been registered.
+} T HORSE TRACK
+
+CNTANS 
+{[31mYou can not turn your watch on.  You do not support ANSI.
+} T HORSE TRACK
+
+TOPTEN 
+{[33m    High Credit Winners:                       Credits Bet vs. Credits won %
+[37m======================================= =======================================
+} T HORSE TRACK
+
+TOPTN1 {[32m%-29s [31m%9s [32m%-29s [31m%9s
+} T HORSE TRACK
+
+HORPST 
+{[37m***
+[36mThe Horses are now in the post!
+} T HORSE TRACK
+
+ANDOFF 
+{[37m***
+[36mAnd they're off!!!
+} T HORSE TRACK
+
+INFRST 
+{[36m(%d) [31m%s [36mis in first by [31m%d [36mLengths!
+} T HORSE TRACK
+
+INSEND
+{[36m(%d) [31m%s [36mis in second, [31m%d [36mlengths off the lead!
+} T HORSE TRACK
+
+INTHRD
+{[36m(%d) [31m%s [36mis in third, [31m%d [36mlengths off the lead!
+} T HORSE TRACK
+
+FIRSTF
+{[37m***
+[36mAnd we have a winner!!
+[31m1st Place - [33m(%d) [35m%s [36mby [35m%d [36mlengths.  Time: [35m%ds
+} T HORSE TRACK
+
+SECNDF
+{[37m***
+[31m2nd Place - [33m(%d) [35m%s [36min a Time of [35m%ds
+} T HORSE TRACK
+
+THIRDF
+{[37m***
+[31m3rd Place - [33m(%d) [35m%s [36min a Time of [35m%ds
+} T HORSE TRACK
+
+FORTHF
+{[37m***
+[31m4th Place - [33m(%d) [35m%s [36min a Time of [35m%ds
+[37mThe rest of the horses are now wandering in.
+} T HORSE TRACK
+
+RACUPD
+{[37m***
+} T HORSE TRACK
+
+NOPPAY 
+{[31mThere have been no races run yet.
+} T HORSE TRACK
+
+BETOPN 
+{[37m***
+[1;5;37mAll Bets have been paid off.
+[0;1;31mThe Betting Window is now open for the next race.
+} T HORSE TRACK
+
+POSTIM 
+{[37m***
+[31mLadies and Gentlemen, Its POST TIME!!!
+} T HORSE TRACK
+
+YOUWON 
+{***
+[33mCongradulations on winning [31m%s [33mcredits on your [31m} T HORSE TRACK
+
+YOULOS 
+{***
+[33mYou Lost on your [31m} T HORSE TRACK
+
+YOUBET 
+{[33mYou bet [31m%s [33mcredits on a [31m} T HORSE TRACK
+
+YORBET 
+{      [36mThese are your bets for Race [32m#%d
+[37m=================================================
+} T HORSE TRACK
+
+NOBETS
+{[34mYou have not entered any bets for this race.
+} T HORSE TRACK
+
+BETDON
+{
+[36mAll bets have been listed for this race.  GOOD LUCK!
+} T HORSE TRACK
+
+
+WTCHON 
+{[37mYour Watch is now [32mON[37m, you [32mWILL [37msee the race.
+} T HORSE TRACK
+
+INVRAC
+{[32mInvalid Race Number.
+} T HORSE TRACK
+
+WTCHOF 
+{[37mYour Watch is now [32mOFF[37m, you will [32mNOT [37msee the race.
+} T HORSE TRACK
+
+YWATON 
+{[37mYour Watch is currently [32mON.
+} T HORSE TRACK
+
+YWATOF 
+{[37mYour Watch is currently [32mOFF.
+} T HORSE TRACK
+
+BAKTRK 
+{[1;37m***
+[32m%s [37mhas just returned from the track.
+} T HORSE TRACK 
+ 
+RETURN 
+{[2J[1;1H
+[36mWelcome back to the Clubhouse!
+} T HORSE TRACK 
+
+RECTIM
+{[1;37m***
+[5;31mA new track record was set!![0;1m
+ [35mWinning Time: [32m%d
+[35mWinning Horse: [32m%-20s
+} T HORSE TRACK
+
+PAYOFF
+{
+             [33mTotalizator Board for Race [31m#%d
+
+[31mPost  [32mName                      [33mWin    [35mPlace    [36mShow    [34mTime 
+[37m============================================================
+} T HORSE TRACK
+
+PAYOF1
+{[31m%d      [32m%-20s    [33m%2d.%d0   [35m%2d.%d0   [36m%2d.%d0    [34m%ds
+} T HORSE TRACK
+
+PAYOF2
+{[31m%d      [32m%-20s            [35m%2d.%d0   [36m%2d.%d0
+} T HORSE TRACK
+
+PAYOF3
+{[31m%d      [32m%-20s                    [36m%2d.%d0
+} T HORSE TRACK
+
+PAYOF4
+{[31m%d      [32m%-20s
+
+} T HORSE TRACK
+
+PAYOF5
+{[36mPerfecta:          [35m%5d.%d0
+} T HORSE TRACK
+
+PAYOF6
+{[36mQuiniela:          [35m%5d.%d0
+} T HORSE TRACK
+
+PAYOF7
+{[36mTrifecta:          [35m%5d.%d0
+} T HORSE TRACK
+
+PAYSUP
+{[36mSuperfecta:    [35m%-10s
+} T HORSE TRACK
+
+PAYDBL
+{[36mDaily Double:      [35m%5d.%d0
+} T HORSE TRACK
+
+PAYQDL
+{[36mQuiniella Double:  [35m%5d.%d0
+} T HORSE TRACK
+
+PAYTRI
+{[36mTri-Super:     [35m%-10s
+} T HORSE TRACK
+
+
+
+PAYSON 
+{[1;37m***
+[36mPayoffs will begin shortly!  For a complete result list, type "LISTRACE %d".
+} T HORSE TRACK 
+
+EXTUSR 
+{[37m***
+[32m%s [37mjust left the building with all [32m%s [37mwinnings.
+} T HORSE TRACK 
+
+HOREXT 
+{[37mHope you enjoyed your stay here!
+} T HORSE TRACK 
+
+HORTMW 
+{[1;37m***
+[37mPost Time is in [1;32m3 [37mminutes.
+Get your bets in!!  Avoid being shut out!  
+Betting windows close in [1;32m2 [37mminutes!
+} T HORSE TRACK 
+
+ONYHRE 
+{[37mYou are the only person in the Clubhouse.
+} T HORSE TRACK 
+
+BETCSD 
+{[1;37m***
+[37mThe betting window is now closed!
+Post Time in [32m30[37m seconds!
+} T HORSE TRACK 
+
+MESENT 
+{[33m-- [36mMessage Sent [33m--
+} T HORSE TRACK 
+
+DISPLA 
+{***
+[1;33mFrom [31m%s[33m: [32m%s
+} T HORSE TRACK 
+
+WHOHR1 
+{[37mYou are here with [32m%s} T HORSE TRACK 
+
+WHOHR2 
+{[37m, [32m%s} T HORSE TRACK 
+
+PERIOD   
+{[37m.
+} T HORSE TRACK 
+
+ENTRA1
+{[0m[2J[34m[0] Í~Í¯[1;37m≥                                                              ≥
+ [0;32m1] Í~Í¯[1;37m≥                                                              ≥
+[0;36m[2] Í~Í¯[1;37m≥                                                              ≥
+[0;31m[3] Í~Í¯[1;37m≥                                                              ≥
+[0;35m[4] Í~Í¯[1;37m≥                                                              ≥
+[0;33m[5] Í~Í¯[1;37m≥                                                              ≥
+[0m[6] Í~Í¯[1m≥                                                              ≥
+[30m[7] Í~Í¯[37m≥                                                              ≥
+[34m[8] Í~Í¯[37m≥                                                              ≥
+[32m[9] Í~Í¯[37m≥                                                              ≥
+[44m                                     [0;33;44m⁄ƒƒƒƒƒƒƒƒƒ[ [1;32mTrack Information [0;33;44m]ƒƒƒƒƒƒƒƒƒƒø[K
+  [1;37;41m⁄ƒƒƒƒƒƒƒƒƒƒƒ[ [0;41mLineup [1m]ƒƒƒƒƒƒƒƒƒƒƒø[44m [0;33;44m≥  [1;36mGrade:                      T:        [0;33;44m≥[K
+ [1;30m€[37;41m≥ [36m0                              [37m≥[44m [0;33;44m≥ [1;36mRecord:                      T:        [0;33;44m≥[K
+ [1;30m€[37;41m≥ [36m1                              [37m≥[44m [0;33;44m¿ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒŸ[K
+ [1;30m€[37;41m≥ [36m2                              [37m≥[44m  [33;45m⁄ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ[ [31mBets [33m]ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒø[44m[K
+ [30m€[37;41m≥ [36m3                              [37m≥[44m [30m€[33;45m≥ [36m1                                    [33m≥[44m[K
+ [30m€[37;41m≥ [36m4                              [37m≥[44m [30m€[33;45m≥ [36m2                                    [33m≥[44m[K
+ [30m€[37;41m≥ [36m5                              [37m≥[44m [30m€[33;45m≥ [36m3                                    [33m≥[44m[K
+ [30m€[37;41m≥ [36m6                              [37m≥[44m [30m€[33;45m≥ [36m4                                    [33m≥[44m[K
+ [30m€[37;41m≥ [36m7                              [37m≥[44m [30m€[33;45m≥ [36m5                                    [33m≥[44m[K
+ [30m€[37;41m≥ [36m8                              [37m≥[44m [30m€[33;45m≥ [36m6                                    [33m≥[44m[K
+ [30m€[37;41m≥ [36m9                              [37m≥[44m [30m€[33;45m≥ [36m7                                    [33m≥[44m[K
+ [30m€[37;41m¿ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒŸ[44m [30m€[33;45m¿ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒŸ[44m[K
+ [30mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ   [23A[79D
+},{
+!|1K|*|w0010271610|1I000000010TTIHOR0.ICN|1I000K00010TTIHOR1.ICN
+!|1I001400010TTIHOR2.ICN|1I001O00010TTIHOR3.ICN|1I002800010TTIHOR4.ICN
+!|1I002S00010TTIHOR5.ICN|1I003C00010TTIHOR6.ICN|1I003W00010TTIHOR7.ICN
+!|1I004G00010TTIHOR8.ICN|1I005000010TTIHOR9.ICN|w0000000000|W00|=00000001|S010F
+!|BFU00G45K|S0100|c0F|BFU08G40G|BFU0OG40W|BFU14G41C|BFU1KG41S|BFU20G428
+!|BFU2GG42O|BFU2WG434|BFU3CG43K|BFU3SG440|BFU48G44G|BFU4OG44W|BFU54G45C
+!|RFU00G45K|1B0000020PVK030F000F080100000F07000000|Y00000100|1U0A5OHI980000<><>
+!|1B0000020PI8030F00080F0100000F07000000|1U0F5S0Z680000<>P<>
+!|1U0Z5S7D680000<>Horse Name<>|1U7D5S8R680000<>Odds<>|1U8R5S9L680000<>PL<>
+!|1U0F6A9L940000<><>|c0C|@0K6D0|@0K6N1|@0K6X2|@0K773|@0K7H4|@0K7R5|@0K816
+!|@0K8B7|@0K8L8|@0K8V9|1B0000020PI8030F00080F0400000F07000000
+!|1U9Q6JH8940000<><>|1U9V6MH3720000<>Bets on this race<>|c0E|@A1741|@A17E2
+!|@A17O3|@A17Y4|@A1885|@A18I6|@A18S7
+} T HORSE TRACK
+
+BETIN1
+{[0m[2J[44m                         [33m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[K
+      [32m‹‹‹‹‹‹‹‹‹‹‹       [30m€[43m  [1;36mHorse Track Betting Window  [44m       [0;32;44m‹‹‹‹‹‹‹‹‹‹‹[K
+     [30m€[42m  [1;37mRace     [44m       [0;30;44m€[33;40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[44mﬂ      [30m€[42m  [1;37mGrade    [44m[K
+     [0;30;44m€[32;40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[44mﬂ            [45m  [1;37mOdds for this Race  [44m          [0;30;44m€[32;40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[44mﬂ[K
+  [35m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[45m [44m‹‹‹‹‹‹‹‹  ‹‹‹‹‹‹‹‹‹‹[45m [44m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[K
+ [30m€[45m [1;36mP [32mName of Horse            [31mOdds    [44m [0;30;44m€[45m     [1;33m0  1  2  3  4  5  6  7  8  9  [44m[K
+ [0;30;44m€[1;37;45m====================================[44m [0;30;44m€[45m [1;33m0                                 [44m[K
+ [0;30;44m€[45m [1;36m0                                  [44m [0;30;44m€[45m [1;33m1                                 [44m[K
+ [0;30;44m€[45m [1;36m1                                  [44m [0;30;44m€[45m [1;33m2                                 [44m[K
+ [0;30;44m€[45m [1;36m2                                  [44m [0;30;44m€[45m [1;33m3                                 [44m[K
+ [0;30;44m€[45m [1;36m3                                  [44m [0;30;44m€[45m [1;33m4                                 [44m[K
+ [0;30;44m€[45m [1;36m4                                  [44m [0;30;44m€[45m [1;33m5                                 [44m[K
+ [0;30;44m€[45m [1;36m5                                  [44m [0;30;44m€[45m [1;33m6                                 [44m[K
+ [0;30;44m€[45m [1;36m6                                  [44m [0;30;44m€[45m [1;33m7                                 [44m[K
+ [0;30;44m€[45m [1;36m7                                  [44m [0;30;44m€[45m [1;33m8                                 [44m[K
+ [0;30;44m€[45m [1;36m8                                  [44m [0;30;44m€[45m [1;33m9                                 [44m[K
+ [0;30;44m€[45m [1;36m9                                  [44m [0;30;44m€[35;40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[44mﬂ[K
+ [30m€[35;40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[44mﬂ   [31m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[K
+   [32m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹  [30m€[41m  [1;33m[[32mA[33m] [35mWin          [33m[[32mF[33m] [35mQuin-Box   [44m[K
+  [0;30;44m€[42m  [1;36mEnter Bet or Race [33m[A-J,1-14] [37;45m  [36;42m  [44m  [0;30;44m€[41m  [1;33m[[32mB[33m] [35mPlace        [33m[[32mG[33m] [35mTrifecta   [44m[K
+  [0;30;44m€[42m  [1;36mCredits:           Bet: [45m       [42m  [44m  [0;30;44m€[41m  [1;33m[[32mC[33m] [35mShow         [33m[[32mH[33m] [35mTri-Box    [44m[K
+  [0;30;44m€[42m  [1;36mHorses: [45m            [42m             [44m  [0;30;44m€[41m  [1;33m[[32mD[33m] [35mPerfecta     [33m[[32mI[33m] [35mTri-Key    [44m[K
+  [0;30;44m€[32;40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[44mﬂ  [30m€[41m  [1;33m[[32mE[33m] [35mQuiniela                    [44m[K
+                                        [0;30;44m€[31;40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[44mﬂ    [37;40m[1;1H},{
+!|1K|*|w0000000000|1B0000020PWG030B000F080600000F07000000|Y00000100
+!|1U5K08C80O0000<>Horse Track Betting Window<>
+!|1B0000020PWG030B000F080700000F07000000|1U0A6OHI940000<><>
+!|1B0000020QAQ03010F080F0700000F07000000|1UCD6SEV780000<>Win<>A`M
+!|1UCD78EV7O0000<>Place<>B`M|1UCD7OEV840000<>Show<>C`M
+!|1UCD84EV8K0000<>Perfecta<>D`M|1UCD8KEV900000<>Quiniella<>E
+!|1UEV6SHD780000<>Quin-Box<>F`M|1UEV78HD7O0000<>Trifecta<>G`M
+!|1UEV7OHD840000<>Tri-Box<>H`M|1UEV84HD8K0000<>Tri-Key<>I`M
+!|1B00000200M803010F0F080500000F07000000|1U7S1CHI680000<><>|1U0A1C7I680000<><>
+!|1B0000020PI8030E00080F0500000F07000000|W00|1U7X1W8H640000<><>
+!|1U8H1GHD1W0000<> 0   1   2   3   4   5   6   7   8   9<>|c00|@83260|@832K1
+!|@832Y2|@833C3|@833Q4|@83445|@834I6|@834W7|@835A8|@835O9|c0E|@82250|@822J1
+!|@822X2|@823B3|@823P4|@82435|@824H6|@824V7|@82598|@825N9|1U0K1K14200000<>0<>
+!|1U0K20142G0000<>1<>|1U0K2G142W0000<>2<>|1U0K2W143C0000<>3<>
+!|1U0K3C143S0000<>4<>|1U0K3S14480000<>5<>|1U0K48144O0000<>6<>
+!|1U0K4O14540000<>7<>|1U0K54145K0000<>8<>|1U0K5K14600000<>9<>
+!|1B0000020QAQ03040F080F0700000F07000000|1U0F8K0Z900000<>1<>1`M
+!|1U198K1T900000<>2<>2`M|1U238K2N900000<>3<>3`M
+!|1U2X8K3H900000<>4<>4`M|1U3R8K4B900000<>5<>5`M
+!|1U4L8K55900000<>6<>6`M|1U5F8K5Z900000<>7<>7`M
+!|1U698K6T900000<>8<>8`M|1U738K7N900000<>9<>9`M
+!|1U7X8K8H900000<>10<>10`M|1U8R8K9B900000<>11<>11`M
+!|1U9L8KA5900000<>12<>12`M|1UAF8KAZ900000<>13<>13`M
+!|1UB98KBT900000<>14<>14`M|1B0000020PI803040F080F0700000F07000000
+!|1U3W808C8G0000<>Choose a race<>|1B00000200M803040F080F0000000F07000000
+!|1U0F6SC37W0000<><>|w030V1O0Y11|1B0000020QAQ030E00080F0100000F07000000
+!|1U0K80288G0000<>Exit<>X`M
+} T HORSE TRACK
+
+BETWIN {[20;35H[1;33;45m  [2D},{[0;1;33mSelect a race (1-14) or choose a bet (A-J):
+} T HORSE TRACK
+
+BETRAC {[3;15H[1;33;42m  [2D%d},{!|1B0000020PWG030F000F080200000F07000000
+!|1U1E0G3W140000<>Race #%d<>
+} T HORSE TRACK
+
+BETGRA {[3;71H[1;33;42m  [2D%s},{!|1B0000020PWG030F000F080200000F07000000
+!|1UDC0GFU140000<>Grade %s<>
+} T HORSE TRACK
+
+BETCLS
+{[34mSorry, the Betting window is closed for this Race!
+} T HORSE TRACK 
+
+GONEUP 
+{[37m***
+[32m%s [37mhas just gone to the Control Room!
+} T HORSE TRACK 
+
+PROGUP 
+{[37m***
+[32m%s [37mis reading through %s program.
+} T HORSE TRACK 
+
+BETGUP 
+{[37m***
+[32m%s [37mjust walked away to place %s bets.
+} T HORSE TRACK 
+
+WATGUP 
+{[37m***
+[32m%s [37mjust walked down to watch the race.
+} T HORSE TRACK 
+
+PROGBK 
+{[37m***
+[32m%s [37mis done reading %s program.
+} T HORSE TRACK 
+
+BETTBK 
+{[37m***
+[32m%s [37mjust returned from placing %s bets.
+} T HORSE TRACK 
+
+GONEBK 
+{[37m***
+[32m%s [37mhas just returned from the Control Room!
+} T HORSE TRACK 
+
+SYSOP1 
+{[0m[2J[44m                              [32m‹‹‹‹‹‹‹‹‹‹‹‹‹‹[K
+                              [42m  [1;33mSysop Menu  [0;30;44m€[K
+                              [32mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30;44m€[K
+  [35m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹     [32m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[K
+  [45m [1;36m[[33m1[36m]  [32mUse System Credits:          [0;30;44m€    [42m [1;37mTotal Bets Taken:                 [0;30;44m€[K
+  [45m [1;36m[[33m2[36m]  [32mPost Wins to Audit Trail:    [0;30;44m€    [42m [1;37mTotal Bets Paid:                  [0;30;44m€[K
+  [35mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30;44m€    [42m                                   [44m€[K
+ [31m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹  [42m [1;37mTotal Credits Bet:                [0;30;44m€[K
+ [41m [1;36m[[33m3[36m]  [32mBetting Limit:                   [0;30;44m€ [42m [1;37mTotal Credits Paid:               [0;30;44m€[K
+ [41m [1;36m[[33m4[36m]  [32mNumber of Bets/Race:             [0;30;44m€ [42m                                   [44m€[K
+ [41m [1;36m[[33m5[36m]  [32mCredits Required to Bet:         [0;30;44m€ [42m [1;37mTri-Superfecta Bets:              [0;30;44m€[K
+ [41m                                       [44m€ [42m [1;37mTri-Superfecta Payoff:            [0;30;44m€[K
+ [41m [1;36m[[33m6[36m]  [32mPercent of Payoff Taken:         [0;30;44m€ [42m                                   [44m€[K
+ [41m [1;36m[[33m7[36m]  [32m20 Percent Tax After:            [0;30;44m€ [42m [1;37mTop Credit Winner:                [0;30;44m€[K
+ [41m [1;36m[[33m8[36m]  [32mTri-Superfecta Cap:              [0;30;44m€ [42m [1;37mTotal Credits Won:                [0;30;44m€[K
+ [41m                                       [44m€ [32mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30;44m€[K
+ [41m [1;36m[[33m9[36m]  [32mTime Between Races:              [0;30;44m€      [35m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[K
+ [41m [1;36m[[33m10[36m] [32mTime Between Sets:               [0;30;44m€      [45m [1;36m[[32mA[36m]  [33mEnter a Horse     [0;30;44m€[K
+ [31mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30;44m€      [45m [1;36m[[32mB[36m]  [33mDelete a Horse    [0;30;44m€[K
+   [35m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹              [45m [1;36m[[32mC[36m]  [33mReset High Scores [0;30;44m€[K
+   [45m [1;33mA:        B:        C:       [0m [1;33;44m             [0;35;44mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30;44m€[K
+   [45m [1;33mD:        M:        T:       [0m [1;33;44m  [0;32;44m‹‹‹‹‹‹‹‹‹‹‹[K
+   [35mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ [44m  [42m [1;37mChoose:   [0;30;44m€[K
+                                    [32mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30;44m€},{
+!|1K|*|1B00000200LC030F000F080100000F07000000|w0010271610|Y00000100
+!|1U0A1S96880000<><>|1U14088C1K0000<><>|w0000000000
+!|1B0000020PHC030F000F080400000F07000000|1U0K20322G0000<><>|1U0K2O32340000<><>
+!|1U0K3C323S0000<><>|1U0K4G324W0000<><>|1U0K54325K0000<><>|1U0K5S32680000<><>
+!|1U0K6W327C0000<><>|1U0K7K32800000<><>|c0B|W00|@3A24Betting Limit
+!|@3A2SNumber of bets/race|@3A3GCredits required to bet
+!|@3A4KPercent of payoff taken|@3A5820 percent tax after
+!|@3A5WTri-Superfecta CAP|@3A70Time between Races (mins)
+!|@3A7OTime between sets (mins)|1B00000200LC030F000F080500000F07000000
+!|1U9G08HI6O0000<><>|1B0000020PHC030F000F080300000F07000000|1U9Q0GC80W0000<><>
+!|1U9Q14C81K0000<><>|1U9Q20C82G0000<><>|1U9Q2OC8340000<><>|1U9Q3SC8480000<><>
+!|1U9Q4GC84W0000<><>|1U9Q60FA6G0000<><>|1UFA60HI6G0000<><>|c0A
+!|@CF0LTotal bets taken|@CF18Total bets paid|@CF24Totel credits bet
+!|@CF2TTotal credits paid|@CF3XTri-superfecta bets|@CF4LTri-superfecta payoff
+!|@BJ5OTop credit winner|1U7I0G820W0000<><>|1U7I0W821C0000<><>|c0C
+!|@3C0LUse System Credits|@2010Post wins in audit trail|1M007I0G820W10000001`M
+!|1M017I0W821C10000002`M|1M020K20322G10000003`M|1M030K2O323410000004`M
+!|1M040K3C323S10000005`M|1M050K4G324W10000006`M|1M060K54325K10000007`M
+!|1M070K5S326810000008`M|1M080K6W327C10000009`M|1M090K7K3280100000010`M
+!|1B0000020QPE03010F0F080700000F07000000|1UAA74GO7K0000<>Enter a Horse<>A`M
+!|1UAA7SGO880000<>Delete a Horse<>B`M|1UAA8GGO8W0000<>Reset High Scores<>C`M
+!|w00121E1511|#|#|#
+} T HORSE TRACK
+
+SYSTA1 {[5;72H[1;33;42m%5d},{!|1B0000020PI8030E000F0803000G0F07000000|1U9Q0GC80W0000<>%d<>
+} T HORSE TRACK
+
+SYSTA2 {[6;72H[1;33;42m%5d},{!|1U9Q14C81K0000<>%d<>
+} T HORSE TRACK
+
+SYSTA3 {[8;67H[1;33;42m%10s},{!|1U9Q20C82G0000<>%s<>
+} T HORSE TRACK
+
+SYSTA4 {[9;67H[1;33;42m%10s},{!|1U9Q2OC8340000<>%s<>
+} T HORSE TRACK
+
+SYSTA5 {[11;67H[1;33;42m%10s},{!|1U9Q3SC8480000<>%s<>
+} T HORSE TRACK
+
+SYSTA6 {[12;67H[1;33;42m%10s},{!|1U9Q4GC84W0000<>%s<>
+} T HORSE TRACK
+
+SYSTA7 {[14;67H[1;33;42m%10s},{!|1B0000020PI8030E000F080300080F07000000
+!|1U9Q60FA6G0000<>%s<>
+} T HORSE TRACK
+
+SYSTA8 {[15;67H[1;33;42m%10s},{!|1UFA60HI6G0000<>%s<>
+} T HORSE TRACK
+
+HORSE1 {[21;8H[1;32;45m%-5d},{} T HORSE TRACK
+HORSE2 {[21;18H[1;32;45m%-5d},{} T HORSE TRACK
+HORSE3 {[21;28H[1;32;45m%-5d},{} T HORSE TRACK
+HORSE4 {[22;8H[1;32;45m%-5d},{} T HORSE TRACK
+HORSE5 {[22;18H[1;32;45m%-5d},{} T HORSE TRACK
+HORSE6 {[22;28H[1;32;45m%-5d},{} T HORSE TRACK
+
+SYSTU1 {[5;36H[1;33;45m%1s},{!|1B0000020PI8030C000F080300000F07000000
+!|1U7I0G820W0000<>%s<>
+} T HORSE TRACK
+
+SYSTU2 {[6;36H[1;33;45m%1s},{!|1B0000020PI8030C000F080300000F07000000
+!|1U7I0W821C0000<>%s<>
+} T HORSE TRACK
+
+SYSTU3 {[9;30H[1;33;41m%10s},{!|1B0000020PI8030E000F0804000G0F07000000
+!|1U0K20322G0000<>%s<>
+} T HORSE TRACK
+
+SYSTU4 {[10;35H[1;33;41m%5d},{!|1B0000020PI8030E000F0804000G0F07000000
+!|1U0K2O32340000<>%d<>
+} T HORSE TRACK
+
+SYSTU5 {[11;33H[1;33;41m%7s},{!|1B0000020PI8030E000F0804000G0F07000000
+!|1U0K3C323S0000<>%s<>
+} T HORSE TRACK
+
+SYSTU6 {[13;35H[1;33;41m%5d},{!|1B0000020PI8030E000F0804000G0F07000000
+!|1U0K4G324W0000<>%d<>
+} T HORSE TRACK
+
+SYSTU7 {[14;30H[1;33;41m%10s},{!|1B0000020PI8030E000F0804000G0F07000000
+!|1U0K54325K0000<>%s<>
+} T HORSE TRACK
+
+SYSTU8 {[15;30H[1;33;41m%10s},{!|1B0000020PI8030E000F0804000G0F07000000
+!|1U0K5S32680000<>%s<>
+} T HORSE TRACK
+
+SYSTU9 {[17;35H[1;33;41m%5d},{!|1B0000020PI8030E000F0804000G0F07000000
+!|1U0K6W327C0000<>%d<>
+} T HORSE TRACK
+
+SYSTU0 {[18;35H[1;33;41m%5d},{!|1B0000020PI8030E000F0804000G0F07000000
+!|1U0K7K32800000<>%d<>
+} T HORSE TRACK
+
+CHOOSE {[23;46H[1;33;42m  [2D},{Please select an option, or "X" to exit
+} T HORSE TRACK
+
+ESYST3 {[9;30H[1;32;44m          [10D},{Betting limit: } T HORSE TRACK
+
+ESYST4 {[10;35H[1;32;44m     [5D},{Bets per race: } T HORSE TRACK
+
+ESYST5 {[11;33H[1;32;44m       [7D},{Required to bet: } T HORSE TRACK
+
+ESYST6 {[13;35H[1;32;44m     [5D},{Percent Taken: } T HORSE TRACK
+
+ESYST7 {[14;30H[1;32;44m          [10D},{20% Taken after: } T HORSE TRACK
+
+ESYST8 {[15;30H[1;32;44m          [10D},{TRI-Superfecta Cap: } T HORSE TRACK
+
+ESYST9 {[17;35H[1;32;44m     [5D},{Time Between Races: } T HORSE TRACK
+
+ESYST0 {[18;35H[1;32;44m     [5D},{Time Between Sets: } T HORSE TRACK
+
+
+
+PRORAC {[8;15H[1;37;42m  [2D%d[8;15H} T HORSE TRACK
+PRORACU {[8;15H[1;37;42m} T HORSE TRACK
+PROPOS {[12;15H[1;37;42m [1D} T HORSE TRACK
+DISPRO {[%d;29H[1;32;45m%-20s} T HORSE TRACK
+GRAPRO {[10;68H[1;32;45m%s} T HORSE TRACK
+
+PROODD {[14;68H[1;32;41m%2d-%d},{} T HORSE TRACK
+
+PRONAM
+{[17;5H[1;32;41m%-20s},{!|w0000000000|c0A|W00|=00000001|Y00000100
+!|@0M6WName: %s
+} T HORSE TRACK
+
+PROGRD {[17;39H[1;32;41m%s},{!|@7G6WGrade: %s
+} T HORSE TRACK
+
+PROINR {[17;46H[1;35;41m%6s},{!|@AH6W%6s %5s %5s %5s %5s
+} T HORSE TRACK
+
+PROWIN {[17;54H[1;35;41m%5s},{} T HORSE TRACK
+PROPLA {[17;60H[1;35;41m%5s},{} T HORSE TRACK
+PROSHO {[17;66H[1;35;41m%5s},{} T HORSE TRACK
+PROFOR {[17;72H[1;35;41m%5s},{} T HORSE TRACK
+PRODAT {[%d;4H[1;33;41m%5s},{!|w0000000000|c0A|W00|=00000001|Y00000100|c0F
+!|@0N%s%5s
+} T HORSE TRACK
+
+PROSET {[%d;10H%2d},{!|@1Z%s%d
+} T HORSE TRACK
+
+PRORCA {[%d;13H%2d},{!|@2U%s%d
+} T HORSE TRACK
+
+PROWNT {[%d;15H%3d},{!|@3K%s%ds
+} T HORSE TRACK
+
+PROPST {[%d;20H%d},{!|@4G%s%d
+} T HORSE TRACK
+
+PRO181 {[%d;22H%2d-%-2d},{!|@51%s%2d-%-2d
+} T HORSE TRACK
+
+PRO182 {[%d;22H%5d},{!|@51%s%d
+} T HORSE TRACK
+
+PROSR1 {[%d;28H%2d-%-2d},{!|@6D%s%2d-%-2d
+} T HORSE TRACK
+
+PROSR2 {[%d;28H%5d},{!|@6D%s%d
+} T HORSE TRACK
+
+PROFN1 {[%d;34H%2d-%-2d},{!|@7R%s%2d-%-2d
+} T HORSE TRACK
+
+PROFN2 {[%d;34H%5d},{!|@7R%s%d
+} T HORSE TRACK
+
+PROGRA {[%d;45H%s},{!|@AB%s%s
+} T HORSE TRACK
+
+PROACT {[%d;40H%3d},{!|@99%s%ds
+} T HORSE TRACK
+
+PROFRS {[%d;48H%-10s},{!|@AU%s%-9.9s/%9.9s/%9.9s
+} T HORSE TRACK
+PROSEN {[%d;58H%-10s},{} T HORSE TRACK
+PROTRD {[%d;68H%-10s},{} T HORSE TRACK
+
+RHCORR
+{[40m
+[39m[17C[0;1;41m⁄ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒø[40m
+[41m[17C≥ [35mIs this Correct ([32mY[35m/[32mN[35m)?   [40m[A
+[44C[41m[37m≥[30;40m±±
+[17C[37;41m¿ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒŸ[30;40m±±
+[19C±±±±±±±±±±±±±±±±±±±±±±±±±±±±[32;41m} T HORSE TRACK
+
+ENTHR1
+{[0;44m[2J[44m                               [32m‹‹‹‹‹‹‹‹‹‹‹‹[K
+                               [42m [1;33mSysop Menu [0;30m€[44m[K
+                               [32mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30m€[44m[K
+[K
+       [35m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹          ‹‹‹‹‹‹‹‹‹‹‹‹‹[K
+       [45m [1;33mHorses Name:                       [0;30m€[44m         [45m [1;33mOdds:    -  [0;30m€[44m[K
+       [35mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30m€[44m         [35mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30m€[44m[K
+[K
+ [31m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[K
+ [41m   [1;37m--------------------      [36mGrade:  [32mM           [35m0      0     0     0     0 [0;30m€[44m[K
+ [41m                                                                            [40m€[44m[K
+ [41m    [1;33m0/0   0   0  0.0 0   0   0   0 -  0.0 ---------- ---------- ----------  [0;30m€[44m[K
+ [41m    [1;33m0/0   0   0  0.0 0   0   0   0 -  0.0 ---------- ---------- ----------  [0;30m€[44m[K
+ [41m    [1;33m0/0   0   0  0.0 0   0   0   0 -  0.0 ---------- ---------- ----------  [0;30m€[44m[K
+ [41m    [1;33m0/0   0   0  0.0 0   0   0   0 -  0.0 ---------- ---------- ----------  [0;30m€[44m[K
+ [41m    [1;33m0/0   0   0  0.0 0   0   0   0 -  0.0 ---------- ---------- ----------  [0;30m€[44m[K
+ [31mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30m€[44m[K
+[K
+                               [32m‹‹‹‹‹‹‹‹‹‹‹‹[K
+                               [42m [1;33mCorrect:   [0;30m€[44m[K
+                               [32mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30m€[1;37;40m[1A
+},{} T HORSE TRACK
+
+PRNHRN {[10;5H[1;32;41m%-20s} T HORSE TRACK
+
+ENHRNM {[6;23H[1;32;45m                    [20D},{New horse name, or <RETURN> to exit.
+} T HORSE TRACK
+
+ENODD1 {[6;62H[1;32;45m  [2D},{First Odd: } T HORSE TRACK
+
+ENODD2 {[6;65H[1;32;45m [1D},{Second Odd: } T HORSE TRACK
+
+HORCOR {[20;42H[1;37;42m [1D},{Correct (Y/N): } T HORSE TRACK
+
+DEHRNM {[6;23H[1;32;45m                    [20D},{Horse to Delete: } T HORSE TRACK
+
+DEHCOR {[20;42H[1;37;42m [1D},{Are you sure (Y/N): } T HORSE TRACK
+
+SHOTOP
+{[1;37m
+Lineup for Race #[32m%d[37m.  This is a grade [32m%s [37mrace.
+[33mP  [35mName                  [36mOdds  [31mRaces   Wins    Place   Show    Forth   [32mPrcnt
+[37m============================================================================
+} T HORSE TRACK
+
+SHOSTU
+{[33m%d  [35m%-20s  [36m%2d-%d  [31m%-5s   %-5s   %-5s   %-5s} T HORSE TRACK
+
+SHOSTU2
+{[31m     %-5s   [32m%-d%
+} T HORSE TRACK
+
+RACLUP {[%d;7H[1;32;41m%-20s[%d;28H[33m%2d-%d[%d;33H[37m%2d},{} T HORSE TRACK
+
+RACGRA {[12;48H[1;35;44m%s},{!|1B0000020PI8030E00080F0200000F07000000
+!|1U9W5SDA6G0000<>Grade: %s<>
+} T HORSE TRACK
+
+RACREC {[13;48H[1;35;44m%-20s},{} T HORSE TRACK
+
+RACRTI {[13;72H[1;35;44m%4d},{} T HORSE TRACK
+
+RACCUT {[12;72H[1;35;44m%4d[40m},{!|1B0000020PI8030E00080F0200000F07000000
+!|1UDN5SH56G0000<>Time: %d<>
+} T HORSE TRACK
+
+POSPRN {[%d;33H[1;37;41m%2d[40m},{} T HORSE TRACK
+
+CLRQUI {},{
+!|S0105|B8I1WHF63|c0A
+} T Clear Quiniella Box
+
+DISQUI {[%d;%dH[1;32;45m%2d},{} T Horse Track
+
+DISQUIR {},{!|@%s%s%2d
+} T HORSE TRACK
+
+DISQU2 {[%d;%dH[1;32;45m--},{} T Horse Track
+
+DISQU2R {},{!|@%s%s--
+} T HORSE TRACK
+
+BETDIS {[%d;8H[1;32;45m%-19s[%d;31H[33m%2d-%d} T HORSE TRACK
+
+UPDBET {[%d;31H[33m%2d-%d} T HORSE TRACK
+
+CRDAVL {[21;15H[1;33;42m%-9s},{[1;32mYou have [31m%s credits to bet.
+} T HORSE TRACK
+
+ENTBET {[21;30H[1;33;45m       [7D},{[33mEnter Your Bet:
+} T HORSE TRACK
+
+ENTHOR {[22;14H[1;33;45m            [12D},{[36mClick on your Horses and hit return when done.
+} T HORSE TRACK
+
+BEXTRA {[23;61H[1;33;41m[[32mJ[33m] [35m%-9s},{!|1B0000020PI803010F080F0700000F07000000
+!|1UEV8KHD900000<>%s<>
+} T HORSE TRACK
+
+NEXTRA {[23;61H[1;33;41m             },{!|1B0000020PI803010F080F0700000F07000000
+!|1UEV8KHD900000<><>
+} T HORSE TRACK
+
+WINTOP
+{[1;37m
+Results for Race #[32m%d[37m, this was a grade [32m%s [37mrace.
+[31mFP [33mP# [35mName                  [36mOdds   [32mTime [36mBets Taken
+[37m===================================================
+} T HORSE TRACK
+
+WINSTU
+{[31m%2d [33m%2d [35m%-20s  [36m%2d-%d    [32m%2ds     [36m%d
+} T HORSE TRACK
+
+SCANTO
+{[1;37m
+[31mUser                           [32mLocation
+[36m=====================================================
+} T HORSE TRACK
+
+SCANME
+{[31m%-30s [32m} T HORSE TRACK
+
+BLANKL
+{
+} T HORSE TRACK
+
+INVALD
+{[34mInvalid selection.  Try again.
+} T HORSE TRACK
+
+PROGM1
+{[0m[2J[44m                              [32m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[K
+                              [42m [1;33mRacing Program [0;30m€[44m[K
+                              [32mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30m€[44m[K
+                       [35m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[K
+                       [45m  [1;33m0                            [0;30m€[44m[K
+                       [45m  [1;33m1                            [0;30m€[44m[K
+    [32m‹‹‹‹‹‹‹‹‹‹‹‹‹      [45m  [1;33m2                            [0;30m€[44m[K
+  [32m⁄ƒ[42m  [1;33mRace #:    [0;30mŸ[44m     [45m  [1;33m3                            [0;30m€[44m[K
+  [32m≥ ﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30m€[44m     [45m  [1;33m4                            [0;30m€[44m  [35m‹‹‹‹‹‹‹‹‹‹‹‹[K
+  [32m≥                    [45m  [1;33m5                            [0;35mƒ[44mƒƒ[45m  [1;33mGrade:   [0;35;44m€[30;40m€[44m[K
+  [32m≥ ‹‹‹‹‹‹‹‹‹‹‹‹‹      [45m  [1;33m6                            [0;30m€[44m  [35mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30m€[44m[K
+  [32m¿ƒ[42m  [1;33mPost #:    [0;30mŸ[44m     [45m  [1;33m7                            [0;30m€[44m[K
+    [32mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30m€[44m     [45m  [1;33m8                            [0;30m€[44m     [31m‹‹‹‹‹‹‹‹‹‹‹‹[K
+                       [45m  [1;33m9                            [0;30m€[44m     [41m [1;33mOdds:      [0;31mƒ[44mƒƒƒƒƒø[K
+                       [35mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30m€[44m     [31mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30m€[44m     [31m≥[K
+ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ≥[K
+ [41m   [1;37m--------------------      [36mGrade:  [32m-      [35m------  ----- ----- ----- ----- [0;31mƒ[44mŸ[K
+ [41m  [1;37mDATE  S# R# WIN P 1/8TH STRCH FINSH TIME G  FIRST/SECOND/THIRD/FORTH      [0;30m€[44m[K
+ [41m  [1;33m**/** ** ** **s * ***** ***** ***** ***s *  ---------/---------/--------- [0;30m€[44m[K
+ [41m  [1;33m**/** ** ** **s * ***** ***** ***** ***s *  ---------/---------/--------- [0;30m€[44m[K
+ [41m  [1;33m**/** ** ** **s * ***** ***** ***** ***s *  ---------/---------/--------- [0;30m€[44m[K
+ [41m  [1;33m**/** ** ** **s * ***** ***** ***** ***s *  ---------/---------/--------- [0;30m€[44m[K
+ [41m  [1;33m**/** ** ** **s * ***** ***** ***** ***s *  ---------/---------/--------- [0;30m€[44m[K
+ [31mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30m€} T HORSE TRACK
+
+BETRES
+{[19;1H[44m   [0;32;44m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[40m[A
+[35C[44m‹‹‹  [20;1H  [30m€[42m  [1;36mEnter Bet or Race [40m[A
+[23C[42m#: [45m  [42m          [44m  [21;1H  [0;30;44m€[40m[A
+[3C[42m  [1;36mCredits:           Bet: [45m       [42m  [40m[A
+[38C[44m  [22;1H  [0;30;44m€[42m  [1;36mHorses: [45m   [40m[A
+[16C[45m         [42m             [44m  [23;1H  [40m[A
+[2C[0;30;44m€[32;40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[44m[40m[A
+[37C[44mﬂ  [24;1H                                        [40m[A
+[40C[1;37;40m} T HORSE TRACK
+
+WARNIN
+{[20;1H[8C[0;31;42m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹[40m[A
+[42m[21;1H[8C[41m                            [30;40m€[22;1H[A
+[8C[41m      [1;37mPress  <RETURN>       [0;30m€[23;1H[8C[A
+[8C[31;40mﬂ[40mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ[30m€[1;5;33;41m[s
+[u[21;11H%-25s[0;1m},{!|10000$SAVE$|10000$STW$|10000$SMF$|10000$MKILL$
+!|1B00000200LC030E000F080400000F07000000|w0010271610|c0F|W00|=00000001
+!|Y00000100|1B00000200M8030E000F080400000F07000000
+!|1U4Q34D2600000<>%s<>
+!|1B0000020QAQ030F00080F0400000F07000000
+!|1U4V5GCX5W0000<>Click here when done<>$RESTORE$$RMF$$RTW$`H`M|c0A|Y00000200
+!|@5Z3CW A R N I N G|Y00000100|w0000000000|#|#|#
+} T HORSE TRACK
+
+HELPBT
+{[0;1;36mThese are the different types of bets you may place in
+the betting window with a brief description of what needs
+to happen in order for you to win.
+
+[35mTICKET[6C[32m# of Horses  [33mExplination
+[36m==============================================================[A
+[62C====
+[35mWIN[15C[32m1[6C[33mHorse finish first
+[35mPLACE[13C[32m1[6C[33mHorse finish first or second
+[35mSHOW[14C[32m1[6C[33mHorse finish first, second or third
+[35mPERFECTA[10C[32m2[6C[33mHorses finish in order 1-2
+[35mQUINIELA[10C[32m2[6C[33mHorses finish in any order 1-2
+[35mQUINIELA BOX[6C[32m3-6    [33mAny of of horses picked finis[A
+[54Ch 1-2
+[35mTRIFECTA[10C[32m3[6C[33mHorses finish in order 1-2-3
+[35mTRIFECTA BOX[6C[32m3-6    [33mHorses finish in any order 1-[A
+[54C2-3
+[35mTRIFECTA KEY[6C[32m3-6    [33mFirst horse picked needs to f[A
+[54Cinish first
+[25COthers finish in any order 2-3
+[35mSUPERFECTA[8C[32m4[6C[33mHorses finish in order 1-2-3-4
+[35mDAILY DOUBLE[6C[32m2[6C[33mPick Winners of Race 1 and Race[A
+[56C 2
+} T HORSE TRACK
+
+HELPB2
+{[35mQUINELLA DOUBLE   [32m4[6C[33mPick Quinela in 2 consecutive[A
+[54C races
+[35mTRI-SUPER[9C[32m6[6C[33mPick Trifecta in 2 consecutive rac[A
+[59Ces
+} T HORSE TRACK
+
+HORINF 
+{[0m [31m‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+ [41m   [1;37m%-20s      [36mGrade:  [32m%s      [35m%-6s  %-5s %-5s %-5s %-5s [0m
+ [31;41m  [1;37mDATE  S# R# WIN P 1/8TH STRCH FINSH TIME G  FIRST/SECOND/THIRD/FORTH      [0m
+} T Horse Track
+
+HORINF2
+{ [30;41m  [1;33m%-5s %2d %2d %2ds %d %5s %5s %5s %3ds %s  %-9.9s/%-9.9s/%-9.9s [0m
+} T Horse Track
+
+HORINF3
+{ [31mﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+[0;1m} T HORSE TRACK
+
+HOINF 
+{+-----------------------------------------------+
+|        Name: %-20s             |
+|        Odds: %2d-%-1d         Races: %-4d         |
+|        W: %-4d  P: %-4d  S: %-4d  ITM%: %-4d   |
++-----------------------------------------------+
+} T HORSE TRACK
+ 
+NOTHER {[1;37m:***
+[1;32m%s [1;37mis not racing at this track.  Please Make sure the name is Correct.
+} T HORSE TRACK 
+
+PLSNOT {
+[1;5;31;40m ** Please Note:  Payoffs over %s will be taxed 20%!!! ** [0;1;31m
+} T HORSE TRACK 
+
+NXTSET 
+{[1;37m:***
+[1;33mThe next set of races will begin in [1;32m%d [1;33minutes.
+} T HORSE TRACK
+
+PREWIN
+{[36mHere is a list of all the races that have already been run:
+   [0;1;31;40mR# [35mGr [31mP# [32mWinner               TIM [33mODDS     [32mFAVORITE HORSE       PL TIM [33mODDS
+[37m==============================================================================
+} T Horse Track
+
+PREWIN1
+{   [31m%-2d [35m%-2s [31m%-2d [36m%-20s [32m%-3d [33m%2d-%d     [36m%-20s [32m%-2d %-3d [33m%2d-%d
+} T Horse Track
+
+PREVIEW
+{
+[36mHere is a list of all the races that will be run:
+   [0;1;32mR# [35mGr [31mP# [36mFavorite             [33mOdds          [31mP# [36mComputers Pick       [33mOdds
+[37m==============================================================================
+} T Horse Track
+
+PREVIEW1
+{   [32m%-2d [35m%-2s [31m%-2d [36m%-20s [33m%2d-%d          [31m%-2d [36m%-20s [33m%2d-%d
+} T Horse Track
+
+BLUEBAK
+{[44m[K} T Blue Background
+
+BLAKBAK {[40m[K} T Black Background
+
+POSTT {[s[1;37;44m[1;3hPT: [36m%dm[u} T
+
+QIKBETH
+{[0;1;36mQuickbets may be placed on the current race.  They are a simple
+way of placing certain types of bets on races.  You can place win,
+place, show, perfecta, Quiniella, Quiniella Box, Trifecta,
+Trifecta Box, and Trifecta Key bets. This is how to place a Quickbet:
+
+[31mQB (type) (money) (horse1) (horse2) ...
+
+[37mThe different types of bets are as follows:
+     [35mW [0m..... [36mWin (1 horse)
+     [1;35mP [0m..... [36mPlace (1 horse)
+     [1;35mS [0m..... [36mShow (1 horse)
+     [1;35mPR [0m.... [36mPerfecta (2 horses)
+     [1;35mQN [0m.... [36mQuiniella (2 horses)
+     [1;35mQB [0m.... [36mQuiniella Box (Up to 6 horses)
+     [1;35mTRI [0m... [36mTrifecta (3 horses)
+     [1;35mTRB [0m... [36mTrifecta Box (Up to 6 horses)
+     [1;35mTRK [0m... [36mTrifecta Key (Up to 6 horses)
+
+[1;33mExample:  [31mQB QN 1000 0 5
+     [0;32m(This example is a Quiniella for 1000 credits on horses 0 & 5)
+[1m
+} T Horse Track
+
+INVQBT
+{[31m%s is an invalid QuickBet type.
+} T Horse Track
+
+NOTNUFC
+{[31mYou need to be left with %s credits.  Your bet was too much.
+} T Horse Track
+
+BETLIMI
+{[31mThe betting limit is %s credits.
+} T Horse Track
+
+BETCLSS
+{[31mYour bet can not be less than 0!
+} T Horse Track
+
+ONLYL
+{[31mYou are only allowed to bet %d times on one race.
+} T Horse Track
+
+TOOMH
+{[31mYou have selected too many horses.
+} T Horse Track
+
+INVHNUM
+{[31m%d is an invalid horse number.
+} T Horse Track
+
+QIKTAK
+{[36mYour QuickBet was taken.
+} T Horse Track
+
+BADWIN
+{[31mYou can only bet on 1 horse for a WIN ticket.
+} T Horse Track
+
+BADPLA
+{[31mYou can only bet on 1 horse for a PLACE ticket.
+} T Horse Track
+
+BADSHO
+{[31mYou can only bet on 1 horse for a PLACE ticket.
+} T Horse Track
+
+BADPER
+{[31mYou need to bet on only 2 horses for PERFECTA ticket.
+} T Horse Track
+
+BADTRK
+{[31mYou need to bet on at least 3 horses for TRIFECTA KEY ticket.
+} T Horse Track
+
+BADQUN
+{[31mYou need to bet on only 2 horses for QUINIELLA ticket.
+} T Horse Track
+
+BADQBX
+{[31mYou need to bet on at least 3 horses for QUINIELLA BOX ticket.
+} T Horse Track
+
+BADTRI
+{[31mYou need to bet on only 3 horses for TRIFECTA ticket.
+} T Horse Track
+
+BADTRB
+{[31mYou need to bet on at least 3 horses for TRIFECTA BOX ticket.
+} T Horse Track
+
+GOTZAP
+{[36m%s [37mjust disconnected.
+} T Just Disconnected
+
+QUIODDS
+{[36mThese are the current Quiniella odds:
+
+[33mName                 [31mP#    [35m0    1    2    3    4    5    6    7    8    9
+[1;37m==========================================================================
+} T Quinella odds       ---- ----
+
+QUIODDN
+{[33m%-20s [31m%d  [35m} T Horse Name
+
+QUIAOD
+{%4d } T Odds
+
+QUINOD
+{[1;37m----[35m } T Odds
+
+QUIEND {
+} T Odds
+
+TYPEQU {[33mType [37m"[31mQO[37m" [33mfor a list of all of the quiniella odds!
+} T Type for Quiniella
+
+WASFEAT
+{     [36mThis horse was featured in race #[31m%d.
+     [36mIt ran from post [31m%d [36mand finished in the #[31m%d [36mslot.
+} T Was Featured
+
+ISFEAT
+{     [36mThis horse is featured in race #[31m%d [36mrunning out of post #[31m%d[36m.
+} T Is featured
+
+NOTFET
+{     [36mThis horse is not featured in this set of races.
+} T Not featured
+
+FIRSTOT
+{[1;37m***
+[36m(%d) [31m%s [36mis the first out of the gate!
+} T First out
+
+TOPSCR {},{!|10000$STW$|S0100|B0K0CH64A|w04022D0I01
+[0;1m} T Top Screen
+
+TOPRES {},{!|10000$RTW$|#|#|#
+[0;1m} T Top Screen Reset
+
+RIPSCR {},{
+!|1K|*|1B0000020PVK030F000F080700000F07000000|Y00000100|1U0A84HI980000<><>
+!|1B0000020QAQ03040F0F080700000F07000000|1U3C88648O0000<>Program<>PROGRAM`M
+!|1U0K883C8O0000<>Bet<>BET`M|1U64888W8O0000<>Showrace<>SHOWRACE`M
+!|1UBO88EG8O0000<>Quin Odds<>QO`M|1UEG8OH8940000<>Exit<>X`M
+!|1U8W88BO8O0000<>Preview<>PREVIEW`M|1UEG88H88O0000<>Payoff<>PAYOFF`M|w000J201411
+!|1U648O8W940000<>Watch On<>WATCH ON`M|1U8W8OBO940000<>Watch Off<>WATCH OFF`M
+!|1UBO8OEG940000<>Help<>?`M|1U3C8O64940000<>Scan<>SCAN`M
+!|1U0K8O3C940000<>Show Bets<>BETS`M|1B00000200M803040F0F080100000F07000000
+!|1U0A04HI4K0000<><>|1B00000200M803040F080F0000000F07000000|1U0K0CH84C0000<><>
+!|w000L270Z10|#|#|#
+} T Horse Racing Rip
+
+RIPPRO {},{
+!|1K|*|1B00000200LC030F000F080700000F07000000|w0010271610|Y00000100
+!|1UA01KHI6G0000<><>|Y01000300|1B00000200M8030E000F080500000F07000000
+!|1U0A08HI1C0000<>Program & Horse Information<>
+!|1B0000020PWG030E000F080400000F07000000|Y00000100|1U0A6OHI970000<><>
+!|w0000000000|1B0000020PI8030E00080F0400000F07000000|1U0F781T7O0000<>Date<>
+!|1U1T782N7O0000<>S#<>|1U2N783H7O0000<>R#<>|1U3H784B7O0000<>WIN<>
+!|1U4B784V7O0000<>P<>|1U4V78697O0000<>1/8TH<>|1U69787N7O0000<>STRCH<>
+!|1U7N78917O0000<>FINSH<>|1U9178A57O0000<>TIME<>|1UA578AP7O0000<>G<>
+!|1UAP78HD7O0000<>First/Second/Third/Forth<>
+!|1B00000200M8030E000F080700000F07000000|1U0U2W8M5K0000<><>
+!|1B0000020PI803040F080F0700000F07000000|1U1J307X3G0000<>Choose a race<>
+!|#|#|#
+} T Rip Program
+
+RIPRACS
+{},{!|1K|1B0000020QAQ03010F080F0700000F07000000|1U0Z3O1T440000<>1<>RIPRACE 1`M
+!|1U233O2X440000<>2<>RIPRACE 2`M|1U373O41440000<>3<>RIPRACE 3`M
+!|1U4B3O55440000<>4<>RIPRACE 4`M|1U5F3O69440000<>5<>RIPRACE 5`M
+!|1U6J3O7D440000<>6<>RIPRACE 6`M|1U7N3O8H440000<>7<>RIPRACE 7`M
+!|1U0Z4C1T4S0000<>8<>RIPRACE 8`M|1U234C2X4S0000<>9<>RIPRACE 9`M
+!|1U374C414S0000<>10<>RIPRACE 10`M|1U4B4C554S0000<>11<>RIPRACE 11`M
+!|1U5F4C694S0000<>12<>RIPRACE 12`M|1U6J4C7D4S0000<>13<>RIPRACE 13`M
+!|1U7N4C8H4S0000<>14<>RIPRACE 14`M|1B0000020QAQ03090F080F0700000F07000000
+!|1UAA1SAU280000<>0<>RP 0`M|1UAA28AU2O0000<>1<>RP 1`M|1UAA2OAU340000<>2<>RP 2`M
+!|1UAA34AU3K0000<>3<>RP 3`M|1UAA3KAU400000<>4<>RP 4`M|1UAA40AU4G0000<>5<>RP 5`M
+!|1UAA4GAU4W0000<>6<>RP 6`M|1UAA4WAU5C0000<>7<>RP 7`M|1UAA5CAU5S0000<>8<>RP 8`M
+!|1UAA5SAU680000<>9<>RP 9`M
+!|1B0000020QAQ030E00080F0100000F07000000|1U0Z508H5G0000<>Click to Exit<>X`M
+!|1B0000020QAQ03090F080F0700080F07000000
+!|1UB41SH8280000<>%s<>RP 0`M
+!|1UB428H82O0000<>%s<>RP 1`M
+!|1UB42OH8340000<>%s<>RP 2`M
+!|1UB434H83K0000<>%s<>RP 3`M
+!|1UB43KH8400000<>%s<>RP 4`M
+!|1UB440H84G0000<>%s<>RP 5`M
+!|1UB44GH84W0000<>%s<>RP 6`M
+!|1UB44WH85C0000<>%s<>RP 7`M
+!|1UB45CH85S0000<>%s<>RP 8`M
+!|1UB45SH8680000<>%s<>RP 9`M
+} T Race Lineup (RIP)
+
+RIPPRNIN {},{!|1B0000020PI803040F080F0400000F07000000|1U0F6SHD780000<><>|1U0F7PHD940000<><>
+} T Print Horse info (RIP)
+
+RIPGRADR {},{!|1B0000020PWG030B000F080700000F07000000
+!|1U285S786G0000<>Race #%-2d     Grade: %s<>|#|#|#
+} T Rip Grade
+
+MFIELDS {},{!|1M0N0K1K78201000000 0|1M0O0K20782G1000000 1
+!|1M0P0K2G782W1000000 2|1M0Q0K2W783C1000000 3|1M0R0K3C783S1000000 4
+!|1M0S0K3S78481000000 5|1M0T0K48784O1000000 6|1M0U0K4O78541000000 7
+!|1M0V0K54785K1000000 8|1M0W0K5K78601000000 9
+!|1M0NEV8KHD901000000J`M|#|#|#
+} T Mouse fields for Betting window
+
+BETDISR {},{!|1B0000020PI8030A00080F0500080F07000000
+!|1U141K64200000<>%s<>
+!|1U1420642G0000<>%s<>
+!|1U142G642W0000<>%s<>
+!|1U142W643C0000<>%s<>
+!|1U143C643S0000<>%s<>
+!|1U143S64480000<>%s<>
+!|1U1448644O0000<>%s<>
+!|1U144O64540000<>%s<>
+!|1U1454645K0000<>%s<>
+!|1U145K64600000<>%s<>
+} T Bet Display RIP
+
+BETDISO
+{},{
+!|1B0000020PI8030A00080F0500000F07000000
+!|1U641K78200000<>%d-%d<>
+!|1U6420782G0000<>%d-%d<>
+!|1U642G782W0000<>%d-%d<>
+!|1U642W783C0000<>%d-%d<>
+!|1U643C783S0000<>%d-%d<>
+!|1U643S78480000<>%d-%d<>
+!|1U6448784O0000<>%d-%d<>
+!|1U644O78540000<>%d-%d<>
+!|1U6454785K0000<>%d-%d<>
+!|1U645K78600000<>%d-%d<>
+} T Display Odds
+
+BETTAKN {[36mBet taken!
+} T Bet Taken
+
+RIPWRITE {},{!|1I%s%s00010TTIHOR%d.ICN
+} T Write a RIP Horse
+
+RIPERASE {},{!|S0100|B%s%s%s%s
+} T Erase a Horse
+
+MOVHOR {%s[%d;3%dmÍ~Í¯},{} T Move the horse!
+
+GOXY {[%d;%dH},{} T Go to X,Y Coordinate
+
+RACLUPR {},{!|c0A|@17%s%s|@7L%s%2d-%d
+} T Rip Race lookup of horse
+
+PRNBETS {[%d;44H[32;45m%s},{} T Horse Track
+
+PRNBETSR {},{!|c0E|@AN%s%s
+} T Print Bets RIpped
+
+ESC40M {[40m},{} T Escape 40m
+
+ESCB3740 {[37;40m},{} T Escape 37;40m
+
+SORUSED {[31mSorry, the SYSOP menu is being used.
+} T Sorry, being used (Sysop Menu)

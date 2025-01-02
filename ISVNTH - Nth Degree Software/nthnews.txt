@@ -1,0 +1,237 @@
+
+                             Nth News
+                             ========
+
+                             Volume 3.
+
+
+                     Nth Degree Productions News
+
+
+ Welcome To Nth News. In Nth News, you will find the latest updates on our
+ development efforts, news, hints and assorted tidbits. If ever we have
+ to update our library (ie: most or all of the products), grab the latest
+ Nth News to see quickly what has changed in the products to determine
+ whether you should download them. This can save you some time, and perhaps
+ shorten a long distance call. NthNews can be found on GCOMM.COM in the
+ ISVNTH file library, plus it can be sent out automatically (details
+ below).
+
+
+
+ A note from the boss:
+
+   We've been quiet for about a month now, this was due to a hectic
+   schedule. We've been planning out the next 12 months and it'll be
+   chaotic. I guess we thrive in it. I'm sure that we're not the only
+   ones trying to outguess the world, you have to as well. With such
+   things as AOL flat fees, more ways to connect to the net, online
+   shopping, Browser wars and of course WG3, our lives are not any 
+   simpler. As ISV's, our jobs are to provide the tools and products
+   that will keep WG systems one step ahead of other platforms. The WG
+   platform is the undisputed cadillac of the BBS world, and it's the
+   ISV's responsibility to provide the materials the you will need to
+   keep it that way. Frankly, if your system thrives, so do we. We've
+   thought about several things, and have tried to coordinate our 
+   efforts with yours. In the last section of NthNews, we have tried
+   to address questions that people often ask, please give them a 
+   glance. We have also tried to tailor our upcoming development efforts
+   in such a manner that you will have the tools and products to compete
+   in this shifting marketplace. We've been listening to the system owners
+   and operators, and have done what we can, where we can. Such things as
+   ditching the DMA count for order & chaos will hopefully reduce some of
+   the pressures that you must contend with. 
+   
+   Remember, we're listening so tell us what you need.
+
+   Andy
+
+
+     Purchasing can be done through...
+     =================================
+
+     Crystal Quill:
+
+       BBS Direct Line: 703-241-7117
+       Telnet :   CQ.CQI.COM   (205.252.44.33)
+       Phone  :   703-241-7101 (voice)
+       Address:   PO Box 7411
+                  Arlington, Va. 22207
+
+     High Velocity Software:
+
+       BBS Direct Line: 602-200-9756
+       Telnet :   SUPPORT.HVS.COM (165.247.49.98)
+       Phone  :   (800)-572-5582 (NOTE: SALES ONLY)
+       Address:   PO Box 33455
+                  Pheonix, Az. 85067-3455
+
+     Other notable email addresses:
+
+      NthSales@CQ.CQI.COM   -  Sales/Purchasing info.
+      NthSupport@CQ.CQI.COM -  Product Support issues.
+
+     Order And Chaos
+     ===============
+      
+     Wahoo! It's finally done! Yeah, we're late, but hey it's part of the
+     biz. Actually, we sat here for 2 weeks waiting for a bug. We didn't
+     want to ship a buggy product, and well, as far as we know we didn't.
+     Oh yeah, that DMA count thing? When it comes to a system, it would
+     be a pain in the rear, so it's history, gone, toast, removed. We saw
+     it in action with a piece of software and it absolutely sucked. After
+     watching DMA licensing in action, we wish it on no one!
+
+     If you purchase Order and find a bug that we can reproduce, you get
+     5 Bug Bucks, they are good towards any purchase, anytime. Details on
+     Bug Bucks below. And there's no expiry date on them either. We want 
+     to congratulate the following systems:
+
+     1st Place Winner:
+
+          webyte.com
+
+          The folks at webyte absolutely ROCKED! These guys did some
+          serious testing, very professional, very accurate. We'll send
+          them betas from now on! They get the free copy of Order and
+          deserve it totally!
+
+          Other notable mentions
+
+          Nucleus.com.
+          Camel BBS (Malaysia).
+          Nexus BBS.
+
+      The list of Credits will be at CQ & HVS in a day or two as we tally
+      them up. You can put those bug-bucks to use folks, you all deserve
+      a hand. Once you see the final ZIP (it's there now even as we type),
+      download it, and your ready, just call in and let-em know you've
+      got some bug bucks! And to the folks at webyte.com, I'll be emailing
+      your activation code to you!
+
+     Other Cool Stuff
+     ================
+
+     T-Warped Front - The Battle Rages....
+     -------------------------------------
+
+       T-Warped 2.5 is in testing! It'll be on your plate soon. This thing
+       ROCKS! It has TONS of hidden features like pissed off ferrenghi
+       paging your players telling them off, a few ferrballs are in the mood
+       to pass along the secrets of the scorpion too though. New features
+       include:
+
+         -Terran Overdose : Make your terra have the population of earth.
+         -BoneSmasher     : It's pissed, it read your posts, and decided to
+                            exceed the load limit! Take it if you dare, haha.
+         -Wanderer        : It scales goodies according to game age.
+         -Port Juicer     : not a juice bar.
+         -The Specialists : gee, wonder who these guys are.
+
+         ...and a few other goodies....
+
+     Naughty Bits
+     ------------
+      Damn we're having fun with this! We keep coming up with stuff for this
+      one. Tonight we added "magic" potions, ie: Tequila & vodka (fighting
+      drinks!), down a pint, and well, you'll lose your vowels onscreen but
+      you'll scrap the "prudes" real good! We're planning on a live beta 
+      soon!
+
+     The DragonScales
+     ----------------
+      This is a serious piece of digi-art! This'll be on your doorstep real
+      soon, and we recommend you check this one out. An Ansii only 
+      monstrosity with 2.8 million locations. The Addon maps for this will
+      be free, forever, always. The editor kicks butt too. When you see 
+      this you'll say to yourself "wow, how did they think of that!". Well
+      we wanted to play it too, and since it wasn't to be found... we made
+      it (and have been having fun with it too).
+
+     Time Bank
+     --------
+
+      A timely product for turbulent times. Yeah, we know what going on out
+      there, and we're trying to make tools for this weird world. Don't
+      bother trying to mix credits and days and weeks and months and hours
+      and nanoseconds and microcredits and subparticles and flippity-flop
+      revertable account classes. Just give them the time bank.
+
+    Questions And Answers
+    ---------------------
+     
+      To all the curious folk out there, here's the 3.x scoop from nth.
+
+      Q) Will you be porting to WG 3?
+      A) Yes, we will.
+
+      Q) When?
+      A) During Summer 97.
+
+      Q) Why don't you just recompile it and fire it out, I'm sure you guys
+         get WG free?
+      A) No, we get no free rides from GComm. There is no SDK sent out
+         to us, no software or any other assistance. These upgrades are
+         totally out of our pocket. Besides the purchases you make for the
+         upgrade, we have to include the developers kit, compilers, NT,
+         testing machines etc...
+
+      Q) Does that mean you'll raise prices?
+      A) Nope.
+
+      Q) Will you ditch BBSV6, WG1 and WG2?
+      A) No, we have no intentions of that. All our future development
+         is planned to support these platforms.
+
+      Q) What about other multitasking systems?
+      A) We are looking into supporting other platforms, nothing has been
+         decided yet.
+
+      Q) Why is naughty bits taking so long?
+      A) We don't want it to be a game that gets boring in 2 hours. The
+         design is constantly being adjusted so it won't become dry after
+         a person plays with it for a few hours. We want it to have as high
+         a return rate as possible. 
+
+      Q) Will T-Warped be upgraded to WG3?
+      A) It will be first in line.
+
+      Q) Will you upgrade everything?
+      A) Yes, absolutely. It would be a crappy thing to do to anyone who
+         has purchased software otherwise.
+
+      Q) Since the new version of TWarped is a major upgrade, will I have
+         to cough up money even though I already have TWarped?
+      A) Absolutely not! No way! Never, ever, ever!
+
+      Q) What the heck is this bug buck thing?
+      A) If you have any Nth Products that are registered, you may find
+         bugs, we won't deny that bugs can occur. But if you find one,
+         tell us, and once we reproduce it, you will be creditted 5 "bug
+         bucks", good toward any Nth purchase (legal mumbo jumbo: Good only
+         on products you have purchased, not transferable for cash, goat
+         cheese or 2400 baud modems, only good for future purchases).
+
+
+ =========================================================================
+ NTHNEWS - NthNews Server Info:
+
+  If you'ld like NthNews sent to you, or know someone who would like to
+  get it.
+
+  To Receive NthNews:
+
+  Send an email to NTHSALES@CQ.CQI.COM with no title, 
+  add the following to the body of the email,
+
+  JOIN NTHNEWS
+
+
+  To Stop Receiving NthNews:
+
+  Send an email to NTHSALES@CQ.CQI.COM with no title,
+  add the following to the body of the email,
+
+  STOP NTHNEWS
+
+  =======================================================================

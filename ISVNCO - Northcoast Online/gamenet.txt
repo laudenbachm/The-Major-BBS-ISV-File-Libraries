@@ -1,0 +1,104 @@
+Looking to enhance the content of your online service?
+
+GameNet (sm) and ChatWorld (sm) offer fully integrated solutions to your 
+content needs for ALL your users, whether via the Web or through your 
+internal menuing. GameNet is the world's first, biggest and fastest intersystem 
+chat and game network for WG/MBBS systems, with member systems from 
+around the world. 
+
+NEWEST GAMENET/CHATWORLD FEATURES INCLUDE:
+....Fully web accessible interface for ppp/slip now available, including many 
+     C/S games (the 1.4 MB Worldgroup client doesn't look like a very big 
+     download anymore does it?), with our proprietary Java client providing 
+     easy access to all A/A games and chat. Point your browser at
+     http://esites.net/main to try it out.
+....More content - including TeleArena II (C/S), Oltima 2000, Chatmaster,
+     Interchat, Trivia Forum (C/S),  Chess (C/S), Backgammon (C/S), World 
+     Domination (C/S), Sea Battle (C/S), Yahtzee (C/S), and many more! 
+....Faster than ever, for virtually every system on the net. How fast?
+     Ping apk.net to find out!
+....InterChat is now the largest WG/MBBS chat network! Affiliated
+     with AustNet, InterChat's new chat client software gives your users 
+     a direct connection to both the InterChat server and the AustNet
+     monitored IRC network.
+....Mudlink (coming soon) offers your users easy, point-n-click
+     access to *hundreds* of internet MUDs!
+
+WHAT IS GAMENET?
+- GameNet provides your users with transparent, seamless connections to
+  our hub servers that offer super-fast MCI, Sprint, and 
+  UUNET T-3 and T-1 connections. No account creation or login required
+  for most features.Your users just choose options off a menu just like
+  any other module you have online, and are instantly "in" the game.
+- GameNet servers provide gaming hubs where lots of players connect
+  to play. And that's what *your* users want!
+- Responsive, reputable, and professional support.
+- Build your base of loyal users. GameNet helps build loyalty among
+  your users because your users can *only* use their GameNet
+  characters from *your* system.
+- Value: You'll probably need just 2 additional monthly users
+  to pay for this service. No need to worry about whether GameNet
+  will pay for itself! Subscriptions only $39.95 monthly. 
+- GameNet and ChatWorld run on *our* servers. It will never consume
+  your system resources. It will never lag or crash your system. You
+  will never have to worry about software configuration or upgrades.
+  GameNet is virtually maintenance free!
+- Get online in just hours! We'll help you get connected TODAY!
+- We let *you* make the profit. There are no charges for your
+  users to connect to GameNet besides whatever you charge *them*.
+- NEW! Now support for your slip/ppp users too!
+
+FEATURES (in ADDITION to the new features listed above):
+* Rites of Passage: The most exciting new MUD adventure game to hit
+  in years! Unsurpassed online adventure and combat. Consistently
+  has 60 to 200 simultaneous players.
+* Dreams: our widely popular adventure game
+* MajorMUD (Three games - two "standard" editions, and one with all
+   the latest addons.
+* Lunatix
+* Tournament L.O.R.D. I and II PLUS IGMs.
+* TeleArena and TeleArena Gold (TWO great games)
+* ChatWorld intersystem chat service with games like Brawl, Food Fight,
+   Trivia Teleconference, and Telemage, Now also includes
+   InterChat - WG/MBBS's biggest chat network !
+* Trade Wars 2002
+   TWO great tournaments now underway! Your users can play in BOTH!
+* National Match Maker.
+* Blademasters
+* PacMan, and many more!
+* JavaNet - a wide variety of other webgame
+  and other features, including the JavaNet "ShowCase" and "ThemePark".
+
+COST: Join for $39.95 monthly plus a small one-time registration
+fee of $25. Optional web-based interface just $15 more monthly. 
+
+REQUIREMENTS: Vircom's MajorTCP/IP or ICO with Vircom's DMA 
+Client for ICO. It is *not* necessary to own any of the games or other features
+listed above, nor will you need to purchase or install any additional
+software.
+
+JOINING: Call (216) 561-9447 24 hours a day. Leave a message if we can't
+take your call. We'll get back to you promptly! We'll be happy to sign
+up any system that is not in an area serviced by a GameNet with an
+"exclusive access option" - so most areas are available for signup!
+
+=============================================================================
+GameNet Application (Complete and mail to gamemaster@worldnetoh.com)
+
+Your system name:
+Its postal address:
+Its main modem number:
+Its domain name and IP number:
+
+The name of a contact person:
+Their voice phone number(s):
+Their email address:
+
+Our WG internet software is Vircom ___ Galacticomm's ICO ___
+
+Galacticomm ICO owners only complete the following:
+I do ___ or do not ___ own ICO's advanced internet option.
+I do ___ or do not ___ own Vircom's DMA client for ICO.
+(Note: ICO's advanced internet option is *not* required)
+
+Email this form to gamemaster@worldnetoh.com.

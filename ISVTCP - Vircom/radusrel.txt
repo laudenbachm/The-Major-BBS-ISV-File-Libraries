@@ -1,0 +1,122 @@
+RADIUS Server
+
+Vircom's Radius server lets you authenticate and charge users who gain 
+access to the Internet via Terminal Servers on your local TCP/IP network.
+The RADIUS server is the ideal solution for systems who wish to provide 
+breakthrough Internet services without losing the functionality and 
+familiarity of Worldgroup.
+
+What is a terminal server?
+
+Terminal servers are multi-serial-port hardware devices that hookup to a 
+network, instead of directly into a PC.  Unlike conventional serial hardware, 
+which drain processing resources from your BBS, terminal servers are 
+dedicated computers with their own processor, memory, operating systems and 
+high-speed network and serial ports.  Because terminal servers are designed 
+to independantly manage PPP/SLIP/CSLIP sessions, they offer additional 
+functionality and flexibility over other serial hardware.  You can offload 
+all of your dialup SLIP and PPP traffic that's normally handled by the BBS 
+directly to terminal servers.
+
+The terminal server's setback (until now...)
+
+Although terminal servers have an internal database that could contain the 
+username and password of each user that has access to the BBS, terminal 
+servers by themselves cannot do any accounting and billing.  Furthermore, 
+keeping the user database on the terminal servers in synch with the BBS 
+user database by hand would be impractical to say the least.  In order to 
+make terminal servers more than just expensive multi-port devices, a 
+solution is required.
+
+What is RADIUS?
+
+RADIUS is a protocol developed by a consortium of companies that manufacture 
+terminal servers in association with the IETF (Internet Engineering Task 
+Force.)  RADIUS allows terminal servers to talk to a central accounting 
+system using a RADIUS server.  In our case, the accounting system is 
+MajorBBS/Worldgroup's own built-in accounting system.  Vircom's RADIUS 
+server acts as the interface between the BBS and your terminal servers, using 
+the RADIUS protocol to communicate user information.
+
+How does RADIUS work?
+
+Once a user connects to a terminal server, he'll receive either a login 
+prompt or will immdiately detect and start PPP auto-sensing.  In either case, 
+the terminal server will ask for a UserID and a password.  Via the RADIUS 
+protocol, the terminal server will send the access request over to the 
+RADIUS server for authentication purposes.
+
+The Radius server will check if the user has a correct password.  If he or 
+she does, the Radius server will verify if the user in question has access to 
+the requested service specified by a prefix typed in front of the UserID.  A 
+prefix is a set of characters followed by a colon (:) character.  Prefixes 
+can be omitted in the case of people dialing-in using a TCP/IP stack with PAP 
+capability.   In either case, a reply is sent back to the terminal server.
+
+In the case of a positive response, the terminal server will send a 
+start-of-session packet to the RADIUS server running on the BBS machine 
+telling it that the user in question is beginning his session on the terminal 
+server.  When the person decides to hang-up, an end-of-session packet is sent 
+by the terminal server to the BBS, who deducts the appropriate amount of 
+credits and/or time from the person's account.
+
+The only interaction between the PPP user and the BBS are when the PPP 
+session is started and when it stops.  During the session, the BBS is not in 
+anyway related to the PPP session.  In fact, you could even take your BBS 
+down while users are connected via PPP to the terminal server and they would 
+never notice (unless they were telnetting to the BBS, etc.!)
+
+Some highlights of RADIUS' benefits:
+
+ . Performance:  Using terminal servers, the throughput of the TCP/IP 
+   traffic of users' connections will definitely increase.  A beta-
+   tester has evaluated the increase at 30%!  This is due to the extremely
+   fast design of the terminal server, and because the PPP session is not
+   affected by other BBS functions (such as games, modules, etc.).
+ 
+ . Accessibility:  Since shutdowns and crashes of the 
+   Worldgroup/MajorBBS don't affect RADIUS connections in progress, the 
+   online time of the business' operations is increased.  The RADIUS
+   protcol is very effective for systems wishing to establish remote
+   point of presence (POPs) locations providing dialup access in cities
+   across the area code or across the world!  All that is needed at the
+   remote site are modems, a terminal server and an Internet connection.
+
+ . No ceiling of 255 lines:  RADIUS PPP/SLIP users do not use Galacticomm
+   user channels!  There is no ceiling on the number of lines your RADIUS
+   server could manage.  The RADIUS server has minimal CPU & disk 
+   impact, so a single Worldgroup system could be the accounting server 
+   for a pool of 1,000+ lines.
+ 
+ . Redundancy:  By having phone lines being served by multiple terminal 
+   servers, the risks related to a hardware failure on all lines is 
+   reduced, as opposed to running them all in a single 
+   Worldgroup/MajorBBS system.
+ 
+ . No need for 6-packs:  As PPP/SLIP/CSLIP users are not actually 
+   logging in and going through the Worldgroup/MajorBBS system, 
+   Worldgroup user licenses don't have to be purchased.
+
+AVAILABILITY AND PRICING
+
+The current RADIUS server for Worldgroup and MajorBBS supports 
+MajorBBS v6.25 and Worldgroup v1.x and v2.0 and v3.0 (DOS & NT).  
+The RADIUS server requires your system to be running Vircom's MajorTCP/IP.
+
+- Base RADIUS server
+    Include a 32-ports access license
+
+  Price: $500
+
+
+- RADIUS 32-pack license upgrade
+    Increase number of access ports by 32
+
+  Price: $200
+
+
+- RADIUS 128-pack license upgrade
+    Increase number of access pors by 128
+
+  Price: $700
+
