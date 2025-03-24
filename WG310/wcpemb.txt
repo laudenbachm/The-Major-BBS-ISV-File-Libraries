@@ -1,0 +1,97 @@
+<head></head>
+<body>
+
+<center>
+<font face="arial" font size="4"><b>Embedding a WebCast Pro video stream into
+another page</font></b></center>
+<br>
+<br>
+<font face="arial" font size=2>
+To see a sample, point your browser at <a href="http://www.gcomm.com/support">www.gcomm.com/support</a>
+<br>
+<br> If you save this file as HTML and view it in a browser,
+you should get the broadcast of our Tech Support camera.
+<br>
+<br><b> To customize: <br></b>
+
+Make changes these changes to the javascript:
+<br>
+<li> Change "support+center" to the user-id of the broadcaster. </li>
+<li> Change "tech_support" to the name of the broadcast group.
+<li> Change "www.gcomm.com" to domain name of Webcast server.
+<li> Change "wcpro.gcomm.com" to domain name of Webcast server.<br>
+</li>
+<br>
+<br><center>* * END OF DIRECTIONS - START OF JAVASCRIPT * *</center>
+<br><br><br></font>
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+var       bcnames = new Array( 2 );
+var       bctypes = new Array( 2 );
+var       bctype = "";
+
+bcnames[ 0 ] = "Support+Center";
+bcnames[ 1 ] = "Support+Center";
+
+bctypes[ 0 ] = "Tech_Support";
+bctypes[ 1 ] = "Tech_Support";
+
+function chooseBroadcaster()
+{
+        var dt = new Date();
+        var bcno = Math.floor( Math.random() * 2 );
+
+        bctype = bctypes[ bcno ];
+
+        return( bcnames[ bcno ] );
+}
+
+function showVideo()
+{
+        var height = "height=96";
+        var width = "width=128";
+        var dt = new Date();
+        var alias = "web" + dt.getTime();
+        var caster = chooseBroadcaster() + "&chatalias=" + alias;
+        var fallbackimg = "&fallback=http://www.gcomm.com/images/noimage.gif";
+
+        var     isnetscape = 0;
+        var     isie = 0;
+
+        var     agent = navigator.userAgent;
+
+        isnetscape = (agent.indexOf("Mozilla/") >= 0);
+        isie = (agent.indexOf("MSIE") >= 0);
+
+        if (isie)
+        {
+                isnetscape = 0;
+        }
+
+        if (isnetscape)
+        {
+                document.writeln( "<img ALIGN=MIDDLE src=\"http://wcpro.gcomm.com/galwebv/vstream?bcname=" + caster + fallbackimg + "\" " + height + " " + width + " " + fallbackimg + " " +
+                                                                " alt=\"No Image Available\" border=0>" );
+        }
+        else if (isie)
+        {
+                document.writeln( "<applet codebase=\"http://wcpro.gcomm.com/classes/\" code=\"wcievid.class\"" + height + " " + width + ">" );
+                document.writeln( "<param name=\"vidsrc\" value=\"http://wcpro.gcomm.com/galwebv/vstream?bcname=" + caster + "\">" );
+                document.writeln( "<param name=bgcolor value=FFFFFF>" );
+                document.writeln( "<param name=clickthrough value=\"http://wcpro.gcomm.com/galwebv/begin?bcname=" + caster + "2&name=" + bctype + "\">" );
+                document.writeln( "</applet>" );
+        }
+}
+
+
+        showVideo()
+// -->
+
+
+</SCRIPT>
+
+</body>
