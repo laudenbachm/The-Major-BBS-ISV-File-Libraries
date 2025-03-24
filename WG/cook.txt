@@ -1,0 +1,97 @@
+                  Worldgroup NT/95 v3.1 Demo Software
+                  -----------------------------------
+
+The Worldgroup NT/95 v3.1 Demonstration software is available through
+Galacticomm's Web Site at http://www.gcomm.com/demo, via FTP or through the
+Galacticomm Demo System File Libraries.  Anyone interested in downloading the
+demo software must have an account on Galacticomm's Demo System in order to
+obtain the software.
+
+The Web site provides two methods for downloading most of the demo files:
+
+     - a self-extracting download or
+     - InstallfromtheWeb download
+
+This document will provide the steps necessary to get started using the
+demonstration software.  The software provided will allow you to experience
+the features of Worldgroup and some of the add-on options that are available
+for it.  There are some limitations to this version of the baseline software
+which are:
+
+     * only six simultaneous callers at any time
+     * only five accounts can exist at any time
+     * WorldLink Hub will not permit access to the Worldgroup server
+     * the online server system will remain active for two hours at a
+       time.  After the two hours the server will need to be manually
+       restarted to function again.
+
+The Worldgroup NT/95 Demonstration software has the same hardware
+requirements as the full shipping version.
+
+
+Installation
+------------
+
+Depending on which method you used to download the Worldgroup Demonstration
+software, you may have one or more installation files located on your hard
+drive.  If you select the InstallfromtheWeb method of downloading the
+software you will be given the option to install directly from the Web,
+install from the Web and save the files locally, or save the files locally.
+Pick the option that best suites your needs.
+
+In addition to the basic Worldgroup software, three additional products have
+are available for you to test out:  ActiBase Add-on for Worldgroup, Active
+HTML Teleconference and WebCast Add-on for Worldgroup.  All three modules
+will work with the demo server.
+
+The following are the file names to look for when downloading the
+self-extracting executables:
+
+     WG312DEM.EXE - Worldgroup NT/95 v3.1 Baseline
+     WGHPD31.EXE  - Worldgroup Hypermedia Page Editor
+     ACTIBASE.EXE - ActiBase Add-on for Worldgroup
+     WEBCAST.EXE  - WebCast Add-on for Worldgroup
+     CAST32.EXE   - WebCast Add-on 32bit Stand-alone Broadcaster
+     HTMLTELE.EXE - Active HTML Teleconference Update for Worldgroup
+
+Once you have obtained the files you wish to install, you would execute
+each one.  You must run the WG312DEM.EXE (or SETUP.EXE if you used
+InstallfromtheWeb) first as it creates the initial directory structure.
+
+
+Activation Codes
+----------------
+
+During the installation of the Worldgroup Baseline, the software will
+prompt you for an activation code.  Also during the installation of the
+ActiBase and WebCast Add-ons you will be prompted for an activation
+code.  Make sure that for each add-on option you have installed that you
+have entered the appropriate activation code for that product from the
+list below:
+
+     Worldgroup NT/95 v3.1 Baseline          -    DEMO
+     ActiBase Add-on Option                  -    912908736
+     WebCast Add-on Option                   -    832428408
+
+The following files do not require activation codes:
+
+     WGHPD31.EXE  - Worldgroup Hypermedia Page Editor
+     CAST32.EXE   - WebCast Add-on 32bit Stand-alone Broadcaster
+     HTMLTELE.EXE - Active HTML Teleconference Update for Worldgroup
+
+
+Upgrading to the full shipping version
+--------------------------------------
+
+If at any point during your evaluation you decide to purchase a
+license to a full shipping version of this software you can install it
+directly on top of the existing software without losing any of the
+configuration options.
+
+Installing a full working version of Worldgroup without installing full
+working versions of either ActiBase or WebCast will cause these add-ons to
+stop functioning until a proper activation code is entered for them.
+
+For more information on the Worldgroup family of products, visit our web site
+at http://www.gcomm.com or call us at (800) 328-1128, or (954) 583-5990 if
+you are outside the U.S. and Canada.

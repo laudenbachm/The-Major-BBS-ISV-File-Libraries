@@ -1,0 +1,1822 @@
+Worldgroup v2
+List Price Information
+
+December 1996
+All products listed are for
+the Worldgroup platform,
+unless otherwise noted.
+
+Worldgroup
+
+Worldgroup v2, 2-user baseline $149.00
+
+Launch plug-and-play client/server applications from your Web site.
+Includes customizable surveys, shared file libraries, group messaging,
+SMTP mail and teleconference with collaborative drawing board.  Built-in
+Web server software -- or use in conjunction with your existing Web
+server.  Supports up to two simultaneous users via TCP/IP or dial-up
+modem.  Requires 486 or Pentium-class PC, 8MB of RAM and DOS 5 or
+higher.  Includes freely distributable Worldgroup Plug-in for Netscape
+Navigator and Internet Explorer that will launch Windows client
+applications from users' browsers.
+
+Worldgroup v2, 8-user baseline $314.00
+
+Support up to eight simultaneous connections via TCP/IP and dial-up
+modem.
+
+Worldgroup Internet Server $1117.00
+
+Become an Internet Service Provider and offer dial-up users secure proxy
+and dedicated SLIP/CSLIP/PPP access out to the Internet, as well as a
+range of Internet services, such as ftp, telnet, rlogin, finger, NNTP
+newsgroups, IRC and POP3 mail.  Includes 20-user license of Worldgroup,
+Dial-Up Option, Advanced Internet Option and Dial-Out add-on.
+
+Worldgroup Enterprise Server $5597.00
+
+A complete online interactive software platform.  Offer online shopping
+with secure credit card verification, customizable surveys, shared file
+libraries, group messaging, teleconference with collaborative drawing
+board, ftp, telnet, rlogin, finger, NNTP newsgroups, IRC, SMTP and POP3
+mail.  Support for TCP/IP, modem, Novell LAN and ISDN callers.  Includes
+128-user license of Worldgroup, Dial-Up Option, Novell LAN Option,
+Advanced Internet Option, Dial-Out add-on and Omni-Mall add-on.
+
+Connectivity Options
+
+6-User Pack $289.00
+
+Supports up to six additional simultaneous users.  Installs effortlessly
+and leaves all existing configuration and data files intact.  Up to 42
+6-User Packs can be added for a total of 256 simultaneous users (we
+throw in the last two users for free).
+
+12-User Pack $499.00
+
+Supports up to twelve additional simultaneous users.
+
+24-User Pack $999.00
+
+Supports up to twenty-four additional simultaneous users.
+
+Dial-Out $137.00
+
+Allows users on your Worldgroup system to transparently connect to other
+systems via optional connections such as TCP/IP, modems, ISDN terminal
+adapters, serial links, or X.25 connections (X.25 requires the X.25
+Software Option).  Compatible with the Intelligent Serial Kit and
+non-intelligent serial hardware.  A flexible script language lets you
+configure features or areas of other systems your users can access by
+automating outgoing calls.  Scripts are created using a simple ASCII
+text editor.
+
+Dial-Up Option $207.00
+
+Supports modem, ISDN terminal adapter and serial link access to your
+Worldgroup System.
+
+Novell LAN Option $207.00
+
+Allows users on your Novell LAN without TCP/IP connectivity to access
+your Worldgroup system.  Supports Novell NetWare IPX/SPX channels.
+
+X.25 Software Option $697.00
+
+Connects your system to an X.25 packet-switching network without the
+need for a PAD.  Requires the PC XNet card - see X.25 Network Hardware.
+
+Internet Applications
+
+Advanced Internet Option $347.00
+
+Allows you to become an Internet Service Provider when used with the
+Dial-Up Option.  Provides dial-up users with proxy and dedicated
+SLIP/CSLIP/PPP access out to the Internet, as well as a range of
+Internet services, such as ftp, telnet, rlogin, finger, NNTP newsgroups,
+IRC and POP3 mail.  Charge based on connect time or traffic or both.
+Also adds ftp server to your Worldgroup server, mirroring file libraries
+as ftp subdirectories automatically.
+
+Major TCP/IP (Combo)                            $700.00 (256 Sessions)
+             (Unlimited Sessions Upgrade)       $500.00 (1024 Sessions)
+             (Upgrade from Outgoing to Combo)   $300.00
+             (Upgrade from Incoming to Combo)   $300.00
+
+Connect your BBS to the Internet!  Outgoing version supports
+Telnet/Rlogin and FTP.  Incoming version supports incoming Telnet/
+Rlogin.  Combo (In & Out) version supports Telnet/Rlogin (In & Out),
+Finger client & server, FTP Client & Server, WWW Server with up to 64
+TCP sessions.  Also offers SLIP to your users for Net surfing!
+
+Web Development Tools
+
+CGIMagic $199.00
+
+Add CGI Scripting into your Web Pages!  - Full Basic-like scripting
+language.  Support Embed CGIMagic apps right into your pages.  CGIMagic
+makes form support a snap.  Update scripts while the server is up and
+running!  Integrated script development environment.
+
+CGIMagic Pro                     $399.00
+CGIMagic to CGIMagic Pro Upgrade $200.00
+
+Same as CGI Magic, but comes with the BBS Plug-in.  This adds functions
+to CGIMagic Pro that allows scripts to be written to access the BBS
+functions such as New User Signup from the Web without the Worldgroup
+Manager.  Includes scripts for New User Signup, Page User, Registry of
+Users, Logon Announcements, Account Display/Edit, List Users Online and
+List Recent Callers.
+
+Webmagic $199.00
+
+For the Webmasters running Worldgroup Version 2.0, or Major TCP/IP...
+Webmagic Web Management utility:  Easily upload/download Web Pages and
+support files to their proper directories Control user access, including
+drive space and file volume Track bytes sent from the home page, or user
+page Generate statistics which include number of hits, bytes
+transferred, etc.  Invoice users for Web parking (by bytes sent, daily,
+etc.)  A must needed utility for managing Web Sites!
+
+Web Master II $99.00
+
+Let your callers design their own WWW pages and place them on your
+system, starting them out with a starter template if needed!  Web Master
+automatically builds an index HTML of all the users with areas, which
+you can link into your regular web site.  Compatible with Galacticomm's
+Internet Connectivity Option and Vircom's Major TCP/IP.
+
+Add-on Options
+
+Adventure/Strategy Games
+
+BladeMaster $47.50 (2 user)
+            $119.00 (8 user)
+            $199.00 (unlimited)
+
+BladeMaster is a detailed ANSI arena combat simulation.  Designed to
+provide users with nearly endless hours of blood-racing battle.  With a
+special editor included with your purchase, you can create your own
+unique hordes of gibbering, vicious monsters to make your game an
+exciting challenge!
+
+Crossroads of the Elements $250.00
+
+Crossroads is an interactive, text based fantasy game that will give
+your users hundreds of hours of play!  This game has everything to keep
+the die-hard adventurer happy for ages!
+
+CyberTank $395.00
+
+By far the most advanced war game on the BBS Market.  This game offers
+your users conflict on a global scale.  Armed with custom designed
+Cybertanks and their wit, your ANSI users will try to conquer a vast
+continental landscape where terrain provides strategic passage for the
+wise, and surreptitious ambush for the crafty.
+
+Cyber Wumpus 2010 $99.00
+
+A multi-player action text adventure.  With weapons and ammo collected
+from the maze, players attempt to kill as many wumpus and other players
+before dying themselves.
+
+Game Connection $349.00
+
+Now your users can play commercial and shareware modem games through
+your Major BBS/Worldgroup system!  Most 2-player games work right out of
+the box.  The Game Connection runs as a DLL with no additional hardware
+required!  It allows an unlimited number of concurrent games to be
+played.  Supports 4 player Doom and Doom II, 4 player Heretic, Descent,
+most 2 player games, and much more.
+
+Global Destruction $125.00
+
+Sure, the cold war is over - but now everybody and his dog has nuclear
+capability!  Players square off against other users and ruthless
+computer opponents in a world filled with missiles, anti-missiles, jet
+fighters, bombers, spies, propaganda, secrets, brainwashing, and more
+radiation than any other Worldgroup game!
+
+Lost Caverns of Miczyk $399.00
+
+Lost Caverns is the role playing game for Worldgroup that allows your
+users to build the game as they play!  You control who can create rooms,
+monsters, items, spells and moves!  Some of the hundreds of features
+include:  * Up to 24 fully configurable races!
+
+Mutants $199.00
+
+Over 15,000 rooms to roam, 500 different monsters, spells and time
+travel.  There are 79 levels of play and 5 player classes.  Users set up
+and buy stores, acquire weapons, trade items and more!  Comes with a Map
+editor, Item/Monster editor and Theme editor so that you can change the
+concept of the game!
+
+NovaTrek $99.00
+
+NovaTrek is a full-featured spaced adventure game.  NovaTrek puts your
+users in the Captain's chair of their own spaceship to scour the galaxy
+for uncharted planets, dangerous aliens, starbases and adventure!
+
+Oltima 2000 - "The Quest for the Holy Grail" $249.00
+
+The ultimate full ANSI graphics adventure game with thousands of rooms,
+monsters, cities, dungeons, towers, castles and every imaginable option
+in a real time user vs. user environment.  Users compete to find the
+Holy Grail by killing the 7 magical Dragons and obtaining the 7 jeweled
+rings.
+
+Trade Wars 2002 $400.00 (Multi)
+                $200.00 (Single)
+
+Trade Wars 2002 is a game of starships, trading, corporations, aliens,
+and galactic conquest.  Players begin their quest for fame and fortune
+with only their wits, a few credits in their pocket, and a shiny new
+merchant cruiser.
+
+World Domination $149.00
+
+The strategic war game where you must take over other countries using
+militant logic.  Up to 8 players can play at once in any active game or
+take turns over a period of time.  Interaction is possible between the
+two platforms of Client/Server and ANSI users.  Features:  Toolbar with
+balloon help, Content Sensitive help, Full Feature Animation and
+Graphics, Scrollable World Strategy Map, Intuitive User Control -
+Central Command, Sound Card Support.
+
+World Wide War $139.00
+
+The goal of this game is to conquer the world.  Countries may be
+attacked and conquered from bordering countries as players deploy troops
+on countries they hold.  Reinforcement troops are awarded based on the
+number of countries occupied and bonus troops are given for holding an
+entire continent.
+
+Zorgon $30.00 (2 user)
+       $77.00 (8 user)
+       $129.00 (unlimited)
+
+Fully interactive multiplayer text adventure designed exclusively as an
+add-on game module for Worldgroup.  It is similar, in a way, to such
+games as Zork, Deadline, etc.  The key difference being that many
+players may be in the game all at once, in REAL TIME!
+
+Advertising Utilities
+
+Ad Master  $29.00 (2 user)
+           $79.00 (8 user)
+           $129.00 (unlimited)
+
+Broadcast messages and/or advertisements anywhere on your system, at any
+time.  Broadcasts can be in text and/or ANSI format Ads can be created
+and changed online.  Great for sending those subliminal thoughts, or for
+announcing upcoming activities and specials to your ANSI users!
+
+Worldgroup Bulletins $49.95
+
+Create Bulletins for C/S of A/A users.  Can be read online or offline.
+Built in mini-word processor.
+
+Worldgroup Bulletins Pro $129.95
+
+All the features of the above product plus much more.  Add .BMP, .WMF,
+.DIB graphics to bulletins.  Create groups of users to specialize
+bulletins.
+
+Billing and Accounting
+
+900 Service Package Free!
+
+900 Link is the premier phone billing module that allows your users to
+gain immediate access to your service.  Our menu driven service allows
+complete configuration of classes, credits, and keys.  Our service also
+offers the largest payout in the industry and even your own phone number
+when specific volumes are met.
+
+Accounting Automation $39.00
+
+Accept 900 number calls, validate credit cards and even issue
+subscription codes.  Accounting Automation also allows you to make
+certificates containing subscription codes for any monetary amount which
+you can then give away or sell to your users.
+
+Autosubscription $100.00
+
+Allows you to set up recurring billing of your users.  Requires
+EZCharge.
+
+Charge Card Manager $69.95
+
+The only credit card utility you will ever need.  Charge Card keeps
+track of all histories including purchases, reference numbers and
+authorization codes.  Other features include automatic approval, credit
+lines, and up to 10 configurable membership options to sell.
+
+CheckMan $49.00
+
+Allows you to take "online checks" utilizing the services of American
+Transaction Services (ATS).  A user simply inputs his checking account
+number and CheckMan takes care of the rest.
+
+EZCharge $199.00
+
+The premier credit card billing module that allows your users to gain
+instant access to your BBS with the most convenience.  The menu of
+services is tailored to each class of user on the BBS, giving the Sysop
+virtually unlimited configurability.  VisaMan can optionally post
+credits to the user, switch his class, and give him expireable keys.
+Credit card orders can be instantly processed online when used with the
+POS Dial Module.
+
+M.I.D.A.S. $249.00
+
+The Multi-functional Interactive Debit and Account Service is unique in
+many ways when compared to other account management/sales applications
+currently available for The Major BBS and Worldgroup.  M.I.D.A.S.
+accepts payment in the form of any major credit card AND/OR checks when
+processing through ATS.  M.I.D.A.S. allows funds to be applied to a
+debit account for future purchases, including the sale of class changes,
+credits, keys, and time duration keys.  M.I.D.A.S. supports ASCII/ANSI,
+RIP and Worldgroup interface formats.
+
+POS Dial Module $250.00
+
+POS Dial Module brings the capability to perform end to end transaction
+processing to The Major BBS.  This module functions as an interface
+between DataSafe's VisaMan and Omni-Mall applications and the credit
+card processing networks.
+
+Board Games
+
+Cross-Wordz $239.95
+
+The ultimate interactive word game.  Players compete in a 15x15 grid to
+place words they create from a combination of tiles.  You can have an
+unlimited number of games being played simultaneously and up to five
+players can play in each game.  User scores are kept in a database to
+maintain the top ten list.  You can add and remove words from the
+dictionary, allowing you to control the difficulty level.
+
+FOURmation $49.00
+
+Bring the excitement of vertical checkers to your system.  Callers
+attempt to become the first player to get four tiles in a row either
+vertically, horizontally or diagonally.
+
+Professional Backgammon $159.95
+
+One of the most popular interactive games for Worldgroup.  Everyone
+knows how to play Backgammon and we've made it even easier with all the
+click-and-drag features.  This Backgammon game even uses the Double Dice
+for challenges.  Players can participate in up to 10 games
+simultaneously with an unlimited number of spectators watching.  You can
+configure the maximum numbers of days a game can be played and the
+number of days before deleting an old game.
+
+Sea Battle $59.00 (2 user)
+           $99.00 (8 user)
+           $129.00 (unlimited)
+
+An adaptation of the popular board game Battleship, Sea Battle pits
+player vs. player (or player vs. computer) in a contest of strategy and
+skill.  Issue a challenge, set up your fleet, man your battle stations,
+and fire away!  Sink your opponent's ships before he sinks yours.  A fun
+and addictive game for users of all ages.
+
+Spot $60.00
+
+"Divide and conquer" takes on a new meaning in the client/server version
+of this board game.  Players start on variable sized grids with random
+obstacles thrown about for added complexity.  They jump one of their
+pieces to an opening two squares away, or break a piece into two pieces
+to fill an adjoining space.  All pieces neighboring the new piece are
+turned to your color.  Other players can watch games in progress, or
+check out the high score list.
+
+Tournament Checkers $149.95
+
+Checkers uses real international rules for play which include forced
+jumping, backward jumping and many more rules that make Checkers a real
+competition.  Features include ANSI, ASCII, RIP and C/S graphics, top
+ten list, teleconference mode, and individual scores.
+
+Tournament Chess $159.95
+
+Chess players have enjoyed this game for years.  This game offers every
+feature of Chess including castling, empassant and more.  This chess
+game uses the National Chess Federation rating in points starting
+everyone at 1000.  Players can choose from a 2-D or 3-D chess board and
+can chat with each other during game play.  You can configure the
+maximum number of days a game can be played and the number of days
+before deleting an old game.
+
+Tournament Othello $149.95
+
+Othello features an unlimited number of games, high scores, ANSI, ASCII,
+RIP and C/S graphics with many other features.  Othello has a built in
+chat mode for chatting.  Other users can watch any game in progress or
+check out whose ranked highest on the top ten list.
+
+Calendars
+
+Agenda $199.00
+
+Agenda for Worldgroup is an online calendar application, offering public
+and personal scheduling capabilities to you and your users.  With
+powerful features such as unlimited category filtering and recurring
+event support, Agenda is your best solution for online scheduling needs.
+Events can be designated as private, public, or can directed to a
+pre-configured distribution list.
+
+Card Games
+
+Card Sharks $69.95
+
+The object of the game is to finish with the largest amount of cash
+possible.  You begin with $250 in cash and must go through 5 levels of
+betting.
+
+Crib $149.00
+
+This is an all time favorite card game better known as "Cribbage"
+available in Worldgroup and The Major BBS.  Users can play multiple
+games at once in real time or they can take a few turns each day.  Games
+are saved daily to allow for play over a period of time.  This game
+allows "skunks" and follows the rules of Cribbage.  Features:  Graphical
+Chat Lounge, Toolbar with balloon help, Sound Support, Graphics and
+Animation, Content Sensitive help, Real time or Turn-Style Play and up
+to 300 Active games.
+
+Hearts $39.95
+
+This interactive card game requires a minimum of three players needed to
+play.  The object of the game is to accumulate zero points while playing
+out the cards.  Points include all the heart cards and the Queen of
+Spade.
+
+Klondike Solitaire $59.00 (2 user)
+                   $99.00 (8 user)
+                   $129.00 (unlimited)
+
+A classic rendition of the ever popular Solitaire card game.  Users have
+the ability to save a game that they are in the middle of and return to
+it later.  Klondike's progressive pot is automatic with monthly payoffs
+and score resets.  Statistical reports are automatically generated for
+the Sysop's use and information.
+
+Liar $39.95
+
+An interactive card game that is very popular in colleges.  Liar
+requires at least three players and is played in a teleconference mode.
+Players discard cards according to sequence (1, 2, 3,...  J, Q, K).  The
+object of the game is to discard all cards.  Users can lie when
+discarding cards, but can also get caught!
+
+Databases
+
+Form Manager $495.00
+
+Form Manager lets you present online forms to your ASCII, ANSI, and
+Worldgroup client users.  Each form is an 80 character by 24 line input
+screen that you design.  For users who access the form using Worldgroup
+client software, the form is automatically converted to a graphical
+interface.  Form information can also be routed by e- mail to a person
+you specify.
+
+Genesys $995.00
+
+Allows you to create 24-bit color multimedia databases on your
+Worldgroup system!  Since Genesys supports Windows Interface Protocol
+(WIP), in addition to an ANSI interface, your end-users will be able to
+access your database with a true all Windows interface, and you can
+still offer your service to non-Windows callers.  With simple GenScript
+configuration files, you can custom design your own application with
+embedded graphics, text files, and sound files, or select one of our
+turnkey applications like the Product Catalog, Auto Seller, Residential
+Real Estate or the Match Maker.
+
+Genesys Product Catalog Module $395.00
+
+Preconfigured database for selling virtually any product using Genesys.
+
+Genesys Real Estate Module $395.00
+
+Preconfigured database for selling real estate using Genesys.
+
+Genesys WIP Builder $195.00
+
+Make your own Genesys database with WIP!
+
+InfiBase for Worldgroup    $695.00
+InfiBase for The Major BBS $695.00
+
+Hierarchical database that can meet multiple needs for Worldgroup
+Sysops.  You can design any application requiring collection and
+dissemination of data that can be classified in a hierarchy.  You don't
+have to be a programmer, InfiBase is more than just pictures too – you
+can have sound, animation, images and video clips.  Supports BMP, JPG,
+GIF, PCX, TIF, Photo CD, FLI, FLC, AWA, WAV, RMI, MIDI, AVI, AVS and
+QuickTime movies.  InfiBase tracks usage statistics such as what they've
+read, written, and responded to.
+
+Log Master $39.95
+
+Now you can keep track of all your callers including their baud rate,
+line number, date of call, time of call, and caller number.
+Configurable number of callers up to 50,000 . Includes a global "last 20
+callers" and the ability to search for a user's log info.
+
+MajorNet Registry $39.00
+
+MajorNet Registry allows your users to fill out a registry that will be
+sent over the MajorNet and to look up other MajorNet users, using the
+global look up function from systems that also run the registry.
+Features search by User ID, Node ID, or keyword.
+
+MajorNet Registry Plus $89.00
+
+The Registry allows you and your customers to send information about
+themselves to be searched by others using your MailLink network.
+
+Marketplace $299.00
+
+Marketplace is a user-friendly, menu-driven classified advertising
+database.  Advertisers can include a picture (GIF, JPG, TIFF, PCX, etc.)
+with each advertisement.  Callers can be notified when logging on that
+new ads were posted in specified categories.  Marketplace allows you to
+charge by the word or by the ad.  Collect payments by credit card or by
+deducting credits and/or days from the user's account.  Credit card
+charges can be instantly processed online when used with the POS Dial
+Module.
+
+Newsroom $80.00
+
+Write news articles, system announcements, and other messages for your
+users to receive the next time they log on.  Attach each message to a
+specific key or class, allowing you to control who sees which messages.
+Sysops or appointed editors can create messages in ASCII/ANSI or
+client/server mode that contain colors or bold/italic text, expire after
+a certain number of days, have attached files, and much more.
+
+Online Employment $119.00
+
+Allows the users of your system to find a job, or an employee to fill a
+position by listing their position or qualification and/or using the
+matching capabilities to locate a position or employee.
+
+Online Publisher  $995.00
+Multimedia Add-on $300.00
+Builder License   $100.00
+
+Online Publisher allows you to provide documents to your readers
+electronically.  Features:  cheap and fast dispersal of information,
+freedom from space limitations, increased interactivity, multimedia
+capabilities, electronic mail communication between readers and journal
+staff.  Allows you to organize documents in a way that is convenient for
+your readers.  The parts of a publication are segmented so that readers
+only need to download the pieces they are interested in.
+
+Dice Games
+
+Pig $39.95
+
+Users compete for high score by rolling the dice.  One of the simplest
+games on the market that results in high system usage.  Users roll two
+dice and accumulate points based on the face of the dice.  User losses
+their turn and current points on that turn when they roll a 7. Users can
+compete against each other or Mr. Pig.  While playing, users can also
+talk.
+
+Yahtzee $39.00 (2 user)
+        $79.00 (8 user)
+        $99.00 (unlimited)
+
+Our electronic version of the popular dice game!  Players roll simulated
+dice to form combinations of numbers to score points.  Uses ANSI
+graphics to display dice if the users configuration is set up for IBM or
+compatible machines, otherwise, ASCII text graphics are used.
+Client/Server users get a full graphical interface!  A top ten list lets
+players compete for high scores.  New multiple Yahtzee feature allows
+for unlimited high scores.
+
+Yahtzee $19.95
+
+Yahtzee plays just like the board game.  The object being to get the
+highest score in each category with a maximum of three rolls.
+
+End-User Utilities
+
+ADP Phone Lister $99.00
+
+Lets your users look up their local ADP AutoNet access numbers online!
+Your users can search for access numbers based on their state or area
+code.  The ADP Phone Lister includes a configurable instruction file for
+rates and dialing directions.  Phone numbers can be added/deleted/edited
+online.
+
+Autopost for The Major BBS $25.00
+
+Autopost allows your users to leave messages to the next few users that
+logon.  Messages are added to the list until the configurable amount is
+reached and then old messages are removed in favor of new messages.
+
+BBS Lister $69.00
+
+Allows you to define up to 10 different BBS lists that your users can
+update with their favorite BBS phone numbers.  Perfect doe Sysops that
+get asked for additional BBS numbers, or to consolidate advertisements
+from other system operators.
+
+Chat Now $125.00
+
+Chat Now is a global split screen multi-session chat mode.  Chat takes
+place in the top two screens, the third window allows the users to do
+anything on the BBS while still chatting!  Your users will love not
+having to stop what they were doing!
+
+Chat on Demand $149.00
+
+This utility allows users to request private chats from anywhere on your
+BBS.  Users can decline chats and give reasons why.  While in this chat,
+users can also page others or use other globals.
+
+Command Center $69.00 (2 user)
+               $119.00 (8 user)
+               $149.00 (unlimited)
+
+Command Center is by far one of the most important modules you could add
+to your system.  It offers dozens of global commands to your users.
+Telegrams, global chat, broadcasts, and log-off messages are just a few
+of Command Center's many features.  Includes over 50 different global
+commands.  Sysop utilities allow for global class and key changes,
+suspensions, and deletions, global credit posting and much more.  Great
+for any Worldgroup System!
+
+Credit Exchange $39.00
+
+Credit Exchange lets users trade in days for credits and let them enjoy
+games of chance and risk credits (as well as earning yourself some money
+in the process!).  You configure how many credits are given for each day
+exchanged.  If users win credits, they can also use Credit Exchange to
+transfer them back into days.
+
+E-Mail Attachment Protocol $79.00
+
+This add-on file transfer protocol will prompt the user for an e-mail
+address and then send one or more files to that address.  If you have an
+Internet connection, telnetting users can send files through Internet
+e-mail to a remote address.  They can later download those files without
+having to waste time with lagging telnet transfers.  The system doesn't
+require the user to use up a valuable channel waiting for the transfer.
+
+
+File Viewer 2 $79.00
+
+Display text files to any length to your users.  Users may scroll up and
+down a line at a time or a page at a time, go to the beginning or end of
+the document, or even search for keywords in the text file.  Using the
+menuing system and File Viewer, you may add menu options which
+immediately pulls up files for users in File Viewer.  File Viewer also
+allows users to download text files if desired.
+
+Flower Shop $99.00
+
+Let romance bloom by letting your users send their sweethearts
+electronic ANSI flowers!  Get-well wishes, birthday greetings, and
+Valentines can also be sent all at Sysop configurable pricing.
+
+Global Actions $39.95
+
+Users can send kisses across the system to other users without being in
+teleconference!  Unlimited number of words can be added directly online
+including keys for each word.  Global Actions creates separate Action
+Lists based on Key Name.  Includes 200+ words with regular and adult
+keys.  Also includes a generic Global command that allows users to send
+whatever they want to another user.  This is one of the most widely used
+option for BBSes.
+
+Global Power $99.00
+
+A complete package of global commands for Worldgroup.  Global Power
+commands can be executed from just about any prompt on your BBS and
+provide you with many functions that most Sysops can't do without!
+Upgrades from previous versions available.
+
+Global Teleconference for Worldgroup $99.00
+
+A necessity for any multi-line BBS, the Global Teleconference offers
+your users to use up to thirty-six chatter channels simultaneously, no
+matter where they are on the BBS!  Users can use action words, set up
+default channels, and even go into an "in chat" mode!  Invisible Sysops
+can still enjoy discussions in Global Teleconference without worry!
+
+Graffiti Wall for Worldgroup    $50.00
+Graffiti Wall for The Major BBS $25.00
+
+Let your users leave anonymous one-line messages that are available to
+be viewed in a rainbow of colors.  Graffiti Wall is accessible from the
+menu tree or globally.  Sysop commands put you in charge.
+
+Mercury $29.00
+
+Tired of those boring page windows in Worldgroup's client/server mode?
+Mercury is a small utility which replaces those pop-ups with scrolling
+chat windows.  Each time a user receives a page, a window is created for
+the paging user.  Further pages from the same user are routed to the
+same window, creating a tiny scrolling chat.
+
+Modem to Modem $29.00
+
+Modem to Modem is a very simple module that allows two users on your BBS
+to go into a direct terminal to terminal connection.  Modem games don't
+know the difference between connected through the BBS with Modem to
+Modem or being connected directly.  Users in a Modem to Modem session
+can play virtually all modem to modem games or even transfer files
+directly.
+
+Multi-Chat $125.00
+
+Multi-Chat permits your users to be in a live, keystroke by keystroke
+chat with up to three other users.  Their screen is split into four
+separate areas, one per user.
+
+QuickBar $74.95
+
+QuickBar is a highly configurable tool bar with up to 50 buttons for
+your client/server users.  Makes navigation around your Worldgroup
+system simple and easy.  Built in options for who's online, recent
+callers, system announcements, and registry lookup.  Run any Worldgroup
+or Windows application with the click of a button.  Comes with 200
+icons, but more can be added.
+
+Quicksilver $30.00
+
+Make quickscan configuration a snap with this full-screen ANSI utility.
+
+The Doctor $99.00
+
+An interactive teleconference personality.  Now your BBS can have its
+own psychologist!
+
+User Commissions $99.00
+
+Now wannabe Sysops can put their money where their mouth is.  This
+module lets you offer a commission in credits for your system for usage
+they get others to generate!  You select particular modules and the
+users who can receive commission based on the usage generated that day
+for the module.  Commissions can be given for time spent online, credits
+used, or a combination of both.
+
+User Lookup $29.95
+
+Small and simple module lets your users look up old friends based on
+real name or User ID.
+
+Ultra Colors $25.00
+
+Let your users give your system more character and flavor by adding
+color and extended ASCII to your BBS!  By using Ultra Colors, you can
+spice up your teleconference, pages, whispers, forums, registries,
+e-mail, and most other places on your BBS where color would give it a
+little kick.  Ultra Colors works anywhere that uses line-by-line input!
+
+Ultra Globals $199.00
+
+Ultra Globals is the ultimate globals package available!  Ultra Globals
+offers you over 100 features, each globally accessible and fully
+configurable.  Each command, its description, and key can be custom
+configured, as well as disabled!  User commands include logon and logoff
+notification, Ultra-Grams (a mini global e-mail system), Full Screen
+Editor auto-busy, detailed (and fully user configurable) user
+information lookups, recent caller lists, a complete power macro system,
+user definable user lists, and more!
+
+Wake-up $79.00
+
+Lets your users set up a wakeup call and allows your server to call and
+wake them up!  You can charge credits by the call or allow users to buy
+"WakeUp Tokens" in bulk.  This is a great feature to your online
+service!  Worldgroup compatible.
+
+Who's on Worldgroup $74.95
+
+Auto updating who's online list displays status such as channel, User
+ID, sex, class, and current module.  You can Lookup/Edit a users account
+whether they are on or off-line, look up users registry entries, page
+users, change classes and give or take away keys.  Supports auto startup
+and shutdown and a toolbar with tooltips.
+
+Worldgroup Client Companion $149.00
+
+The Worldgroup Client Companion is your users "Swiss Army Knife" to be
+used from within the Worldgroup Client.  Features include
+viewing/playing of any kind of file, decompressing of almost any archive
+format, creating of ZIP archives, slide show mode and a calendar.  Full
+support of Microsoft Windows Drag & Drop options.
+
+Worldgroup Statistics $149.00
+
+Worldgroup Statistics shows your users the real power of Worldgroup,
+with dazzling graphics, Pie Charts, Bar Charts, Line charts and so on.
+Every single chart can be saved and printed with a single mouse click.
+
+Fax Applications
+
+EZ-Fax $59.00
+
+EZ-Fax breaks through the problems created with command concatenation in
+Fax/Online.  With EZ-Fax, you set up a menu option as a module page and
+enter the fax document file name (and path, if needed) in the command
+string.  When the user selects the command from your menu, they're
+prompted for their fax phone number and the fax document is on its way!
+
+FaxBlaster $179.00
+
+FaxBlaster brings fax distribution power to your Worldgroup system.
+Distribute a single fax to a large number of people.  FaxBlaster lets
+you create and edit distribution lists online, through its own
+interface, or to import them from comma-delimited text files.
+
+Fax Importer $199.00
+
+Fax Importer lets you generate fax requests from a source external to
+your Major BBS or Worldgroup platform.  Requires Fax/Online.
+
+Fax/Online $174.00
+
+Provides an outgoing online fax service for your system.  Users can fax
+pre-scanned images and ASCII text files from your document database,
+view or print faxes from the built-in viewer, inquire about fax rate
+charges, and send copies to others.  Requires EIA Class 2 or 2.0 CCITT
+Group 3 fax modems.
+
+FT-Fax Protocol $149.00
+
+FT-Fax Protocol adds a new download protocol option to your existing
+file library.  Custom text and fax file extension recognition.  Customer
+access to FT-Fax Protocol can be key controlled.  Optional detailed or
+summary audit trail logging.  Optional credit charges.  Requires
+Fax/Online.
+
+Gambling Games
+
+Casino $44.50 (2 user
+       $111.00 (8 user)
+       $185.00 (unlimited)
+
+The Casino is a multiplayer game featuring five popular card games:  7
+card stud, 5 card draw, 5 card stud, Jacks or Better, and Blackjack.
+Players enter through the lounge where they can talk with other players
+and sip drinks before heading for the tables.  Casino employees are
+always there, to make sure the patrons are happy.
+
+Progressive Slots $29.00 (2 user)
+                  $59.00 (8 user)
+                  $79.00 (unlimited)
+
+Bring the excitement of Las Vegas slot machines to your system!  An
+animated Client/Server, ANSI, and ASCII slot machine puts the finishing
+touches on the game.  The C/S version even has sounds, so your users
+will really feel like they're in Vegas.
+
+Roulette $129.95
+
+Play Las Vegas style Roulette using RIP, ANSI and C/S modes.  Place your
+bet on a color, column, row or other group of variations.  Watch as Lady
+Luck spins the wheel.  Easy to use C/S mode to place bets on table.
+Automatic wheel spin by computer with alert messages.
+
+Sports Pool $99.00
+
+The Sports Pool has options for an office pool, pick-em, tailgate party
+chat and winner stats with unlimited pools for ANY sport during ANY
+season.  Up to 65,500 different teams can be entered and up to 200
+weekly schedules can be created with 14 games per schedule.  Comes
+pre-loaded with NFL, NBA, MLB and NHL teams.
+
+Video Blackjack $99.95
+
+Play head on against the house computer.  Select your type of bet and
+play the real 21 Blackjack.  Features double down, split and dealer
+stays on 17 and above.  You can configure the minimum and maximum bets
+and whether your users play with real credits or pseudo-credits.  Runs
+in ANSI, ASCII and C/S modes.
+
+Video Poker $39.00 (2 user)
+            $79.00 (8 user)
+            $99.00 (unlimited)
+
+This massive money maker offers a progressive pot and detailed Sysop
+reports.  Since this module is 100% global in design, it can be played
+anywhere on your system.  Video Poker has full Sysop configurability
+from pay off odds to the optional progressive Royal Flush Jackpot, with
+minimum and maximum credit setting levels.  A "bet remember" feature
+keeps it easy for users to play.  Features full BMP/ANSI cards to users
+who can support client/server or ANSI.  A Sysop only report option will
+keep track of how much profit you have made.
+
+Video Poker $99.95
+
+A full ANSI and C/S graphics computer poker machine.  Uses standard
+casino payoffs of Jacks or better for 1:1, two pairs for 2:1, three of a
+kind for 3:1, etc.  Users can also play Video Poker globally from
+anywhere on your system!  Configurable 5th coin Royal Straight Flush
+Jackpot and Cost per Coins.
+
+Games and Entertainment
+
+Anonymous Teleconference $99.00
+
+An interesting variation of teleconference where users do not know who
+said what.  Each users gets to pick an alias which can be used for
+messages, whispering and action words.  Users can be made to go
+invisible, so that nobody knows what users are involved in the anonymous
+teleconference!  A special blackout mode turns off the aliases, so that
+the teleconference can become totally anonymous!
+
+Bartender $99.00
+
+In this exciting global game, users own and operate their own bar!
+Computer simulated customers enter the bar and order a random drink.
+Any user that can make the drink will be paid!  Tips are based on how
+fast they can make the drink!  Users keep stock and learn how to make
+hundreds of real drinks!
+
+BBSopoly $139.95
+
+BBSopoly plays just like your favorite board game.  Users compete to
+purchase all the BBSes they can and build them up.  Everything you would
+want in a monopolistic game!  Full ANSI graphics allows great visuals
+for users.  This game features chat, unlimited games and top ten
+listing.
+
+Blox $39.50 (2 user)
+     $99.00 (8 user)
+     $165.00 (unlimited)
+
+Fit the falling shapes together to form solid rows across the chute and
+score points.  The more rows you complete, the faster the shapes fall!
+ANSI game is very similar to the ever-popular game of Tetris.
+
+Electronic Fairways $12.00 (2 user)
+                    $29.90 (8 user)
+                    $49.00 (unlimited)
+
+Nice little text golfing game.  The course features many different
+obstacles such as sand traps, ponds, rough areas, and trees.
+
+Entertainment Collection $207.00
+
+Includes the Action Teleconference, a chat extravaganza with action
+words, sounds and images; multiplayer text adventures, ANSI-graphics,
+Flash and teleconference games; and more.
+
+Field Goal Challenge $49.00
+
+A football-type kicking game, kick field goals from the 10, 20, 30, 40,
+or 50 yard line against various wind speeds.  Users with sound cards
+will be booed, cheered, and when the ball is snapped will hear the
+quarterback cadence.  If you have football fans on your system, this
+program is a must.
+
+Food Fight $165.00
+
+Your users are hungry for Teleconference games, and there's nothing like
+a wild and messy food fight to satisfy them.  They'll go bananas as ANSI
+food images actually cover their screens!
+
+Gunfighter $149.00
+
+The wild west teleconference game, also known as "Brawl" by many users
+starts players off with a couple of guns and some ammo.  Players gain
+improved fighting abilities as they compete to be "Top Gun."  Players
+develop improved fighting abilities as they rise through the ranks from
+"Greenhorn" to "Gunslinger".
+
+Horse Track $129.95
+
+This full featured online track is one of a kind.  Features all bet
+types such as win, place, show, perfecta, quinella, trifecta,
+superfecta, daily double, trifecta key and many others.  Horse Track
+comes with a full database of horses with grades that are configurable.
+Full teleconference and during the races you can actually see the horses
+go across your screen.
+
+Instant Lotto $29.95
+
+Our lotto is like the scratch ticket type where 6 boxes appear.  If
+three of the same prize appear in the 6 boxes, then the user wins that
+prize.
+
+Jumble Madness $99.95
+
+The easiest interactive game to play.  Users compete against each other
+to unscramble a word displayed by the computer.  Every 15 seconds the
+computer displays a letter hint to help the users solve the puzzle.
+Jumble includes a top ten list of the best players and keeps track of
+individual scores.  Users can also chat while playing Jumble.
+
+Major Goose $100.00
+
+Major Goose is a "choose your own adventure" program that can handle
+simultaneous stories.  Each story starts with a single "page" to start
+the ball rolling.  The story grows and grows.
+
+Mancala $99.00
+
+Easy to learn, but hard to master.  In this game, the goal is to get
+more stones in your Mancala then your opponent.  Be warned:  this game
+is highly addictive!
+
+MicroMind $39.95
+
+The object of the game is to guess a number which has been chosen at
+random and is hidden from you by the computer.  You make your guess on
+the basis of clues given to you.
+
+Mouse Trap $39.95
+
+Users compete in a pre-generated maze to find the end of the puzzle.
+Unlimited number of mazes are created in a FULL ANSI graphics screen.
+Top ten scores are kept for wins and also for the fastest time out of
+the maze!
+
+Pacdude $79.00
+
+Much like the classic video game.  Users can dart around the maze eating
+dots, and ghosts, and advancing levels.  Pacdude will keep track of the
+top ten players to ensure competition.  Worldgroup compatible, ANSI
+mode.
+
+Ringmasters $149.00
+
+Head-to-head boxing.  Your users square off against each other in a
+boxing ring, complete with referee.  Others can watch the action from
+ringside.  Online head-to-head competition at its best.  Sysop option
+lets you create your own boxers.
+
+Super Hangman $49.00
+
+Super Hangman not only follows the rules of the traditional game, but
+also blends in a level of education learning.
+
+Tic-Tac-Toe $19.95
+
+This old time favorite plays other users or the computer in a FULL
+SCREEN ANSI color game.  Keeps track of individual scores and a top ten
+list.
+
+Worldgroup Hangman $29.95
+
+Has a dictionary of over 15,000 words. 4 difficulty levels.  Keeps a top
+ten list.  Easy to use and fun for everyone.
+
+Linking
+
+InterLink $36.00 (2 user)
+          $89.00 (8 user)
+          $149.00 (unlimited)
+
+Connect your system to another InterLink system and let the fun begin.
+This module allows you to link our special InterLink Teleconference area
+with other systems that also have InterLink.  InterLink allows for
+whispering, actions, pages, and more across the teleconference link to
+other users.
+
+WorldLink Cross-Wordz $49.95
+
+Cross-Wordz module that you can play across WorldLink.
+
+WorldLink Jumble Madness $29.95
+
+Jumble module that you can play across WorldLink.
+
+WorldLink Package $99.95
+
+The software you'll need to start connecting to WorldLink.  WorldLink
+allows you to share e-mail, forums, and teleconference chats with other
+WorldLink Systems.
+
+Mail Tools and Networking
+
+Bulk-Mail $49.95
+
+Just as the name implies, Bulk-Mail lets you send mail, in bulk, to as
+many users as you wish.  Send mail to users based on class, key, sex,
+age, or any combination of the four.  All items have defaults that make
+sending mail easy.  You can change the "from" field to avoid replies.
+Messages are not sent until the user logs on, so you won't end up
+wasting hordes of disk space.
+
+Form Editor $75.00
+
+Combines intelligent mail merge capabilities together with the standard
+Major BBS text editor and distribution lists to form a powerful tool.
+
+MailLink                           $149.00
+MailLink 4 (with file attachments) $249.00
+
+With MailLink, you can connect to the world via MajorNet or connect your
+system with a private network.  MajorNet has hundreds of customer,
+Sysop, and ISV support forums available.  MajorNet allows you and your
+customers to share ideas and problems with others all over the world.
+Features:  Unattended Mail Transfer, Real time background operation,
+Public newsgroups/forums, auto scheduler for 100% hands off operation.
+
+Mountain Mail $249.00
+
+Let anybody retrieve information about your products.  Support your
+customers worldwide.  With the automatic e- mail responder, you can send
+"I'm away/back" messages.  Keep your partner or colleagues informed with
+the automatic e-mail copy.  Use e-mail to send fax messages.  Let your
+users create their own cover pages.  Full screen forum selector and
+quickscan configuration.  The default quickscan is ideal for new users.
+ANSI-users can use the global address book.
+
+Online Dating
+
+Audio/Visual Registry $149.00
+
+A/V Registry is a multimedia-enhanced user registry for your Worldgroup
+system.  Graphic and sound file attachments help flesh out your users'
+registry entries, while A/V Registry's Web page utility creates and
+maintains a version of your User Registry on the World Wide Web.  Each
+user registry entry can include an associated bitmap graphic and .WAV
+sound file, and A/V Registry can be configured to require Sysop approval
+before making any of these attachments public.
+
+Match Maker $179.00
+
+This features unlimited questionnaires, multiple choice, text or mixed
+responses, anonymous mail, online questionnaire editing, key
+restrictions, searches based on age and sex, and much more.  The most
+flexible dating module available!
+
+Multimedia Registry $199.00
+
+Multimedia Registry is the ultimate user registry database!  Supercharge
+your online service with sights, sounds and online configurability.  In
+addition to answering Sysop-defined questions, callers can include a
+picture (GIF, JPG, TIFF, PCX, etc.) of themselves along with a sound
+clip (WAV).  The Worldgroup client includes integrated image viewing and
+sound playing along with context-sensitive help.
+
+Online Shopping
+
+Omni-Mall with POS Dial for Worldgroup    $697.00
+Omni-Mall without POS Dial for Worldgroup $499.00
+Omni-Mall for The Major BBS               $299.00
+
+A complete online shopping system allowing you to sell your products
+online and/or rent space to other merchants.  Omni-Mall supports sales
+of products, services, and software files.  Up to three pictures (GIF,
+JPG, TIFF, PCX, etc.) of each product can be included.  Orders can be
+faxed to merchants when used with the Fax/Online module.  Credit card
+orders can be instantly processed online with the POS Dial module.
+
+Zephyr $349.00
+
+Zephyr is an online shopping mall application for your Worldgroup
+system.  Featuring an intuitive user interface and small, compiled
+client, Zephyr makes online shopping a breeze.  Zephyr's compact,
+compiled client (under 500k) provides all of the functionality and
+flexibility of other shopping mall applications that are anywhere from 3
+to 8 times its size, without the torturously long download time.  Plus,
+it actually operates at up to ten times the speed of other shopping
+add-ons.
+
+Puzzle Games
+
+Guess What $39.00 (2 user)
+           $79.00 (8 user)
+           $99.00 (unlimited)
+
+Players compete for high scores on the top ten list by guessing hidden
+words or phrases.  Five categories of puzzle types include:  words,
+things, people, places, and phrases.  Each player plays 5 rounds, and is
+given a puzzle to solve which is chosen at random.  Players accumulate
+points throughout the game by correctly guessing the hidden letters
+until they can give the correct answer.
+
+Master of Minds $49.00
+
+Users play puzzles or talk back and forth in the Master of Minds lounge!
+Users must guess a color combination generated by the computer.  The
+more consecutive wins, the closer the user comes to defeating the Master
+of Minds.  High score lists show the best users and credit prizes
+encourage the user to keep trying!  Features:  Toolbar with balloon
+help, Sound Support with Awesome Effects, Graphics and Animation.
+
+Totally Puzzled $99.00
+
+New!  Totally Puzzled will keep you your users busy for hours!  Users
+must try to solve various puzzle images configured by you!  Access to
+the puzzles may be configure by key and category.  Have a children's
+section, an adult section, etc.  Credit prizes may be awarded for each
+level.  Three modes of play - Easy, Medium, and Hard.  Scores/Credits
+may be configured in each level.  Supports TIF, TGA, BMP, DIB, PCX, JPG,
+OLE, FIF, and FTTT picture files.  Worldgroup client/server only.
+
+Wheel of Fame $149.00
+
+Like the popular game show, Wheel of Fame lets users solve puzzles by
+buying vowels, guessing letters and attempting to solve phrases.  The
+more users, the higher the score multiples!  Users may win credits if a
+certain score is reached (configurable).  A high score list keeps track
+of top players!  Users may also chat and execute action commands to one
+another in the Wheel of Fame lounge.
+
+Sysop Utilities
+
+AMS DOS Shell $99.00
+
+A Minor Shell - DOS shell emulation allows Sysop (and optionally the
+users) of a Major BBS to come as close to dropping to a DOS shell as
+possible.
+
+AutoRate $99.00
+
+AutoRate is a credit rate surcharge utility which provides surcharge
+capabilities to the Sysop based on channel group, time of day and day of
+week.  In addition to credit surcharges, AutoRate will also provide
+automatic class switching based on channel group and current class.
+
+Auto Validator $80.00
+
+Verify your users' sign-up information automatically, giving them quick
+access to your system!  Users go through a transparent validation
+process by phone, or receive a 4-digit access code in the mail!  Checks
+for bad numbers and multiple handles per phone number.
+
+BBS Listing $39.95
+
+Keeps track of BBS information entered by user, by phone number, city,
+state and zip code.
+
+BSI Guest for Worldgroup $149.00
+
+With BSI Guest, you can create a guest ID that people will enter upon
+connecting to your system.  No password, sign-up questions or access
+changes are required.  You can use the Guest ID or whatever might suit
+the theme of your system.  This has also been used for Telnet and FTP
+systems to allow special access for those accessing a system through the
+Internet.  Publish your guest ID in advertisements for your system and
+see how much your usage increases.  You can now create New User-IDs for
+people on the fly, attach a file to a User-ID from the command prompt
+and there's even an intelligence remote directory feature, with
+point-and-click change directory and file displaying built in.
+
+CD Express $69.00
+
+Made especially for Major CD, CD-Express makes logging in files so easy,
+it's almost fun and you won't dread adding or changing discs.  CD
+Express is a utility that will create Login Script, Btrieve, Menu and
+ALLFILES files for your Major CD system!  This simple to use program
+extracts information from CD's that other products simply would
+eliminate or crash while attempting to import.  Unlike other products,
+CD Express physically reads your CDROM and extracts the file date and
+size for you.  This eliminates the problem of incorrect file dates or
+sizes that are listed with commas and other formatting characters or
+having to merge DIR listings into descriptor files that don't include
+the file sizes.
+
+Console Lock $30.00
+
+Lock your main system console from prying eyes and fingers.  Password
+protect your system and activate one of several screen savers to make
+sure there is no unauthorized access to your system while you are gone.
+
+Console Lock $49.00
+
+Lock your console tight!  Require a name and password check each time a
+user access the console.  Ensure that your system is safe and sound.
+
+DMA Server                                  $700.00
+DMA Unlimited Upgrade (must own DMA server) $500.00
+
+The Distributed Machine Architecture (DMA) allows you to distribute part
+of your Worldgroup services and DLLs to other computers on your local
+area network (or to other sites on the Internet) while making this
+transparent to your users.  This way, you can keep the very fast and
+stable main BBS busy answering your modems, while the more
+hardware-intensive modules are running on another computer, thus
+improving speed and reliability.
+
+Dual Password Security $39.00
+
+This module protects your BBS by giving users a second password that
+activates a set of keys.  With this program in place, your system is
+protected!
+
+E-Mail Spy $79.00
+
+A necessity for corporations, E-Mail Spy allows you to read everyone's
+e-mail on your Worldgroup system.  You can scan for all new messages, or
+just messages with file attachments on them!  Make sure no illegal file
+transferring is occurring on your board!  Protect your users, your BBS,
+and yourself.
+
+Executive Informer $79.00
+
+The Executive Informer allows you to send System News, Bulk Mail, Logoff
+Messages, and On-Line Commercials to your users depending on keys held,
+keys not held, age and sex.  New version features different styles,
+allowing you to send eye-catching messages in any number of styles!
+
+File Library Extension $149.00
+
+The File Library Extension makes your File Library more powerful, much
+faster and more easy to use.
+
+Global Monitor $79.00
+
+Global Monitor is a useful module that allows you and your staff to see
+what users type.  Global Monitor splits your screen in two, allowing you
+to continue to use your system while monitoring.  You can select exactly
+who you wish
+
+HelpMan $49.00
+
+Scans your BBS subdirectory for the help files provided with The Major
+BBS (and third party modules) and lets your users display them online.
+
+Information Query $49.00
+
+Information Query allows you to search the user database as well as the
+audit trail while online.  You may also search the audit trail with a
+string up to 65 characters and may limit the search within a range of
+dates.  All output can be displayed on screen or sent to a text file for
+future use or printing.
+
+IP Surcharge/Restrict $150.00
+
+You can save hundreds of dollars monthly by getting your x.25 callers
+through your Internet connection!  Instead of paying for two separate
+leased lines, ask your x.25 service provider to send your callers over
+your Internet connection.  If you currently have an Internet connection,
+you can add x.25 support at very little expense!  Offer your users
+nationwide or even worldwide access!
+
+Log Master $39.95
+
+Now you can keep track of all your callers including their baud rate,
+line number, date of call, time of call, and caller number.
+Configurable number of callers up to 50,000.  Includes global last 20
+callers and the ability to search for a user's log information.
+
+Major CD for Worldgroup                           $225.00
+Major CD for The Major BBS                        $169.00
+Major CD Upgrade from The Major BBS to Worldgroup $79.00
+Major CD LAN Option                               $89.00
+Major CD for Worldgroup with LAN Option           $285.00
+Major CD for The Major BBS with LAN Option        $229.00
+
+Works just like Windows Explorer/File Manager.  Worldgroup Manager can
+be used without being connected.  Total security and adult pseudo-keys
+guarantee system integrity.  Add up to 255 CDs to your system, and up to
+42 CDs on one computer.  Special Pioneer Jukebox support.  Works on any
+network.  Custom ZIP comments are a great, FREE way to advertise.
+Full-screen ANSI tagger and full-screen RIP tagger.  Multilingual
+support (no text hard coded.)  FREE powerful offline tag system for DOS,
+Windows and Atari S T.
+
+Menu Magician for Worldgroup    $150.00
+Menu Magician for The Major BBS $100.00
+
+Change your existing menu pages or create new ones and link them
+directly into your current menus while your system is still on the air!
+An invaluable tool, especially if you manage your system remotely.  Edit
+pages by clicking on a gape in your menu tree, select module names from
+a pick list of all the modules currently running, and decide on an
+appropriate icon with the handy Icon Browser.  You'll wonder how you
+ever lived without it.
+
+Metakeys $50.00
+
+Metakeys are expressions that can be used in place of normal keys for
+most applications.  Using a metakey, you can specify a very detailed
+expression of which users you want to be able to use which feature.
+
+Not-Keys $49.00
+
+Not-Keys gives yourself more control over locks and keys!  Not-Keys
+allow you to have "negative" keys, so you can take away access from
+users without having to change their class.  Not-Keys negates keys a
+user might have in his or her personal class key ring.  Not-Keys also
+features Take-Keys, which negates a key sometime in the future!  Not-
+Keys is perfect for giving and taking away access with ease.
+
+PQM $99.00
+
+This package allows you to build an unlimited amount of polls, quizzes,
+and matchmakers.  Each questionnaire has its own "profile" where you can
+control a variety of user levels.  Provides for online statistics,
+giving you advice for quizzes, global matching or even grant keys
+pending on the answers users select!  Worldgroup compatible.
+
+Pulse for The Major BBS $69.00
+
+Pulse is an operations monitor and benchmark utility for your Major BBS.
+Pulse will tell you if you need to upgrade your CPU, hard drive
+subsystem, or possibly if a given module is putting a large load on your
+system.
+
+Radius Server for Worldgroup or The Major BBS $500.00 (32 Port Lic.)
+Radius Server Upgrade                         $200.00 (32 Port Lic.)
+
+Requires terminal server(s).  Since PPP/SLIP/CSLIP sessions are handled
+by the terminal server, they don't use any channels (i.e. user-count
+license) on the Worldgroup/MBBS system.  Users currently connected in
+PPP/SLIP when the Worldgroup server shuts down for cleanups can continue
+surfing without any interruption!  Since terminal servers are
+specialized multi-port intelligent serial hardware, a significant
+performance increase can also be expected.
+
+Remote Console $99.00
+
+Remote Console gives you an exact duplicate of the Sysop Console
+remotely.  This is a must have module for remote maintenance of your
+BBS!
+
+Super Sysop Pager $49.00
+
+Super Sysop Pager replaces the page Sysop function and gives you a long,
+quiet, audible melody instead of a short beep.  Pages to Sysop can be
+diverted to other users by User-ID or key.  Missed pages to Sysop may be
+logged to the audit trail or a text file.  Super Sysop Pager can even
+dial out and alert you using your digital pager.  A powerful scheduler
+controls when the system calls out to page, who it pages, and how often.
+
+Syseazy $119.00
+
+Twenty add-ons in one package for one low price for all your Sysop and
+user's needs!  Features:  Card Shop, Global Actions, Advanced Credit
+Transfer, Global Chat, Cloaking Device, Disable NQC, Password Security,
+Global Password Change, Credit Advance, Visa/Master Card/Amex Acceptor,
+User-ID Changer, Certificates, Lucky Charm, Class Switcher, The Voter,
+The Announcer, Celebration, Low on Credit/Days Notification, Module
+Charger, and Channel Blaster!  Worldgroup compatible.
+
+Sysop Functions and Utilities $249.00
+
+Sysop Functions and Utilities is accessed through a floating toolbar,
+using drop down menus.  A few of the key elements are featured as icons
+on the toolbar for faster access.  The commands have been grouped
+together in a logical manner to make the module easy to use.  We have
+even added new features that will make your job easier than before.
+
+Ticker Tape $79.00
+
+Ticker Tape is a neat way to display text based information in a very
+small space by way of scrolling electronic ticker tape like you've seen
+on television stock reports and weather information.  This unique module
+definitely catches your user's attention!
+
+Worldgroup Program Initializer $99.00
+
+The Worldgroup Program Initializer allows you to create what we call
+'Client Zip Files'.  Each Client Zip File contains all of the files
+needed by a client.  With the built in Not-key handler, you can easily
+menu-ize those Client Zip Files.  After installing The Worldgroup
+Program Initializer, your callers do not have to wait as long for
+updates anymore.  The first time a caller selects the menu-option of a
+client, instead of the numerous, uncompressed client files being sent,
+just the one, compressed, Client Zip File is transferred, Unzipped,
+Installed (and then removed from the users hard drive) without user
+intervention.  Your callers will save up to 80 percent on transmission
+time.
+
+Trivia Games
+
+Teleconference Trivia $149.00
+
+Allows your users to play trivia directly in your Teleconference.
+Automatically adds itself to either your Standard or Entertainment
+Teleconference.
+
+Trivia Forum $149.95
+
+The original and best automated trivia game with features such as:
+99configurable categories, interactive play, top ten list for each
+category, next question option, and chat teleconference.  Sysop
+functions include:  adding questions directly online, configuring
+categories for hints, prizes, key requirements, answer display, and
+speed of game.  A must for any multi-line entertainment system.  Over
+25,000 questions.
+
+Totally Trivia $149.00
+
+Users race around the game board collecting pegs every time they get a
+trivia question right!  The user with all the pegs wins!  Supports
+Client/Server and ANSI. 6000 Phrase database with 6 categories.
+Features:  Toolbar with balloon help, Content Sensitive help, Full
+Feature Animation and Graphics, Chat Lounge, Sound Effects, Addictive!
+
+Video Conferencing
+
+iView Broadcaster $399.00 (8 user)
+                  $599.00 (20 user)
+                  $899.00 (unlimited)
+
+This client/server application allows classroom style of video/audio
+broadcasting where one user broadcasts to multiple users via LAN, MODEM
+or TCP/IP.  Great option for live speeches, classes, TV broadcasting,
+and many more applications.
+
+iView Conferencing $399.00 (8 user)
+                   $599.00 (20 user)
+                   $899.00 (unlimited)
+
+This client/server application allows up to four users to be
+simultaneously conferencing with video and audio.  Other features
+include the ability to capture an on screen display, such as a
+spreadsheet, and broad- cast it to the other conference.  Great for
+meetings and private discussions.
+
+iView v-Mail $299.00 (2 user)
+             $499.00 (8 user)
+             $799.00 (unlimited)
+
+This client/server Video/Audio Mail supersedes its e-mail ancestor by
+allowing full pre-recorded audio, video, text and file attachments.  A
+new medium for online services to be used for by a variety of end users.
+
+iView Point-to-Point $399.00 (8 user)
+                     $599.00 (20 user)
+                     $899.00 (unlimited)
+
+This client/server application allows users via LAN, MODEM and TCP/IP to
+conduct direct live point to point video, audio and text conferencing.
+Special features include video and audio quality control, small
+self-image for camera adjustment and full image of other viewer.
+
+Viewing
+
+Catalog Viewer $149.00
+
+The Catalog Viewer can be used for a variety of applications that have
+nothing to do with catalogs.  With this powerful tool you can create a
+company rolodex with each employee's curriculum vitae.  Open a
+classified service with graphical ads.  Raise product interest with an
+online window shopping network.  Display an online photo of important
+events, people, or places.  Create an advertising module to increase
+sales.
+
+Document Collaboration $299.95
+
+Collaboration solution for workgroups that need to access and work on
+common projects.  Great for intranet solutions as well!  Supports
+virtually any Windows or Windows '95 document.
+
+Document Viewer $149.00
+
+Publish Documents on the Web and Worldgroup faster than ever!  With the
+click of a button you can put your documents online as they appear in
+their original form - color, graphics, fonts,!  You'll get the
+functionality of Adobe Acrobat without it's huge file size or confusing
+install procedures.
+
+Multi-Vue for Worldgroup $149.00
+Vue-It for The Major BBS $99.00
+
+Bring full-screen scrolling text displays to your Worldgroup platform in
+client mode and ASCII/ANSI/RIP terminal mode.  Allows optional file
+downloads and |fax requests, which are controlled by key access.  The
+client mode supports a print option.  Also provides optional activity
+logging to the audit trail for download, fax and display requests.
+
+Scrybe $49.00
+
+Allows your client/server users to easily view .RTF files.
+
+Bundles
+
+4-Pack Combo $1199.00 (2 user)
+             $1799.00 (8 user)
+             $2699.00 (unlimited)
+
+Includes iView Broadcaster, iView Conferencing, iView Point-to -Point,
+and iView v-Mail at one special low price!
+
+Accessory/Utility Package $139.00
+
+Includes City Search (City Search allows your users to search the user
+data file by city, state, or zip code.  City Search is perfect for a
+business or entertainment system catering to a geographically diverse
+user base), Gate Keeper (Gate Keeper can take your new users and place
+them on a virtual system (class) based on the selection that they make
+when they log on to your system.), Happy Birthday (Your users will never
+have to update their age again, its done automatically!  Your BBS can
+tell users "Happy Birthday" and also automatically send your users
+E-mail with free credits), Line Monitor (Gives you the extra control
+over who logs on what channel and how many times they can log on.
+Designed for the Sysop that has different channel groups with different
+lengths for allowed usage.), Mega Madness (An online version of a
+Chinese tile game.  The object is to put all of the tiles in numerical
+order with the blank tile acting as tile 0.), Mine Field (Make your way
+through the Mine Field without getting blown up - with top ten lists of
+the fastest winning times and four different sized fields.), UserBase
+(An offline import/export utility which allows you to manipulate the
+BBS's user data file (BBSUSR.DAT) with Alpha4, a popular database
+program.  With UserBase you can export your BBS user data file for many
+different operations.), and User Referral at one special low price!
+
+Board Package $499.95
+
+Includes Professional Backgammon, Tournament Checkers, Tournament Chess,
+and Tournament Othello at one special low price!
+
+Bulk-Mail and Bulletins Bundle $75.95
+
+Includes Bulk-Mail for Worldgroup and Worldgroup Bulletins at one
+special low price!
+
+Bulk-Mail and Bulletins Pro Bundle $155.95
+
+Includes Bulk-Mail for Worldgroup and Worldgroup Bulletins Pro at one
+special low price!
+
+HV Utilities $100.00
+
+A collection of favorite bite-sized utilities and features created over
+a span of several months at one special low price!
+
+Game Bundle $299.00
+
+Includes World Domination, Crib, Wheel of Fame, and Master of Minds at
+one special low price!
+
+Magic Pack $369.00
+
+Includes CGI Magic and Web Magic at one special low price!
+
+Magic Pack Pro $499.00
+
+Includes CGI Magic Pro and Web Magic at one special low price!
+
+Totally Bundled $199.00
+
+Includes Totally Puzzled and Totally Trivia at one special low price!
+
+Triple Pak $189.00
+
+Includes Master of Minds, Wheel of Fame and Pacdude at one special low
+price!
+
+Source Codes and Development Tools
+
+Developer's Kit
+
+Worldgroup Developer's Kit $347.00
+
+Modify client-side applications, server-side agents and existing add-ons
+or write your own Worldgroup add-on options.  Contains the Visual Basic
+source for baseline client apps (e.g. e-mail, file libraries, etc.).
+Includes the server-side engine in LIB form, C source code to all the
+server-side apps, files necessary to recompile the run-time executable,
+two of the utilities and certain standard DLLs.  Documentation is
+included.  Requires a registered copy of Worldgroup, Phar Lap 286 |
+DOS-Extender SDK, Borland C++ 4.5, Visual Basic Pro 3.0 and 3-D Widgets
+from Sheridan Software.  Visual Writer Pro 2.25 and Visual Speller 1.0
+required to modify Worldgroup's message center.  Advanced Internet
+Option and Internet Connectivity Source Code required to modify existing
+Internet capabilities or to develop your own Internet add-on.
+
+Extended C Source Developer's Kit $347.00
+
+Contains the C sources to many of the offline programs, such as the
+configuration editor, menu tree management utilities and screen drawing
+tools.  Also contains the C source to GCOMM.LIB, a collection of
+low-level routines used by Worldgroup and its offline utilities for DOS
+functions, operator I/O, text message management, etc.  Requires the
+Worldgroup Developer's Kit.
+
+Source Code
+
+(All C source code listed below requires the Client/Server Developer's
+Kit and registered copies of any add-on option for which you purchase C
+source code.)
+
+Fax/Online Developer's Kit $69.00
+Dial-Out C Source Code $207.00
+Entertainment Collection Source Code $369.00
+   Requires Brushed Aluminum set of VBXtasy by Spinoza Ltd to recompile the
+   client app.
+Internet Connectivity Source Code $495.00
+   Contains source code to Worldgroup's Internet capabilities included in
+   the baseline package and Advanced Internet Option.  Requires Advanced
+   Internet Option.
+Omni-Mall C Source Code $697.00
+   Requires additional VBX tool kits -- call for details.
+
+Development Tools
+
+286 | DOS-Extender SDK by Phar Lap $414.00
+
+Break the 640K DOS memory barrier and access up to 16MB of extended
+memory in protected mode.
+
+DOORWAY by TriMark Engineering $49.95
+
+Provides access to DOS applications on a separate computer.
+
+X.25 Network Hardware
+
+PC XNet Card from OST $1000.00
+
+A dual-port X.25 interface that connects directly to equipment from
+SprintNet, CompuServe, AutoNet and other packet-switching networks.
+
+Hardware
+
+Watchdog Kit $149.00
+
+If your system has ever "locked-up" in the middle of the night (or if
+you are afraid that it might), then this key is for you.  Lock-ups can
+cause your system to be down for hours thus flushing your potential
+revenue down the drain.  The Watchdog Kit includes a card that is placed
+into an available slot on your mother board that hooks directly to the
+motherboard via a small cable to the reset switch connector.  The
+software DLL is loaded onto your system, and will activate the card once
+the system is initialized.  Once the card is activated, if for some
+reason your system stops communicating with the card for a set amount of
+time, it will automatically reboot your system, and get you back online.
+
+Multiuser Hardware
+
+GalactiBoard $436.00
+
+An 8-port EIA-232D serial interface for connecting external modems,
+computer terminals or other devices to your system.  Uses 16550-type
+UARTs for efficient high-speed file transfers.  Cable assembly included.
+
+Intelligent Serial Kits
+
+Enables Worldgroup to take advantage of Equinox Systems Inc.'s
+intelligent multiport SuperSerial hardware - delivering unsurpassed
+performance.  Each ISK includes Worldgroup intelligent driver software,
+Equinox host controller, 8- or 16-port module(s), power supplies,
+cables, modem adapters, and documentation.
+
+16-line (up to 115.2 Kbps) $1649.00
+32-line (up to 115.2 Kbps) $2219.00
+64-line (up to 115.2 Kbps) $3600.00
+96-line (up to 115.2 Kbps) $5094.00
+128-line (up to 115.2 Kbps) $5999.00
+16-port upgrade (up to 115.2 Kbps) $740.00
+
+16-line (up to 230.4 Kbps) $1600.00
+32-line (up to 230.4 Kbps) $2359.00
+8-port upgrade (up to 230.4 Kbps) $549.00
+
+8-port Intelligent Serial Board $720.00
+
+Update Program
+
+Automatic Software Update Program (U/S Canada Only) $495.00
+Automatic Software Update Program (International) $595.00
+
+Per year, per registration number.  Receive all significant new software
+updates to Galacticomm products you have purchased as soon as we've
+fully tested them.
+
+Classroom Training
+
+Introduction to Worldgroup Administration $595.00
+
+Two-day, hands-on course focused on system administration.  Also covers
+the new Worldgroup Plug-in and Web server integration.
+
+Intermediate Worldgroup Administration $795.00
+
+Three-day, hands-on course covering detailed system administration and
+configuration of both the Worldgroup server and the built-in Web server.
+
+Advanced Worldgroup Administration $795.00
+
+Three-day, in-depth laboratory experience covering advanced
+connectivity, back-up and restore procedures, plus multimedia and
+hypermedia creation and editing.
+
+Digital Publishing for Worldgroup $595.00
+
+Two-day, hands-on course designed to teach the basic elements of design
+for digital publishing using advanced authoring and publishing tools.
+
+
+All Galacticomm products include a 30-day money-back guarantee!
+(Excluding User Pack License Upgrades.)
+
+All prices and specifications are subject to change without notice.
+Prices listed are in U.S. dollars.  All hardware, unless otherwise
+specified, conforms to North American standards.  Galacticomm, 6-User
+Pack, 12-User Pack, 24- User Pack, Advanced Internet Option, Dial-Out,
+Dial-Up, Entertainment Collection, Fax/Online, GalactiBoard, Worldgroup
+and X.25 Software Option are trademarks of Galacticomm, Inc.  All other
+products are trademarks of their respective companies.
+
+**************************************************************************
+** A version of this document in Word format can be downloaded from the **
+** WG_1_2 Library                                                       **
+**************************************************************************
+
